@@ -337,7 +337,7 @@ lessons:
         - q: "Выберите правильную форму: [[Thomas ... Ingenieur werden.]]"
           options: ["[[will]]", "[[wollen]]", "[[willt]]", "[[willst]]"]
         - q: "Как правильно?"
-          options: ["[[Sie will Deutsch lernen.]]", "[[Sie will lernen Deutsch.]]", "[[Sie wollt Deutsch lernen.]]", "[[Sie will Deutsch lernt.]]", "[[Will sie Deutsch lernen.]]"]
+          options: ["[[Sie will Deutsch lernen.]]", "[[Sie will lernen Deutsch.]]", "[[Sie wollt Deutsch lernen.]]", "[[Sie will Deutsch lernt.]]", "[[Sie lernen will Deutsch.]]"]
         - q: "Как вежливо попросить кофе в кафе?"
           options: ["[[Ich möchte einen Kaffee, bitte.]]", "[[Ich will einen Kaffee!]]", "[[Kaffee will ich!]]", "[[Ich wollen einen Kaffee.]]"]
     dialogue:
@@ -445,7 +445,7 @@ lessons:
       title: "Глаголы с изменением гласной"
       explain:
         - "У некоторых глаголов гласная в основе меняется. Это бывает только в двух формах: с [[du]] и с [[er]], [[sie]], [[es]]."
-        - "Глагол [[lesen]], «читать»: [[ich lese]], [[du liest]], [[er liest]], но [[wir lesen]], [[Sie lesen]]. Звук [[e]] стал долгим [[ie]]."
+        - "Глагол [[lesen]], «читать»: [[ich lese]], [[du liest]], [[er liest]], но [[wir lesen]], [[Sie lesen]]. Вместо [[e]] появляется долгое [[ie]]."
         - "Так же [[sehen]], «видеть»: [[ich sehe]], [[er sieht]]. Другие глаголы меняют [[e]] на [[i]]: [[sprechen]] — [[er spricht]], [[treffen]] — [[er trifft]], [[essen]] — [[er isst]]."
         - "А у глаголов [[fahren]] и [[laufen]] появляется умлаут: [[er fährt]], [[er läuft]]."
         - "Обычные глаголы, например [[spielen]], [[tanzen]], [[singen]], гласную не меняют: [[er spielt]], [[sie tanzt]], [[er singt]]."
@@ -458,7 +458,7 @@ lessons:
           options: ["[[läuft]]", "[[lauft]]", "[[laufe]]", "[[laufen]]", "[[läufen]]"]
         - q: "Выберите правильную форму: [[Wir ... gern Bücher.]]"
           options: ["[[lesen]]", "[[liest]]", "[[liesen]]", "[[lest]]", "[[lese]]"]
-        - q: "Как правильно?"
+        - q: "Как сказать «Она хорошо говорит по-немецки»?"
           options: ["[[Sie spricht gut Deutsch.]]", "[[Sie sprecht gut Deutsch.]]", "[[Sie sprich gut Deutsch.]]", "[[Sie sprechen gut Deutsch.]]", "[[Sie spreche gut Deutsch.]]"]
     dialogue:
       title: "Чем вы увлекаетесь?"

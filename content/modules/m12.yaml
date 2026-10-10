@@ -96,7 +96,7 @@ lessons:
         - q: "Как сказать «Я живу в Турции»?"
           options: ["[[Ich wohne in der Türkei.]]", "[[Ich wohne in die Türkei.]]", "[[Ich wohne nach Türkei.]]", "[[Ich wohne in Türkei.]]", "[[Ich wohne nach der Türkei.]]"]
         - q: "Как сказать «Мы едем за границу»?"
-          options: ["[[Wir fahren ins Ausland.]]", "[[Wir fahren im Ausland.]]", "[[Wir fahren nach Ausland.]]", "[[Wir fahren in Ausland.]]"]
+          options: ["[[Wir fahren ins Ausland.]]", "[[Wir fahren zum Ausland.]]", "[[Wir fahren nach Ausland.]]", "[[Wir fahren in Ausland.]]"]
     dialogue:
       title: "Скоро отпуск"
       speakers: {A: f, B: m}
@@ -317,7 +317,7 @@ lessons:
       - de: "Bitte einsteigen!"
         ru: "Пожалуйста, садитесь в поезд!"
       - de: "Achtung an Gleis drei!"
-        ru: "Внимание, третий путь!"
+        ru: "Внимание на третьем пути!"
     grammar:
       title: "Отделяемые глаголы: прибывать и отправляться"
       explain:
@@ -336,7 +336,7 @@ lessons:
         - q: "Что значит [[Der Zug hat Verspätung.]]?"
           options: ["Поезд опаздывает.", "Поезд пришёл вовремя.", "Поезд уже ушёл.", "Поезд отменён.", "Поезд стоит на платформе."]
         - q: "Какое слово пропущено: [[Der Zug fährt um elf Uhr ...]]"
-          options: ["[[ab]]", "[[an]]", "[[auf]]", "[[aus]]", "[[mit]]"]
+          options: ["[[ab]]", "[[von]]", "[[auf]]", "[[bei]]", "[[mit]]"]
     dialogue:
       title: "В справочной"
       speakers: {A: f, B: m}
@@ -394,7 +394,7 @@ lessons:
         ex: "Die Lampe ist kaputt."
         exRu: "Лампа сломана."
       - de: "funktionieren"
-        ru: "функционировать"
+        ru: "работать, действовать"
         ex: "Der Automat funktioniert nicht."
         exRu: "Автомат не работает."
       - de: "das Fundbüro"
@@ -461,7 +461,7 @@ lessons:
         - [A, "Guten Tag! Ich habe ein Problem. Ich habe meine Tasche verloren.", "Добрый день! У меня проблема. Я потеряла сумку."]
         - [B, "Wo haben Sie die Tasche verloren?", "Где вы потеряли сумку?"]
         - [A, "Im Zug aus München, heute Morgen.", "В поезде из Мюнхена, сегодня утром."]
-        - [B, "Wie ist die Tasche?", "Какая сумка?"]
+        - [B, "Wie sieht die Tasche aus?", "Как выглядит сумка?"]
         - [A, "Sie ist schwarz und klein. Mein Portemonnaie und mein Ausweis sind in der Tasche.", "Она чёрная и маленькая. В сумке мой кошелёк и моё удостоверение."]
         - [B, "Moment, bitte. Ist das Ihre Tasche?", "Минутку, пожалуйста. Это ваша сумка?"]
         - [A, "Ja! Sie haben sie gefunden! Vielen Dank für Ihre Hilfe!", "Да! Вы её нашли! Большое спасибо за помощь!"]
@@ -483,9 +483,9 @@ lessons:
         ex: "Ich schreibe eine Postkarte aus Wien."
         exRu: "Я пишу открытку из Вены."
       - de: "der Gruß"
-        ru: "приветствие"
+        ru: "привет"
         plural: "die Grüße"
-        ex: "Einen Gruß an Ihre Familie!"
+        ex: "Einen schönen Gruß an Ihre Familie!"
         exRu: "Привет вашей семье!"
       - de: "schicken"
         ru: "посылать"
@@ -540,7 +540,7 @@ lessons:
         - q: "Какая форма нужна: [[Er ... gut schwimmen.]]"
           options: ["[[kann]]", "[[kannt]]", "[[können]]", "[[kannst]]", "[[könnt]]"]
         - q: "Как вежливо сказать «Я хотел бы отправить письмо»?"
-          options: ["[[Ich möchte einen Brief schicken.]]", "[[Ich möchte schicken einen Brief.]]", "[[Ich möchte einen Brief schicke.]]", "[[Ich möchten einen Brief schicken.]]", "[[Möchte ich einen Brief schicken.]]"]
+          options: ["[[Ich möchte einen Brief schicken.]]", "[[Ich möchte schicken einen Brief.]]", "[[Ich möchte einen Brief schicke.]]", "[[Ich möchten einen Brief schicken.]]", "[[Ich einen Brief möchte schicken.]]"]
         - q: "Что значит [[Hier darf man nicht rauchen.]]?"
           options: ["Здесь нельзя курить.", "Здесь нужно курить.", "Здесь хотят курить.", "Здесь все курят.", "Здесь можно курить."]
         - q: "Как сказать «Врач говорит, что мне следует больше гулять»?"

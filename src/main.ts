@@ -61,13 +61,18 @@ async function main(): Promise<void> {
     void app.course.download('core').then(() => app.course.download('m01'));
   }
 
+  let started = false;
   const start = () => {
+    if (started) return;
+    started = true;
     gate.remove();
     player.unlock();
     sfx.unlock();
     void keepAwake();
-    if (keySaved) void app.say(app.P('key_saved'));
-    void app.run();
+    void (async () => {
+      if (keySaved) await app.say(app.P('key_saved'));
+      await app.run();
+    })();
   };
 
   // Mobile browsers allow sound only after a touch, unless the app is installed. Try to

@@ -85,19 +85,19 @@ lessons:
         - "Чтобы сказать «нет» о предмете, в немецком используют слово [[kein]]. Оно стоит на месте артикля [[ein]]."
         - "[[Das ist ein Ei.]] — «Это яйцо». [[Das ist kein Ei.]] — «Это не яйцо». С мужским и средним родом говорят [[kein]]: [[kein Käse]], [[kein Brot]]."
         - "С женским родом и во множественном числе — [[keine]]: [[keine Butter]], [[keine Milch]], [[keine Brötchen]]."
-        - "После [[haben]] у мужского рода появляется окончание: [[Ich habe keinen Zucker.]] Запомните это как готовую фразу: [[Ich habe keinen Hunger.]]"
+        - "После глаголов [[haben]], [[essen]], [[trinken]] у мужского рода появляется окончание: [[Ich habe keinen Zucker.]] Запомните это как готовую фразу: [[Ich habe keinen Hunger.]]"
         - "Слово [[nicht]] отрицает действие или признак: [[Der Tee ist nicht heiß.]] А [[kein]] отрицает предмет: [[Ich trinke keinen Tee.]]"
       exercises:
         - q: "Как сказать «Это не хлеб»?"
-          options: ["[[Das ist kein Brot.]]", "[[Das ist keine Brot.]]", "[[Das ist nicht Brot.]]", "[[Das ist keinen Brot.]]", "[[Das kein ist Brot.]]"]
+          options: ["[[Das ist kein Brot.]]", "[[Das ist keine Brot.]]", "[[Das ist keiner Brot.]]", "[[Das ist keinen Brot.]]", "[[Das kein ist Brot.]]"]
         - q: "Как сказать «Я не пью молоко»?"
           options: ["[[Ich trinke keine Milch.]]", "[[Ich trinke kein Milch.]]", "[[Ich trinke keinen Milch.]]", "[[Ich trinke nicht keine Milch.]]"]
         - q: "Как сказать «У меня нет сахара»?"
           options: ["[[Ich habe keinen Zucker.]]", "[[Ich habe keine Zucker.]]", "[[Ich habe nicht Zucker.]]", "[[Ich habe kein Zuckers.]]"]
         - q: "Как сказать «Это не яйца»?"
           options: ["[[Das sind keine Eier.]]", "[[Das sind kein Eier.]]", "[[Das sind keinen Eier.]]", "[[Das ist kein Eier.]]"]
-        - q: "Что подходит к фразе [[Der Kaffee ist ... heiß]]?"
-          options: ["[[nicht]]", "[[kein]]", "[[keine]]", "[[keinen]]"]
+        - q: "Как сказать «Кофе не горячий»?"
+          options: ["[[Der Kaffee ist nicht heiß.]]", "[[Der Kaffee ist kein heiß.]]", "[[Der Kaffee ist keine heiß.]]", "[[Der Kaffee ist keinen heiß.]]"]
     dialogue:
       title: "Завтрак в гостях"
       speakers: {A: f, B: m}
@@ -113,7 +113,7 @@ lessons:
       questions:
         - q: "Что пьёт Томас?"
           options: ["Кофе с молоком", "Чай с мёдом", "Кофе с сахаром", "Молоко"]
-        - q: "Чего Томас не ест?"
+        - q: "Что Томас не ест?"
           options: ["Колбасу", "Сыр", "Яйца", "Булочки"]
         - q: "Что есть у женщины вместо варенья?"
           options: ["Мёд", "Масло", "Сыр", "Сахар"]
@@ -213,7 +213,7 @@ lessons:
           options: ["[[die Tomaten]]", "[[die Tomates]]", "[[die Tomate]]", "[[der Tomaten]]", "[[die Tomatee]]"]
         - q: "Как будет «яблоки»?"
           options: ["[[die Äpfel]]", "[[die Apfels]]", "[[die Apfeln]]", "[[der Äpfel]]", "[[die Äpfeln]]"]
-        - q: "Как будет «картофелины»?"
+        - q: "Как будет множественное число от [[die Kartoffel]]?"
           options: ["[[die Kartoffeln]]", "[[die Kartoffels]]", "[[die Kartoffele]]", "[[die Kärtoffel]]"]
         - q: "Как будет «салаты»?"
           options: ["[[die Salate]]", "[[die Salaten]]", "[[die Säläte]]", "[[der Salate]]", "[[die Salats]]"]
@@ -324,11 +324,11 @@ lessons:
           options: ["[[Er isst Suppe.]]", "[[Er esst Suppe.]]", "[[Er essen Suppe.]]", "[[Er esse Suppe.]]", "[[Er ist Suppe.]]"]
         - q: "Как сказать «Мы едим рыбу»?"
           options: ["[[Wir essen Fisch.]]", "[[Wir isst Fisch.]]", "[[Wir esst Fisch.]]", "[[Wir issen Fisch.]]"]
-        - q: "Как вежливо спросить «Вы едите мясо»?"
+        - q: "Как вежливо спросить «Вы едите мясо?»"
           options: ["[[Essen Sie Fleisch?]]", "[[Isst Sie Fleisch?]]", "[[Esse Sie Fleisch?]]", "[[Sie isst Fleisch?]]"]
         - q: "Как сказать «Я люблю макароны»?"
           options: ["[[Ich mag Nudeln.]]", "[[Ich mögen Nudeln.]]", "[[Ich mage Nudeln.]]", "[[Ich magst Nudeln.]]", "[[Mag ich Nudeln.]]"]
-        - q: "Как вежливо спросить «Вы любите курицу»?"
+        - q: "Как вежливо спросить «Вы любите курицу?»"
           options: ["[[Mögen Sie Hähnchen?]]", "[[Mag Sie Hähnchen?]]", "[[Magst Sie Hähnchen?]]", "[[Mögen Hähnchen Sie?]]"]
     dialogue:
       title: "Что на ужин?"
@@ -444,20 +444,20 @@ lessons:
           options: ["[[Ich brauche eine Tüte.]]", "[[Ich brauche einen Tüte.]]", "[[Ich brauche ein Tüte.]]", "[[Ich brauche den Tüte.]]"]
         - q: "Как сказать «Я ем яблоко»?"
           options: ["[[Ich esse einen Apfel.]]", "[[Ich esse ein Apfel.]]", "[[Ich esse eine Apfel.]]", "[[Ich esse der Apfel.]]", "[[Ich esse einem Apfel.]]"]
-        - q: "Какое слово меняется в винительном падеже?"
+        - q: "У какого слова меняется артикль в винительном падеже?"
           options: ["[[der Supermarkt]]", "[[die Packung]]", "[[das Glas]]", "[[die Dose]]"]
     dialogue:
       title: "В супермаркете"
-      speakers: {A: m, B: f}
+      speakers: {A: m, B: f, C: f}
       lines:
         - [A, "Was brauchen wir noch?", "Что нам ещё нужно?"]
         - [B, "Wir brauchen einen Liter Milch, Butter und ein Kilo Kartoffeln.", "Нам нужен литр молока, масло и килограмм картошки."]
         - [A, "Und Käse?", "А сыр?"]
         - [B, "Ja, zweihundert Gramm Käse. Und eine Flasche Wasser.", "Да, двести граммов сыра. И бутылку воды."]
         - [A, "So, das ist alles. Zur Kasse!", "Так, это всё. На кассу!"]
-        - [B, "Guten Tag! Brauchen Sie eine Tüte?", "Добрый день! Вам нужен пакет?"]
+        - [C, "Guten Tag! Brauchen Sie eine Tüte?", "Добрый день! Вам нужен пакет?"]
         - [A, "Ja, bitte. Eine Tüte.", "Да, пожалуйста. Один пакет."]
-        - [B, "Das macht zwölf Euro dreißig.", "С вас двенадцать евро тридцать."]
+        - [C, "Das macht zwölf Euro dreißig.", "С вас двенадцать евро тридцать."]
       questions:
         - q: "Сколько сыра они покупают?"
           options: ["Двести граммов", "Килограмм", "Полкило", "Сто граммов"]
@@ -538,7 +538,7 @@ lessons:
       - de: "Was möchten Sie trinken?"
         ru: "Что вы будете пить?"
       - de: "Ich möchte ein Wasser."
-        ru: "Я хотел бы воду."
+        ru: "Я хотел бы воды."
       - de: "Ich habe Durst."
         ru: "Я хочу пить."
       - de: "Die Rechnung, bitte."
@@ -558,7 +558,7 @@ lessons:
           options: ["[[Ich möchte einen Kaffee.]]", "[[Ich möchten einen Kaffee.]]", "[[Ich möchte ein Kaffee.]]", "[[Ich möchtest einen Kaffee.]]", "[[Möchte ich einen Kaffee.]]"]
         - q: "Как сказать «Мы хотели бы заказать»?"
           options: ["[[Wir möchten bestellen.]]", "[[Wir möchte bestellen.]]", "[[Wir möchten bestellen wir.]]", "[[Wir bestellen möchten.]]"]
-        - q: "Как официант спрашивает «Что вы будете пить»?"
+        - q: "Как официант спрашивает «Что вы будете пить?»"
           options: ["[[Was möchten Sie trinken?]]", "[[Was möchten trinken Sie?]]", "[[Was möchte Sie trinken?]]", "[[Was Sie möchten trinken?]]"]
         - q: "Как сказать «Она хотела бы сок»?"
           options: ["[[Sie möchte einen Saft.]]", "[[Sie möchten einen Saft.]]", "[[Sie möchte ein Saft.]]", "[[Sie möchtet einen Saft.]]"]

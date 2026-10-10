@@ -83,7 +83,7 @@ lessons:
         speakers: {A: m}
         lines:
           - [A, "Liebe Kundinnen und Kunden!", "Дорогие покупательницы и покупатели!"]
-          - [A, "Heute kostet ein Kilo Äpfel nur ein Euro neunzig.", "Сегодня килограмм яблок стоит всего один евро девяносто."]
+          - [A, "Heute kostet ein Kilo Äpfel nur einen Euro neunzig.", "Сегодня килограмм яблок стоит всего один евро девяносто."]
           - [A, "Sie finden die Äpfel am Eingang.", "Яблоки вы найдёте у входа."]
         questions:
           - q: "Сколько сегодня стоит килограмм яблок?"
@@ -111,9 +111,9 @@ lessons:
       - title: "Задание 5"
         speakers: {A: f}
         lines:
-          - [A, "Nächster Halt: Hauptbahnhof.", "Следующая остановка: Главный вокзал."]
+          - [A, "Nächster Halt: Hauptbahnhof.", "Следующая остановка: главный вокзал."]
           - [A, "Hier können Sie in die Linie vier umsteigen.", "Здесь можно пересесть на линию четыре."]
-          - [A, "Bitte rechts aussteigen.", "Выход на правую сторону."]
+          - [A, "Bitte rechts aussteigen.", "Выход справа."]
         questions:
           - q: "На какую линию можно пересесть?"
             options: ["На четвёртую", "На вторую", "На четырнадцатую"]
@@ -127,7 +127,7 @@ lessons:
       - title: "Задание 1"
         speakers: {A: f}
         lines:
-          - [A, "Hallo Thomas, hier ist Anna.", "Привет, Томас, это Анна."]
+          - [A, "Hallo, Thomas, hier ist Anna.", "Привет, Томас, это Анна."]
           - [A, "Wir treffen uns heute nicht um sechs Uhr, sondern um sieben.", "Мы встречаемся сегодня не в шесть часов, а в семь."]
           - [A, "Ich warte vor dem Kino. Bis dann!", "Я жду у кинотеатра. До встречи!"]
         questions:
@@ -148,7 +148,7 @@ lessons:
       - title: "Задание 3"
         speakers: {A: f}
         lines:
-          - [A, "Hallo Peter, hier ist Maria.", "Привет, Петер, это Мария."]
+          - [A, "Hallo, Peter, hier ist Maria.", "Привет, Петер, это Мария."]
           - [A, "Ich bin im Supermarkt. Brauchen wir noch Milch?", "Я в супермаркете. Нам ещё нужно молоко?"]
           - [A, "Und vielleicht Eier? Bitte ruf mich schnell an.", "И, может быть, яйца? Пожалуйста, перезвони мне быстрее."]
         questions:
@@ -168,7 +168,7 @@ lessons:
       - title: "Задание 5"
         speakers: {A: f}
         lines:
-          - [A, "Hallo Lukas, hier ist Sophie.", "Привет, Лукас, это Софи."]
+          - [A, "Hallo, Lukas, hier ist Sophie.", "Привет, Лукас, это Софи."]
           - [A, "Am Samstag habe ich Geburtstag und mache eine Party.", "В субботу у меня день рождения, и я устраиваю вечеринку."]
           - [A, "Die Party beginnt um acht Uhr bei mir zu Hause.", "Вечеринка начинается в восемь часов у меня дома."]
           - [A, "Kommst du?", "Ты придёшь?"]
@@ -225,7 +225,7 @@ lessons:
           - [B, "Am Samstag ist die Bank geschlossen.", "В субботу банк закрыт."]
         questions:
           - q: "Когда открывается банк?"
-            options: ["В половине девятого", "В девять тридцать", "В половине десятого"]
+            options: ["В половине девятого", "В девять тридцать", "В восемь часов"]
       - title: "Задание 5"
         speakers: {A: m, B: f}
         lines:
@@ -296,7 +296,7 @@ lessons:
       - title: "Задание 6"
         speakers: {A: m}
         lines:
-          - [A, "Hallo Maria, hier ist Lukas.", "Привет, Мария, это Лукас."]
+          - [A, "Hallo, Maria, hier ist Lukas.", "Привет, Мария, это Лукас."]
           - [A, "Ich bin krank und kann heute nicht zur Arbeit kommen.", "Я заболел и не могу сегодня прийти на работу."]
           - [A, "Kannst du bitte Herrn Weber Bescheid sagen?", "Можешь, пожалуйста, сообщить господину Веберу?"]
           - [A, "Morgen bin ich wieder da. Danke!", "Завтра я снова буду. Спасибо!"]

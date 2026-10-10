@@ -190,7 +190,7 @@ lessons:
         - "Окончание глагола меняется: [[ich heiße]], [[Sie heißen]], [[er heißt]], [[sie heißt]]. С другом на «ты» говорят [[du heißt]]."
         - "Вопрос «Как вас зовут?» звучит [[Wie heißen Sie?]] Можно спросить и так: [[Wie ist Ihr Name?]]"
       exercises:
-        - q: "Как сказать «Меня зовут Пётр»?"
+        - q: "Как сказать «Меня зовут Петер»?"
           options: ["[[Ich heiße Peter.]]", "[[Ich heißen Peter.]]", "[[Ich heißt Peter.]]", "[[Er heiße Peter.]]"]
         - q: "Как вежливо спросить «Как вас зовут?»"
           options: ["[[Wie heißen Sie?]]", "[[Wie heißt Sie?]]", "[[Wer heißen Sie?]]", "[[Wie heiße Sie?]]"]
@@ -214,8 +214,8 @@ lessons:
         - [B, "Freut mich auch. Und wer ist das?", "Мне тоже очень приятно. А кто это?"]
         - [A, "Das ist Herr Müller. Er heißt Peter.", "Это господин Мюллер. Его зовут Петер."]
       questions:
-        - q: "Как фамилия мужчины?"
-          options: ["Вебер", "Шмидт", "Мюллер", "Томас"]
+        - q: "Как фамилия Томаса?"
+          options: ["Вебер", "Шмидт", "Мюллер", "Лукас"]
         - q: "Как зовут господина Мюллера?"
           options: ["Петер", "Томас", "Лукас", "Анна"]
         - q: "Что сказала Анна, когда не расслышала?"
@@ -225,7 +225,7 @@ lessons:
     intro: "В этом уроке вы научитесь говорить, откуда вы родом и где живёте."
     words:
       - de: "kommen"
-        ru: "приходить, происходить"
+        ru: "приходить, быть родом"
         ex: "Ich komme aus Russland."
         exRu: "Я из России."
       - de: "aus"
@@ -311,7 +311,7 @@ lessons:
         - q: "Как сказать «Анна живёт в Австрии»?"
           options: ["[[Anna wohnt in Österreich.]]", "[[Anna wohnt aus Österreich.]]", "[[Anna kommt in Österreich.]]", "[[Anna wohnt in der Österreich.]]"]
         - q: "Как правильно спросить «Кто это?»"
-          options: ["[[Wer ist das?]]", "[[Wo ist das?]]", "[[Woher ist das?]]", "[[Das ist wer?]]"]
+          options: ["[[Wer ist das?]]", "[[Wo ist das?]]", "[[Woher ist das?]]", "[[Wie ist das?]]"]
     dialogue:
       title: "На курсах немецкого"
       speakers: {A: m, B: f}
@@ -407,7 +407,7 @@ lessons:
       explain:
         - "В немецком алфавите двадцать шесть букв. Многие звучат почти как в русском: [[A]], [[Be]], [[De]], [[E]], [[Ef]], [[Ka]], [[El]], [[Em]], [[En]], [[O]], [[Pe]], [[Te]], [[U]]."
         - "Некоторые буквы звучат непривычно. Буква [[Ha]] звучит как «ха», а [[Jot]] — как «йот». Буква [[Vau]] звучит как «фау», а [[We]] — как «ве». Буква [[Zett]] — это «цет»."
-        - "Ещё три особые буквы с точками сверху: [[Ä]], [[Ö]], [[Ü]]. Их называют [[A Umlaut]], [[O Umlaut]], [[U Umlaut]]. Буква [[Eszett]] звучит как долгое «с», например в слове [[heißen]]."
+        - "Ещё три особые буквы с точками сверху: [[Ä]], [[Ö]], [[Ü]]. Их называют [[A Umlaut]], [[O Umlaut]], [[U Umlaut]]. Буква [[Eszett]] обозначает звук «с», например в слове [[heißen]]."
         - "Чтобы продиктовать имя, называют буквы по очереди. Имя [[Anna]] звучит так: [[A, En, En, A]]. Фамилия [[Weber]]: [[We, E, Be, E, Er]]."
         - "Если вы не поняли имя, попросите: [[Können Sie das buchstabieren?]] Или скажите: [[Noch einmal, bitte.]]"
       exercises:
@@ -521,7 +521,7 @@ lessons:
       explain:
         - "В русском языке мы часто пропускаем глагол «быть»: «Я студент». В немецком его пропускать нельзя: [[Ich bin Student.]]"
         - "Глагол [[sein]] меняется по лицам: [[ich bin]], [[er ist]], [[sie ist]], [[wir sind]], [[Sie sind]]. Про нескольких людей говорят [[sie sind]] — они."
-        - "С друзьями говорят [[du bist]] — ты есть, а группе друзей [[ihr seid]] — вы есть. Пока достаточно просто узнавать эти формы."
+        - "С другом говорят [[du bist]] — ты есть, а группе друзей — [[ihr seid]], вы есть. Пока достаточно просто узнавать эти формы."
         - "Профессию называют без артикля: [[Ich bin Lehrer.]] [[Sie ist Studentin.]] Женская форма часто заканчивается на [[in]]: [[Lehrer]], [[Lehrerin]]."
         - "Вопрос без вопросительного слова начинается с глагола: [[Sind Sie Lehrer?]] [[Ist er verheiratet?]] Ответ: [[Ja]] или [[Nein]]."
       exercises:
@@ -530,7 +530,7 @@ lessons:
         - q: "Как правильно?"
           options: ["[[Wir sind verheiratet.]]", "[[Wir ist verheiratet.]]", "[[Wir bin verheiratet.]]", "[[Wir seid verheiratet.]]", "[[Wir bist verheiratet.]]"]
         - q: "Как спросить «Вы учительница?»"
-          options: ["[[Sind Sie Lehrerin?]]", "[[Sie sind Lehrerin?]]", "[[Ist Sie Lehrerin?]]", "[[Sind Lehrerin Sie?]]"]
+          options: ["[[Sind Sie Lehrerin?]]", "[[Bin Sie Lehrerin?]]", "[[Ist Sie Lehrerin?]]", "[[Sind Lehrerin Sie?]]"]
         - q: "Как сказать «Он женат»?"
           options: ["[[Er ist verheiratet.]]", "[[Er sind verheiratet.]]", "[[Er bin verheiratet.]]", "[[Er ist ledig.]]"]
         - q: "Как будет «студентка»?"
@@ -547,7 +547,7 @@ lessons:
         - [B, "Nein, ich bin Studentin.", "Нет, я студентка."]
         - [A, "Sind Sie aus Deutschland?", "Вы из Германии?"]
         - [B, "Nein, wir sind aus Österreich. Das ist mein Mann, Thomas.", "Нет, мы из Австрии. Это мой муж, Томас."]
-        - [A, "Ah, Sie sind verheiratet! Freut mich, Thomas.", "А, вы замужем! Очень приятно, Томас."]
+        - [A, "Ah, Sie sind verheiratet! Freut mich, Herr Weber.", "А, вы замужем! Очень приятно, господин Вебер."]
       questions:
         - q: "Кто по профессии господин Мюллер?"
           options: ["Учитель", "Студент", "Врач", "Продавец"]

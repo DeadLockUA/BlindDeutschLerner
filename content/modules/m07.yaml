@@ -80,21 +80,21 @@ lessons:
     grammar:
       title: "Где? В городе"
       explain:
-        - "На вопрос «где?» немцы отвечают с предлогом [[in]]. После него артикль меняется. Это дательный падеж, по-немецки [[Dativ]]."
+        - "На вопрос «где?» немцы часто отвечают с предлогом [[in]]. После него артикль меняется. Это дательный падеж, по-немецки [[Dativ]]."
         - "Слова мужского и среднего рода получают артикль [[dem]]. А [[in dem]] почти всегда сливается в одно короткое слово [[im]]: [[der Park]] — [[im Park]], [[das Kino]] — [[im Kino]]."
         - "Слова женского рода получают артикль [[der]]: [[die Schule]] — [[in der Schule]], [[die Bank]] — [[in der Bank]]."
         - "Запомните простое правило: мужской и средний род — [[im]], женский род — [[in der]]. Например: [[Ich bin im Museum.]] и [[Anna ist in der Kirche.]]"
         - "Вопрос «где?» по-немецки [[wo]]: [[Wo ist Peter?]] — [[Peter ist im Krankenhaus.]]"
       exercises:
         - q: "Как сказать «в парке»?"
-          options: ["[[im Park]]", "[[in der Park]]", "[[in die Park]]", "[[in das Park]]", "[[am Park]]"]
+          options: ["[[im Park]]", "[[in der Park]]", "[[in die Park]]", "[[in das Park]]", "[[ins Park]]"]
         - q: "Как сказать «в школе»?"
           options: ["[[in der Schule]]", "[[im Schule]]", "[[in die Schule]]", "[[in dem Schule]]", "[[in den Schule]]"]
         - q: "Как правильно?"
           options: ["[[Wir sind im Kino.]]", "[[Wir sind in der Kino.]]", "[[Wir sind in die Kino.]]", "[[Wir sind in das Kino.]]"]
         - q: "Как сказать «Она работает в банке»?"
           options: ["[[Sie arbeitet in der Bank.]]", "[[Sie arbeitet im Bank.]]", "[[Sie arbeitet in die Bank.]]", "[[Sie arbeitet in den Bank.]]"]
-        - q: "Какой вопрос спрашивает «где?»"
+        - q: "Какое слово значит «где?»"
           options: ["[[wo]]", "[[wer]]", "[[wie]]", "[[woher]]", "[[was]]"]
     dialogue:
       title: "Турист в городе"
@@ -129,7 +129,7 @@ lessons:
         ru: "трамвай"
         plural: "die Straßenbahnen"
         ex: "Die Straßenbahn ist voll."
-        exRu: "Трамвай полный."
+        exRu: "Трамвай переполнен."
       - de: "die U-Bahn"
         ru: "метро"
         plural: "die U-Bahnen"
@@ -181,7 +181,7 @@ lessons:
         ru: "мотоцикл"
         plural: "die Motorräder"
         ex: "Das Motorrad ist laut."
-        exRu: "Мотоцикл громкий."
+        exRu: "Мотоцикл шумный."
     phrases:
       - de: "zu Fuß"
         ru: "пешком"
@@ -198,8 +198,8 @@ lessons:
     grammar:
       title: "Глагол «ехать» и предлог «на»"
       explain:
-        - "Глагол [[fahren]] значит «ехать». В нём есть особенность: у «он» и «она» буква а превращается в ä. [[ich fahre]], [[Sie fahren]], [[wir fahren]], но [[er fährt]], [[sie fährt]]."
-        - "С «ты» тоже ä: [[du fährst]]. Например: [[Peter fährt nach Berlin.]] — «Пётр едет в Берлин»."
+        - "Глагол [[fahren]] значит «ехать». В нём есть особенность: у «он» и «она» вместо [[a]] звучит [[ä]]. [[ich fahre]], [[Sie fahren]], [[wir fahren]], но [[er fährt]], [[sie fährt]]."
+        - "С «ты» тоже [[ä]]: [[du fährst]]. Например: [[Peter fährt nach Berlin.]] — «Петер едет в Берлин»."
         - "По-русски мы говорим «на автобусе», а по-немецки — с предлогом [[mit]], то есть буквально «с автобусом». После [[mit]] идёт дательный падеж."
         - "Мужской и средний род — [[mit dem]]: [[mit dem Bus]], [[mit dem Auto]], [[mit dem Fahrrad]]. Женский род — [[mit der]]: [[mit der U-Bahn]], [[mit der Straßenbahn]]."
         - "А пешком — это [[zu Fuß]], без [[mit]]: [[Ich gehe zu Fuß.]]"
@@ -279,13 +279,13 @@ lessons:
         exRu: "Дорога недлинная."
       - de: "entschuldigen"
         ru: "извинять"
-        ex: "Entschuldigen Sie, bitte!"
+        ex: "Entschuldigen Sie bitte!"
         exRu: "Извините, пожалуйста!"
       - de: "die Richtung"
         ru: "направление"
         plural: "die Richtungen"
         ex: "Ist das die Richtung zum Bahnhof?"
-        exRu: "Это направление к вокзалу?"
+        exRu: "Это направление на вокзал?"
       - de: "der Stadtplan"
         ru: "план города"
         plural: "die Stadtpläne"
@@ -320,9 +320,9 @@ lessons:
           options: ["[[Biegen Sie links ab.]]", "[[Abbiegen Sie links.]]", "[[Sie biegen links ab?]]", "[[Biegen links Sie ab.]]", "[[Ab Sie biegen links.]]"]
         - q: "Как сказать «Поезжайте на автобусе»?"
           options: ["[[Fahren Sie mit dem Bus.]]", "[[Sie fahren mit dem Bus?]]", "[[Fährt Sie mit dem Bus.]]", "[[Fahren mit dem Bus Sie.]]"]
-        - q: "Что значит [[Biegen Sie an der Ecke rechts ab.]]"
+        - q: "Что значит [[Biegen Sie an der Ecke rechts ab.]]?"
           options: ["На углу поверните направо", "На углу поверните налево", "Идите прямо до угла", "На светофоре поверните направо"]
-        - q: "Что значит [[Gehen Sie bis zur Ampel.]]"
+        - q: "Что значит [[Gehen Sie bis zur Ampel.]]?"
           options: ["Идите до светофора", "Идите до перекрёстка", "Поверните у светофора", "Идите до угла"]
     dialogue:
       title: "Дорога к вокзалу"
@@ -348,7 +348,7 @@ lessons:
     intro: "В этом уроке вы научитесь покупать билет и понимать расписание."
     words:
       - de: "die Fahrkarte"
-        ru: "проездной билет"
+        ru: "билет на проезд"
         plural: "die Fahrkarten"
         ex: "Die Fahrkarte kostet drei Euro."
         exRu: "Билет стоит три евро."
@@ -415,7 +415,7 @@ lessons:
       - de: "Eine Fahrkarte nach Berlin, bitte."
         ru: "Один билет до Берлина, пожалуйста."
       - de: "Wann fährt der nächste Zug?"
-        ru: "Когда идёт следующий поезд?"
+        ru: "Когда отправляется следующий поезд?"
       - de: "Von welchem Gleis?"
         ru: "С какого пути?"
       - de: "Muss ich umsteigen?"
@@ -426,7 +426,7 @@ lessons:
       title: "Модальный глагол «должен»"
       explain:
         - "Глагол [[müssen]] значит «должен», «нужно», «надо». [[Ich muss arbeiten.]] — «Я должен работать»."
-        - "Формы: [[ich muss]], [[du musst]], [[er muss]], [[sie muss]], [[wir müssen]], [[Sie müssen]]. Обратите внимание: у «я» и «он» нет окончания и нет ü: [[ich muss]], [[er muss]]."
+        - "Формы: [[ich muss]], [[du musst]], [[er muss]], [[sie muss]], [[wir müssen]], [[Sie müssen]]. Обратите внимание: у «я» и «он» нет окончания и нет умлаута: [[ich muss]], [[er muss]]."
         - "Второй глагол стоит в самом конце предложения в начальной форме: [[Sie müssen hier umsteigen.]] — «Вам нужно здесь пересесть»."
         - "Отделяемая приставка при этом не отделяется: [[Ich muss hier aussteigen.]] Сравните: [[Ich steige hier aus.]]"
         - "В вопросе [[müssen]] стоит на первом месте: [[Muss ich umsteigen?]] — «Мне нужно делать пересадку?»"
@@ -439,7 +439,7 @@ lessons:
           options: ["[[Anna muss]]", "[[Anna müssen]]", "[[Anna musst]]", "[[Anna müsst]]"]
         - q: "Как спросить «Мне нужно выходить здесь?»"
           options: ["[[Muss ich hier aussteigen?]]", "[[Ich muss hier aussteigen?]]", "[[Muss ich hier steige aus?]]", "[[Müssen ich hier aussteigen?]]"]
-        - q: "Что значит [[Wir müssen eine Fahrkarte kaufen.]]"
+        - q: "Что значит [[Wir müssen eine Fahrkarte kaufen.]]?"
           options: ["Нам нужно купить билет", "Мы купили билет", "Мы можем купить билет", "Мы хотим купить билет"]
     dialogue:
       title: "В кассе"
@@ -447,7 +447,7 @@ lessons:
       lines:
         - [A, "Guten Tag! Eine Fahrkarte nach Hamburg, bitte.", "Добрый день! Один билет до Гамбурга, пожалуйста."]
         - [B, "Einfach oder hin und zurück?", "В один конец или туда и обратно?"]
-        - [A, "Hin und zurück, bitte. Wann fährt der nächste Zug?", "Туда и обратно, пожалуйста. Когда идёт следующий поезд?"]
+        - [A, "Hin und zurück, bitte. Wann fährt der nächste Zug?", "Туда и обратно, пожалуйста. Когда отправляется следующий поезд?"]
         - [B, "Um zehn Uhr fünfzehn.", "В десять пятнадцать."]
         - [A, "Muss ich umsteigen?", "Мне нужно делать пересадку?"]
         - [B, "Ja, Sie müssen in Hannover umsteigen.", "Да, вам нужно пересесть в Ганновере."]
@@ -518,7 +518,7 @@ lessons:
         ru: "стадион"
         plural: "die Stadien"
         ex: "Das Stadion ist voll."
-        exRu: "Стадион полный."
+        exRu: "Стадион заполнен."
       - de: "der Dom"
         ru: "собор"
         plural: "die Dome"
@@ -566,16 +566,16 @@ lessons:
       title: "Встреча на улице"
       speakers: {A: m, B: f}
       lines:
-        - [A, "Hallo, Maria! Wohin gehen Sie?", "Привет, Мария! Куда вы идёте?"]
-        - [B, "Hallo, Thomas! Ich gehe zur Post und dann zum Markt.", "Привет, Томас! Я иду на почту, а потом на рынок."]
+        - [A, "Guten Tag, Frau Schmidt! Wohin gehen Sie?", "Добрый день, госпожа Шмидт! Куда вы идёте?"]
+        - [B, "Guten Tag, Herr Weber! Ich gehe zur Post und dann zum Markt.", "Добрый день, господин Вебер! Я иду на почту, а потом на рынок."]
         - [A, "Ich gehe auch in die Stadtmitte, zur Bibliothek.", "Я тоже иду в центр города, в библиотеку."]
         - [B, "Und am Abend? Wir gehen ins Theater. Kommen Sie mit?", "А вечером? Мы идём в театр. Пойдёте с нами?"]
         - [A, "Leider nein. Am Abend bin ich zu Hause.", "К сожалению, нет. Вечером я дома."]
-        - [B, "Schade! Also tschüss!", "Жаль! Ну, пока!"]
+        - [B, "Schade! Also dann, auf Wiedersehen!", "Жаль! Ну тогда до свидания!"]
       questions:
-        - q: "Куда Мария идёт сначала?"
+        - q: "Куда госпожа Шмидт идёт сначала?"
           options: ["На почту", "На рынок", "В библиотеку", "В театр"]
-        - q: "Куда идёт Томас?"
+        - q: "Куда сейчас идёт господин Вебер?"
           options: ["В библиотеку", "На рынок", "В театр", "Домой"]
-        - q: "Что Томас делает вечером?"
+        - q: "Что господин Вебер делает вечером?"
           options: ["Он дома", "Он идёт в театр", "Он на рынке", "Он в библиотеке"]

@@ -272,7 +272,7 @@ export async function runContinue(app: App): Promise<void> {
     if (r === 'aborted') return;
     const options: (Option | null)[] = [app.optKey('z_next'), app.optKey('p_main')];
     while (options.length < app.slots) options.push(null);
-    const i = await app.ask({ prompt: [app.P('next_lesson'), app.P('z_next')], options });
+    const i = await app.ask({ prompt: [app.P('next_lesson_offer')], options });
     if (i !== 0) return;
   }
 }

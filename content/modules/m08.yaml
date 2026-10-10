@@ -64,7 +64,7 @@ lessons:
       - de: "Was ist Ihre Lieblingsfarbe?"
         ru: "Какой ваш любимый цвет?"
       - de: "Meine Lieblingsfarbe ist Grün."
-        ru: "Мой любимый цвет зелёный."
+        ru: "Мой любимый цвет — зелёный."
       - de: "Das ist zu dunkel."
         ru: "Это слишком тёмное."
       - de: "Haben Sie das auch in Rot?"
@@ -79,7 +79,7 @@ lessons:
         - "Светлые и тёмные оттенки строятся просто: [[hell]] плюс цвет и [[dunkel]] плюс цвет. [[hellblau]] — голубой, [[dunkelgrün]] — тёмно-зелёный, [[hellgrau]] — светло-серый."
       exercises:
         - q: "Как спросить «Какого цвета машина?»"
-          options: ["[[Welche Farbe hat das Auto?]]", "[[Welche Farbe ist das Auto?]]", "[[Wie Farbe hat das Auto?]]", "[[Was Farbe hat das Auto?]]", "[[Welche Farbe haben das Auto?]]"]
+          options: ["[[Welche Farbe hat das Auto?]]", "[[Welcher Farbe hat das Auto?]]", "[[Wie Farbe hat das Auto?]]", "[[Was Farbe hat das Auto?]]", "[[Welche Farbe haben das Auto?]]"]
         - q: "Как сказать «Банан жёлтый»?"
           options: ["[[Die Banane ist gelb.]]", "[[Die Banane hat gelb.]]", "[[Die Banane sind gelb.]]", "[[Die Banane gelb ist.]]"]
         - q: "Какого цвета снег? [[Der Schnee ist …]]"
@@ -92,18 +92,18 @@ lessons:
       title: "Новая машина"
       speakers: {A: f, B: m}
       lines:
-        - [A, "Peter, Sie haben ein neues Auto! Welche Farbe hat es?", "Пётр, у вас новая машина! Какого она цвета?"]
+        - [A, "Herr Weber, Sie haben ein neues Auto! Welche Farbe hat es?", "Господин Вебер, у вас новая машина! Какого она цвета?"]
         - [B, "Es ist dunkelblau.", "Она тёмно-синяя."]
-        - [A, "Schön! Blau ist meine Lieblingsfarbe.", "Красиво! Синий мой любимый цвет."]
+        - [A, "Schön! Blau ist meine Lieblingsfarbe.", "Красиво! Синий — мой любимый цвет."]
         - [B, "Und Ihr Auto? Ist es rot?", "А ваша машина? Она красная?"]
         - [A, "Nein, mein Auto ist weiß. Und mein Fahrrad ist grün.", "Нет, моя машина белая. А мой велосипед зелёный."]
-        - [B, "Meine Lieblingsfarbe ist Grün!", "Мой любимый цвет зелёный!"]
+        - [B, "Meine Lieblingsfarbe ist Grün!", "Мой любимый цвет — зелёный!"]
       questions:
-        - q: "Какого цвета новая машина Петра?"
+        - q: "Какого цвета новая машина господина Вебера?"
           options: ["Тёмно-синяя", "Красная", "Белая", "Зелёная"]
         - q: "Какого цвета машина женщины?"
           options: ["Белая", "Красная", "Тёмно-синяя", "Серая"]
-        - q: "Какой любимый цвет у Петра?"
+        - q: "Какой любимый цвет у господина Вебера?"
           options: ["Зелёный", "Синий", "Белый", "Красный"]
 
   - id: m08l02
@@ -202,23 +202,23 @@ lessons:
         - q: "Как правильно?"
           options: ["[[Anna trägt ein Kleid.]]", "[[Anna trägt einen Kleid.]]", "[[Anna trägt eine Kleid.]]", "[[Anna trägt der Kleid.]]"]
         - q: "Как правильно: «Мне нужен свитер»?"
-          options: ["[[Ich brauche einen Pullover.]]", "[[Ich brauche ein Pullover.]]", "[[Ich brauche eine Pullover.]]", "[[Ich brauche der Pullover.]]", "[[Ich brauche die Pullover.]]"]
+          options: ["[[Ich brauche einen Pullover.]]", "[[Ich brauche ein Pullover.]]", "[[Ich brauche eine Pullover.]]", "[[Ich brauche der Pullover.]]", "[[Ich brauche einem Pullover.]]"]
         - q: "Как правильно: «Я беру юбку»?"
           options: ["[[Ich nehme den Rock.]]", "[[Ich nehme der Rock.]]", "[[Ich nehme die Rock.]]", "[[Ich nehme das Rock.]]"]
     dialogue:
       title: "Что купить?"
       speakers: {A: f, B: m}
       lines:
-        - [A, "Thomas, ich brauche eine neue Hose.", "Томас, мне нужны новые брюки."]
+        - [A, "Herr Müller, ich brauche eine neue Hose.", "Господин Мюллер, мне нужны новые брюки."]
         - [B, "Und ich suche einen Mantel. Mein Mantel ist sehr alt.", "А я ищу пальто. Моё пальто очень старое."]
         - [A, "Brauchen Sie auch Schuhe?", "Вам нужна ещё и обувь?"]
         - [B, "Nein, aber ich brauche Socken.", "Нет, но мне нужны носки."]
         - [A, "Ich kaufe auch eine Bluse. Eine weiße Bluse.", "Я ещё куплю блузку. Белую блузку."]
         - [B, "Gut, gehen wir!", "Хорошо, пошли!"]
       questions:
-        - q: "Что ищет Томас?"
+        - q: "Что ищет господин Мюллер?"
           options: ["Пальто", "Брюки", "Обувь", "Свитер"]
-        - q: "Что ещё нужно Томасу?"
+        - q: "Что ещё нужно господину Мюллеру?"
           options: ["Носки", "Обувь", "Рубашка", "Куртка"]
         - q: "Какую блузку купит женщина?"
           options: ["Белую", "Чёрную", "Розовую", "Синюю"]
@@ -316,7 +316,7 @@ lessons:
           options: ["[[Die Schuhe gefallen mir.]]", "[[Die Schuhe gefällt mir.]]", "[[Die Schuhe gefallen ich.]]", "[[Die Schuhe gefallt mir.]]"]
         - q: "Как сказать «Брюки мне не подходят»?"
           options: ["[[Die Hose passt mir nicht.]]", "[[Die Hose passt ich nicht.]]", "[[Die Hose nicht passt mir.]]", "[[Die Hose passen mir nicht.]]", "[[Ich passe die Hose nicht.]]"]
-        - q: "Что значит [[Der Rock ist zu kurz.]]"
+        - q: "Что значит [[Der Rock ist zu kurz.]]?"
           options: ["Юбка слишком короткая", "Юбка слишком длинная", "Юбка слишком тесная", "Юбка слишком дорогая"]
     dialogue:
       title: "Примерка"
@@ -462,7 +462,7 @@ lessons:
       - de: "lieber"
         ru: "охотнее, лучше"
         ex: "Ich trinke lieber Tee."
-        exRu: "Я лучше выпью чаю."
+        exRu: "Я предпочитаю чай."
       - de: "am liebsten"
         ru: "больше всего"
         ex: "Am liebsten trage ich Jeans."
@@ -529,7 +529,7 @@ lessons:
         - q: "Как сказать «Больше всего я люблю носить платья»?"
           options: ["[[Am liebsten trage ich Kleider.]]", "[[Am liebsten ich trage Kleider.]]", "[[Lieber trage ich Kleider.]]", "[[Gern trage ich am Kleider.]]"]
         - q: "Как правильно: «Он любит кофе»?"
-          options: ["[[Er mag Kaffee.]]", "[[Er mögt Kaffee.]]", "[[Er magt Kaffee.]]", "[[Er mögen Kaffee.]]", "[[Er möge Kaffee.]]"]
+          options: ["[[Er mag Kaffee.]]", "[[Er mögt Kaffee.]]", "[[Er magt Kaffee.]]", "[[Er mögen Kaffee.]]", "[[Er magst Kaffee.]]"]
         - q: "Как спросить «Как вам платье?»"
           options: ["[[Wie finden Sie das Kleid?]]", "[[Was finden Sie das Kleid?]]", "[[Wie finden Sie dem Kleid?]]", "[[Wo finden Sie das Kleid?]]"]
         - q: "Какое слово значит «удобный»?"
@@ -538,7 +538,7 @@ lessons:
       title: "Что надеть?"
       speakers: {A: f, B: m}
       lines:
-        - [A, "Lukas, wie finden Sie die Jacke?", "Лукас, как вам эта куртка?"]
+        - [A, "Herr Wagner, wie finden Sie die Jacke?", "Господин Вагнер, как вам эта куртка?"]
         - [B, "Ich finde sie toll. Die Farbe ist schön.", "По-моему, она классная. Цвет красивый."]
         - [A, "Und das Kleid? Ich finde es ein bisschen langweilig.", "А платье? По-моему, оно немного скучное."]
         - [B, "Tragen Sie gern Kleider?", "Вы любите носить платья?"]
@@ -546,9 +546,9 @@ lessons:
         - [B, "Und was mögen Sie am liebsten?", "А что вам нравится больше всего?"]
         - [A, "Am liebsten trage ich Jeans und ein T-Shirt.", "Больше всего я люблю носить джинсы и футболку."]
       questions:
-        - q: "Как Лукас находит куртку?"
-          options: ["Классной", "Скучной", "Ужасной", "Некрасивой"]
+        - q: "Что думает господин Вагнер о куртке?"
+          options: ["Она классная", "Она скучная", "Она ужасная", "Она некрасивая"]
         - q: "Что женщина предпочитает носить?"
           options: ["Брюки", "Платья", "Юбки", "Блузки"]
-        - q: "Что она носит больше всего?"
+        - q: "Что она больше всего любит носить?"
           options: ["Джинсы и футболку", "Платье", "Юбку и блузку", "Брюки и рубашку"]

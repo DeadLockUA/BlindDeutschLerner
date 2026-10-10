@@ -100,7 +100,7 @@ lessons:
       title: "Звонок другу"
       speakers: {A: m, B: f}
       lines:
-        - [A, "Hallo Anna! Wie ist das Wetter in Berlin?", "Привет, Анна! Какая погода в Берлине?"]
+        - [A, "Hallo, Anna! Wie ist das Wetter in Berlin?", "Привет, Анна! Какая погода в Берлине?"]
         - [B, "Leider schlecht. Es regnet und es ist kalt.", "К сожалению, плохая. Идёт дождь, и холодно."]
         - [A, "Hier in München scheint die Sonne.", "А здесь, в Мюнхене, светит солнце."]
         - [B, "Ist es warm?", "Тепло?"]
@@ -149,7 +149,7 @@ lessons:
         plural: "die Temperaturen"
         ex: "Die Temperatur ist heute hoch."
         exRu: "Температура сегодня высокая."
-      - de: "das Grad"
+      - de: "der Grad"
         ru: "градус"
         ex: "Es sind zwanzig Grad."
         exRu: "Двадцать градусов."
@@ -170,7 +170,7 @@ lessons:
         ex: "Der Tag ist sonnig."
         exRu: "День солнечный."
       - de: "bewölkt"
-        ru: "облачно"
+        ru: "облачный"
         ex: "Heute ist es bewölkt."
         exRu: "Сегодня облачно."
       - de: "nass"
@@ -206,9 +206,9 @@ lessons:
         - q: "Как сказать «зимой»?"
           options: ["[[im Winter]]", "[[am Winter]]", "[[in Winter]]", "[[um Winter]]", "[[im Winters]]"]
         - q: "Какой род у слова [[Sommer]]?"
-          options: ["[[der Sommer]]", "[[die Sommer]]", "[[das Sommer]]"]
+          options: ["Мужской", "Женский", "Средний"]
         - q: "Как сказать «Тридцать градусов»?"
-          options: ["[[Es sind dreißig Grad.]]", "[[Es sind dreißig Grade.]]", "[[Es ist dreißig Graden.]]", "[[Sind es dreißig Grad.]]", "[[Es dreißig Grad sind.]]"]
+          options: ["[[Es sind dreißig Grad.]]", "[[Es sind dreißig Grade.]]", "[[Es ist dreißig Graden.]]", "[[Es ist dreißig Grads.]]", "[[Es dreißig Grad sind.]]"]
         - q: "Как правильно?"
           options: ["[[Im Herbst regnet es viel.]]", "[[Im Herbst es regnet viel.]]", "[[Am Herbst regnet es viel.]]", "[[Im Herbst regnet viel es.]]", "[[Herbst im regnet es viel.]]"]
         - q: "Что значит [[minus zehn Grad]]?"
@@ -217,7 +217,7 @@ lessons:
       title: "Любимое время года"
       speakers: {A: f, B: m}
       lines:
-        - [A, "Thomas, welche Jahreszeit mögen Sie?", "Томас, какое время года вам нравится?"]
+        - [A, "Herr Wagner, welche Jahreszeit mögen Sie?", "Господин Вагнер, какое время года вам нравится?"]
         - [B, "Ich mag den Winter. Ich mag Schnee.", "Я люблю зиму. Я люблю снег."]
         - [A, "Wirklich? Im Winter ist es so kalt!", "Правда? Зимой так холодно!"]
         - [B, "Ja, oft minus zehn Grad. Und Sie?", "Да, часто минус десять градусов. А вы?"]
@@ -225,7 +225,7 @@ lessons:
         - [B, "Aber im Sommer ist es oft heiß.", "Но летом часто жарко."]
         - [A, "Ja, dreißig Grad. Das finde ich super!", "Да, тридцать градусов. По-моему, это здорово!"]
       questions:
-        - q: "Какое время года любит Томас?"
+        - q: "Какое время года любит господин Вагнер?"
           options: ["Зиму", "Лето", "Весну", "Осень"]
         - q: "Почему женщина любит лето?"
           options: ["Она любит солнце", "Она любит снег", "Она любит дождь", "Летом прохладно"]
@@ -428,7 +428,7 @@ lessons:
       exercises:
         - q: "Как сказать «Вчера я был дома»?"
           options: ["[[Gestern war ich zu Hause.]]", "[[Gestern bin ich zu Hause.]]", "[[Gestern waren ich zu Hause.]]", "[[Gestern ich war zu Hause.]]", "[[Gestern hatte ich zu Hause.]]"]
-        - q: "Какая форма нужна: [[Wo ... Sie letzte Woche?]]"
+        - q: "Какая форма нужна: [[Wo ... Sie letzte Woche, Herr Müller?]]"
           options: ["[[waren]]", "[[war]]", "[[warst]]", "[[wart]]", "[[hatten]]"]
         - q: "Как сказать «У нас не было времени»?"
           options: ["[[Wir hatten keine Zeit.]]", "[[Wir hatte keine Zeit.]]", "[[Wir waren keine Zeit.]]", "[[Wir haben keine Zeit.]]", "[[Wir hattet keine Zeit.]]"]
@@ -476,7 +476,7 @@ lessons:
         ex: "Ich habe Brot gekauft."
         exRu: "Я купил хлеб."
       - de: "gesehen"
-        ru: "увидел"
+        ru: "видел"
         ex: "Haben Sie den Film gesehen?"
         exRu: "Вы видели этот фильм?"
       - de: "gekocht"
@@ -544,12 +544,12 @@ lessons:
         - q: "Какое причастие у глагола [[sehen]]?"
           options: ["[[gesehen]]", "[[gesieht]]", "[[gesehnt]]", "[[gesah]]", "[[sehengt]]"]
         - q: "Как спросить «Вы хорошо спали?»"
-          options: ["[[Haben Sie gut geschlafen?]]", "[[Sind Sie gut geschlafen?]]", "[[Haben Sie gut schlafen?]]", "[[Sie haben gut geschlafen?]]", "[[Haben geschlafen Sie gut?]]"]
+          options: ["[[Haben Sie gut geschlafen?]]", "[[Sind Sie gut geschlafen?]]", "[[Haben Sie gut schlafen?]]", "[[Haben Sie gut geschlaft?]]", "[[Haben geschlafen Sie gut?]]"]
     dialogue:
       title: "Как прошёл ваш день?"
       speakers: {A: m, B: f}
       lines:
-        - [A, "Hallo Sophie! Was haben Sie heute gemacht?", "Привет, Софи! Что вы сегодня делали?"]
+        - [A, "Guten Tag, Frau Klein! Was haben Sie heute gemacht?", "Добрый день, госпожа Кляйн! Что вы сегодня делали?"]
         - [B, "Am Morgen habe ich gearbeitet.", "Утром я работала."]
         - [A, "Und am Nachmittag?", "А после обеда?"]
         - [B, "Ich bin in die Stadt gefahren und habe eine Jacke gekauft.", "Я поехала в город и купила куртку."]
@@ -557,9 +557,9 @@ lessons:
         - [B, "Ja, ich habe mit Maria Pizza gegessen. Und Sie?", "Да, я ела пиццу с Марией. А вы?"]
         - [A, "Ich habe Deutsch gelernt und dann Fußball gespielt.", "Я учил немецкий, а потом играл в футбол."]
       questions:
-        - q: "Что Софи делала утром?"
+        - q: "Что госпожа Кляйн делала утром?"
           options: ["Работала", "Учила немецкий", "Играла в футбол", "Спала"]
-        - q: "Что Софи купила в городе?"
+        - q: "Что госпожа Кляйн купила в городе?"
           options: ["Куртку", "Пиццу", "Хлеб", "Книгу"]
         - q: "Что делал мужчина?"
           options: ["Учил немецкий и играл в футбол", "Работал и готовил", "Ездил в город", "Ел пиццу с Марией"]

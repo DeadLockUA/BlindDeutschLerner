@@ -92,7 +92,7 @@ lessons:
           options: ["Одиннадцать", "Двенадцать", "Десять", "Семь", "Восемь"]
         - q: "Сколько будет [[drei plus drei]]?"
           options: ["[[sechs]]", "[[drei]]", "[[neun]]", "[[fünf]]", "[[zwölf]]"]
-        - q: "Как по телефону часто говорят «два»?"
+        - q: "Какое слово по телефону часто говорят вместо «два»?"
           options: ["[[zwo]]", "[[drei]]", "[[zehn]]", "[[zwölf]]"]
     dialogue:
       title: "Очередь в учреждении"
@@ -189,7 +189,7 @@ lessons:
       explain:
         - "Числа от тринадцати до девятнадцати строятся так: единица плюс [[zehn]]. [[Drei]] и [[zehn]] дают [[dreizehn]]. Так же [[vierzehn]], [[fünfzehn]], [[achtzehn]], [[neunzehn]]."
         - "Десятки заканчиваются на [[zig]]: [[zwanzig]], [[vierzig]], [[fünfzig]]. Исключение — тридцать: [[dreißig]]."
-        - "Будьте внимательны: в числах шестнадцать и шестьдесят пропадает звук «с»: [[sechzehn]], [[sechzig]]. В числах семнадцать и семьдесят пропадает «ен»: [[siebzehn]], [[siebzig]]."
+        - "Будьте внимательны: в числах шестнадцать и шестьдесят пропадает буква [[s]]: [[sechzehn]], [[sechzig]]. В числах семнадцать и семьдесят пропадает «ен»: [[siebzehn]], [[siebzig]]."
         - "Главное правило составных чисел: сначала единицы, потом десятки, а между ними [[und]]. Двадцать пять по-немецки звучит как «пять и двадцать»: [[fünfundzwanzig]]."
         - "Ещё примеры: [[dreiundvierzig]] — сорок три, [[achtundsechzig]] — шестьдесят восемь. Обратите внимание: [[einundzwanzig]], а не [[einsundzwanzig]]."
       exercises:
@@ -304,17 +304,17 @@ lessons:
         - "В русском «мне тридцать», а в немецком «я тридцать»: [[Ich bin dreißig.]] Слова [[Jahre alt]] можно не говорить."
         - "Номер телефона, адрес и индекс спрашивают через [[Wie ist]]: [[Wie ist Ihre Telefonnummer?]] [[Wie ist Ihre Adresse?]] Обратите внимание: по-русски «какой», а по-немецки [[wie]], то есть «как»."
         - "Номер телефона называют по одной цифре или парами: [[null, eins, sieben, sechs]] или [[siebzehn, sechsundzwanzig]]. Вместо [[zwei]] часто говорят [[zwo]]."
-        - "В адресе сначала улица, потом номер дома: [[Goethestraße zwölf]]. В электронном адресе знак собаки называют [[at]], а точку — [[Punkt]]."
+        - "В адресе сначала улица, потом номер дома: [[Goethestraße zwölf]]. В электронном адресе значок «собака» называют [[at]], а точку — [[Punkt]]."
       exercises:
         - q: "Как спросить «Сколько вам лет?»"
           options: ["[[Wie alt sind Sie?]]", "[[Wie viel sind Sie?]]", "[[Wie alt haben Sie?]]", "[[Wer alt sind Sie?]]", "[[Wie Jahre sind Sie?]]"]
         - q: "Как сказать «Мне сорок лет»?"
           options: ["[[Ich bin vierzig Jahre alt.]]", "[[Ich habe vierzig Jahre.]]", "[[Mir ist vierzig Jahre alt.]]", "[[Ich bin vierzehn Jahre alt.]]", "[[Ich ist vierzig Jahre alt.]]"]
         - q: "Как спросить «Какой у вас номер телефона?»"
-          options: ["[[Wie ist Ihre Telefonnummer?]]", "[[Was ist Ihre Telefonnummer?]]", "[[Wo ist Ihre Telefonnummer?]]", "[[Wer ist Ihre Telefonnummer?]]"]
+          options: ["[[Wie ist Ihre Telefonnummer?]]", "[[Wie sind Ihre Telefonnummer?]]", "[[Wo ist Ihre Telefonnummer?]]", "[[Wer ist Ihre Telefonnummer?]]"]
         - q: "Что значит [[die Postleitzahl]]?"
           options: ["Почтовый индекс", "Номер дома", "Телефонный код", "Номер телефона", "Адрес"]
-        - q: "Как часто говорят «два» в номере телефона?"
+        - q: "Какое слово часто говорят вместо «два» в номере телефона?"
           options: ["[[zwo]]", "[[zwölf]]", "[[zehn]]", "[[drei]]"]
     dialogue:
       title: "Запись на курс"
@@ -535,7 +535,7 @@ lessons:
         - q: "Как правильно?"
           options: ["[[Er hat viel Geld.]]", "[[Er habt viel Geld.]]", "[[Er haben viel Geld.]]", "[[Er habe viel Geld.]]", "[[Er hast viel Geld.]]"]
         - q: "Как спросить «У вас достаточно денег?»"
-          options: ["[[Haben Sie genug Geld?]]", "[[Sie haben genug Geld?]]", "[[Hat Sie genug Geld?]]", "[[Sind Sie genug Geld?]]"]
+          options: ["[[Haben Sie genug Geld?]]", "[[Haben genug Geld Sie?]]", "[[Hat Sie genug Geld?]]", "[[Sind Sie genug Geld?]]"]
         - q: "Какое число [[zweihundertfünfzig]]?"
           options: ["Двести пятьдесят", "Двести пятнадцать", "Пятьсот двадцать", "Двадцать пять тысяч", "Две тысячи пятьсот"]
         - q: "Как по-немецки «три тысячи»?"

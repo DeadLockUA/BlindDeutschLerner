@@ -85,12 +85,12 @@ lessons:
         - q: "Сейчас четверть пятого. Как сказать?"
           options: ["[[Es ist Viertel nach vier.]]", "[[Es ist Viertel vor vier.]]", "[[Es ist Viertel nach fünf.]]", "[[Es ist halb fünf.]]", "[[Es ist Viertel vor fünf.]]"]
         - q: "Что значит [[zehn vor acht]]?"
-          options: ["Без десяти восемь", "Десять минут девятого", "Восемь десять", "Половина восьмого", "Без десяти семь"]
+          options: ["Без десяти восемь", "Десять минут девятого", "Десять минут восьмого", "Половина восьмого", "Без десяти семь"]
         - q: "Как спросить «Который час?»"
           options: ["[[Wie spät ist es?]]", "[[Wie alt ist es?]]", "[[Wo ist die Uhr?]]", "[[Um wie viel Uhr?]]"]
         - q: "Диктор говорит: [[Es ist neunzehn Uhr fünfzehn.]] Сколько времени?"
           options: ["Девятнадцать пятнадцать", "Девять пятнадцать", "Девятнадцать пятьдесят", "Пятнадцать девятнадцать"]
-        - q: "Как ответить на вопрос «Во сколько?»: в семь часов"
+        - q: "Как ответить на вопрос «Во сколько?»: «в семь часов»?"
           options: ["[[Um sieben Uhr.]]", "[[Am sieben Uhr.]]", "[[In sieben Uhr.]]", "[[Es sieben Uhr.]]", "[[Um sieben Stunde.]]"]
     dialogue:
       title: "На остановке"
@@ -100,7 +100,7 @@ lessons:
         - [B, "Es ist Viertel nach acht.", "Сейчас четверть девятого."]
         - [A, "Oh nein! Mein Kurs beginnt um halb neun. Ich komme zu spät!", "О нет! Мой курс начинается в половине девятого. Я опаздываю!"]
         - [B, "Keine Panik. Wir haben noch Zeit. Der Bus kommt gleich.", "Без паники. У нас ещё есть время. Автобус сейчас придёт."]
-        - [A, "Wie lange fährt der Bus?", "Сколько едет автобус?"]
+        - [A, "Wie lange fährt der Bus?", "Сколько времени ехать на автобусе?"]
         - [B, "Nur zehn Minuten.", "Всего десять минут."]
         - [A, "Gut, danke schön!", "Хорошо, большое спасибо!"]
       questions:
@@ -108,7 +108,7 @@ lessons:
           options: ["Четверть девятого", "Половина девятого", "Без четверти девять", "Восемь часов"]
         - q: "Во сколько начинается курс?"
           options: ["В половине девятого", "В восемь часов", "В девять часов", "В четверть девятого"]
-        - q: "Сколько едет автобус?"
+        - q: "Сколько времени ехать на автобусе?"
           options: ["Десять минут", "Пятнадцать минут", "Полчаса", "Час"]
 
   - id: m06l02
@@ -186,13 +186,13 @@ lessons:
       - de: "Bis Montag!"
         ru: "До понедельника!"
     grammar:
-      title: "В понедельник: предлог am"
+      title: "В понедельник: предлог [[am]]"
       explain:
         - "Все дни недели мужского рода: [[der Montag]], [[der Freitag]], [[der Sonntag]]. Это легко запомнить."
         - "Чтобы сказать «в понедельник», говорят [[am Montag]]. «В пятницу» — [[am Freitag]]. «На выходных» — тоже [[am Wochenende]]."
         - "Если день стоит в начале предложения, глагол идёт сразу за ним, на втором месте: [[Am Montag arbeite ich.]] — «В понедельник я работаю». Не говорите [[am Montag ich arbeite]]."
         - "«Сегодня», «завтра», «вчера» — [[heute]], [[morgen]], [[gestern]]. Предлог не нужен: [[Heute ist Montag. Morgen ist Dienstag.]]"
-        - "Внимание: [[morgen]] с маленькой буквы — «завтра», а [[der Morgen]] — «утро». [[Morgen früh]] — «завтра утром»."
+        - "Внимание: [[morgen]] без артикля — «завтра», а [[der Morgen]] с артиклем — «утро». [[morgen früh]] — «завтра утром»."
       exercises:
         - q: "Как сказать «в понедельник»?"
           options: ["[[am Montag]]", "[[im Montag]]", "[[um Montag]]", "[[in Montag]]", "[[an der Montag]]"]
@@ -290,7 +290,7 @@ lessons:
         exRu: "Дата важна."
     phrases:
       - de: "Welches Datum ist heute?"
-        ru: "Какое сегодня число?"
+        ru: "Какая сегодня дата?"
       - de: "Der Wievielte ist heute?"
         ru: "Какое сегодня число?"
       - de: "Heute ist der dritte März."
@@ -324,20 +324,20 @@ lessons:
       title: "Когда день рождения?"
       speakers: {A: f, B: m}
       lines:
-        - [A, "Lukas, der Wievielte ist heute?", "Лукас, какое сегодня число?"]
+        - [A, "Herr Weber, der Wievielte ist heute?", "Господин Вебер, какое сегодня число?"]
         - [B, "Heute ist der zwölfte Oktober.", "Сегодня двенадцатое октября."]
         - [A, "Oh! Am fünfzehnten Oktober hat meine Mutter Geburtstag.", "Ой! Пятнадцатого октября у моей мамы день рождения."]
-        - [B, "Dann brauchen Sie bald ein Geschenk.", "Тогда вам скоро нужен подарок."]
+        - [B, "Dann brauchen Sie bald ein Geschenk.", "Тогда вам скоро понадобится подарок."]
         - [A, "Ja, genau. Und wann haben Sie Geburtstag?", "Да, точно. А когда у вас день рождения?"]
         - [B, "Im März, am einundzwanzigsten März.", "В марте, двадцать первого марта."]
         - [A, "Und ich habe im Juli Geburtstag, am ersten Juli.", "А у меня день рождения в июле, первого июля."]
       questions:
         - q: "Какое сегодня число?"
           options: ["Двенадцатое октября", "Пятнадцатое октября", "Двадцатое октября", "Двенадцатое ноября"]
-        - q: "Когда день рождения у Лукаса?"
+        - q: "Когда день рождения у господина Вебера?"
           options: ["Двадцать первого марта", "Первого июля", "Пятнадцатого октября", "Двадцатого марта"]
         - q: "У кого день рождения пятнадцатого октября?"
-          options: ["У мамы женщины", "У Лукаса", "У самой женщины", "У отца Лукаса"]
+          options: ["У мамы женщины", "У господина Вебера", "У самой женщины", "У отца господина Вебера"]
 
   - id: m06l04
     title: "Мой день"
@@ -427,7 +427,7 @@ lessons:
       title: "Обычный день"
       speakers: {A: f, B: m}
       lines:
-        - [A, "Thomas, wann stehen Sie normalerweise auf?", "Томас, когда вы обычно встаёте?"]
+        - [A, "Herr Müller, wann stehen Sie normalerweise auf?", "Господин Мюллер, когда вы обычно встаёте?"]
         - [B, "Um halb sieben. Dann dusche ich und frühstücke.", "В половине седьмого. Потом я принимаю душ и завтракаю."]
         - [A, "Und wann fängt Ihre Arbeit an?", "А когда начинается ваша работа?"]
         - [B, "Um acht Uhr. Um zwölf Uhr habe ich Mittagspause.", "В восемь часов. В двенадцать у меня обеденный перерыв."]
@@ -436,11 +436,11 @@ lessons:
         - [A, "Und was machen Sie am Abend?", "А что вы делаете вечером?"]
         - [B, "Ich koche, sehe fern und gehe um elf Uhr ins Bett.", "Я готовлю, смотрю телевизор и в одиннадцать ложусь спать."]
       questions:
-        - q: "Во сколько встаёт Томас?"
+        - q: "Во сколько встаёт господин Мюллер?"
           options: ["В половине седьмого", "В половине восьмого", "В шесть часов", "В семь часов"]
-        - q: "Когда у Томаса обеденный перерыв?"
+        - q: "Когда у господина Мюллера обеденный перерыв?"
           options: ["В двенадцать часов", "В час", "В одиннадцать часов", "В пять часов"]
-        - q: "Что Томас делает вечером?"
+        - q: "Что господин Мюллер делает вечером?"
           options: ["Готовит и смотрит телевизор", "Встречается с друзьями", "Ходит в спортзал", "Работает"]
 
   - id: m06l05
@@ -535,17 +535,17 @@ lessons:
       title: "Приглашение на день рождения"
       speakers: {A: f, B: m}
       lines:
-        - [A, "Hallo, Thomas! Ich habe am Samstag Geburtstag. Ich lade Sie ein!", "Привет, Томас! У меня в субботу день рождения. Я вас приглашаю!"]
-        - [B, "Danke für die Einladung, Anna! Um wie viel Uhr?", "Спасибо за приглашение, Анна! Во сколько?"]
+        - [A, "Guten Tag, Herr Weber! Ich habe am Samstag Geburtstag. Ich lade Sie ein!", "Добрый день, господин Вебер! У меня в субботу день рождения. Я вас приглашаю!"]
+        - [B, "Danke für die Einladung, Frau Schmidt! Um wie viel Uhr?", "Спасибо за приглашение, госпожа Шмидт! Во сколько?"]
         - [A, "Um sieben Uhr. Haben Sie Zeit?", "В семь часов. У вас есть время?"]
         - [B, "Oh, schade. Am Samstag arbeite ich bis acht Uhr.", "Ой, жаль. В субботу я работаю до восьми часов."]
         - [A, "Vielleicht können Sie später kommen?", "Может быть, вы можете прийти позже?"]
         - [B, "Ja, gute Idee! Ich kann um neun Uhr kommen.", "Да, хорошая идея! Я могу прийти в девять часов."]
         - [A, "Super! Bis Samstag!", "Супер! До субботы!"]
       questions:
-        - q: "Почему Томас не может прийти в семь?"
+        - q: "Почему господин Вебер не может прийти в семь?"
           options: ["Он работает до восьми", "У него нет подарка", "Он у врача", "Он в отпуске"]
-        - q: "Во сколько придёт Томас?"
+        - q: "Во сколько придёт господин Вебер?"
           options: ["В девять часов", "В семь часов", "В восемь часов", "В десять часов"]
-        - q: "Какой праздник у Анны?"
+        - q: "Какой праздник у госпожи Шмидт?"
           options: ["День рождения", "Свадьба", "Новый год"]

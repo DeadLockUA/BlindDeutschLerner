@@ -108,8 +108,8 @@ lessons:
       title: "Новая квартира"
       speakers: {A: f, B: m}
       lines:
-        - [A, "Hallo, Peter! Kommen Sie herein!", "Привет, Петер! Входите!"]
-        - [B, "Danke, Anna. Oh, die Wohnung ist schön!", "Спасибо, Анна. О, квартира красивая!"]
+        - [A, "Guten Tag, Herr Weber! Kommen Sie herein!", "Добрый день, господин Вебер! Входите!"]
+        - [B, "Danke, Frau Schmidt. Oh, die Wohnung ist schön!", "Спасибо, госпожа Шмидт. О, квартира красивая!"]
         - [A, "Hier ist die Küche, und dort ist das Wohnzimmer.", "Вот кухня, а там гостиная."]
         - [B, "Wie viele Zimmer hat die Wohnung?", "Сколько комнат в квартире?"]
         - [A, "Drei Zimmer: das Wohnzimmer, das Schlafzimmer und das Kinderzimmer.", "Три комнаты: гостиная, спальня и детская."]
@@ -118,9 +118,9 @@ lessons:
         - [B, "Und wo ist die Toilette, bitte?", "А где туалет, пожалуйста?"]
         - [A, "Im Flur, neben dem Bad.", "В прихожей, рядом с ванной."]
       questions:
-        - q: "Сколько комнат в квартире Анны?"
+        - q: "Сколько комнат в квартире госпожи Шмидт?"
           options: ["Три", "Две", "Четыре"]
-        - q: "Чего нет у Анны?"
+        - q: "Чего нет в квартире госпожи Шмидт?"
           options: ["Сада", "Балкона", "Кухни", "Детской"]
         - q: "Где туалет?"
           options: ["В прихожей", "На кухне", "В спальне", "На балконе"]
@@ -178,7 +178,7 @@ lessons:
         ru: "картина"
         plural: "die Bilder"
         ex: "Das Bild ist von meiner Tochter."
-        exRu: "Картина от моей дочери."
+        exRu: "Эту картину нарисовала моя дочь."
       - de: "das Fenster"
         ru: "окно"
         plural: "die Fenster"
@@ -234,8 +234,8 @@ lessons:
         - [A, "Ja, es ist neu. Der Sessel ist auch neu.", "Да, он новый. Кресло тоже новое."]
         - [B, "Und der Teppich? Er ist sehr schön.", "А ковёр? Он очень красивый."]
         - [A, "Der Teppich ist von meiner Mutter. Er ist alt.", "Ковёр от моей мамы. Он старый."]
-        - [B, "Es ist ein bisschen warm hier.", "Здесь немного тепло."]
-        - [A, "Kein Problem. Ich mache das Fenster auf.", "Не проблема. Я открою окно."]
+        - [B, "Es ist ein bisschen warm hier.", "Здесь немного жарко."]
+        - [A, "Kein Problem. Ich mache das Fenster auf.", "Без проблем. Я открою окно."]
       questions:
         - q: "Что новое в гостиной?"
           options: ["Диван и кресло", "Ковёр и лампа", "Стол и стулья", "Шкаф и полка"]
@@ -310,7 +310,7 @@ lessons:
       - de: "Ganz oben."
         ru: "На самом верху."
       - de: "Gleich daneben."
-        ru: "Прямо рядом."
+        ru: "Совсем рядом."
     grammar:
       title: "Где? Предлоги места"
       explain:
@@ -325,7 +325,7 @@ lessons:
         - q: "Как сказать «на кухне»?"
           options: ["[[in der Küche]]", "[[in dem Küche]]", "[[in die Küche]]", "[[im Küche]]", "[[auf den Küche]]"]
         - q: "Как сказать «в шкафу»?"
-          options: ["[[im Schrank]]", "[[in der Schrank]]", "[[in die Schrank]]", "[[im Schranke]]"]
+          options: ["[[im Schrank]]", "[[in der Schrank]]", "[[in die Schrank]]", "[[in das Schrank]]"]
         - q: "Как сказать «Кошка лежит под кроватью»?"
           options: ["[[Die Katze liegt unter dem Bett.]]", "[[Die Katze liegt unter der Bett.]]", "[[Die Katze liegt auf dem Bett.]]", "[[Die Katze liegt unter das Bett.]]", "[[Die Katze steht neben dem Bett.]]"]
         - q: "Картина на стене. Какой глагол нужен? [[Das Bild ... an der Wand.]]"
@@ -413,7 +413,7 @@ lessons:
       - de: "die Nebenkosten"
         ru: "коммунальные платежи"
         ex: "Die Nebenkosten sind hundert Euro."
-        exRu: "Коммунальные платежи сто евро."
+        exRu: "Коммунальные платежи — сто евро."
     phrases:
       - de: "Wie hoch ist die Miete?"
         ru: "Какая арендная плата?"
@@ -455,7 +455,7 @@ lessons:
         - [A, "Wie groß ist die Wohnung?", "Какая площадь квартиры?"]
         - [B, "Siebzig Quadratmeter, drei Zimmer und eine moderne Küche.", "Семьдесят квадратных метров, три комнаты и современная кухня."]
         - [A, "Und wie hoch ist die Miete?", "А какая арендная плата?"]
-        - [B, "Achthundert Euro, plus hundertfünfzig Euro Nebenkosten.", "Восемьсот евро плюс сто пятьдесят евро коммунальные платежи."]
+        - [B, "Achthundert Euro plus hundertfünfzig Euro Nebenkosten.", "Восемьсот евро плюс сто пятьдесят евро за коммунальные услуги."]
         - [A, "Hm, das ist mir ein bisschen zu teuer.", "Хм, для меня это немного дороговато."]
         - [B, "Aber die Wohnung ist sehr schön. Kommen Sie, sehen Sie mal!", "Но квартира очень красивая. Пойдёмте, посмотрите!"]
       questions:
@@ -555,7 +555,7 @@ lessons:
       title: "Уборка в субботу"
       speakers: {A: f, B: m}
       lines:
-        - [A, "Lukas, heute ist Samstag. Wir putzen die Wohnung.", "Лукас, сегодня суббота. Мы убираем квартиру."]
+        - [A, "Herr Weber, heute ist Samstag. Wir putzen die Wohnung.", "Господин Вебер, сегодня суббота. Мы убираем квартиру."]
         - [B, "Okay. Was mache ich?", "Ладно. Что делаю я?"]
         - [A, "Räumen Sie bitte das Wohnzimmer auf.", "Пожалуйста, наведите порядок в гостиной."]
         - [B, "Kein Problem. Und der Müll? Das mache ich auch.", "Без проблем. А мусор? Это я тоже сделаю."]
@@ -564,9 +564,9 @@ lessons:
         - [A, "Oh ja. Können Sie mir später helfen?", "О да. Вы можете мне потом помочь?"]
         - [B, "Natürlich!", "Конечно!"]
       questions:
-        - q: "Что должен сделать Лукас?"
+        - q: "Что должен сделать господин Вебер?"
           options: ["Навести порядок в гостиной и вынести мусор", "Помыть посуду", "Постирать бельё", "Почистить плиту"]
-        - q: "Что ещё грязное?"
+        - q: "Что тоже грязное, по словам господина Вебера?"
           options: ["Холодильник", "Ковёр", "Окно", "Плита"]
         - q: "Какой сегодня день?"
           options: ["Суббота", "Воскресенье", "Понедельник"]

@@ -78,7 +78,7 @@ lessons:
     phrases:
       - de: "von Kopf bis Fuß"
         ru: "с головы до ног"
-        ex: "Ich bin nass von Kopf bis Fuß."
+        ex: "Ich bin von Kopf bis Fuß nass."
         exRu: "Я мокрый с головы до ног."
       - de: "Ich putze mir die Zähne."
         ru: "Я чищу зубы."
@@ -101,7 +101,7 @@ lessons:
         - "Обратите внимание: в немецком два слова для руки и для ноги. [[der Arm]] — вся рука, [[die Hand]] — кисть. [[das Bein]] — нога, [[der Fuß]] — ступня."
       exercises:
         - q: "Как сказать «моя рука», имея в виду кисть?"
-          options: ["[[meine Hand]]", "[[mein Hand]]", "[[meinen Hand]]", "[[meiner Hand]]"]
+          options: ["[[meine Hand]]", "[[mein Hand]]", "[[meinen Hand]]", "[[meines Hand]]"]
         - q: "Как сказать «мой глаз»?"
           options: ["[[mein Auge]]", "[[meine Auge]]", "[[meinen Auge]]", "[[meines Auge]]"]
         - q: "Как звучит множественное число от [[der Zahn]]?"
@@ -109,7 +109,7 @@ lessons:
         - q: "Как звучит множественное число от [[der Fuß]]?"
           options: ["[[die Füße]]", "[[die Fuße]]", "[[die Füßen]]", "[[die Fußer]]", "[[die Fußs]]"]
         - q: "Как правильно сказать «мои уши»?"
-          options: ["[[meine Ohren]]", "[[mein Ohren]]", "[[meine Ohre]]", "[[mein Ohr]]", "[[meinen Ohren]]"]
+          options: ["[[meine Ohren]]", "[[mein Ohren]]", "[[meine Ohre]]", "[[mein Ohr]]", "[[meines Ohren]]"]
         - q: "Какое слово означает ступню?"
           options: ["[[der Fuß]]", "[[das Bein]]", "[[der Arm]]", "[[die Hand]]", "[[der Bauch]]"]
     dialogue:
@@ -222,7 +222,7 @@ lessons:
         - q: "Как сказать «У меня болит зуб»?"
           options: ["[[Ich habe Zahnschmerzen.]]", "[[Ich bin Zahnschmerzen.]]", "[[Mir habe Zahnschmerzen.]]", "[[Ich habe Zahn weh.]]"]
         - q: "Как вежливо спросить «У вас болит горло?»"
-          options: ["[[Tut Ihnen der Hals weh?]]", "[[Tut mir der Hals weh?]]", "[[Tun Ihnen der Hals weh?]]", "[[Tut Sie der Hals weh?]]", "[[Haben Sie Hals weh?]]"]
+          options: ["[[Tut Ihnen der Hals weh?]]", "[[Tut mir der Hals weh?]]", "[[Tun Ihnen der Hals weh?]]", "[[Tut Sie der Hals weh?]]", "[[Tut Ihnen die Hals weh?]]"]
         - q: "Что значит [[Ich habe Bauchschmerzen]]?"
           options: ["У меня болит живот", "У меня болит голова", "У меня болит спина", "У меня температура", "Я голоден"]
         - q: "Что сказать больному человеку?"
@@ -309,7 +309,7 @@ lessons:
         ru: "приёмная"
         plural: "die Wartezimmer"
         ex: "Das Wartezimmer ist voll."
-        exRu: "Приёмная полная."
+        exRu: "В приёмной много людей."
       - de: "der Notfall"
         ru: "экстренный случай"
         plural: "die Notfälle"
@@ -341,10 +341,10 @@ lessons:
           options: ["[[Ich soll viel schlafen.]]", "[[Ich solle viel schlafen.]]", "[[Ich sollst viel schlafen.]]", "[[Ich soll schlafen viel.]]", "[[Ich sollen viel schlafen.]]"]
         - q: "Выберите правильную форму: [[Herr Müller ... im Bett bleiben.]]"
           options: ["[[soll]]", "[[sollt]]", "[[sollst]]", "[[sollen]]", "[[solle]]"]
-        - q: "Выберите правильную форму: [[Sie ... dreimal täglich Tabletten nehmen.]]"
+        - q: "Выберите правильную форму: [[Herr Müller, Sie ... dreimal täglich Tabletten nehmen.]]"
           options: ["[[sollen]]", "[[soll]]", "[[sollst]]", "[[sollt]]"]
         - q: "Как спросить «Мне прийти завтра?»"
-          options: ["[[Soll ich morgen kommen?]]", "[[Ich soll morgen kommen?]]", "[[Soll ich kommen morgen?]]", "[[Sollst ich morgen kommen?]]", "[[Soll morgen ich kommen?]]"]
+          options: ["[[Soll ich morgen kommen?]]", "[[Ich morgen soll kommen?]]", "[[Soll ich kommen morgen?]]", "[[Sollst ich morgen kommen?]]", "[[Soll morgen ich kommen?]]"]
         - q: "Что значит [[Sie sollen nicht rauchen]]?"
           options: ["Вам не следует курить", "Вы не курите", "Вы хотите курить", "Вы можете курить"]
     dialogue:
@@ -460,8 +460,8 @@ lessons:
         - "У глаголов с отделяемой приставкой приставка уходит в конец: [[Kommen Sie morgen wieder.]] [[Rufen Sie mich an.]]"
         - "Особая форма у глагола [[sein]]: [[Seien Sie vorsichtig!]] — «Будьте осторожны!»"
       exercises:
-        - q: "Как вежливо сказать «Принимайте мазь вечером»?"
-          options: ["[[Nehmen Sie die Salbe am Abend.]]", "[[Sie nehmen die Salbe am Abend?]]", "[[Nimm Sie die Salbe am Abend.]]", "[[Nehmen die Salbe Sie am Abend.]]", "[[Nehmt Sie die Salbe am Abend.]]"]
+        - q: "Как вежливо сказать «Принимайте таблетку вечером»?"
+          options: ["[[Nehmen Sie die Tablette am Abend.]]", "[[Sie nehmen die Tablette am Abend?]]", "[[Nimm Sie die Tablette am Abend.]]", "[[Nehmen die Tablette Sie am Abend.]]", "[[Nehmt Sie die Tablette am Abend.]]"]
         - q: "Как сказать «Пейте много чая»?"
           options: ["[[Trinken Sie viel Tee!]]", "[[Sie trinken viel Tee.]]", "[[Trinkt Sie viel Tee!]]", "[[Trinken viel Tee Sie!]]"]
         - q: "Как сказать «Приходите завтра снова»?"
@@ -476,7 +476,7 @@ lessons:
       lines:
         - [A, "Guten Tag! Was kann ich für Sie tun?", "Добрый день! Чем могу помочь?"]
         - [B, "Guten Tag! Haben Sie etwas gegen Husten?", "Добрый день! У вас есть что-нибудь от кашля?"]
-        - [A, "Ja, hier ist ein Hustensaft. Haben Sie auch Fieber?", "Да, вот сироп от кашля. У вас есть ещё и температура?"]
+        - [A, "Ja, hier ist ein Hustensaft. Haben Sie auch Fieber?", "Да, вот сироп от кашля. А температура у вас тоже есть?"]
         - [B, "Nein, kein Fieber. Brauche ich dafür ein Rezept?", "Нет, температуры нет. Мне нужен для этого рецепт?"]
         - [A, "Nein, das brauchen Sie nicht.", "Нет, он не нужен."]
         - [B, "Wie oft soll ich das nehmen?", "Как часто мне это принимать?"]
@@ -572,7 +572,7 @@ lessons:
         - "Общий запрет звучит со словом [[man]]: [[Hier darf man nicht rauchen.]] — «Здесь нельзя курить». [[Hier darf man parken.]] — «Здесь можно парковаться»."
       exercises:
         - q: "Как вежливо спросить «Можно мне открыть окно?»"
-          options: ["[[Darf ich das Fenster öffnen?]]", "[[Dürfe ich das Fenster öffnen?]]", "[[Darfst ich das Fenster öffnen?]]", "[[Darf ich öffnen das Fenster?]]", "[[Ich darf das Fenster öffnen?]]"]
+          options: ["[[Darf ich das Fenster öffnen?]]", "[[Dürfe ich das Fenster öffnen?]]", "[[Darfst ich das Fenster öffnen?]]", "[[Darf ich öffnen das Fenster?]]", "[[Darf öffnen ich das Fenster?]]"]
         - q: "Выберите правильную форму: [[Wir ... hier nicht parken.]]"
           options: ["[[dürfen]]", "[[darf]]", "[[darfst]]", "[[dürft]]", "[[darfen]]"]
         - q: "Выберите правильную форму: [[Mein Vater ... keinen Kaffee trinken.]]"
