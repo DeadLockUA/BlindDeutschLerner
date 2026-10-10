@@ -243,7 +243,7 @@ async function maybeOfferPro(app: App): Promise<void> {
   if (p.proOffered && Date.now() - p.proOffered < 7 * 86400000) return;
   p.proOffered = Date.now();
   app.save();
-  const options: (Option | null)[] = [app.optKey('yes'), app.optKey('no')];
+  const options: (Option | null)[] = [app.opt(app.P('yes'), [app.P('yes_say')]), app.opt(app.P('no'), [app.P('no_say')])];
   while (options.length < app.slots) options.push(null);
   const i = await app.ask({ prompt: [app.P('pro_offer')], options });
   if (i === 0) {

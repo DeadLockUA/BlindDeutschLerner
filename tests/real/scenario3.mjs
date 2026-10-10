@@ -23,7 +23,7 @@ for (let r = 0; r < 6; r++) {
   const before = await h.zones();
   await h.hold(0);
   const t = h.now();
-  await h.page.waitForTimeout(6000);
+  await h.page.waitForTimeout(9000);
   const after = await h.zones();
   const spoke = h.log.filter((e) => e.t > t && e.type === 'play').map((e) => e.text);
   const ok = spoke.some((x) => /Что это значит|Как сказать|правильный перевод/i.test(x));

@@ -139,8 +139,8 @@ export async function drill(app: App, s: Session, w: Word, kind: DrillKind, pool
   } else {
     const truthful = Math.random() < 0.5;
     const shown = truthful ? w : others[0];
-    const yes = app.optKey('yes');
-    const no = app.optKey('no');
+    const yes = app.opt(app.P('yes'), [app.P('yes_say')]);
+    const no = app.opt(app.P('no'), [app.P('no_say')]);
     const correct = truthful ? yes : no;
     const prompt = [...deVoice(app, w), app.P('means'), shown.ru, app.P('ex_yesno')];
     const options: (Option | null)[] = [yes, no];

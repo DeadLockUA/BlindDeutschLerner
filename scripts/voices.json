@@ -1,5 +1,20 @@
 {
-  "ru": { "id": "ru-dmitri", "model": "ru/ru_RU/dmitri/medium/ru_RU-dmitri-medium", "length_scale": 1.05 },
-  "de-m": { "model": "de/de_DE/thorsten/high/de_DE-thorsten-high", "length_scale": 1.0 },
-  "de-f": { "model": "de/de_DE/eva_k/x_low/de_DE-eva_k-x_low", "length_scale": 1.0 }
+  "ru": {
+    "id": "ru-dmitri-v2",
+    "model": "ru/ru_RU/dmitri/medium/ru_RU-dmitri-medium",
+    "length_scale": 1.05,
+    "fallback": "ru/ru_RU/denis/medium/ru_RU-denis-medium"
+  },
+  "de-m": {
+    "id": "de-m-v2",
+    "model": "de/de_DE/thorsten/high/de_DE-thorsten-high",
+    "length_scale": 1.0
+  },
+  "de-f": {
+    "id": "de-f-v2",
+    "model": "de/de_DE/eva_k/x_low/de_DE-eva_k-x_low",
+    "length_scale": 1.0,
+    "fallback": "de/de_DE/thorsten/high/de_DE-thorsten-high",
+    "verify_all": true
+  }
 }
