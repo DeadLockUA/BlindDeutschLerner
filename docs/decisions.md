@@ -24,9 +24,8 @@ decision in the "Implementation log" section at the end, and moves on.
   build and tests are green**. `main` must always stay working.
 - CI: set up GitHub Actions — build, tests, automated accessibility checks, and
   deployment to **GitHub Pages** via Actions.
-  - The owner will enable Settings → Pages → Source → **GitHub Actions** manually later.
-    Until then the deploy job is expected to fail; everything else must be green.
-    Mention this in the final report.
+  - The owner has **already enabled** Settings → Pages → Source → **GitHub Actions**,
+    so deployment must work and be verified (the site URL should respond).
 - Multi-agent / subagents: use them **only** when they give a speed gain without extra
   cost, a cost saving (e.g. a cheaper model for bulk mechanical work such as content
   generation or audio checks), or a quality gain (a stronger model for hard tasks).
