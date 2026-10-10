@@ -313,3 +313,7 @@ Fixed:
 - Wrong options come from the current lesson and already studied words first.
 - Spoken page numbers in paged menus; spoken message on unexpected errors; wake lock is
   released on auto-pause.
+- Owner feedback: tapping «Меню» repeated the exercise instead of naming the zone. Now a
+  tap on «Меню» says «Меню. Удерживайте, чтобы открыть паузу» like any other zone; the
+  question is repeated via pause → «Продолжить» (and automatically after 15 s). While
+  the app talks without waiting for an answer, zones are dimmed and a touch skips.

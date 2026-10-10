@@ -117,3 +117,12 @@ test('Android back button opens the pause menu instead of closing the app', asyn
   await waitSpoken(page, 'Пауза');
   expect(page.url()).toContain('localhost');
 });
+
+test('tapping the menu zone says "Меню" instead of repeating the question', async ({ page }) => {
+  await openApp(page, { progress: doneTutorial });
+  await waitSpoken(page, 'Главное меню');
+  await clearSpoken(page);
+  await tap(page, 3);
+  await waitSpoken(page, 'Меню. Удерживайте, чтобы открыть паузу');
+  expect((await spoken(page)).some((x) => x.includes('Главное меню'))).toBeFalsy();
+});
