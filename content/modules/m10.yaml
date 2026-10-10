@@ -1,0 +1,596 @@
+id: m10
+title: "Работа и хобби"
+lessons:
+  - id: m10l01
+    title: "Профессии"
+    intro: "В этом уроке вы выучите названия профессий и научитесь рассказывать, кем вы работаете."
+    words:
+      - de: "der Beruf"
+        ru: "профессия"
+        plural: "die Berufe"
+        ex: "Mein Beruf ist interessant."
+        exRu: "Моя профессия интересная."
+      - de: "der Ingenieur"
+        ru: "инженер"
+        plural: "die Ingenieure"
+        ex: "Mein Bruder ist Ingenieur."
+        exRu: "Мой брат инженер."
+      - de: "die Krankenschwester"
+        ru: "медсестра"
+        plural: "die Krankenschwestern"
+        ex: "Maria ist Krankenschwester im Krankenhaus."
+        exRu: "Мария медсестра в больнице."
+      - de: "der Koch"
+        ru: "повар"
+        plural: "die Köche"
+        ex: "Der Koch macht eine Suppe."
+        exRu: "Повар готовит суп."
+      - de: "die Köchin"
+        ru: "повариха"
+        plural: "die Köchinnen"
+        ex: "Die Köchin arbeitet im Restaurant."
+        exRu: "Повариха работает в ресторане."
+      - de: "der Fahrer"
+        ru: "водитель"
+        plural: "die Fahrer"
+        ex: "Der Fahrer wartet vor dem Haus."
+        exRu: "Водитель ждёт перед домом."
+      - de: "der Polizist"
+        ru: "полицейский"
+        plural: "die Polizisten"
+        ex: "Der Polizist ist sehr freundlich."
+        exRu: "Полицейский очень приветливый."
+      - de: "die Polizistin"
+        ru: "женщина-полицейский"
+        plural: "die Polizistinnen"
+        ex: "Meine Schwester ist Polizistin."
+        exRu: "Моя сестра работает в полиции."
+      - de: "der Friseur"
+        ru: "парикмахер"
+        plural: "die Friseure"
+        ex: "Morgen gehe ich zum Friseur."
+        exRu: "Завтра я иду к парикмахеру."
+      - de: "die Friseurin"
+        ru: "женщина-парикмахер"
+        plural: "die Friseurinnen"
+        ex: "Die Friseurin heißt Sophie."
+        exRu: "Парикмахершу зовут Софи."
+      - de: "der Mechaniker"
+        ru: "механик"
+        plural: "die Mechaniker"
+        ex: "Der Mechaniker repariert das Auto."
+        exRu: "Механик ремонтирует машину."
+      - de: "der Programmierer"
+        ru: "программист"
+        plural: "die Programmierer"
+        ex: "Thomas ist Programmierer."
+        exRu: "Томас программист."
+      - de: "die Hausfrau"
+        ru: "домохозяйка"
+        plural: "die Hausfrauen"
+        ex: "Meine Mutter ist Hausfrau."
+        exRu: "Моя мама домохозяйка."
+      - de: "der Rentner"
+        ru: "пенсионер"
+        plural: "die Rentner"
+        ex: "Mein Großvater ist Rentner."
+        exRu: "Мой дедушка пенсионер."
+    phrases:
+      - de: "Was sind Sie von Beruf?"
+        ru: "Кем вы работаете?"
+      - de: "Was machen Sie beruflich?"
+        ru: "Чем вы занимаетесь по работе?"
+      - de: "Ich arbeite als Koch."
+        ru: "Я работаю поваром."
+      - de: "Ich bin Ingenieur von Beruf."
+        ru: "По профессии я инженер."
+      - de: "Ich bin arbeitslos."
+        ru: "Я безработный."
+      - de: "Ich bin in Rente."
+        ru: "Я на пенсии."
+    grammar:
+      title: "Профессии мужчин и женщин"
+      explain:
+        - "Чтобы назвать профессию женщины, к слову часто добавляют окончание [[-in]]: [[der Programmierer]], [[die Programmiererin]]; [[der Polizist]], [[die Polizistin]]; [[der Friseur]], [[die Friseurin]]."
+        - "Женская форма всегда женского рода, с артиклем [[die]]. Во множественном числе у неё окончание [[-innen]]: [[die Friseurinnen]], [[die Polizistinnen]]."
+        - "Иногда гласная получает умлаут: [[der Koch]], [[die Köchin]]; [[der Arzt]], [[die Ärztin]]."
+        - "Есть исключения: [[die Krankenschwester]] — это медсестра, а мужчина — [[der Krankenpfleger]]. [[die Hausfrau]] — домохозяйка, а мужчина — [[der Hausmann]]."
+        - "Важно: о своей профессии говорят без артикля. [[Ich bin Koch.]] [[Sie ist Ingenieurin.]] Не говорят «[[Ich bin ein Koch]]» в этом смысле."
+        - "Вопрос о профессии: [[Was sind Sie von Beruf?]] Ответ: [[Ich bin Mechaniker.]] или [[Ich arbeite als Mechaniker.]]"
+      exercises:
+        - q: "Как называется женщина-программист?"
+          options: ["[[die Programmiererin]]", "[[der Programmiererin]]", "[[die Programmierer]]", "[[die Programmierin]]", "[[das Programmiererin]]"]
+        - q: "Как называется женщина-повар?"
+          options: ["[[die Köchin]]", "[[die Kochin]]", "[[die Kochfrau]]", "[[der Köchin]]", "[[die Köche]]"]
+        - q: "Как правильно сказать «Анна полицейский»?"
+          options: ["[[Anna ist Polizistin.]]", "[[Anna ist Polizist.]]", "[[Anna ist eine Polizist.]]", "[[Anna ist der Polizistin.]]", "[[Anna sind Polizistin.]]"]
+        - q: "Как правильно сказать «Я механик»?"
+          options: ["[[Ich bin Mechaniker.]]", "[[Ich bin der Mechaniker.]]", "[[Ich habe Mechaniker.]]", "[[Ich ist Mechaniker.]]"]
+        - q: "Как назвать нескольких женщин-парикмахеров?"
+          options: ["[[die Friseurinnen]]", "[[die Friseurin]]", "[[die Friseure]]", "[[die Friseurinen]]", "[[die Friseurins]]"]
+        - q: "Как спросить о профессии?"
+          options: ["[[Was sind Sie von Beruf?]]", "[[Wie sind Sie von Beruf?]]", "[[Wer sind Sie von Beruf?]]", "[[Was haben Sie von Beruf?]]"]
+    dialogue:
+      title: "Знакомство на празднике"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Guten Abend! Ich bin Sophie Weber.", "Добрый вечер! Я Софи Вебер."]
+        - [B, "Guten Abend! Peter Schmidt. Was sind Sie von Beruf, Frau Weber?", "Добрый вечер! Петер Шмидт. Кем вы работаете, госпожа Вебер?"]
+        - [A, "Ich bin Krankenschwester. Und Sie?", "Я медсестра. А вы?"]
+        - [B, "Ich arbeite als Koch in einem Restaurant.", "Я работаю поваром в ресторане."]
+        - [A, "Oh, toll! Kochen Sie auch zu Hause?", "О, здорово! А дома вы тоже готовите?"]
+        - [B, "Nein, zu Hause kocht meine Frau. Sie ist Köchin.", "Нет, дома готовит моя жена. Она повариха."]
+        - [A, "Mein Mann ist Mechaniker. Er kocht nie!", "Мой муж механик. Он никогда не готовит!"]
+      questions:
+        - q: "Кем работает Софи?"
+          options: ["Медсестрой", "Поварихой", "Врачом"]
+        - q: "Где работает Петер?"
+          options: ["В ресторане", "В больнице", "В мастерской"]
+        - q: "Кто муж Софи по профессии?"
+          options: ["Механик", "Повар", "Инженер"]
+
+  - id: m10l02
+    title: "На работе"
+    intro: "В этом уроке вы выучите слова об офисе и повторите спряжение обычных глаголов."
+    words:
+      - de: "die Arbeit"
+        ru: "работа"
+        ex: "Die Arbeit beginnt um acht Uhr."
+        exRu: "Работа начинается в восемь часов."
+      - de: "die Firma"
+        ru: "фирма"
+        plural: "die Firmen"
+        ex: "Die Firma ist sehr groß."
+        exRu: "Фирма очень большая."
+      - de: "das Büro"
+        ru: "офис"
+        plural: "die Büros"
+        ex: "Mein Büro ist im dritten Stock."
+        exRu: "Мой офис на четвёртом этаже."
+      - de: "der Chef"
+        ru: "начальник"
+        plural: "die Chefs"
+        ex: "Der Chef ist heute nicht da."
+        exRu: "Начальника сегодня нет."
+      - de: "die Chefin"
+        ru: "начальница"
+        plural: "die Chefinnen"
+        ex: "Meine Chefin ist sehr nett."
+        exRu: "Моя начальница очень приятная."
+      - de: "der Mitarbeiter"
+        ru: "сотрудник"
+        plural: "die Mitarbeiter"
+        ex: "Die Firma hat fünfzig Mitarbeiter."
+        exRu: "В фирме пятьдесят сотрудников."
+      - de: "der Computer"
+        ru: "компьютер"
+        plural: "die Computer"
+        ex: "Der Computer ist neu."
+        exRu: "Компьютер новый."
+      - de: "der Drucker"
+        ru: "принтер"
+        plural: "die Drucker"
+        ex: "Der Drucker ist kaputt."
+        exRu: "Принтер сломан."
+      - de: "das Telefon"
+        ru: "телефон"
+        plural: "die Telefone"
+        ex: "Das Telefon klingelt."
+        exRu: "Звонит телефон."
+      - de: "die Besprechung"
+        ru: "совещание"
+        plural: "die Besprechungen"
+        ex: "Die Besprechung dauert eine Stunde."
+        exRu: "Совещание длится час."
+      - de: "schreiben"
+        ru: "писать"
+        ex: "Ich schreibe eine E-Mail."
+        exRu: "Я пишу электронное письмо."
+      - de: "telefonieren"
+        ru: "говорить по телефону"
+        ex: "Frau Schmidt telefoniert gerade."
+        exRu: "Госпожа Шмидт сейчас говорит по телефону."
+    phrases:
+      - de: "Ich arbeite bei einer Firma."
+        ru: "Я работаю в фирме."
+      - de: "Ich habe viel zu tun."
+        ru: "У меня много дел."
+      - de: "Ich bin gerade in einer Besprechung."
+        ru: "Я сейчас на совещании."
+      - de: "Ich arbeite Teilzeit."
+        ru: "Я работаю неполный день."
+      - de: "Ich rufe später zurück."
+        ru: "Я перезвоню позже."
+      - de: "Ich mache jetzt Feierabend."
+        ru: "Я заканчиваю рабочий день."
+    grammar:
+      title: "Спряжение обычных глаголов"
+      explain:
+        - "У немецкого глагола есть основа и окончание [[-en]]. Например, [[machen]]: основа [[mach]]. К основе добавляют окончания по лицам."
+        - "Окончания такие: [[ich mache]], [[du machst]], [[er macht]], [[sie macht]], [[wir machen]], [[ihr macht]], [[sie machen]], [[Sie machen]]."
+        - "Удобно запомнить: у [[wir]], у [[sie]] во множественном числе и у вежливого [[Sie]] форма совпадает с неопределённой: [[machen]], [[schreiben]], [[telefonieren]]."
+        - "Если основа кончается на [[t]] или [[d]], добавляется звук [[e]], чтобы легче произносить: [[arbeiten]] — [[du arbeitest]], [[er arbeitet]]. Так же [[warten]] — [[er wartet]]."
+        - "Глагол стоит на втором месте в предложении: [[Ich schreibe eine E-Mail.]] [[Heute arbeite ich im Büro.]]"
+      exercises:
+        - q: "Выберите правильную форму: [[Er ... eine E-Mail.]]"
+          options: ["[[schreibt]]", "[[schreibe]]", "[[schreiben]]", "[[schreibst]]", "[[schreibet]]"]
+        - q: "Выберите правильную форму: [[Wir ... im Büro.]]"
+          options: ["[[arbeiten]]", "[[arbeite]]", "[[arbeitet]]", "[[arbeitest]]", "[[arbeit]]"]
+        - q: "Выберите правильную форму: [[Meine Chefin ... viel.]]"
+          options: ["[[telefoniert]]", "[[telefonieren]]", "[[telefoniere]]", "[[telefonierst]]"]
+        - q: "Как правильно?"
+          options: ["[[Er arbeitet bei einer Firma.]]", "[[Er arbeit bei einer Firma.]]", "[[Er arbeitest bei einer Firma.]]", "[[Er arbeiten bei einer Firma.]]", "[[Er arbeite bei einer Firma.]]"]
+        - q: "Как правильно?"
+          options: ["[[Heute arbeite ich zu Hause.]]", "[[Heute ich arbeite zu Hause.]]", "[[Heute arbeiten ich zu Hause.]]", "[[Ich heute arbeite zu Hause.]]", "[[Arbeite heute ich zu Hause.]]"]
+    dialogue:
+      title: "Звонок в офис"
+      speakers: {A: m, B: f}
+      lines:
+        - [B, "Firma Bauer, Maria Klein, guten Tag!", "Фирма Бауэр, Мария Кляйн, добрый день!"]
+        - [A, "Guten Tag! Hier ist Lukas Wagner. Ist Frau Bauer da?", "Добрый день! Это Лукас Вагнер. Госпожа Бауэр на месте?"]
+        - [B, "Die Chefin ist gerade in einer Besprechung.", "Начальница сейчас на совещании."]
+        - [A, "Wie lange dauert die Besprechung?", "Сколько продлится совещание?"]
+        - [B, "Bis elf Uhr. Sie ruft später zurück.", "До одиннадцати. Она перезвонит позже."]
+        - [A, "Gut. Meine Nummer ist null eins sieben zwei, drei vier fünf.", "Хорошо. Мой номер ноль один семь два, три четыре пять."]
+        - [B, "Danke, ich schreibe die Nummer auf.", "Спасибо, я запишу номер."]
+        - [A, "Vielen Dank! Auf Wiederhören!", "Большое спасибо! До свидания!"]
+      questions:
+        - q: "Где сейчас госпожа Бауэр?"
+          options: ["На совещании", "Дома", "В отпуске"]
+        - q: "До которого часа длится совещание?"
+          options: ["До одиннадцати", "До двенадцати", "До десяти"]
+        - q: "Что сделает госпожа Бауэр?"
+          options: ["Перезвонит позже", "Напишет письмо", "Придёт к Лукасу"]
+
+  - id: m10l03
+    title: "Учёба и курсы"
+    intro: "В этом уроке вы поговорите об учёбе и выучите глагол «хотеть», [[wollen]]."
+    words:
+      - de: "die Universität"
+        ru: "университет"
+        plural: "die Universitäten"
+        ex: "Die Universität ist im Zentrum."
+        exRu: "Университет в центре."
+      - de: "der Kurs"
+        ru: "курс"
+        plural: "die Kurse"
+        ex: "Der Kurs beginnt am Montag."
+        exRu: "Курс начинается в понедельник."
+      - de: "der Unterricht"
+        ru: "урок, занятия"
+        ex: "Der Unterricht dauert neunzig Minuten."
+        exRu: "Занятие длится девяносто минут."
+      - de: "lernen"
+        ru: "учить, учиться"
+        ex: "Ich lerne jeden Tag zehn Wörter."
+        exRu: "Я учу каждый день десять слов."
+      - de: "studieren"
+        ru: "учиться в вузе"
+        ex: "Meine Tochter studiert in Berlin."
+        exRu: "Моя дочь учится в Берлине."
+      - de: "der Schüler"
+        ru: "школьник"
+        plural: "die Schüler"
+        ex: "Der Schüler ist zwölf Jahre alt."
+        exRu: "Школьнику двенадцать лет."
+      - de: "die Prüfung"
+        ru: "экзамен"
+        plural: "die Prüfungen"
+        ex: "Die Prüfung ist im Juni."
+        exRu: "Экзамен в июне."
+      - de: "die Hausaufgabe"
+        ru: "домашнее задание"
+        plural: "die Hausaufgaben"
+        ex: "Die Hausaufgabe ist leicht."
+        exRu: "Домашнее задание лёгкое."
+      - de: "das Buch"
+        ru: "книга"
+        plural: "die Bücher"
+        ex: "Das Buch ist sehr interessant."
+        exRu: "Книга очень интересная."
+      - de: "das Wörterbuch"
+        ru: "словарь"
+        plural: "die Wörterbücher"
+        ex: "Ich brauche ein Wörterbuch."
+        exRu: "Мне нужен словарь."
+      - de: "das Heft"
+        ru: "тетрадь"
+        plural: "die Hefte"
+        ex: "Schreiben Sie das Wort ins Heft."
+        exRu: "Запишите слово в тетрадь."
+      - de: "der Kugelschreiber"
+        ru: "ручка"
+        plural: "die Kugelschreiber"
+        ex: "Haben Sie einen Kugelschreiber?"
+        exRu: "У вас есть ручка?"
+      - de: "der Bleistift"
+        ru: "карандаш"
+        plural: "die Bleistifte"
+        ex: "Der Bleistift liegt auf dem Tisch."
+        exRu: "Карандаш лежит на столе."
+    phrases:
+      - de: "Ich mache einen Deutschkurs."
+        ru: "Я хожу на курс немецкого."
+      - de: "Ich studiere Medizin."
+        ru: "Я изучаю медицину."
+      - de: "Ich habe morgen eine Prüfung."
+        ru: "У меня завтра экзамен."
+      - de: "Ich habe die Prüfung bestanden."
+        ru: "Я сдал экзамен."
+      - de: "Hören Sie bitte zu."
+        ru: "Послушайте, пожалуйста."
+      - de: "Öffnen Sie das Buch auf Seite zehn."
+        ru: "Откройте книгу на десятой странице."
+    grammar:
+      title: "Модальный глагол [[wollen]]"
+      explain:
+        - "Глагол [[wollen]] значит «хотеть», причём твёрдо, как план или решение: [[Ich will Deutsch lernen.]] — «Я хочу выучить немецкий»."
+        - "Формы: [[ich will]], [[du willst]], [[er will]], [[sie will]], [[wir wollen]], [[ihr wollt]], [[sie wollen]], вежливо [[Sie wollen]]. У [[ich]] и [[er]] одна и та же форма: [[will]]."
+        - "Осторожно: немецкое [[will]] похоже на английское слово, но значит «хочу», а не «буду»."
+        - "Второй глагол стоит в конце предложения: [[Maria will in Berlin studieren.]] [[Wir wollen eine Prüfung machen.]]"
+        - "Когда вежливо просят что-то в магазине или кафе, лучше сказать [[Ich möchte]], а не [[Ich will]]. [[Ich will]] звучит слишком резко."
+      exercises:
+        - q: "Выберите правильную форму: [[Ich ... Medizin studieren.]]"
+          options: ["[[will]]", "[[wolle]]", "[[willst]]", "[[wollen]]", "[[wollt]]"]
+        - q: "Выберите правильную форму: [[Wir ... einen Kurs machen.]]"
+          options: ["[[wollen]]", "[[will]]", "[[wollt]]", "[[willst]]", "[[wollst]]"]
+        - q: "Выберите правильную форму: [[Thomas ... Ingenieur werden.]]"
+          options: ["[[will]]", "[[wollen]]", "[[willt]]", "[[willst]]"]
+        - q: "Как правильно?"
+          options: ["[[Sie will Deutsch lernen.]]", "[[Sie will lernen Deutsch.]]", "[[Sie wollt Deutsch lernen.]]", "[[Sie will Deutsch lernt.]]", "[[Will sie Deutsch lernen.]]"]
+        - q: "Как вежливо попросить кофе в кафе?"
+          options: ["[[Ich möchte einen Kaffee, bitte.]]", "[[Ich will einen Kaffee!]]", "[[Kaffee will ich!]]", "[[Ich wollen einen Kaffee.]]"]
+    dialogue:
+      title: "После урока"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Herr Novak, haben Sie Ihre Hausaufgabe?", "Господин Новак, у вас есть домашнее задание?"]
+        - [B, "Ja, hier ist mein Heft.", "Да, вот моя тетрадь."]
+        - [A, "Sehr gut! Warum lernen Sie Deutsch?", "Очень хорошо! Почему вы учите немецкий?"]
+        - [B, "Ich will in Deutschland studieren.", "Я хочу учиться в Германии."]
+        - [A, "Was wollen Sie studieren?", "Что вы хотите изучать?"]
+        - [B, "Medizin. Ich will Arzt werden.", "Медицину. Я хочу стать врачом."]
+        - [A, "Toll! Aber zuerst kommt die Prüfung im Mai.", "Здорово! Но сначала экзамен в мае."]
+        - [B, "Ja, ich lerne jeden Tag.", "Да, я занимаюсь каждый день."]
+      questions:
+        - q: "Где господин Новак хочет учиться?"
+          options: ["В Германии", "В Австрии", "В России"]
+        - q: "Кем он хочет стать?"
+          options: ["Врачом", "Учителем", "Инженером"]
+        - q: "Когда будет экзамен?"
+          options: ["В мае", "В июне", "Завтра"]
+
+  - id: m10l04
+    title: "Хобби"
+    intro: "В этом уроке вы научитесь рассказывать о своих хобби и узнаете глаголы, которые меняют гласную."
+    words:
+      - de: "das Hobby"
+        ru: "хобби"
+        plural: "die Hobbys"
+        ex: "Mein Hobby ist Musik."
+        exRu: "Моё хобби — музыка."
+      - de: "die Freizeit"
+        ru: "свободное время"
+        ex: "In der Freizeit lese ich."
+        exRu: "В свободное время я читаю."
+      - de: "lesen"
+        ru: "читать"
+        ex: "Ich lese ein Buch."
+        exRu: "Я читаю книгу."
+      - de: "spielen"
+        ru: "играть"
+        ex: "Die Kinder spielen im Garten."
+        exRu: "Дети играют в саду."
+      - de: "das Spiel"
+        ru: "игра"
+        plural: "die Spiele"
+        ex: "Das Spiel beginnt um acht Uhr."
+        exRu: "Игра начинается в восемь часов."
+      - de: "tanzen"
+        ru: "танцевать"
+        ex: "Anna tanzt sehr gut."
+        exRu: "Анна очень хорошо танцует."
+      - de: "singen"
+        ru: "петь"
+        ex: "Meine Tochter singt gern."
+        exRu: "Моя дочь любит петь."
+      - de: "malen"
+        ru: "рисовать"
+        ex: "Am Wochenende male ich."
+        exRu: "По выходным я рисую."
+      - de: "fotografieren"
+        ru: "фотографировать"
+        ex: "Peter fotografiert gern Tiere."
+        exRu: "Петер любит фотографировать животных."
+      - de: "wandern"
+        ru: "ходить в походы"
+        ex: "Im Sommer wandern wir in den Bergen."
+        exRu: "Летом мы ходим в походы в горах."
+      - de: "die Musik"
+        ru: "музыка"
+        ex: "Ich mag klassische Musik."
+        exRu: "Я люблю классическую музыку."
+      - de: "die Gitarre"
+        ru: "гитара"
+        plural: "die Gitarren"
+        ex: "Lukas spielt Gitarre."
+        exRu: "Лукас играет на гитаре."
+      - de: "das Klavier"
+        ru: "пианино"
+        plural: "die Klaviere"
+        ex: "Das Klavier ist alt."
+        exRu: "Пианино старое."
+      - de: "der Fußball"
+        ru: "футбол"
+        ex: "Fußball ist sein Hobby."
+        exRu: "Футбол — его хобби."
+    phrases:
+      - de: "Musik hören"
+        ru: "слушать музыку"
+        ex: "Am Abend höre ich Musik."
+        exRu: "Вечером я слушаю музыку."
+      - de: "Fußball spielen"
+        ru: "играть в футбол"
+        ex: "Mein Sohn spielt Fußball."
+        exRu: "Мой сын играет в футбол."
+      - de: "Was sind Ihre Hobbys?"
+        ru: "Какие у вас хобби?"
+      - de: "Was machen Sie in Ihrer Freizeit?"
+        ru: "Что вы делаете в свободное время?"
+      - de: "Ich lese gern Bücher."
+        ru: "Я люблю читать книги."
+      - de: "Das macht mir Spaß."
+        ru: "Мне это нравится."
+    grammar:
+      title: "Глаголы с изменением гласной"
+      explain:
+        - "У некоторых глаголов гласная в основе меняется. Это бывает только в двух формах: с [[du]] и с [[er]], [[sie]], [[es]]."
+        - "Глагол [[lesen]], «читать»: [[ich lese]], [[du liest]], [[er liest]], но [[wir lesen]], [[Sie lesen]]. Звук [[e]] стал долгим [[ie]]."
+        - "Так же [[sehen]], «видеть»: [[ich sehe]], [[er sieht]]. Другие глаголы меняют [[e]] на [[i]]: [[sprechen]] — [[er spricht]], [[treffen]] — [[er trifft]], [[essen]] — [[er isst]]."
+        - "А у глаголов [[fahren]] и [[laufen]] появляется умлаут: [[er fährt]], [[er läuft]]."
+        - "Обычные глаголы, например [[spielen]], [[tanzen]], [[singen]], гласную не меняют: [[er spielt]], [[sie tanzt]], [[er singt]]."
+      exercises:
+        - q: "Выберите правильную форму: [[Anna ... ein Buch.]]"
+          options: ["[[liest]]", "[[lest]]", "[[lese]]", "[[lesen]]", "[[liesst]]"]
+        - q: "Выберите правильную форму: [[Peter ... gern Filme.]]"
+          options: ["[[sieht]]", "[[seht]]", "[[sehe]]", "[[sehen]]", "[[siehe]]"]
+        - q: "Выберите правильную форму: [[Mein Vater ... jeden Morgen im Park.]]"
+          options: ["[[läuft]]", "[[lauft]]", "[[laufe]]", "[[laufen]]", "[[läufen]]"]
+        - q: "Выберите правильную форму: [[Wir ... gern Bücher.]]"
+          options: ["[[lesen]]", "[[liest]]", "[[liesen]]", "[[lest]]", "[[lese]]"]
+        - q: "Как правильно?"
+          options: ["[[Sie spricht gut Deutsch.]]", "[[Sie sprecht gut Deutsch.]]", "[[Sie sprich gut Deutsch.]]", "[[Sie sprechen gut Deutsch.]]", "[[Sie spreche gut Deutsch.]]"]
+    dialogue:
+      title: "Чем вы увлекаетесь?"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Frau Schmidt, was machen Sie in Ihrer Freizeit?", "Госпожа Шмидт, что вы делаете в свободное время?"]
+        - [B, "Ich lese gern Bücher. Und ich singe im Chor.", "Я люблю читать книги. И я пою в хоре."]
+        - [A, "Oh, schön! Spielen Sie auch ein Instrument?", "О, как здорово! А вы играете на каком-нибудь инструменте?"]
+        - [B, "Ja, ich spiele Klavier. Und was sind Ihre Hobbys?", "Да, я играю на пианино. А какие у вас хобби?"]
+        - [A, "Ich fotografiere gern. Und am Wochenende wandere ich.", "Я люблю фотографировать. А по выходным хожу в походы."]
+        - [B, "Allein?", "Один?"]
+        - [A, "Nein, mit meiner Frau. Das macht uns viel Spaß.", "Нет, с женой. Нам это очень нравится."]
+      questions:
+        - q: "На каком инструменте играет госпожа Шмидт?"
+          options: ["На пианино", "На гитаре", "Ни на каком"]
+        - q: "Что любит делать мужчина?"
+          options: ["Фотографировать", "Петь", "Танцевать"]
+        - q: "С кем мужчина ходит в походы?"
+          options: ["С женой", "Один", "С друзьями"]
+
+  - id: m10l05
+    title: "Свободное время"
+    intro: "В этом уроке вы научитесь говорить, как часто вы что-то делаете: всегда, часто, иногда или никогда."
+    words:
+      - de: "das Konzert"
+        ru: "концерт"
+        plural: "die Konzerte"
+        ex: "Das Konzert ist am Samstag."
+        exRu: "Концерт в субботу."
+      - de: "der Film"
+        ru: "фильм"
+        plural: "die Filme"
+        ex: "Der Film ist sehr lustig."
+        exRu: "Фильм очень смешной."
+      - de: "das Fernsehen"
+        ru: "телевидение"
+        ex: "Im Fernsehen kommt ein Krimi."
+        exRu: "По телевизору идёт детектив."
+      - de: "das Radio"
+        ru: "радио"
+        plural: "die Radios"
+        ex: "Am Morgen höre ich Radio."
+        exRu: "Утром я слушаю радио."
+      - de: "die Zeitung"
+        ru: "газета"
+        plural: "die Zeitungen"
+        ex: "Mein Vater liest die Zeitung."
+        exRu: "Мой отец читает газету."
+      - de: "die Zeitschrift"
+        ru: "журнал"
+        plural: "die Zeitschriften"
+        ex: "Die Zeitschrift kostet drei Euro."
+        exRu: "Журнал стоит три евро."
+      - de: "der Verein"
+        ru: "клуб, общество"
+        plural: "die Vereine"
+        ex: "Unser Sohn spielt im Verein Fußball."
+        exRu: "Наш сын играет в футбол в клубе."
+      - de: "immer"
+        ru: "всегда"
+        ex: "Am Sonntag schlafe ich immer lange."
+        exRu: "В воскресенье я всегда долго сплю."
+      - de: "oft"
+        ru: "часто"
+        ex: "Wir gehen oft ins Kino."
+        exRu: "Мы часто ходим в кино."
+      - de: "manchmal"
+        ru: "иногда"
+        ex: "Manchmal koche ich am Abend."
+        exRu: "Иногда я готовлю вечером."
+      - de: "selten"
+        ru: "редко"
+        ex: "Ich sehe selten fern."
+        exRu: "Я редко смотрю телевизор."
+      - de: "nie"
+        ru: "никогда"
+        ex: "Er trinkt nie Kaffee."
+        exRu: "Он никогда не пьёт кофе."
+    phrases:
+      - de: "Karten spielen"
+        ru: "играть в карты"
+        ex: "Am Freitag spielen wir Karten."
+        exRu: "В пятницу мы играем в карты."
+      - de: "Freunde treffen"
+        ru: "встречаться с друзьями"
+        ex: "Am Wochenende treffe ich Freunde."
+        exRu: "По выходным я встречаюсь с друзьями."
+      - de: "ins Kino gehen"
+        ru: "ходить в кино"
+        ex: "Wollen wir ins Kino gehen?"
+        exRu: "Пойдём в кино?"
+      - de: "Was läuft im Kino?"
+        ru: "Что идёт в кино?"
+      - de: "Ich bin Mitglied in einem Verein."
+        ru: "Я состою в клубе."
+      - de: "Wie oft machen Sie das?"
+        ru: "Как часто вы это делаете?"
+    grammar:
+      title: "Как часто: наречия частоты"
+      explain:
+        - "Пять важных слов от самого частого до самого редкого: [[immer]] — всегда, [[oft]] — часто, [[manchmal]] — иногда, [[selten]] — редко, [[nie]] — никогда."
+        - "Обычно наречие стоит сразу после глагола: [[Ich gehe oft ins Kino.]] [[Sie liest manchmal die Zeitung.]]"
+        - "Можно поставить наречие на первое место. Тогда глагол всё равно остаётся вторым, а подлежащее идёт после него: [[Manchmal gehe ich ins Konzert.]] [[Oft spielen wir Karten.]]"
+        - "Слово [[nie]] само означает «никогда не». Второе отрицание не нужно: [[Ich rauche nie.]] — «Я никогда не курю»."
+        - "Спросить о частоте можно так: [[Wie oft gehen Sie ins Kino?]] Ответ: [[Einmal pro Woche.]] — «Раз в неделю»."
+      exercises:
+        - q: "Как сказать «Я часто слушаю радио»?"
+          options: ["[[Ich höre oft Radio.]]", "[[Ich oft höre Radio.]]", "[[Oft ich höre Radio.]]", "[[Ich höre Radio oft nicht.]]", "[[Ich höre selten Radio.]]"]
+        - q: "Как правильно?"
+          options: ["[[Manchmal treffe ich Freunde.]]", "[[Manchmal ich treffe Freunde.]]", "[[Manchmal treffen ich Freunde.]]", "[[Ich manchmal treffe Freunde.]]", "[[Treffe manchmal ich Freunde.]]"]
+        - q: "Как сказать «Он никогда не смотрит телевизор»?"
+          options: ["[[Er sieht nie fern.]]", "[[Er sieht nicht nie fern.]]", "[[Er sieht immer fern.]]", "[[Er nie sieht fern.]]", "[[Er sieht oft fern.]]"]
+        - q: "Что значит [[selten]]?"
+          options: ["Редко", "Часто", "Иногда", "Всегда", "Никогда"]
+        - q: "Какое слово значит «всегда»?"
+          options: ["[[immer]]", "[[oft]]", "[[manchmal]]", "[[nie]]", "[[selten]]"]
+    dialogue:
+      title: "Планы на вечер"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Herr Wagner, gehen Sie oft ins Kino?", "Господин Вагнер, вы часто ходите в кино?"]
+        - [B, "Nein, selten. Ich sehe Filme meistens im Fernsehen.", "Нет, редко. Фильмы я обычно смотрю по телевизору."]
+        - [A, "Heute läuft im Kino ein neuer Film. Kommen Sie mit?", "Сегодня в кино идёт новый фильм. Пойдёте со мной?"]
+        - [B, "Heute geht es leider nicht. Am Mittwoch spiele ich immer Karten.", "Сегодня, к сожалению, не получится. По средам я всегда играю в карты."]
+        - [A, "Mit wem spielen Sie?", "С кем вы играете?"]
+        - [B, "Mit Freunden aus meinem Verein.", "С друзьями из моего клуба."]
+        - [A, "Und am Freitag?", "А в пятницу?"]
+        - [B, "Am Freitag habe ich Zeit. Gern!", "В пятницу у меня есть время. С удовольствием!"]
+      questions:
+        - q: "Как часто господин Вагнер ходит в кино?"
+          options: ["Редко", "Часто", "Никогда"]
+        - q: "Что господин Вагнер делает по средам?"
+          options: ["Играет в карты", "Ходит в кино", "Смотрит телевизор"]
+        - q: "Когда они пойдут в кино?"
+          options: ["В пятницу", "Сегодня", "В среду"]

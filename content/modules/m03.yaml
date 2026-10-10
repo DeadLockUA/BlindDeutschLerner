@@ -1,0 +1,555 @@
+id: m03
+title: "Семья и друзья"
+lessons:
+  - id: m03l01
+    title: "Моя семья"
+    intro: "В этом уроке вы научитесь называть членов семьи и рассказывать о своей семье."
+    words:
+      - de: "die Familie"
+        ru: "семья"
+        plural: "die Familien"
+        ex: "Meine Familie wohnt in Berlin."
+        exRu: "Моя семья живёт в Берлине."
+      - de: "die Mutter"
+        ru: "мать"
+        plural: "die Mütter"
+        ex: "Die Mutter heißt Anna."
+        exRu: "Маму зовут Анна."
+      - de: "der Vater"
+        ru: "отец"
+        plural: "die Väter"
+        ex: "Der Vater ist Lehrer."
+        exRu: "Отец учитель."
+      - de: "die Eltern"
+        ru: "родители"
+        ex: "Die Eltern wohnen in Hamburg."
+        exRu: "Родители живут в Гамбурге."
+      - de: "der Sohn"
+        ru: "сын"
+        plural: "die Söhne"
+        ex: "Der Sohn heißt Lukas."
+        exRu: "Сына зовут Лукас."
+      - de: "die Tochter"
+        ru: "дочь"
+        plural: "die Töchter"
+        ex: "Die Tochter ist zehn Jahre alt."
+        exRu: "Дочери десять лет."
+      - de: "das Kind"
+        ru: "ребёнок"
+        plural: "die Kinder"
+        ex: "Das Kind ist klein."
+        exRu: "Ребёнок маленький."
+      - de: "der Bruder"
+        ru: "брат"
+        plural: "die Brüder"
+        ex: "Mein Bruder wohnt in Wien."
+        exRu: "Мой брат живёт в Вене."
+      - de: "die Schwester"
+        ru: "сестра"
+        plural: "die Schwestern"
+        ex: "Die Schwester spricht Englisch."
+        exRu: "Сестра говорит по-английски."
+      - de: "die Geschwister"
+        ru: "братья и сёстры"
+        ex: "Die Geschwister heißen Anna und Peter."
+        exRu: "Брата и сестру зовут Анна и Петер."
+      - de: "der Junge"
+        ru: "мальчик"
+        plural: "die Jungen"
+        ex: "Der Junge heißt Thomas."
+        exRu: "Мальчика зовут Томас."
+      - de: "das Mädchen"
+        ru: "девочка"
+        plural: "die Mädchen"
+        ex: "Das Mädchen ist acht Jahre alt."
+        exRu: "Девочке восемь лет."
+    phrases:
+      - de: "Das ist meine Familie."
+        ru: "Это моя семья."
+      - de: "Haben Sie Kinder?"
+        ru: "У вас есть дети?"
+      - de: "Ich habe zwei Kinder."
+        ru: "У меня двое детей."
+      - de: "Haben Sie Geschwister?"
+        ru: "У вас есть братья или сёстры?"
+      - de: "Ich habe einen Bruder und eine Schwester."
+        ru: "У меня есть брат и сестра."
+      - de: "Ich bin Einzelkind."
+        ru: "Я единственный ребёнок в семье."
+    grammar:
+      title: "Определённый артикль"
+      explain:
+        - "У каждого немецкого существительного есть род. Его показывает маленькое слово перед ним, артикль."
+        - "Мужской род — [[der]]: [[der Vater]], [[der Sohn]], [[der Bruder]]. Женский род — [[die]]: [[die Mutter]], [[die Tochter]], [[die Schwester]]."
+        - "Средний род — [[das]]: [[das Kind]], [[das Mädchen]]. Обратите внимание: [[das Mädchen]] — среднего рода, хотя это девочка. Все слова на [[chen]] — среднего рода."
+        - "Во множественном числе артикль всегда один и тот же — [[die]]: [[die Kinder]], [[die Brüder]], [[die Eltern]]."
+        - "Совет: учите каждое слово сразу с артиклем. Не просто [[Vater]], а [[der Vater]]."
+      exercises:
+        - q: "Какой артикль у слова «мать»?"
+          options: ["[[die Mutter]]", "[[der Mutter]]", "[[das Mutter]]"]
+        - q: "Как правильно сказать «ребёнок»?"
+          options: ["[[das Kind]]", "[[der Kind]]", "[[die Kind]]"]
+        - q: "Какого рода слово [[Mädchen]]?"
+          options: ["Среднего: [[das Mädchen]]", "Женского: [[die Mädchen]]", "Мужского: [[der Mädchen]]"]
+        - q: "Какой артикль у слова «сын»?"
+          options: ["[[der Sohn]]", "[[die Sohn]]", "[[das Sohn]]"]
+        - q: "Как правильно сказать «дети»?"
+          options: ["[[die Kinder]]", "[[der Kinder]]", "[[das Kinder]]", "[[die Kind]]"]
+        - q: "Какой артикль у слова [[Eltern]]?"
+          options: ["[[die]], потому что это множественное число", "[[der]], потому что это мужской род", "[[das]], потому что это средний род"]
+    dialogue:
+      title: "Фотография семьи"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Ist das Ihre Familie, Herr Weber?", "Это ваша семья, господин Вебер?"]
+        - [B, "Ja, das ist meine Familie. Das ist meine Frau Maria.", "Да, это моя семья. Это моя жена Мария."]
+        - [A, "Haben Sie Kinder?", "У вас есть дети?"]
+        - [B, "Ja, ich habe zwei Kinder. Der Junge heißt Lukas, das Mädchen heißt Sophie.", "Да, у меня двое детей. Мальчика зовут Лукас, девочку зовут Софи."]
+        - [A, "Wie alt sind die Kinder?", "Сколько лет детям?"]
+        - [B, "Lukas ist zehn, Sophie ist sechs. Und Sie? Haben Sie Kinder?", "Лукасу десять, Софи шесть. А вы? У вас есть дети?"]
+        - [A, "Nein, ich habe keine Kinder. Aber ich habe drei Geschwister.", "Нет, у меня нет детей. Но у меня трое братьев и сестёр."]
+      questions:
+        - q: "Сколько детей у господина Вебера?"
+          options: ["Двое", "Один", "Трое", "Детей нет"]
+        - q: "Как зовут его дочь?"
+          options: ["Софи", "Мария", "Анна", "Лукас"]
+        - q: "Сколько лет Лукасу?"
+          options: ["Десять", "Шесть", "Двенадцать", "Восемь"]
+
+  - id: m03l02
+    title: "Родственники"
+    intro: "В этом уроке вы узнаете, как называть бабушек, дедушек и других родственников, и научитесь говорить «мой» и «ваш»."
+    words:
+      - de: "die Großmutter"
+        ru: "бабушка"
+        plural: "die Großmütter"
+        ex: "Meine Großmutter ist achtzig Jahre alt."
+        exRu: "Моей бабушке восемьдесят лет."
+      - de: "der Großvater"
+        ru: "дедушка"
+        plural: "die Großväter"
+        ex: "Mein Großvater wohnt in Moskau."
+        exRu: "Мой дедушка живёт в Москве."
+      - de: "die Großeltern"
+        ru: "бабушка и дедушка"
+        ex: "Meine Großeltern wohnen in München."
+        exRu: "Мои бабушка и дедушка живут в Мюнхене."
+      - de: "die Oma"
+        ru: "бабуля"
+        plural: "die Omas"
+        ex: "Die Oma heißt Maria."
+        exRu: "Бабулю зовут Мария."
+      - de: "der Opa"
+        ru: "дедуля"
+        plural: "die Opas"
+        ex: "Mein Opa spricht Russisch."
+        exRu: "Мой дедуля говорит по-русски."
+      - de: "der Onkel"
+        ru: "дядя"
+        plural: "die Onkel"
+        ex: "Mein Onkel kommt aus Österreich."
+        exRu: "Мой дядя из Австрии."
+      - de: "die Tante"
+        ru: "тётя"
+        plural: "die Tanten"
+        ex: "Meine Tante ist Lehrerin."
+        exRu: "Моя тётя учительница."
+      - de: "der Cousin"
+        ru: "двоюродный брат"
+        plural: "die Cousins"
+        ex: "Mein Cousin heißt Thomas."
+        exRu: "Моего двоюродного брата зовут Томас."
+      - de: "die Cousine"
+        ru: "двоюродная сестра"
+        plural: "die Cousinen"
+        ex: "Meine Cousine wohnt in der Schweiz."
+        exRu: "Моя двоюродная сестра живёт в Швейцарии."
+      - de: "der Enkel"
+        ru: "внук"
+        plural: "die Enkel"
+        ex: "Der Enkel ist fünf Jahre alt."
+        exRu: "Внуку пять лет."
+      - de: "die Enkelin"
+        ru: "внучка"
+        plural: "die Enkelinnen"
+        ex: "Die Enkelin heißt Sophie."
+        exRu: "Внучку зовут Софи."
+      - de: "das Baby"
+        ru: "младенец"
+        plural: "die Babys"
+        ex: "Das Baby ist ein Jahr alt."
+        exRu: "Малышу один год."
+    phrases:
+      - de: "Das ist mein Onkel."
+        ru: "Это мой дядя."
+      - de: "Wie heißt Ihre Mutter?"
+        ru: "Как зовут вашу маму?"
+      - de: "Wo wohnen Ihre Eltern?"
+        ru: "Где живут ваши родители?"
+      - de: "Meine Großeltern leben noch."
+        ru: "Мои бабушка и дедушка ещё живы."
+      - de: "Wie alt ist Ihr Enkel?"
+        ru: "Сколько лет вашему внуку?"
+      - de: "Ich habe eine große Familie."
+        ru: "У меня большая семья."
+    grammar:
+      title: "Мой и ваш"
+      explain:
+        - "Слово «мой» по-немецки — [[mein]]. С мужским и средним родом говорят [[mein]]: [[mein Vater]], [[mein Kind]]."
+        - "С женским родом добавляется звук «э» в конце: [[meine]]. Например, [[meine Mutter]], [[meine Tante]]."
+        - "Во множественном числе тоже [[meine]]: [[meine Eltern]], [[meine Großeltern]], [[meine Kinder]]."
+        - "Вежливое «ваш» — это [[Ihr]], и оно меняется точно так же: [[Ihr Sohn]], [[Ihr Baby]], но [[Ihre Tochter]] и [[Ihre Eltern]]."
+        - "Простое правило: где артикль [[die]], там [[meine]] и [[Ihre]]. Где [[der]] или [[das]], там [[mein]] и [[Ihr]]."
+      exercises:
+        - q: "Как сказать «моя бабушка»?"
+          options: ["[[meine Großmutter]]", "[[mein Großmutter]]", "[[meinen Großmutter]]", "[[meiner Großmutter]]"]
+        - q: "Как сказать «мой дядя»?"
+          options: ["[[mein Onkel]]", "[[meine Onkel]]", "[[meiner Onkel]]", "[[meines Onkel]]"]
+        - q: "Как сказать «ваши родители»?"
+          options: ["[[Ihre Eltern]]", "[[Ihr Eltern]]", "[[Ihren Eltern]]", "[[Ihrer Eltern]]"]
+        - q: "Как сказать «мой малыш»?"
+          options: ["[[mein Baby]]", "[[meine Baby]]", "[[meiner Baby]]", "[[meinen Baby]]"]
+        - q: "Как вежливо спросить «Как зовут вашу тётю»?"
+          options: ["[[Wie heißt Ihre Tante?]]", "[[Wie heißt Ihr Tante?]]", "[[Wie heißt meine Tante?]]", "[[Wie heißen Ihre Tante?]]"]
+    dialogue:
+      title: "Бабушка и дедушка"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Frau Schmidt, wo wohnen Ihre Eltern?", "Госпожа Шмидт, где живут ваши родители?"]
+        - [B, "Meine Eltern wohnen in Köln. Meine Großeltern auch.", "Мои родители живут в Кёльне. Мои бабушка и дедушка тоже."]
+        - [A, "Ihre Großeltern leben noch? Wie alt sind sie?", "Ваши бабушка и дедушка ещё живы? Сколько им лет?"]
+        - [B, "Meine Oma ist achtundachtzig, mein Opa ist neunzig.", "Моей бабушке восемьдесят восемь, дедушке девяносто."]
+        - [A, "Toll! Und haben Sie Enkel?", "Здорово! А у вас есть внуки?"]
+        - [B, "Ja, eine Enkelin. Sie ist ein Baby, erst drei Monate alt.", "Да, одна внучка. Она ещё младенец, ей только три месяца."]
+      questions:
+        - q: "Где живут родители госпожи Шмидт?"
+          options: ["В Кёльне", "В Берлине", "В Мюнхене", "В Вене"]
+        - q: "Сколько лет её дедушке?"
+          options: ["Девяносто", "Восемьдесят восемь", "Восемьдесят", "Семьдесят"]
+        - q: "Кто есть у госпожи Шмидт?"
+          options: ["Внучка", "Внук", "Двое внуков", "Внуков нет"]
+
+  - id: m03l03
+    title: "Друзья и знакомые"
+    intro: "В этом уроке вы научитесь говорить о друзьях, соседях и коллегах и узнаете неопределённый артикль."
+    words:
+      - de: "der Freund"
+        ru: "друг"
+        plural: "die Freunde"
+        ex: "Peter ist mein Freund."
+        exRu: "Петер мой друг."
+      - de: "die Freundin"
+        ru: "подруга"
+        plural: "die Freundinnen"
+        ex: "Meine Freundin heißt Maria."
+        exRu: "Мою подругу зовут Мария."
+      - de: "der Nachbar"
+        ru: "сосед"
+        plural: "die Nachbarn"
+        ex: "Mein Nachbar kommt aus Polen."
+        exRu: "Мой сосед из Польши."
+      - de: "die Nachbarin"
+        ru: "соседка"
+        plural: "die Nachbarinnen"
+        ex: "Die Nachbarin ist Studentin."
+        exRu: "Соседка студентка."
+      - de: "der Kollege"
+        ru: "коллега мужчина"
+        plural: "die Kollegen"
+        ex: "Mein Kollege heißt Herr Müller."
+        exRu: "Моего коллегу зовут господин Мюллер."
+      - de: "die Kollegin"
+        ru: "коллега женщина"
+        plural: "die Kolleginnen"
+        ex: "Meine Kollegin spricht Deutsch und Englisch."
+        exRu: "Моя коллега говорит по-немецки и по-английски."
+      - de: "der Bekannte"
+        ru: "знакомый"
+        plural: "die Bekannten"
+        ex: "Herr Weber ist ein Bekannter von mir."
+        exRu: "Господин Вебер мой знакомый."
+      - de: "der Mensch"
+        ru: "человек"
+        plural: "die Menschen"
+        ex: "Hier wohnen viele Menschen."
+        exRu: "Здесь живёт много людей."
+      - de: "die Leute"
+        ru: "люди"
+        ex: "Die Leute hier sind nett."
+        exRu: "Люди здесь милые."
+      - de: "kennen"
+        ru: "знать, быть знакомым"
+        ex: "Ich kenne Anna gut."
+        exRu: "Я хорошо знаю Анну."
+      - de: "treffen"
+        ru: "встречать"
+        ex: "Ich treffe Peter heute."
+        exRu: "Я встречаюсь с Петером сегодня."
+      - de: "besuchen"
+        ru: "навещать"
+        ex: "Wir besuchen unsere Freunde."
+        exRu: "Мы навещаем наших друзей."
+    phrases:
+      - de: "Kennen Sie Frau Schmidt?"
+        ru: "Вы знаете госпожу Шмидт?"
+      - de: "Das ist ein Freund von mir."
+        ru: "Это мой друг."
+      - de: "Wir sind Kollegen."
+        ru: "Мы коллеги."
+      - de: "Wir sind Nachbarn."
+        ru: "Мы соседи."
+      - de: "Schön, Sie zu sehen!"
+        ru: "Рад вас видеть!"
+      - de: "Bis bald!"
+        ru: "До скорого!"
+    grammar:
+      title: "Неопределённый артикль"
+      explain:
+        - "Кроме [[der]], [[die]], [[das]] в немецком есть неопределённый артикль. Его ставят, когда говорят о предмете или человеке впервые или о каком-то одном из многих."
+        - "С мужским и средним родом это [[ein]]: [[ein Freund]], [[ein Kind]]. С женским родом — [[eine]]: [[eine Freundin]], [[eine Kollegin]]."
+        - "Сравните: [[Das ist ein Nachbar.]] — «Это один сосед», какой-то сосед. [[Der Nachbar heißt Peter.]] — «Этого соседа зовут Петер», мы уже знаем, о ком речь."
+        - "Во множественном числе неопределённого артикля нет: [[Das sind Freunde.]] — «Это друзья»."
+        - "В русском языке артиклей нет, поэтому их легко забыть. Старайтесь всегда слышать маленькое слово перед существительным."
+      exercises:
+        - q: "Как сказать «Это подруга»?"
+          options: ["[[Das ist eine Freundin.]]", "[[Das ist ein Freundin.]]", "[[Das ist einer Freundin.]]", "[[Das ist Freundin eine.]]"]
+        - q: "Как сказать «Это коллега», если это мужчина?"
+          options: ["[[Das ist ein Kollege.]]", "[[Das ist eine Kollege.]]", "[[Das ist einen Kollege.]]", "[[Das ist eine Kollegen.]]"]
+        - q: "Как сказать «Это ребёнок»?"
+          options: ["[[Das ist ein Kind.]]", "[[Das ist eine Kind.]]", "[[Das ist einer Kind.]]", "[[Das ist eines Kind.]]"]
+        - q: "Как сказать «Это соседи»?"
+          options: ["[[Das sind Nachbarn.]]", "[[Das sind ein Nachbarn.]]", "[[Das sind eine Nachbarn.]]", "[[Das ist ein Nachbarn.]]"]
+        - q: "Какой артикль подходит к слову [[Nachbarin]]?"
+          options: ["[[eine]]", "[[ein]]", "[[einer]]", "[[einen]]"]
+    dialogue:
+      title: "Встреча на улице"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Hallo, Peter! Schön, dich zu sehen!", "Привет, Петер! Рада тебя видеть!"]
+        - [B, "Hallo, Anna! Das ist Thomas. Er ist ein Kollege von mir.", "Привет, Анна! Это Томас. Он мой коллега."]
+        - [A, "Guten Tag, Thomas! Ich bin Anna, Peters Nachbarin.", "Добрый день, Томас! Я Анна, соседка Петера."]
+        - [B, "Wohin gehst du, Anna?", "Куда ты идёшь, Анна?"]
+        - [A, "Ich besuche eine Freundin. Sie wohnt hier.", "Я иду в гости к подруге. Она живёт здесь."]
+        - [B, "Kenne ich sie?", "Я её знаю?"]
+        - [A, "Ja, das ist Maria. Also, tschüss, bis bald!", "Да, это Мария. Ну, пока, до скорого!"]
+      questions:
+        - q: "Кто такой Томас?"
+          options: ["Коллега Петера", "Брат Петера", "Сосед Анны", "Друг Марии"]
+        - q: "Кем Анна приходится Петеру?"
+          options: ["Соседкой", "Коллегой", "Сестрой", "Двоюродной сестрой"]
+        - q: "Куда идёт Анна?"
+          options: ["К подруге", "На работу", "К родителям", "Домой"]
+
+  - id: m03l04
+    title: "Какой он человек?"
+    intro: "В этом уроке вы научитесь описывать людей и говорить «не» с помощью слова [[nicht]]."
+    words:
+      - de: "nett"
+        ru: "милый"
+        ex: "Meine Nachbarin ist sehr nett."
+        exRu: "Моя соседка очень милая."
+      - de: "freundlich"
+        ru: "дружелюбный"
+        ex: "Der Lehrer ist freundlich."
+        exRu: "Учитель дружелюбный."
+      - de: "groß"
+        ru: "большой, высокий"
+        ex: "Mein Bruder ist groß."
+        exRu: "Мой брат высокий."
+      - de: "klein"
+        ru: "маленький"
+        ex: "Die Tochter ist noch klein."
+        exRu: "Дочь ещё маленькая."
+      - de: "jung"
+        ru: "молодой"
+        ex: "Meine Tante ist noch jung."
+        exRu: "Моя тётя ещё молодая."
+      - de: "lustig"
+        ru: "весёлый"
+        ex: "Mein Onkel ist sehr lustig."
+        exRu: "Мой дядя очень весёлый."
+      - de: "ruhig"
+        ru: "спокойный"
+        ex: "Das Baby ist heute ruhig."
+        exRu: "Малыш сегодня спокойный."
+      - de: "schön"
+        ru: "красивый"
+        ex: "Die Stadt ist schön."
+        exRu: "Город красивый."
+      - de: "hübsch"
+        ru: "симпатичный"
+        ex: "Das Mädchen ist hübsch."
+        exRu: "Девочка хорошенькая."
+      - de: "sympathisch"
+        ru: "приятный"
+        ex: "Ihr Kollege ist sympathisch."
+        exRu: "Ваш коллега приятный человек."
+      - de: "schlank"
+        ru: "стройный"
+        ex: "Meine Schwester ist schlank."
+        exRu: "Моя сестра стройная."
+      - de: "langweilig"
+        ru: "скучный"
+        ex: "Mein Nachbar ist ein bisschen langweilig."
+        exRu: "Мой сосед немного скучный."
+    phrases:
+      - de: "Wie ist Ihre Nachbarin?"
+        ru: "Какая ваша соседка?"
+      - de: "Er ist sehr nett."
+        ru: "Он очень милый."
+      - de: "Sie ist nicht sehr groß."
+        ru: "Она не очень высокая."
+      - de: "Er sieht gut aus."
+        ru: "Он хорошо выглядит."
+      - de: "Das stimmt."
+        ru: "Это правда."
+      - de: "Wir verstehen uns gut."
+        ru: "Мы хорошо ладим."
+    grammar:
+      title: "Прилагательные и отрицание [[nicht]]"
+      explain:
+        - "После глагола [[sein]] прилагательное не меняется. [[Der Vater ist groß.]] [[Die Mutter ist groß.]] [[Die Kinder sind groß.]] Везде одно и то же слово [[groß]]."
+        - "В русском мы говорим «высокий», «высокая», «высокие». В немецком после [[ist]] и [[sind]] форма одна. Это проще!"
+        - "Чтобы сказать «не», используют слово [[nicht]]. Оно стоит перед прилагательным: [[Er ist nicht nett.]] — «Он не милый»."
+        - "С усилением: [[Sie ist nicht sehr groß.]] — «Она не очень высокая». [[Das Kind ist nicht ruhig.]] — «Ребёнок неспокойный»."
+        - "Вопрос с ответом «нет»: [[Ist er lustig?]] — [[Nein, er ist nicht lustig.]]"
+      exercises:
+        - q: "Как сказать «Мама молодая»?"
+          options: ["[[Die Mutter ist jung.]]", "[[Die Mutter ist junge.]]", "[[Die Mutter jung ist.]]", "[[Die Mutter sind jung.]]"]
+        - q: "Как сказать «Он не скучный»?"
+          options: ["[[Er ist nicht langweilig.]]", "[[Er nicht ist langweilig.]]", "[[Er ist langweilig nicht.]]", "[[Nicht er ist langweilig.]]"]
+        - q: "Как сказать «Дети весёлые»?"
+          options: ["[[Die Kinder sind lustig.]]", "[[Die Kinder ist lustig.]]", "[[Die Kinder sind lustige.]]", "[[Die Kinder lustig sind.]]"]
+        - q: "Что значит [[Sie ist nicht sehr groß]]?"
+          options: ["Она не очень высокая", "Она очень высокая", "Она маленькая и стройная", "Она не высокая, а большая"]
+        - q: "Как ответить «нет» на вопрос [[Ist Ihr Nachbar freundlich?]]"
+          options: ["[[Nein, er ist nicht freundlich.]]", "[[Nein, er nicht ist freundlich.]]", "[[Nein, er ist freundlich nicht.]]", "[[Nein, ist er freundlich.]]"]
+    dialogue:
+      title: "Новый коллега"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Herr Müller, wie ist der neue Kollege?", "Господин Мюллер, какой новый коллега?"]
+        - [B, "Er ist sehr nett und freundlich.", "Он очень милый и дружелюбный."]
+        - [A, "Ist er jung?", "Он молодой?"]
+        - [B, "Ja, er ist jung. Er ist groß und schlank.", "Да, он молодой. Высокий и стройный."]
+        - [A, "Ist er lustig?", "Он весёлый?"]
+        - [B, "Nein, nicht sehr. Er ist ruhig. Aber er ist sympathisch.", "Нет, не очень. Он спокойный. Но он приятный."]
+        - [A, "Gut. Dann verstehen wir uns sicher gut.", "Хорошо. Тогда мы наверняка поладим."]
+      questions:
+        - q: "Какой новый коллега по характеру?"
+          options: ["Спокойный", "Весёлый", "Скучный", "Недружелюбный"]
+        - q: "Как выглядит новый коллега?"
+          options: ["Высокий и стройный", "Маленький и стройный", "Высокий и полный", "Маленький и весёлый"]
+        - q: "Сколько лет коллеге?"
+          options: ["Он молодой", "Он старый", "Ему пятьдесят", "Об этом не говорят"]
+
+  - id: m03l05
+    title: "Семейное положение и дни рождения"
+    intro: "В этом уроке вы научитесь поздравлять с днём рождения, говорить о праздниках и узнаете слова «твой», «его» и «её»."
+    words:
+      - de: "der Geburtstag"
+        ru: "день рождения"
+        plural: "die Geburtstage"
+        ex: "Heute ist mein Geburtstag."
+        exRu: "Сегодня мой день рождения."
+      - de: "geboren"
+        ru: "рождён"
+        ex: "Ich bin in Moskau geboren."
+        exRu: "Я родился в Москве."
+      - de: "das Geschenk"
+        ru: "подарок"
+        plural: "die Geschenke"
+        ex: "Das Geschenk ist für Anna."
+        exRu: "Подарок для Анны."
+      - de: "schenken"
+        ru: "дарить"
+        ex: "Wir schenken Peter ein Buch."
+        exRu: "Мы дарим Петеру книгу."
+      - de: "feiern"
+        ru: "праздновать"
+        ex: "Wir feiern heute Geburtstag."
+        exRu: "Сегодня мы празднуем день рождения."
+      - de: "die Party"
+        ru: "вечеринка"
+        plural: "die Partys"
+        ex: "Die Party ist am Abend."
+        exRu: "Вечеринка вечером."
+      - de: "das Fest"
+        ru: "праздник"
+        plural: "die Feste"
+        ex: "Das Fest ist sehr schön."
+        exRu: "Праздник очень красивый."
+      - de: "der Gast"
+        ru: "гость"
+        plural: "die Gäste"
+        ex: "Die Gäste kommen um acht."
+        exRu: "Гости приходят в восемь."
+      - de: "gratulieren"
+        ru: "поздравлять"
+        ex: "Ich gratuliere Ihnen!"
+        exRu: "Поздравляю вас!"
+      - de: "die Hochzeit"
+        ru: "свадьба"
+        plural: "die Hochzeiten"
+        ex: "Die Hochzeit ist im Sommer."
+        exRu: "Свадьба летом."
+      - de: "geschieden"
+        ru: "разведён"
+        ex: "Mein Onkel ist geschieden."
+        exRu: "Мой дядя в разводе."
+      - de: "verwitwet"
+        ru: "вдовец, вдова"
+        ex: "Meine Oma ist verwitwet."
+        exRu: "Моя бабушка вдова."
+    phrases:
+      - de: "Herzlichen Glückwunsch!"
+        ru: "Поздравляю!"
+      - de: "Alles Gute zum Geburtstag!"
+        ru: "С днём рождения!"
+      - de: "Wann haben Sie Geburtstag?"
+        ru: "Когда у вас день рождения?"
+      - de: "Wo sind Sie geboren?"
+        ru: "Где вы родились?"
+      - de: "Das ist für Sie."
+        ru: "Это для вас."
+      - de: "Vielen Dank für das Geschenk!"
+        ru: "Большое спасибо за подарок!"
+      - de: "Viel Spaß!"
+        ru: "Желаю повеселиться!"
+    grammar:
+      title: "Твой, его, её"
+      explain:
+        - "С друзьями и детьми говорят на «ты»: [[du]]. «Твой» по-немецки — [[dein]], «твоя» — [[deine]]: [[dein Bruder]], [[deine Schwester]]."
+        - "«Его» — [[sein]]: [[sein Vater]], [[seine Mutter]]. Так говорят о мужчине: [[Peter und seine Frau]] — «Петер и его жена»."
+        - "«Её» — [[ihr]]: [[ihr Sohn]], [[ihre Tochter]]. Так говорят о женщине: [[Anna und ihre Familie]]."
+        - "Правило то же, что у [[mein]] и [[meine]]: с женским родом и во множественном числе добавляется звук «э»: [[deine]], [[seine]], [[ihre]]."
+        - "Не путайте: [[ihr]] с маленькой буквы — «её», а [[Ihr]] с большой буквы — вежливое «ваш». На слух их различают по смыслу."
+      exercises:
+        - q: "Как сказать «его сестра»?"
+          options: ["[[seine Schwester]]", "[[sein Schwester]]", "[[ihre Schwester]]", "[[deine Schwester]]", "[[seinen Schwester]]"]
+        - q: "Как сказать «её муж»?"
+          options: ["[[ihr Mann]]", "[[ihre Mann]]", "[[sein Mann]]", "[[ihren Mann]]", "[[mein Mann]]"]
+        - q: "Как сказать другу «твой подарок»?"
+          options: ["[[dein Geschenk]]", "[[deine Geschenk]]", "[[Ihr Geschenk]]", "[[sein Geschenk]]", "[[deinen Geschenk]]"]
+        - q: "Анна рассказывает о своих родителях. Как сказать «её родители»?"
+          options: ["[[ihre Eltern]]", "[[ihr Eltern]]", "[[seine Eltern]]", "[[deine Eltern]]", "[[meine Eltern]]"]
+        - q: "Что значит [[Thomas und seine Frau]]?"
+          options: ["Томас и его жена", "Томас и её жена", "Томас и твоя жена", "Томас и ваша жена"]
+    dialogue:
+      title: "День рождения"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Hallo, Lukas! Herzlichen Glückwunsch! Alles Gute zum Geburtstag!", "Привет, Лукас! Поздравляю! С днём рождения!"]
+        - [B, "Danke, Sophie! Komm rein!", "Спасибо, Софи! Заходи!"]
+        - [A, "Das ist für dich. Ein Geschenk von mir und meiner Schwester.", "Это тебе. Подарок от меня и моей сестры."]
+        - [B, "Vielen Dank für das Geschenk! Das ist ein Buch, toll!", "Большое спасибо за подарок! Это книга, здорово!"]
+        - [A, "Sind viele Gäste da?", "Много гостей пришло?"]
+        - [B, "Ja, meine Freunde, meine Kollegen und auch meine Eltern.", "Да, мои друзья, мои коллеги и ещё мои родители."]
+        - [A, "Super! Dann feiern wir!", "Супер! Тогда празднуем!"]
+      questions:
+        - q: "Что празднует Лукас?"
+          options: ["День рождения", "Свадьбу", "Новую квартиру", "Новую работу"]
+        - q: "Что Софи дарит Лукасу?"
+          options: ["Книгу", "Цветы", "Торт", "Вино"]
+        - q: "От кого подарок?"
+          options: ["От Софи и её сестры", "Только от Софи", "От Софи и её брата", "От родителей Лукаса"]

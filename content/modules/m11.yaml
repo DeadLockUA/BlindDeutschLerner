@@ -1,0 +1,565 @@
+id: m11
+title: "Погода и планы"
+lessons:
+  - id: m11l01
+    title: "Погода"
+    intro: "В этом уроке вы научитесь говорить о погоде: солнце, дождь, снег и ветер."
+    words:
+      - de: "das Wetter"
+        ru: "погода"
+        ex: "Das Wetter ist heute schön."
+        exRu: "Погода сегодня хорошая."
+      - de: "die Sonne"
+        ru: "солнце"
+        ex: "Die Sonne ist warm."
+        exRu: "Солнце тёплое."
+      - de: "der Regen"
+        ru: "дождь"
+        ex: "Der Regen ist kalt."
+        exRu: "Дождь холодный."
+      - de: "der Schnee"
+        ru: "снег"
+        ex: "Im Garten liegt Schnee."
+        exRu: "В саду лежит снег."
+      - de: "der Wind"
+        ru: "ветер"
+        plural: "die Winde"
+        ex: "Der Wind ist sehr stark."
+        exRu: "Ветер очень сильный."
+      - de: "die Wolke"
+        ru: "облако, туча"
+        plural: "die Wolken"
+        ex: "Am Himmel sind viele Wolken."
+        exRu: "На небе много облаков."
+      - de: "das Gewitter"
+        ru: "гроза"
+        plural: "die Gewitter"
+        ex: "Heute Abend kommt ein Gewitter."
+        exRu: "Сегодня вечером будет гроза."
+      - de: "scheinen"
+        ru: "светить"
+        ex: "Heute scheint die Sonne."
+        exRu: "Сегодня светит солнце."
+      - de: "regnen"
+        ru: "идёт дождь"
+        ex: "Es regnet schon wieder."
+        exRu: "Опять идёт дождь."
+      - de: "schneien"
+        ru: "идёт снег"
+        ex: "Im Januar schneit es oft."
+        exRu: "В январе часто идёт снег."
+      - de: "warm"
+        ru: "тёплый, тепло"
+        ex: "Heute ist es warm."
+        exRu: "Сегодня тепло."
+      - de: "kalt"
+        ru: "холодный, холодно"
+        ex: "Es ist kalt draußen."
+        exRu: "На улице холодно."
+      - de: "heiß"
+        ru: "жаркий, жарко"
+        ex: "Im Juli ist es oft heiß."
+        exRu: "В июле часто жарко."
+      - de: "kühl"
+        ru: "прохладный, прохладно"
+        ex: "Am Abend ist es kühl."
+        exRu: "Вечером прохладно."
+    phrases:
+      - de: "Wie ist das Wetter heute?"
+        ru: "Какая сегодня погода?"
+      - de: "Die Sonne scheint."
+        ru: "Светит солнце."
+      - de: "Es ist windig."
+        ru: "Ветрено."
+      - de: "Es ist schönes Wetter."
+        ru: "Хорошая погода."
+      - de: "Das Wetter ist schlecht."
+        ru: "Погода плохая."
+      - de: "Ich brauche einen Regenschirm."
+        ru: "Мне нужен зонт."
+    grammar:
+      title: "Безличные предложения о погоде"
+      explain:
+        - "По-русски мы говорим просто: «Идёт дождь» или «Холодно». В немецком в каждом предложении нужно подлежащее. Поэтому о погоде говорят со словом [[es]]."
+        - "[[Es regnet.]] — идёт дождь. [[Es schneit.]] — идёт снег. Здесь [[es]] ничего не значит, это просто формальное подлежащее."
+        - "С прилагательными используют [[es ist]]: [[Es ist kalt.]] — холодно. [[Es ist warm.]] — тепло. [[Es ist heiß.]] — жарко."
+        - "Если в начале стоит другое слово, например [[heute]], то [[es]] идёт после глагола: [[Heute regnet es.]] [[Heute ist es kalt.]] Глагол всегда на втором месте."
+        - "А вот у солнца есть настоящее подлежащее: [[Die Sonne scheint.]] Здесь [[es]] не нужно."
+      exercises:
+        - q: "Как сказать «Идёт дождь»?"
+          options: ["[[Es regnet.]]", "[[Regnet.]]", "[[Er regnet.]]", "[[Es ist Regen.]]", "[[Ist regnet.]]"]
+        - q: "Как сказать «Сегодня холодно»?"
+          options: ["[[Heute ist es kalt.]]", "[[Heute es ist kalt.]]", "[[Heute ist kalt.]]", "[[Heute kalt es ist.]]", "[[Es heute ist kalt.]]"]
+        - q: "Как сказать «Светит солнце»?"
+          options: ["[[Die Sonne scheint.]]", "[[Es scheint die Sonne nicht.]]", "[[Der Sonne scheint.]]", "[[Die Sonne schneit.]]", "[[Das Sonne scheint.]]"]
+        - q: "Что значит [[Es schneit.]]?"
+          options: ["Идёт снег.", "Идёт дождь.", "Светит солнце.", "Дует ветер.", "Жарко."]
+        - q: "Какое слово пропущено: [[Im Winter schneit ... oft.]]"
+          options: ["[[es]]", "[[er]]", "[[sie]]", "[[ist]]", "[[das]]"]
+    dialogue:
+      title: "Звонок другу"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Hallo Anna! Wie ist das Wetter in Berlin?", "Привет, Анна! Какая погода в Берлине?"]
+        - [B, "Leider schlecht. Es regnet und es ist kalt.", "К сожалению, плохая. Идёт дождь, и холодно."]
+        - [A, "Hier in München scheint die Sonne.", "А здесь, в Мюнхене, светит солнце."]
+        - [B, "Ist es warm?", "Тепло?"]
+        - [A, "Ja, sehr warm. Aber es ist ein bisschen windig.", "Да, очень тепло. Но немного ветрено."]
+        - [B, "Und morgen?", "А завтра?"]
+        - [A, "Morgen kommt ein Gewitter.", "Завтра будет гроза."]
+      questions:
+        - q: "Какая погода в Берлине?"
+          options: ["Дождь и холодно", "Солнце и тепло", "Идёт снег", "Жарко и ветрено"]
+        - q: "Где светит солнце?"
+          options: ["В Мюнхене", "В Берлине", "В Вене", "Нигде"]
+        - q: "Что будет завтра в Мюнхене?"
+          options: ["Гроза", "Снег", "Жара", "Солнце без ветра"]
+
+  - id: m11l02
+    title: "Времена года"
+    intro: "В этом уроке вы выучите времена года и научитесь говорить о температуре."
+    words:
+      - de: "der Frühling"
+        ru: "весна"
+        plural: "die Frühlinge"
+        ex: "Im Frühling ist es oft warm."
+        exRu: "Весной часто тепло."
+      - de: "der Sommer"
+        ru: "лето"
+        plural: "die Sommer"
+        ex: "Der Sommer ist heiß."
+        exRu: "Лето жаркое."
+      - de: "der Herbst"
+        ru: "осень"
+        plural: "die Herbste"
+        ex: "Im Herbst regnet es viel."
+        exRu: "Осенью много дождей."
+      - de: "der Winter"
+        ru: "зима"
+        plural: "die Winter"
+        ex: "Der Winter in Russland ist kalt."
+        exRu: "Зима в России холодная."
+      - de: "die Jahreszeit"
+        ru: "время года"
+        plural: "die Jahreszeiten"
+        ex: "Das Jahr hat vier Jahreszeiten."
+        exRu: "В году четыре времени года."
+      - de: "die Temperatur"
+        ru: "температура"
+        plural: "die Temperaturen"
+        ex: "Die Temperatur ist heute hoch."
+        exRu: "Температура сегодня высокая."
+      - de: "das Grad"
+        ru: "градус"
+        ex: "Es sind zwanzig Grad."
+        exRu: "Двадцать градусов."
+      - de: "minus"
+        ru: "минус"
+        ex: "Heute sind es minus zehn Grad."
+        exRu: "Сегодня минус десять градусов."
+      - de: "plus"
+        ru: "плюс"
+        ex: "Am Morgen sind es plus drei Grad."
+        exRu: "Утром плюс три градуса."
+      - de: "der Himmel"
+        ru: "небо"
+        ex: "Der Himmel ist blau."
+        exRu: "Небо голубое."
+      - de: "sonnig"
+        ru: "солнечный"
+        ex: "Der Tag ist sonnig."
+        exRu: "День солнечный."
+      - de: "bewölkt"
+        ru: "облачно"
+        ex: "Heute ist es bewölkt."
+        exRu: "Сегодня облачно."
+      - de: "nass"
+        ru: "мокрый"
+        ex: "Die Straße ist nass."
+        exRu: "Улица мокрая."
+      - de: "trocken"
+        ru: "сухой"
+        ex: "Der Sommer ist sehr trocken."
+        exRu: "Лето очень сухое."
+    phrases:
+      - de: "Im Sommer ist es heiß."
+        ru: "Летом жарко."
+      - de: "Wie viel Grad sind es?"
+        ru: "Сколько градусов?"
+      - de: "Wie kalt ist es heute?"
+        ru: "Насколько сегодня холодно?"
+      - de: "Es sind zwanzig Grad."
+        ru: "Двадцать градусов."
+      - de: "Welche Jahreszeit mögen Sie?"
+        ru: "Какое время года вам нравится?"
+      - de: "Ich mag den Herbst."
+        ru: "Я люблю осень."
+    grammar:
+      title: "Времена года и температура"
+      explain:
+        - "Все времена года в немецком мужского рода: [[der Frühling]], [[der Sommer]], [[der Herbst]], [[der Winter]]."
+        - "«Летом», «зимой» по-немецки — это [[im]] и время года: [[im Sommer]], [[im Winter]], [[im Frühling]], [[im Herbst]]. [[Im]] — это сокращение от [[in dem]]."
+        - "Например: [[Im Winter schneit es.]] — Зимой идёт снег. Глагол стоит на втором месте, после [[im Winter]]."
+        - "Температуру называют так: [[Es sind zwanzig Grad.]] — Двадцать градусов. Слово [[Grad]] не меняется: [[ein Grad]], [[zwei Grad]], [[dreißig Grad]]."
+        - "Мороз: [[minus fünf Grad]]. Тепло: [[plus fünf Grad]]. Спросить можно так: [[Wie viel Grad sind es?]]"
+      exercises:
+        - q: "Как сказать «зимой»?"
+          options: ["[[im Winter]]", "[[am Winter]]", "[[in Winter]]", "[[um Winter]]", "[[im Winters]]"]
+        - q: "Какой род у слова [[Sommer]]?"
+          options: ["[[der Sommer]]", "[[die Sommer]]", "[[das Sommer]]"]
+        - q: "Как сказать «Тридцать градусов»?"
+          options: ["[[Es sind dreißig Grad.]]", "[[Es sind dreißig Grade.]]", "[[Es ist dreißig Graden.]]", "[[Sind es dreißig Grad.]]", "[[Es dreißig Grad sind.]]"]
+        - q: "Как правильно?"
+          options: ["[[Im Herbst regnet es viel.]]", "[[Im Herbst es regnet viel.]]", "[[Am Herbst regnet es viel.]]", "[[Im Herbst regnet viel es.]]", "[[Herbst im regnet es viel.]]"]
+        - q: "Что значит [[minus zehn Grad]]?"
+          options: ["Минус десять градусов", "Плюс десять градусов", "Минус два градуса", "Десять минут", "Плюс двадцать градусов"]
+    dialogue:
+      title: "Любимое время года"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Thomas, welche Jahreszeit mögen Sie?", "Томас, какое время года вам нравится?"]
+        - [B, "Ich mag den Winter. Ich mag Schnee.", "Я люблю зиму. Я люблю снег."]
+        - [A, "Wirklich? Im Winter ist es so kalt!", "Правда? Зимой так холодно!"]
+        - [B, "Ja, oft minus zehn Grad. Und Sie?", "Да, часто минус десять градусов. А вы?"]
+        - [A, "Ich mag den Sommer. Ich mag die Sonne.", "Я люблю лето. Я люблю солнце."]
+        - [B, "Aber im Sommer ist es oft heiß.", "Но летом часто жарко."]
+        - [A, "Ja, dreißig Grad. Das finde ich super!", "Да, тридцать градусов. По-моему, это здорово!"]
+      questions:
+        - q: "Какое время года любит Томас?"
+          options: ["Зиму", "Лето", "Весну", "Осень"]
+        - q: "Почему женщина любит лето?"
+          options: ["Она любит солнце", "Она любит снег", "Она любит дождь", "Летом прохладно"]
+        - q: "Какую температуру называет женщина?"
+          options: ["Тридцать градусов", "Минус десять градусов", "Двадцать градусов", "Ноль градусов"]
+
+  - id: m11l03
+    title: "Планы на выходные"
+    intro: "В этом уроке вы научитесь рассказывать о планах: поездка за город, озеро, горы и море."
+    words:
+      - de: "der Plan"
+        ru: "план"
+        plural: "die Pläne"
+        ex: "Ich habe einen Plan."
+        exRu: "У меня есть план."
+      - de: "vorhaben"
+        ru: "планировать"
+        ex: "Was haben Sie heute vor?"
+        exRu: "Что вы планируете сегодня?"
+      - de: "der Ausflug"
+        ru: "поездка, экскурсия"
+        plural: "die Ausflüge"
+        ex: "Am Sonntag machen wir einen Ausflug."
+        exRu: "В воскресенье мы едем на экскурсию."
+      - de: "das Picknick"
+        ru: "пикник"
+        plural: "die Picknicks"
+        ex: "Wir machen ein Picknick im Park."
+        exRu: "Мы устраиваем пикник в парке."
+      - de: "der See"
+        ru: "озеро"
+        plural: "die Seen"
+        ex: "Der See ist sehr schön."
+        exRu: "Озеро очень красивое."
+      - de: "der Berg"
+        ru: "гора"
+        plural: "die Berge"
+        ex: "Der Berg ist hoch."
+        exRu: "Гора высокая."
+      - de: "der Wald"
+        ru: "лес"
+        plural: "die Wälder"
+        ex: "Wir gehen in den Wald."
+        exRu: "Мы идём в лес."
+      - de: "das Meer"
+        ru: "море"
+        plural: "die Meere"
+        ex: "Im Sommer fahren wir ans Meer."
+        exRu: "Летом мы едем на море."
+      - de: "der Strand"
+        ru: "пляж"
+        plural: "die Strände"
+        ex: "Der Strand ist voll."
+        exRu: "Пляж переполнен."
+      - de: "der Fluss"
+        ru: "река"
+        plural: "die Flüsse"
+        ex: "Der Fluss ist breit."
+        exRu: "Река широкая."
+      - de: "die Natur"
+        ru: "природа"
+        ex: "Ich mag die Natur."
+        exRu: "Я люблю природу."
+      - de: "bald"
+        ru: "скоро"
+        ex: "Bald ist Sommer."
+        exRu: "Скоро лето."
+      - de: "übermorgen"
+        ru: "послезавтра"
+        ex: "Übermorgen fahre ich nach Hamburg."
+        exRu: "Послезавтра я еду в Гамбург."
+    phrases:
+      - de: "Was haben Sie am Wochenende vor?"
+        ru: "Что вы планируете на выходные?"
+      - de: "Ich habe noch keine Pläne."
+        ru: "У меня ещё нет планов."
+      - de: "Wir machen einen Ausflug."
+        ru: "Мы едем на экскурсию."
+      - de: "nächstes Wochenende"
+        ru: "в следующие выходные"
+      - de: "Haben Sie Lust?"
+        ru: "Хотите?"
+      - de: "Das klingt gut."
+        ru: "Звучит хорошо."
+    grammar:
+      title: "Будущее через настоящее время"
+      explain:
+        - "О планах в немецком обычно говорят в настоящем времени. Будущее понятно из слова времени: [[morgen]], [[übermorgen]], [[bald]], [[am Wochenende]]."
+        - "Например: [[Morgen fahre ich ans Meer.]] — Завтра я поеду на море. Буквально: «Завтра еду я на море»."
+        - "Помните: глагол стоит на втором месте. Если предложение начинается со слова времени, подлежащее идёт после глагола: [[Am Sonntag machen wir ein Picknick.]]"
+        - "Можно начать и с подлежащего: [[Wir machen am Sonntag ein Picknick.]] Смысл тот же."
+        - "Вопрос о планах: [[Was haben Sie am Wochenende vor?]] Глагол [[vorhaben]] отделяемый: [[haben]] на втором месте, [[vor]] в конце."
+      exercises:
+        - q: "Как сказать «Завтра я еду в горы»?"
+          options: ["[[Morgen fahre ich in die Berge.]]", "[[Morgen ich fahre in die Berge.]]", "[[Morgen fahre in die Berge ich.]]", "[[Ich morgen fahre in die Berge.]]", "[[Fahre morgen ich in die Berge.]]"]
+        - q: "Как правильно?"
+          options: ["[[Am Samstag machen wir einen Ausflug.]]", "[[Am Samstag wir machen einen Ausflug.]]", "[[Am Samstag machen einen Ausflug wir.]]", "[[Wir am Samstag machen einen Ausflug.]]"]
+        - q: "Как спросить «Что вы планируете в воскресенье?»"
+          options: ["[[Was haben Sie am Sonntag vor?]]", "[[Was vorhaben Sie am Sonntag?]]", "[[Was haben vor Sie am Sonntag?]]", "[[Was Sie haben am Sonntag vor?]]"]
+        - q: "Что значит [[übermorgen]]?"
+          options: ["послезавтра", "завтра", "вчера", "позавчера", "скоро"]
+        - q: "Как сказать «Скоро я поеду на море»?"
+          options: ["[[Bald fahre ich ans Meer.]]", "[[Bald ich fahre ans Meer.]]", "[[Bald fahre ans Meer ich.]]", "[[Ich bald fahre ans Meer.]]", "[[Fahre bald ich ans Meer.]]"]
+    dialogue:
+      title: "Планы на выходные"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Frau Weber, was haben Sie am Wochenende vor?", "Госпожа Вебер, что вы планируете на выходные?"]
+        - [B, "Am Samstag fahre ich mit meiner Familie an den See.", "В субботу я еду с семьёй на озеро."]
+        - [A, "Schön! Und am Sonntag?", "Здорово! А в воскресенье?"]
+        - [B, "Am Sonntag habe ich noch keine Pläne. Und Sie?", "На воскресенье у меня ещё нет планов. А у вас?"]
+        - [A, "Ich mache am Sonntag einen Ausflug in den Wald. Haben Sie Lust?", "В воскресенье я еду на прогулку в лес. Хотите со мной?"]
+        - [B, "Ja, gern! Das klingt gut.", "Да, с удовольствием! Звучит хорошо."]
+        - [A, "Dann machen wir ein Picknick.", "Тогда устроим пикник."]
+      questions:
+        - q: "Куда госпожа Вебер едет в субботу?"
+          options: ["На озеро", "В лес", "На море", "В горы"]
+        - q: "Куда мужчина едет в воскресенье?"
+          options: ["В лес", "На озеро", "В город", "На пляж"]
+        - q: "Что они хотят устроить?"
+          options: ["Пикник", "Вечеринку", "Концерт", "Обед в ресторане"]
+
+  - id: m11l04
+    title: "Что было вчера?"
+    intro: "В этом уроке вы научитесь говорить о прошлом с помощью слов «был» и «имел»."
+    words:
+      - de: "war"
+        ru: "был, была"
+        ex: "Ich war gestern zu Hause."
+        exRu: "Вчера я был дома."
+      - de: "hatte"
+        ru: "имел, имела"
+        ex: "Ich hatte keine Zeit."
+        exRu: "У меня не было времени."
+      - de: "vorgestern"
+        ru: "позавчера"
+        ex: "Vorgestern war ich im Kino."
+        exRu: "Позавчера я был в кино."
+      - de: "letzte Woche"
+        ru: "на прошлой неделе"
+        ex: "Letzte Woche war ich krank."
+        exRu: "На прошлой неделе я болел."
+      - de: "letztes Jahr"
+        ru: "в прошлом году"
+        ex: "Letztes Jahr war ich in Wien."
+        exRu: "В прошлом году я был в Вене."
+      - de: "letzten Monat"
+        ru: "в прошлом месяце"
+        ex: "Letzten Monat hatte ich viel Arbeit."
+        exRu: "В прошлом месяце у меня было много работы."
+      - de: "vorhin"
+        ru: "только что, недавно"
+        ex: "Vorhin war Peter hier."
+        exRu: "Недавно здесь был Петер."
+      - de: "früher"
+        ru: "раньше"
+        ex: "Früher hatte ich einen Hund."
+        exRu: "Раньше у меня была собака."
+      - de: "schon"
+        ru: "уже"
+        ex: "Ich war schon in Berlin."
+        exRu: "Я уже был в Берлине."
+      - de: "noch nicht"
+        ru: "ещё не"
+        ex: "Ich war noch nicht in Hamburg."
+        exRu: "Я ещё не был в Гамбурге."
+      - de: "gerade"
+        ru: "как раз, сейчас"
+        ex: "Er ist gerade nicht da."
+        exRu: "Его сейчас нет."
+      - de: "lange"
+        ru: "долго"
+        ex: "Wir waren lange im Park."
+        exRu: "Мы долго были в парке."
+      - de: "anstrengend"
+        ru: "утомительный"
+        ex: "Der Tag war sehr anstrengend."
+        exRu: "День был очень утомительный."
+    phrases:
+      - de: "Wo waren Sie gestern?"
+        ru: "Где вы были вчера?"
+      - de: "Ich war zu Hause."
+        ru: "Я был дома."
+      - de: "Wie war das Wochenende?"
+        ru: "Как прошли выходные?"
+      - de: "Es war sehr schön."
+        ru: "Было очень хорошо."
+      - de: "Ich hatte keine Zeit."
+        ru: "У меня не было времени."
+      - de: "Ich hatte Glück."
+        ru: "Мне повезло."
+    grammar:
+      title: "Прошедшее время: был и имел"
+      explain:
+        - "Глаголы [[sein]] и [[haben]] в прошлом обычно звучат коротко: [[war]] и [[hatte]]. Так говорят и в разговоре."
+        - "Глагол [[sein]] в прошлом: [[ich war]], [[du warst]], [[er war]], [[sie war]], [[wir waren]], [[ihr wart]], [[sie waren]], [[Sie waren]]."
+        - "Глагол [[haben]] в прошлом: [[ich hatte]], [[du hattest]], [[er hatte]], [[wir hatten]], [[ihr hattet]], [[sie hatten]], [[Sie hatten]]."
+        - "Обратите внимание: у [[ich]] и [[er]] форма одинаковая: [[ich war]], [[er war]]; [[ich hatte]], [[er hatte]]."
+        - "Примеры: [[Gestern war ich müde.]] — Вчера я был уставшим. [[Wir hatten keine Zeit.]] — У нас не было времени. [[Wo waren Sie?]] — Где вы были?"
+      exercises:
+        - q: "Как сказать «Вчера я был дома»?"
+          options: ["[[Gestern war ich zu Hause.]]", "[[Gestern bin ich zu Hause.]]", "[[Gestern waren ich zu Hause.]]", "[[Gestern ich war zu Hause.]]", "[[Gestern hatte ich zu Hause.]]"]
+        - q: "Какая форма нужна: [[Wo ... Sie letzte Woche?]]"
+          options: ["[[waren]]", "[[war]]", "[[warst]]", "[[wart]]", "[[hatten]]"]
+        - q: "Как сказать «У нас не было времени»?"
+          options: ["[[Wir hatten keine Zeit.]]", "[[Wir hatte keine Zeit.]]", "[[Wir waren keine Zeit.]]", "[[Wir haben keine Zeit.]]", "[[Wir hattet keine Zeit.]]"]
+        - q: "Какая форма нужна: [[Anna ... gestern krank.]]"
+          options: ["[[war]]", "[[waren]]", "[[hatte]]", "[[warst]]", "[[hattest]]"]
+        - q: "Что значит [[Ich hatte Glück.]]?"
+          options: ["Мне повезло.", "Я был дома.", "У меня нет времени.", "У меня было много работы.", "Мне было скучно."]
+    dialogue:
+      title: "Понедельник в офисе"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Guten Morgen, Herr Müller! Wie war das Wochenende?", "Доброе утро, господин Мюллер! Как прошли выходные?"]
+        - [B, "Es war sehr schön. Ich war mit meiner Frau in den Bergen.", "Было очень хорошо. Я был с женой в горах."]
+        - [A, "Toll! Wie war das Wetter?", "Отлично! Какая была погода?"]
+        - [B, "Wir hatten Glück. Die Sonne hat geschienen. Und Sie?", "Нам повезло. Светило солнце. А вы?"]
+        - [A, "Ich war zu Hause. Ich hatte keine Zeit.", "Я была дома. У меня не было времени."]
+        - [B, "Schade. Viel Arbeit?", "Жаль. Много работы?"]
+        - [A, "Ja, und es war sehr anstrengend.", "Да, и было очень утомительно."]
+      questions:
+        - q: "Где был господин Мюллер на выходных?"
+          options: ["В горах", "Дома", "На море", "В Берлине"]
+        - q: "Какая была погода в горах?"
+          options: ["Солнечная", "Шёл дождь", "Шёл снег", "Была гроза"]
+        - q: "Почему женщина была дома?"
+          options: ["У неё не было времени", "Она болела", "Была плохая погода", "Она ждала гостей"]
+
+  - id: m11l05
+    title: "Что вы делали?"
+    intro: "В этом уроке вы научитесь рассказывать, что вы делали, в прошедшем времени перфект."
+    words:
+      - de: "gemacht"
+        ru: "сделал"
+        ex: "Was haben Sie heute gemacht?"
+        exRu: "Что вы сегодня делали?"
+      - de: "gegessen"
+        ru: "поел"
+        ex: "Ich habe Fisch gegessen."
+        exRu: "Я ел рыбу."
+      - de: "getrunken"
+        ru: "выпил"
+        ex: "Wir haben Kaffee getrunken."
+        exRu: "Мы пили кофе."
+      - de: "gekauft"
+        ru: "купил"
+        ex: "Ich habe Brot gekauft."
+        exRu: "Я купил хлеб."
+      - de: "gesehen"
+        ru: "увидел"
+        ex: "Haben Sie den Film gesehen?"
+        exRu: "Вы видели этот фильм?"
+      - de: "gekocht"
+        ru: "приготовил"
+        ex: "Meine Mutter hat Suppe gekocht."
+        exRu: "Моя мама сварила суп."
+      - de: "gearbeitet"
+        ru: "работал"
+        ex: "Gestern habe ich lange gearbeitet."
+        exRu: "Вчера я долго работал."
+      - de: "gespielt"
+        ru: "играл"
+        ex: "Die Kinder haben im Garten gespielt."
+        exRu: "Дети играли в саду."
+      - de: "gelernt"
+        ru: "учил"
+        ex: "Ich habe Deutsch gelernt."
+        exRu: "Я учил немецкий."
+      - de: "geschlafen"
+        ru: "спал"
+        ex: "Haben Sie gut geschlafen?"
+        exRu: "Вы хорошо спали?"
+      - de: "gefahren"
+        ru: "поехал"
+        ex: "Wir sind nach Berlin gefahren."
+        exRu: "Мы поехали в Берлин."
+      - de: "gegangen"
+        ru: "пошёл"
+        ex: "Er ist ins Kino gegangen."
+        exRu: "Он пошёл в кино."
+      - de: "gekommen"
+        ru: "пришёл"
+        ex: "Anna ist spät gekommen."
+        exRu: "Анна пришла поздно."
+    phrases:
+      - de: "Was haben Sie gestern gemacht?"
+        ru: "Что вы делали вчера?"
+      - de: "Ich habe viel gearbeitet."
+        ru: "Я много работал."
+      - de: "Ich bin nach Hause gegangen."
+        ru: "Я пошёл домой."
+      - de: "Haben Sie schon gegessen?"
+        ru: "Вы уже поели?"
+      - de: "Ich habe gut geschlafen."
+        ru: "Я хорошо спал."
+      - de: "Das habe ich nicht gewusst."
+        ru: "Этого я не знал."
+    grammar:
+      title: "Перфект: прошедшее время в разговоре"
+      explain:
+        - "В разговоре о прошлом немцы чаще всего используют перфект. Он состоит из двух частей: [[haben]] или [[sein]] плюс особая форма глагола, причастие."
+        - "Причастие обычно начинается на [[ge]]: [[machen]] — [[gemacht]], [[kaufen]] — [[gekauft]], [[essen]] — [[gegessen]], [[trinken]] — [[getrunken]]."
+        - "[[Haben]] стоит на втором месте, а причастие — в самом конце: [[Ich habe gestern Brot gekauft.]] — Вчера я купил хлеб."
+        - "Большинство глаголов берут [[haben]]. Но глаголы движения берут [[sein]]: [[Ich bin nach Hause gegangen.]] [[Wir sind nach Berlin gefahren.]] [[Er ist spät gekommen.]]"
+        - "В вопросе [[haben]] или [[sein]] ставят на первое место: [[Haben Sie schon gegessen?]] — Вы уже поели? [[Sind Sie mit dem Bus gefahren?]] — Вы ехали на автобусе?"
+      exercises:
+        - q: "Как сказать «Я купил хлеб»?"
+          options: ["[[Ich habe Brot gekauft.]]", "[[Ich bin Brot gekauft.]]", "[[Ich habe gekauft Brot.]]", "[[Ich habe Brot kaufen.]]", "[[Ich gekauft Brot habe.]]"]
+        - q: "Какой глагол нужен: [[Wir ... nach Hamburg gefahren.]]"
+          options: ["[[sind]]", "[[haben]]", "[[hat]]", "[[ist]]", "[[seid]]"]
+        - q: "Какой глагол нужен: [[Er ... Kaffee getrunken.]]"
+          options: ["[[hat]]", "[[ist]]", "[[habe]]", "[[sind]]", "[[haben]]"]
+        - q: "Как правильно?"
+          options: ["[[Ich bin ins Kino gegangen.]]", "[[Ich habe ins Kino gegangen.]]", "[[Ich bin ins Kino gegeht.]]", "[[Ich bin gegangen ins Kino.]]", "[[Ich ins Kino bin gegangen.]]"]
+        - q: "Какое причастие у глагола [[sehen]]?"
+          options: ["[[gesehen]]", "[[gesieht]]", "[[gesehnt]]", "[[gesah]]", "[[sehengt]]"]
+        - q: "Как спросить «Вы хорошо спали?»"
+          options: ["[[Haben Sie gut geschlafen?]]", "[[Sind Sie gut geschlafen?]]", "[[Haben Sie gut schlafen?]]", "[[Sie haben gut geschlafen?]]", "[[Haben geschlafen Sie gut?]]"]
+    dialogue:
+      title: "Как прошёл ваш день?"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Hallo Sophie! Was haben Sie heute gemacht?", "Привет, Софи! Что вы сегодня делали?"]
+        - [B, "Am Morgen habe ich gearbeitet.", "Утром я работала."]
+        - [A, "Und am Nachmittag?", "А после обеда?"]
+        - [B, "Ich bin in die Stadt gefahren und habe eine Jacke gekauft.", "Я поехала в город и купила куртку."]
+        - [A, "Haben Sie schon gegessen?", "Вы уже поели?"]
+        - [B, "Ja, ich habe mit Maria Pizza gegessen. Und Sie?", "Да, я ела пиццу с Марией. А вы?"]
+        - [A, "Ich habe Deutsch gelernt und dann Fußball gespielt.", "Я учил немецкий, а потом играл в футбол."]
+      questions:
+        - q: "Что Софи делала утром?"
+          options: ["Работала", "Учила немецкий", "Играла в футбол", "Спала"]
+        - q: "Что Софи купила в городе?"
+          options: ["Куртку", "Пиццу", "Хлеб", "Книгу"]
+        - q: "Что делал мужчина?"
+          options: ["Учил немецкий и играл в футбол", "Работал и готовил", "Ездил в город", "Ел пиццу с Марией"]

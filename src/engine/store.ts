@@ -34,7 +34,7 @@ export interface Progress {
   words: Record<string, WordState>;
   lessons: Record<string, LessonState>;
   /** Lesson in progress and the step to resume from. */
-  current?: { lessonId: string; step: number };
+  current?: { lessonId: string; step: number; ok?: number; n?: number };
   /** Days (YYYY-MM-DD) with any study. */
   days: string[];
   /** Results of recent answers (1 = correct), newest last, max 60. */

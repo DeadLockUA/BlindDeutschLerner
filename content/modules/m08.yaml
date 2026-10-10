@@ -1,0 +1,554 @@
+id: m08
+title: "Покупки, одежда, цвета"
+lessons:
+  - id: m08l01
+    title: "Цвета"
+    intro: "В этом уроке вы выучите названия цветов и научитесь спрашивать, какого цвета вещь."
+    words:
+      - de: "die Farbe"
+        ru: "цвет"
+        plural: "die Farben"
+        ex: "Die Farbe ist schön."
+        exRu: "Цвет красивый."
+      - de: "rot"
+        ru: "красный"
+        ex: "Das Auto ist rot."
+        exRu: "Машина красная."
+      - de: "blau"
+        ru: "синий"
+        ex: "Der Himmel ist blau."
+        exRu: "Небо синее."
+      - de: "grün"
+        ru: "зелёный"
+        ex: "Der Park ist grün."
+        exRu: "Парк зелёный."
+      - de: "gelb"
+        ru: "жёлтый"
+        ex: "Die Banane ist gelb."
+        exRu: "Банан жёлтый."
+      - de: "schwarz"
+        ru: "чёрный"
+        ex: "Der Kaffee ist schwarz."
+        exRu: "Кофе чёрный."
+      - de: "weiß"
+        ru: "белый"
+        ex: "Die Milch ist weiß."
+        exRu: "Молоко белое."
+      - de: "grau"
+        ru: "серый"
+        ex: "Die Straße ist grau."
+        exRu: "Улица серая."
+      - de: "braun"
+        ru: "коричневый"
+        ex: "Der Tisch ist braun."
+        exRu: "Стол коричневый."
+      - de: "rosa"
+        ru: "розовый"
+        ex: "Das Zimmer ist rosa."
+        exRu: "Комната розовая."
+      - de: "lila"
+        ru: "фиолетовый"
+        ex: "Die Blume ist lila."
+        exRu: "Цветок фиолетовый."
+      - de: "hellblau"
+        ru: "голубой"
+        ex: "Das Bett ist hellblau."
+        exRu: "Кровать голубая."
+      - de: "dunkelblau"
+        ru: "тёмно-синий"
+        ex: "Das Auto ist dunkelblau."
+        exRu: "Машина тёмно-синяя."
+    phrases:
+      - de: "Welche Farbe hat das Auto?"
+        ru: "Какого цвета машина?"
+      - de: "Was ist Ihre Lieblingsfarbe?"
+        ru: "Какой ваш любимый цвет?"
+      - de: "Meine Lieblingsfarbe ist Grün."
+        ru: "Мой любимый цвет зелёный."
+      - de: "Das ist zu dunkel."
+        ru: "Это слишком тёмное."
+      - de: "Haben Sie das auch in Rot?"
+        ru: "У вас это есть и в красном цвете?"
+    grammar:
+      title: "Какого цвета?"
+      explain:
+        - "Чтобы спросить о цвете, говорят: [[Welche Farbe hat …?]] Буквально: «Какой цвет имеет …?» Например: [[Welche Farbe hat der Bus?]] — «Какого цвета автобус?»"
+        - "Отвечают с глаголом [[sein]]: [[Der Bus ist gelb.]] После [[ist]] цвет не меняется: [[Der Tisch ist braun.]], [[Die Tür ist braun.]], [[Das Haus ist braun.]]"
+        - "Можно ответить и так: [[Er ist gelb.]], [[Sie ist rot.]], [[Es ist grün.]] Местоимение зависит от рода слова."
+        - "Сам цвет как название пишется с большой буквы и имеет средний род: [[das Rot]], [[das Blau]]. Поэтому: [[Meine Lieblingsfarbe ist Blau.]], [[Haben Sie das in Rot?]]"
+        - "Светлые и тёмные оттенки строятся просто: [[hell]] плюс цвет и [[dunkel]] плюс цвет. [[hellblau]] — голубой, [[dunkelgrün]] — тёмно-зелёный, [[hellgrau]] — светло-серый."
+      exercises:
+        - q: "Как спросить «Какого цвета машина?»"
+          options: ["[[Welche Farbe hat das Auto?]]", "[[Welche Farbe ist das Auto?]]", "[[Wie Farbe hat das Auto?]]", "[[Was Farbe hat das Auto?]]", "[[Welche Farbe haben das Auto?]]"]
+        - q: "Как сказать «Банан жёлтый»?"
+          options: ["[[Die Banane ist gelb.]]", "[[Die Banane hat gelb.]]", "[[Die Banane sind gelb.]]", "[[Die Banane gelb ist.]]"]
+        - q: "Какого цвета снег? [[Der Schnee ist …]]"
+          options: ["[[weiß]]", "[[schwarz]]", "[[grün]]", "[[rot]]", "[[braun]]"]
+        - q: "Как сказать «тёмно-зелёный»?"
+          options: ["[[dunkelgrün]]", "[[hellgrün]]", "[[grünhell]]", "[[dunkelgrau]]", "[[hellblau]]"]
+        - q: "Как правильно?"
+          options: ["[[Meine Lieblingsfarbe ist Rot.]]", "[[Meine Lieblingsfarbe hat Rot.]]", "[[Mein Lieblingsfarbe ist Rot.]]", "[[Meine Lieblingsfarbe sind Rot.]]"]
+    dialogue:
+      title: "Новая машина"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Peter, Sie haben ein neues Auto! Welche Farbe hat es?", "Пётр, у вас новая машина! Какого она цвета?"]
+        - [B, "Es ist dunkelblau.", "Она тёмно-синяя."]
+        - [A, "Schön! Blau ist meine Lieblingsfarbe.", "Красиво! Синий мой любимый цвет."]
+        - [B, "Und Ihr Auto? Ist es rot?", "А ваша машина? Она красная?"]
+        - [A, "Nein, mein Auto ist weiß. Und mein Fahrrad ist grün.", "Нет, моя машина белая. А мой велосипед зелёный."]
+        - [B, "Meine Lieblingsfarbe ist Grün!", "Мой любимый цвет зелёный!"]
+      questions:
+        - q: "Какого цвета новая машина Петра?"
+          options: ["Тёмно-синяя", "Красная", "Белая", "Зелёная"]
+        - q: "Какого цвета машина женщины?"
+          options: ["Белая", "Красная", "Тёмно-синяя", "Серая"]
+        - q: "Какой любимый цвет у Петра?"
+          options: ["Зелёный", "Синий", "Белый", "Красный"]
+
+  - id: m08l02
+    title: "Одежда"
+    intro: "В этом уроке вы выучите названия одежды и научитесь говорить, что вы покупаете и носите."
+    words:
+      - de: "die Hose"
+        ru: "брюки"
+        plural: "die Hosen"
+        ex: "Die Hose ist schwarz."
+        exRu: "Брюки чёрные."
+      - de: "das Hemd"
+        ru: "рубашка"
+        plural: "die Hemden"
+        ex: "Das Hemd ist weiß."
+        exRu: "Рубашка белая."
+      - de: "die Bluse"
+        ru: "блузка"
+        plural: "die Blusen"
+        ex: "Die Bluse ist rosa."
+        exRu: "Блузка розовая."
+      - de: "der Rock"
+        ru: "юбка"
+        plural: "die Röcke"
+        ex: "Der Rock ist kurz."
+        exRu: "Юбка короткая."
+      - de: "das Kleid"
+        ru: "платье"
+        plural: "die Kleider"
+        ex: "Das Kleid ist sehr schön."
+        exRu: "Платье очень красивое."
+      - de: "der Pullover"
+        ru: "свитер"
+        plural: "die Pullover"
+        ex: "Der Pullover ist warm."
+        exRu: "Свитер тёплый."
+      - de: "die Jacke"
+        ru: "куртка"
+        plural: "die Jacken"
+        ex: "Die Jacke ist neu."
+        exRu: "Куртка новая."
+      - de: "der Mantel"
+        ru: "пальто"
+        plural: "die Mäntel"
+        ex: "Im Winter trage ich einen Mantel."
+        exRu: "Зимой я ношу пальто."
+      - de: "das T-Shirt"
+        ru: "футболка"
+        plural: "die T-Shirts"
+        ex: "Das T-Shirt ist gelb."
+        exRu: "Футболка жёлтая."
+      - de: "der Schuh"
+        ru: "ботинок, туфля"
+        plural: "die Schuhe"
+        ex: "Die Schuhe sind braun."
+        exRu: "Ботинки коричневые."
+      - de: "die Socke"
+        ru: "носок"
+        plural: "die Socken"
+        ex: "Die Socken sind grau."
+        exRu: "Носки серые."
+      - de: "die Kleidung"
+        ru: "одежда"
+        ex: "Die Kleidung ist hier billig."
+        exRu: "Одежда здесь дешёвая."
+      - de: "tragen"
+        ru: "носить"
+        ex: "Ich trage heute eine Jacke."
+        exRu: "Сегодня я в куртке."
+    phrases:
+      - de: "Ich brauche eine neue Hose."
+        ru: "Мне нужны новые брюки."
+      - de: "Ich suche einen Mantel."
+        ru: "Я ищу пальто."
+      - de: "Was tragen Sie heute?"
+        ru: "Что на вас сегодня надето?"
+      - de: "ein Paar Schuhe"
+        ru: "пара обуви"
+        ex: "Ich kaufe ein Paar Schuhe."
+        exRu: "Я покупаю пару обуви."
+      - de: "Ich kaufe ein Hemd."
+        ru: "Я покупаю рубашку."
+    grammar:
+      title: "Винительный падеж: кого? что?"
+      explain:
+        - "После глаголов [[kaufen]], [[brauchen]], [[suchen]], [[tragen]] и [[haben]] идёт винительный падеж, по-немецки [[Akkusativ]]. Он отвечает на вопрос «что?»: «Я покупаю что?»"
+        - "Меняется только мужской род: [[der]] становится [[den]], а [[ein]] становится [[einen]]. [[der Rock]] — [[Ich kaufe den Rock.]], [[Ich kaufe einen Rock.]]"
+        - "Женский род не меняется: [[die Bluse]] — [[Ich kaufe die Bluse.]], [[Ich kaufe eine Bluse.]]"
+        - "Средний род тоже не меняется: [[das Hemd]] — [[Ich kaufe das Hemd.]], [[Ich kaufe ein Hemd.]]"
+        - "Во множественном числе остаётся [[die]]: [[Ich kaufe die Schuhe.]] Без артикля: [[Ich brauche Socken.]]"
+      exercises:
+        - q: "Как правильно: «Я покупаю пальто»?"
+          options: ["[[Ich kaufe einen Mantel.]]", "[[Ich kaufe ein Mantel.]]", "[[Ich kaufe eine Mantel.]]", "[[Ich kaufe der Mantel.]]", "[[Ich kaufe einer Mantel.]]"]
+        - q: "Как правильно: «Я ищу куртку»?"
+          options: ["[[Ich suche eine Jacke.]]", "[[Ich suche einen Jacke.]]", "[[Ich suche ein Jacke.]]", "[[Ich suche den Jacke.]]"]
+        - q: "Как правильно?"
+          options: ["[[Anna trägt ein Kleid.]]", "[[Anna trägt einen Kleid.]]", "[[Anna trägt eine Kleid.]]", "[[Anna trägt der Kleid.]]"]
+        - q: "Как правильно: «Мне нужен свитер»?"
+          options: ["[[Ich brauche einen Pullover.]]", "[[Ich brauche ein Pullover.]]", "[[Ich brauche eine Pullover.]]", "[[Ich brauche der Pullover.]]", "[[Ich brauche die Pullover.]]"]
+        - q: "Как правильно: «Я беру юбку»?"
+          options: ["[[Ich nehme den Rock.]]", "[[Ich nehme der Rock.]]", "[[Ich nehme die Rock.]]", "[[Ich nehme das Rock.]]"]
+    dialogue:
+      title: "Что купить?"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Thomas, ich brauche eine neue Hose.", "Томас, мне нужны новые брюки."]
+        - [B, "Und ich suche einen Mantel. Mein Mantel ist sehr alt.", "А я ищу пальто. Моё пальто очень старое."]
+        - [A, "Brauchen Sie auch Schuhe?", "Вам нужна ещё и обувь?"]
+        - [B, "Nein, aber ich brauche Socken.", "Нет, но мне нужны носки."]
+        - [A, "Ich kaufe auch eine Bluse. Eine weiße Bluse.", "Я ещё куплю блузку. Белую блузку."]
+        - [B, "Gut, gehen wir!", "Хорошо, пошли!"]
+      questions:
+        - q: "Что ищет Томас?"
+          options: ["Пальто", "Брюки", "Обувь", "Свитер"]
+        - q: "Что ещё нужно Томасу?"
+          options: ["Носки", "Обувь", "Рубашка", "Куртка"]
+        - q: "Какую блузку купит женщина?"
+          options: ["Белую", "Чёрную", "Розовую", "Синюю"]
+
+  - id: m08l03
+    title: "В магазине одежды"
+    intro: "В этом уроке вы научитесь примерять одежду, спрашивать размер и говорить, нравится ли вам вещь."
+    words:
+      - de: "die Größe"
+        ru: "размер"
+        plural: "die Größen"
+        ex: "Welche Größe haben Sie?"
+        exRu: "Какой у вас размер?"
+      - de: "passen"
+        ru: "подходить по размеру"
+        ex: "Die Hose passt gut."
+        exRu: "Брюки хорошо сидят."
+      - de: "anprobieren"
+        ru: "примерять"
+        ex: "Ich probiere das Kleid an."
+        exRu: "Я примеряю платье."
+      - de: "die Kabine"
+        ru: "примерочная"
+        plural: "die Kabinen"
+        ex: "Die Kabine ist dort."
+        exRu: "Примерочная там."
+      - de: "gefallen"
+        ru: "нравиться"
+        ex: "Die Jacke gefällt mir."
+        exRu: "Куртка мне нравится."
+      - de: "das Angebot"
+        ru: "специальное предложение"
+        plural: "die Angebote"
+        ex: "Die Schuhe sind im Angebot."
+        exRu: "Обувь по акции."
+      - de: "der Preis"
+        ru: "цена"
+        plural: "die Preise"
+        ex: "Der Preis ist gut."
+        exRu: "Цена хорошая."
+      - de: "nehmen"
+        ru: "брать"
+        ex: "Ich nehme den Pullover."
+        exRu: "Я беру свитер."
+      - de: "eng"
+        ru: "тесный"
+        ex: "Die Hose ist zu eng."
+        exRu: "Брюки слишком тесные."
+      - de: "kurz"
+        ru: "короткий"
+        ex: "Der Rock ist zu kurz."
+        exRu: "Юбка слишком короткая."
+      - de: "lang"
+        ru: "длинный"
+        ex: "Der Mantel ist lang."
+        exRu: "Пальто длинное."
+      - de: "der Spiegel"
+        ru: "зеркало"
+        plural: "die Spiegel"
+        ex: "Der Spiegel ist in der Kabine."
+        exRu: "Зеркало в примерочной."
+    phrases:
+      - de: "zu groß"
+        ru: "слишком большой"
+        ex: "Die Jacke ist zu groß."
+        exRu: "Куртка слишком большая."
+      - de: "zu klein"
+        ru: "слишком маленький"
+        ex: "Die Schuhe sind zu klein."
+        exRu: "Ботинки слишком маленькие."
+      - de: "Kann ich das anprobieren?"
+        ru: "Можно это примерить?"
+      - de: "Welche Größe haben Sie?"
+        ru: "Какой у вас размер?"
+      - de: "Das passt mir."
+        ru: "Мне это подходит по размеру."
+      - de: "Das gefällt mir."
+        ru: "Мне это нравится."
+      - de: "Haben Sie das eine Nummer größer?"
+        ru: "У вас есть это на размер больше?"
+    grammar:
+      title: "Мне нравится, мне подходит"
+      explain:
+        - "Глагол [[gefallen]] похож на русское «нравиться». По-русски «мне нравится», и по-немецки тоже [[mir]]: [[Das Kleid gefällt mir.]] — «Платье мне нравится»."
+        - "Вежливо, к собеседнику, говорят [[Ihnen]]: [[Gefällt Ihnen die Jacke?]] — «Вам нравится куртка?» Ответ: [[Ja, sie gefällt mir.]]"
+        - "Глагол согласуется с вещью, а не с человеком. Одна вещь — [[gefällt]], много вещей — [[gefallen]]: [[Die Schuhe gefallen mir.]]"
+        - "Так же работает [[passen]], то есть «подходить по размеру»: [[Die Hose passt mir.]], [[Passt Ihnen der Pullover?]], [[Die Schuhe passen mir nicht.]]"
+        - "Отрицание [[nicht]] стоит в конце: [[Das gefällt mir nicht.]] — «Мне это не нравится»."
+      exercises:
+        - q: "Как сказать «Платье мне нравится»?"
+          options: ["[[Das Kleid gefällt mir.]]", "[[Das Kleid gefällt ich.]]", "[[Ich gefalle das Kleid.]]", "[[Das Kleid gefallen mir.]]", "[[Das Kleid gefällt mich.]]"]
+        - q: "Как вежливо спросить «Вам нравится куртка?»"
+          options: ["[[Gefällt Ihnen die Jacke?]]", "[[Gefällt Sie die Jacke?]]", "[[Gefallen Sie die Jacke?]]", "[[Sie gefällt die Jacke?]]"]
+        - q: "Как правильно?"
+          options: ["[[Die Schuhe gefallen mir.]]", "[[Die Schuhe gefällt mir.]]", "[[Die Schuhe gefallen ich.]]", "[[Die Schuhe gefallt mir.]]"]
+        - q: "Как сказать «Брюки мне не подходят»?"
+          options: ["[[Die Hose passt mir nicht.]]", "[[Die Hose passt ich nicht.]]", "[[Die Hose nicht passt mir.]]", "[[Die Hose passen mir nicht.]]", "[[Ich passe die Hose nicht.]]"]
+        - q: "Что значит [[Der Rock ist zu kurz.]]"
+          options: ["Юбка слишком короткая", "Юбка слишком длинная", "Юбка слишком тесная", "Юбка слишком дорогая"]
+    dialogue:
+      title: "Примерка"
+      speakers: {A: f, B: f}
+      lines:
+        - [A, "Entschuldigung, kann ich das Kleid anprobieren?", "Извините, можно примерить платье?"]
+        - [B, "Ja, natürlich. Welche Größe haben Sie?", "Да, конечно. Какой у вас размер?"]
+        - [A, "Achtunddreißig.", "Тридцать восемь."]
+        - [B, "Hier, bitte. Die Kabine ist dort links.", "Вот, пожалуйста. Примерочная там, слева."]
+        - [B, "Und? Passt Ihnen das Kleid?", "Ну как? Платье вам подходит?"]
+        - [A, "Nein, es ist zu klein. Haben Sie das eine Nummer größer?", "Нет, оно слишком маленькое. У вас есть на размер больше?"]
+        - [B, "Ja, hier ist Größe vierzig.", "Да, вот сороковой размер."]
+        - [A, "Das passt mir. Und es gefällt mir sehr. Ich nehme es.", "Это мне подходит. И оно мне очень нравится. Я его беру."]
+      questions:
+        - q: "Что примеряет женщина?"
+          options: ["Платье", "Юбку", "Блузку", "Брюки"]
+        - q: "Почему первое платье не подошло?"
+          options: ["Оно слишком маленькое", "Оно слишком большое", "Оно слишком длинное", "Цвет не нравится"]
+        - q: "Какой размер подошёл?"
+          options: ["Сороковой", "Тридцать восьмой", "Сорок второй", "Тридцать шестой"]
+
+  - id: m08l04
+    title: "Покупки"
+    intro: "В этом уроке вы узнаете, как говорить о магазинах, часах работы и оплате."
+    words:
+      - de: "das Geschäft"
+        ru: "магазин"
+        plural: "die Geschäfte"
+        ex: "Das Geschäft ist klein."
+        exRu: "Магазин маленький."
+      - de: "das Kaufhaus"
+        ru: "универмаг"
+        plural: "die Kaufhäuser"
+        ex: "Das Kaufhaus ist in der Stadtmitte."
+        exRu: "Универмаг в центре города."
+      - de: "der Verkäufer"
+        ru: "продавец"
+        plural: "die Verkäufer"
+        ex: "Der Verkäufer ist sehr nett."
+        exRu: "Продавец очень любезный."
+      - de: "die Verkäuferin"
+        ru: "продавщица"
+        plural: "die Verkäuferinnen"
+        ex: "Die Verkäuferin hilft mir."
+        exRu: "Продавщица мне помогает."
+      - de: "der Kunde"
+        ru: "покупатель"
+        plural: "die Kunden"
+        ex: "Der Kunde bezahlt an der Kasse."
+        exRu: "Покупатель платит на кассе."
+      - de: "die Kundin"
+        ru: "покупательница"
+        plural: "die Kundinnen"
+        ex: "Die Kundin sucht eine Jacke."
+        exRu: "Покупательница ищет куртку."
+      - de: "geöffnet"
+        ru: "открыто"
+        ex: "Das Geschäft ist bis acht Uhr geöffnet."
+        exRu: "Магазин открыт до восьми часов."
+      - de: "geschlossen"
+        ru: "закрыто"
+        ex: "Am Sonntag ist das Kaufhaus geschlossen."
+        exRu: "В воскресенье универмаг закрыт."
+      - de: "öffnen"
+        ru: "открывать"
+        ex: "Wir öffnen um neun Uhr."
+        exRu: "Мы открываемся в девять часов."
+      - de: "schließen"
+        ru: "закрывать"
+        ex: "Das Geschäft schließt um sechs Uhr."
+        exRu: "Магазин закрывается в шесть часов."
+      - de: "die Öffnungszeit"
+        ru: "часы работы"
+        plural: "die Öffnungszeiten"
+        ex: "Wie sind die Öffnungszeiten?"
+        exRu: "Какие часы работы?"
+      - de: "die Kreditkarte"
+        ru: "кредитная карта"
+        plural: "die Kreditkarten"
+        ex: "Ich bezahle mit Kreditkarte."
+        exRu: "Я плачу кредитной картой."
+      - de: "bar"
+        ru: "наличными"
+        ex: "Ich bezahle bar."
+        exRu: "Я плачу наличными."
+    phrases:
+      - de: "Wann öffnet das Kaufhaus?"
+        ru: "Когда открывается универмаг?"
+      - de: "Wann schließen Sie?"
+        ru: "Когда вы закрываетесь?"
+      - de: "Kann ich mit Karte bezahlen?"
+        ru: "Можно заплатить картой?"
+      - de: "Ich schaue nur."
+        ru: "Я просто смотрю."
+      - de: "Ich nehme diesen Pullover."
+        ru: "Я беру этот свитер."
+    grammar:
+      title: "Какой? Этот"
+      explain:
+        - "Вопрос «какой?» по-немецки [[welcher]]. Его окончание похоже на артикль: [[der]] — [[welcher]], [[die]] — [[welche]], [[das]] — [[welches]]."
+        - "[[Welcher Mantel?]], [[Welche Jacke?]], [[Welches Hemd?]] Во множественном числе: [[Welche Schuhe?]]"
+        - "Слово «этот» строится так же: [[dieser Mantel]], [[diese Jacke]], [[dieses Hemd]], [[diese Schuhe]]."
+        - "В винительном падеже мужской род снова меняется: [[Welchen Mantel nehmen Sie?]] — [[Ich nehme diesen Mantel.]] Остальные роды не меняются: [[Ich nehme diese Jacke.]]"
+      exercises:
+        - q: "Как спросить «Какое платье?»"
+          options: ["[[Welches Kleid?]]", "[[Welcher Kleid?]]", "[[Welche Kleid?]]", "[[Welchen Kleid?]]", "[[Was Kleid?]]"]
+        - q: "Как сказать «эта куртка»?"
+          options: ["[[diese Jacke]]", "[[dieser Jacke]]", "[[dieses Jacke]]", "[[diesen Jacke]]"]
+        - q: "Как правильно: «Я беру этот свитер»?"
+          options: ["[[Ich nehme diesen Pullover.]]", "[[Ich nehme dieser Pullover.]]", "[[Ich nehme dieses Pullover.]]", "[[Ich nehme diese Pullover.]]", "[[Ich nehme dies Pullover.]]"]
+        - q: "Как спросить «Какой автобус едет в центр?»"
+          options: ["[[Welcher Bus fährt ins Zentrum?]]", "[[Welches Bus fährt ins Zentrum?]]", "[[Welche Bus fährt ins Zentrum?]]", "[[Welchen Bus fährt ins Zentrum?]]"]
+        - q: "Как правильно?"
+          options: ["[[Dieses Hemd ist zu klein.]]", "[[Dieser Hemd ist zu klein.]]", "[[Diese Hemd ist zu klein.]]", "[[Diesen Hemd ist zu klein.]]"]
+    dialogue:
+      title: "В универмаге"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Guten Tag! Kann ich Ihnen helfen?", "Добрый день! Могу я вам помочь?"]
+        - [B, "Danke, ich schaue nur.", "Спасибо, я просто смотрю."]
+        - [B, "Entschuldigung, welcher Pullover ist im Angebot?", "Извините, какой свитер по акции?"]
+        - [A, "Dieser Pullover hier. Er kostet nur zwanzig Euro.", "Вот этот свитер. Он стоит всего двадцать евро."]
+        - [B, "Gut, ich nehme diesen Pullover. Kann ich mit Karte bezahlen?", "Хорошо, я беру этот свитер. Можно заплатить картой?"]
+        - [A, "Ja, natürlich. Sie können mit Karte oder bar bezahlen.", "Да, конечно. Можно заплатить картой или наличными."]
+        - [B, "Und wann schließen Sie heute?", "А когда вы сегодня закрываетесь?"]
+        - [A, "Wir sind bis acht Uhr geöffnet.", "Мы открыты до восьми часов."]
+      questions:
+        - q: "Что покупает мужчина?"
+          options: ["Свитер", "Куртку", "Рубашку", "Пальто"]
+        - q: "Сколько стоит вещь?"
+          options: ["Двадцать евро", "Двенадцать евро", "Восемь евро", "Тридцать евро"]
+        - q: "До скольки открыт магазин?"
+          options: ["До восьми часов", "До шести часов", "До девяти часов", "До семи часов"]
+
+  - id: m08l05
+    title: "Что вам нравится?"
+    intro: "В этом уроке вы научитесь говорить, что вам нравится, что вы предпочитаете и что любите больше всего."
+    words:
+      - de: "mögen"
+        ru: "любить, нравиться"
+        ex: "Ich mag blaue Hemden."
+        exRu: "Мне нравятся синие рубашки."
+      - de: "lieber"
+        ru: "охотнее, лучше"
+        ex: "Ich trinke lieber Tee."
+        exRu: "Я лучше выпью чаю."
+      - de: "am liebsten"
+        ru: "больше всего"
+        ex: "Am liebsten trage ich Jeans."
+        exRu: "Больше всего я люблю носить джинсы."
+      - de: "finden"
+        ru: "находить, считать"
+        ex: "Ich finde den Rock schön."
+        exRu: "Я считаю, что юбка красивая."
+      - de: "toll"
+        ru: "классный"
+        ex: "Das Kleid ist toll!"
+        exRu: "Платье классное!"
+      - de: "hässlich"
+        ru: "некрасивый"
+        ex: "Die Farbe ist hässlich."
+        exRu: "Цвет некрасивый."
+      - de: "bequem"
+        ru: "удобный"
+        ex: "Die Schuhe sind sehr bequem."
+        exRu: "Обувь очень удобная."
+      - de: "praktisch"
+        ru: "практичный"
+        ex: "Die Jacke ist praktisch."
+        exRu: "Куртка практичная."
+      - de: "schick"
+        ru: "нарядный, стильный"
+        ex: "Das Hemd ist schick."
+        exRu: "Рубашка нарядная."
+      - de: "bunt"
+        ru: "пёстрый"
+        ex: "Ich mag bunte Kleider."
+        exRu: "Мне нравятся пёстрые платья."
+      - de: "furchtbar"
+        ru: "ужасный"
+        ex: "Der Mantel ist furchtbar."
+        exRu: "Пальто ужасное."
+      - de: "wunderbar"
+        ru: "чудесный"
+        ex: "Die Farbe ist wunderbar."
+        exRu: "Цвет чудесный."
+    phrases:
+      - de: "Wie finden Sie die Jacke?"
+        ru: "Как вам куртка?"
+      - de: "Ich finde sie toll."
+        ru: "По-моему, она классная."
+      - de: "Was mögen Sie lieber?"
+        ru: "Что вам нравится больше?"
+      - de: "Ich trage lieber Hosen."
+        ru: "Я предпочитаю носить брюки."
+      - de: "Das ist Geschmackssache."
+        ru: "Это дело вкуса."
+    grammar:
+      title: "Охотно, охотнее, охотнее всего"
+      explain:
+        - "Слово [[gern]] значит «охотно», «с удовольствием». Его ставят после глагола: [[Ich trage gern Röcke.]] — «Я люблю носить юбки»."
+        - "Если что-то нравится больше, говорят [[lieber]]: [[Ich trage lieber Hosen.]] — «Я предпочитаю брюки»."
+        - "А то, что нравится больше всего, — [[am liebsten]]: [[Am liebsten trage ich Kleider.]] — «Больше всего я люблю носить платья»."
+        - "Итак, три ступени: [[gern]], [[lieber]], [[am liebsten]]. Сравните с русским: «хорошо», «лучше», «лучше всего»."
+        - "С существительным часто используют глагол [[mögen]]: [[ich mag]], [[Sie mögen]], [[er mag]]. [[Ich mag Kaffee.]] [[Mögen Sie Tee?]]"
+        - "Своё мнение выражают глаголом [[finden]]: [[Wie finden Sie das Kleid?]] — [[Ich finde es schön.]]"
+      exercises:
+        - q: "Как сказать «Я предпочитаю чай»?"
+          options: ["[[Ich trinke lieber Tee.]]", "[[Ich trinke am liebsten Tee.]]", "[[Ich trinke gern lieber Tee.]]", "[[Ich lieber trinke Tee.]]", "[[Ich trinke Tee lieber gern.]]"]
+        - q: "Как сказать «Больше всего я люблю носить платья»?"
+          options: ["[[Am liebsten trage ich Kleider.]]", "[[Am liebsten ich trage Kleider.]]", "[[Lieber trage ich Kleider.]]", "[[Gern trage ich am Kleider.]]"]
+        - q: "Как правильно: «Он любит кофе»?"
+          options: ["[[Er mag Kaffee.]]", "[[Er mögt Kaffee.]]", "[[Er magt Kaffee.]]", "[[Er mögen Kaffee.]]", "[[Er möge Kaffee.]]"]
+        - q: "Как спросить «Как вам платье?»"
+          options: ["[[Wie finden Sie das Kleid?]]", "[[Was finden Sie das Kleid?]]", "[[Wie finden Sie dem Kleid?]]", "[[Wo finden Sie das Kleid?]]"]
+        - q: "Какое слово значит «удобный»?"
+          options: ["[[bequem]]", "[[praktisch]]", "[[schick]]", "[[hässlich]]", "[[bunt]]"]
+    dialogue:
+      title: "Что надеть?"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Lukas, wie finden Sie die Jacke?", "Лукас, как вам эта куртка?"]
+        - [B, "Ich finde sie toll. Die Farbe ist schön.", "По-моему, она классная. Цвет красивый."]
+        - [A, "Und das Kleid? Ich finde es ein bisschen langweilig.", "А платье? По-моему, оно немного скучное."]
+        - [B, "Tragen Sie gern Kleider?", "Вы любите носить платья?"]
+        - [A, "Nicht so gern. Ich trage lieber Hosen. Sie sind bequem.", "Не очень. Я предпочитаю брюки. Они удобные."]
+        - [B, "Und was mögen Sie am liebsten?", "А что вам нравится больше всего?"]
+        - [A, "Am liebsten trage ich Jeans und ein T-Shirt.", "Больше всего я люблю носить джинсы и футболку."]
+      questions:
+        - q: "Как Лукас находит куртку?"
+          options: ["Классной", "Скучной", "Ужасной", "Некрасивой"]
+        - q: "Что женщина предпочитает носить?"
+          options: ["Брюки", "Платья", "Юбки", "Блузки"]
+        - q: "Что она носит больше всего?"
+          options: ["Джинсы и футболку", "Платье", "Юбку и блузку", "Брюки и рубашку"]

@@ -1,0 +1,572 @@
+id: m12
+title: "Путешествия"
+lessons:
+  - id: m12l01
+    title: "Отпуск"
+    intro: "В этом уроке вы научитесь говорить об отпуске, поездках и перелётах."
+    words:
+      - de: "der Urlaub"
+        ru: "отпуск"
+        plural: "die Urlaube"
+        ex: "Im August habe ich Urlaub."
+        exRu: "В августе у меня отпуск."
+      - de: "die Reise"
+        ru: "поездка, путешествие"
+        plural: "die Reisen"
+        ex: "Die Reise war sehr schön."
+        exRu: "Поездка была очень хорошей."
+      - de: "reisen"
+        ru: "путешествовать"
+        ex: "Ich reise gern."
+        exRu: "Я люблю путешествовать."
+      - de: "der Koffer"
+        ru: "чемодан"
+        plural: "die Koffer"
+        ex: "Mein Koffer ist schwer."
+        exRu: "Мой чемодан тяжёлый."
+      - de: "packen"
+        ru: "собирать вещи"
+        ex: "Heute Abend packe ich den Koffer."
+        exRu: "Сегодня вечером я собираю чемодан."
+      - de: "der Pass"
+        ru: "паспорт"
+        plural: "die Pässe"
+        ex: "Haben Sie Ihren Pass?"
+        exRu: "У вас есть паспорт?"
+      - de: "das Ausland"
+        ru: "заграница"
+        ex: "Wir fahren ins Ausland."
+        exRu: "Мы едем за границу."
+      - de: "das Flugzeug"
+        ru: "самолёт"
+        plural: "die Flugzeuge"
+        ex: "Das Flugzeug ist pünktlich."
+        exRu: "Самолёт прилетает вовремя."
+      - de: "der Flughafen"
+        ru: "аэропорт"
+        plural: "die Flughäfen"
+        ex: "Der Flughafen ist weit."
+        exRu: "Аэропорт далеко."
+      - de: "fliegen"
+        ru: "лететь"
+        ex: "Morgen fliege ich nach Wien."
+        exRu: "Завтра я лечу в Вену."
+      - de: "die Sehenswürdigkeit"
+        ru: "достопримечательность"
+        plural: "die Sehenswürdigkeiten"
+        ex: "Berlin hat viele Sehenswürdigkeiten."
+        exRu: "В Берлине много достопримечательностей."
+      - de: "der Tourist"
+        ru: "турист"
+        plural: "die Touristen"
+        ex: "Im Sommer kommen viele Touristen."
+        exRu: "Летом приезжает много туристов."
+      - de: "die Ferien"
+        ru: "каникулы"
+        ex: "Die Kinder haben Ferien."
+        exRu: "У детей каникулы."
+    phrases:
+      - de: "Gute Reise!"
+        ru: "Счастливого пути!"
+      - de: "Schönen Urlaub!"
+        ru: "Хорошего отпуска!"
+      - de: "Wohin fahren Sie in Urlaub?"
+        ru: "Куда вы едете в отпуск?"
+      - de: "Ich mache Urlaub am Meer."
+        ru: "Я провожу отпуск на море."
+      - de: "Wie lange bleiben Sie?"
+        ru: "Как долго вы пробудете?"
+      - de: "Ich fahre ins Ausland."
+        ru: "Я еду за границу."
+    grammar:
+      title: "Куда ехать: в город или в страну"
+      explain:
+        - "Когда мы едем в город или страну, по-немецки обычно говорят [[nach]]: [[nach Berlin]], [[nach Wien]], [[nach Deutschland]], [[nach Italien]], [[nach Russland]]."
+        - "Но у некоторых стран есть артикль. Это, например, [[die Schweiz]], [[die Türkei]], [[die Ukraine]], [[die USA]]. С ними говорят [[in die]]: [[in die Schweiz]], [[in die Türkei]], [[in die USA]]."
+        - "Сравните: [[Ich fliege nach Spanien.]] — Я лечу в Испанию. [[Ich fliege in die Türkei.]] — Я лечу в Турцию."
+        - "А вот «где?» звучит по-другому: [[in Spanien]], [[in Berlin]], но [[in der Schweiz]], [[in der Türkei]]. Например: [[Ich wohne in der Schweiz.]]"
+        - "За границу — [[ins Ausland]]. За границей — [[im Ausland]]."
+      exercises:
+        - q: "Как сказать «Я лечу в Испанию»?"
+          options: ["[[Ich fliege nach Spanien.]]", "[[Ich fliege in Spanien.]]", "[[Ich fliege zu Spanien.]]", "[[Ich fliege in die Spanien.]]", "[[Ich fliege nach die Spanien.]]"]
+        - q: "Как сказать «Мы едем в Швейцарию»?"
+          options: ["[[Wir fahren in die Schweiz.]]", "[[Wir fahren nach Schweiz.]]", "[[Wir fahren nach der Schweiz.]]", "[[Wir fahren in der Schweiz.]]", "[[Wir fahren zu Schweiz.]]"]
+        - q: "Какое слово пропущено: [[Morgen fliege ich ... Wien.]]"
+          options: ["[[nach]]", "[[in die]]", "[[im]]", "[[zu der]]", "[[aus]]"]
+        - q: "Как сказать «Я живу в Турции»?"
+          options: ["[[Ich wohne in der Türkei.]]", "[[Ich wohne in die Türkei.]]", "[[Ich wohne nach Türkei.]]", "[[Ich wohne in Türkei.]]", "[[Ich wohne nach der Türkei.]]"]
+        - q: "Как сказать «Мы едем за границу»?"
+          options: ["[[Wir fahren ins Ausland.]]", "[[Wir fahren im Ausland.]]", "[[Wir fahren nach Ausland.]]", "[[Wir fahren in Ausland.]]"]
+    dialogue:
+      title: "Скоро отпуск"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Herr Weber, wohin fahren Sie in Urlaub?", "Господин Вебер, куда вы едете в отпуск?"]
+        - [B, "Ich fliege mit meiner Frau in die Türkei.", "Я лечу с женой в Турцию."]
+        - [A, "Toll! Wie lange bleiben Sie?", "Отлично! Как долго вы пробудете?"]
+        - [B, "Zwei Wochen. Wir machen Urlaub am Meer. Und Sie?", "Две недели. Мы проводим отпуск на море. А вы?"]
+        - [A, "Ich fahre nach Wien. Dort gibt es viele Sehenswürdigkeiten.", "Я еду в Вену. Там много достопримечательностей."]
+        - [B, "Fliegen Sie?", "Вы летите самолётом?"]
+        - [A, "Nein, ich fahre mit dem Zug.", "Нет, я еду на поезде."]
+        - [B, "Dann gute Reise!", "Тогда счастливого пути!"]
+      questions:
+        - q: "Куда летит господин Вебер?"
+          options: ["В Турцию", "В Вену", "В Швейцарию", "В Испанию"]
+        - q: "Сколько времени он там пробудет?"
+          options: ["Две недели", "Одну неделю", "Три дня", "Месяц"]
+        - q: "Как женщина едет в Вену?"
+          options: ["На поезде", "На самолёте", "На машине", "На автобусе"]
+
+  - id: m12l02
+    title: "В гостинице"
+    intro: "В этом уроке вы научитесь снимать номер в гостинице и вежливо о чём-то просить."
+    words:
+      - de: "das Hotel"
+        ru: "гостиница"
+        plural: "die Hotels"
+        ex: "Das Hotel ist im Zentrum."
+        exRu: "Гостиница в центре."
+      - de: "das Einzelzimmer"
+        ru: "одноместный номер"
+        plural: "die Einzelzimmer"
+        ex: "Das Einzelzimmer kostet sechzig Euro."
+        exRu: "Одноместный номер стоит шестьдесят евро."
+      - de: "das Doppelzimmer"
+        ru: "двухместный номер"
+        plural: "die Doppelzimmer"
+        ex: "Wir brauchen ein Doppelzimmer."
+        exRu: "Нам нужен двухместный номер."
+      - de: "die Rezeption"
+        ru: "стойка регистрации"
+        plural: "die Rezeptionen"
+        ex: "Die Rezeption ist rechts."
+        exRu: "Стойка регистрации справа."
+      - de: "der Schlüssel"
+        ru: "ключ"
+        plural: "die Schlüssel"
+        ex: "Hier ist Ihr Schlüssel."
+        exRu: "Вот ваш ключ."
+      - de: "reservieren"
+        ru: "бронировать"
+        ex: "Ich möchte ein Zimmer reservieren."
+        exRu: "Я хотел бы забронировать номер."
+      - de: "übernachten"
+        ru: "ночевать"
+        ex: "Wir übernachten im Hotel."
+        exRu: "Мы ночуем в гостинице."
+      - de: "die Übernachtung"
+        ru: "ночёвка"
+        plural: "die Übernachtungen"
+        ex: "Eine Übernachtung kostet achtzig Euro."
+        exRu: "Одна ночь стоит восемьдесят евро."
+      - de: "inklusive"
+        ru: "включено"
+        ex: "Das Frühstück ist inklusive."
+        exRu: "Завтрак включён."
+      - de: "frei"
+        ru: "свободный"
+        ex: "Das Zimmer ist frei."
+        exRu: "Номер свободен."
+      - de: "besetzt"
+        ru: "занятый"
+        ex: "Leider ist alles besetzt."
+        exRu: "К сожалению, всё занято."
+      - de: "die Reservierung"
+        ru: "бронь"
+        plural: "die Reservierungen"
+        ex: "Ich habe eine Reservierung."
+        exRu: "У меня есть бронь."
+      - de: "das Gepäck"
+        ru: "багаж"
+        ex: "Wo ist mein Gepäck?"
+        exRu: "Где мой багаж?"
+      - de: "der Aufzug"
+        ru: "лифт"
+        plural: "die Aufzüge"
+        ex: "Der Aufzug ist links."
+        exRu: "Лифт слева."
+    phrases:
+      - de: "Ich hätte gern ein Einzelzimmer."
+        ru: "Я хотел бы одноместный номер."
+      - de: "Haben Sie ein Zimmer frei?"
+        ru: "У вас есть свободный номер?"
+      - de: "Für wie viele Nächte?"
+        ru: "На сколько ночей?"
+      - de: "Ist das Frühstück inklusive?"
+        ru: "Завтрак включён?"
+      - de: "Ich habe ein Zimmer reserviert."
+        ru: "Я забронировал номер."
+      - de: "Könnten Sie mir ein Taxi rufen?"
+        ru: "Не могли бы вы вызвать мне такси?"
+      - de: "Könnten Sie mich um sieben Uhr wecken?"
+        ru: "Не могли бы вы разбудить меня в семь часов?"
+    grammar:
+      title: "Вежливые просьбы"
+      explain:
+        - "В гостинице, в кафе и в магазине очень удобны две вежливые формулы. Их можно просто выучить целиком."
+        - "Первая: [[Ich hätte gern]] — «я хотел бы», «мне, пожалуйста». После неё идёт то, что вы хотите: [[Ich hätte gern ein Doppelzimmer.]] [[Ich hätte gern einen Kaffee.]]"
+        - "[[Ich hätte gern]] звучит так же вежливо, как [[Ich möchte]]. Можно говорить и так, и так."
+        - "Вторая: [[Könnten Sie]] — «не могли бы вы». Глагол в начале, а другой глагол — в конце: [[Könnten Sie mir helfen?]] [[Könnten Sie das wiederholen?]]"
+        - "Это вежливее, чем [[Können Sie]]. А в конце хорошо добавить [[bitte]]: [[Könnten Sie bitte langsam sprechen?]]"
+      exercises:
+        - q: "Как вежливо сказать «Мне, пожалуйста, двухместный номер»?"
+          options: ["[[Ich hätte gern ein Doppelzimmer.]]", "[[Ich habe gern ein Doppelzimmer.]]", "[[Ich hätte ein Doppelzimmer gern haben.]]", "[[Hätte ich gern ein Doppelzimmer?]]", "[[Ich gern hätte ein Doppelzimmer.]]"]
+        - q: "Как спросить «Не могли бы вы мне помочь?»"
+          options: ["[[Könnten Sie mir helfen?]]", "[[Könnten Sie helfen mir?]]", "[[Sie könnten mir helfen.]]", "[[Könnten mir Sie helfen?]]", "[[Helfen Sie könnten mir?]]"]
+        - q: "Что значит [[Das Frühstück ist inklusive.]]?"
+          options: ["Завтрак включён.", "Завтрак не включён.", "Завтрак в семь часов.", "Завтрак стоит дорого.", "Завтрака нет."]
+        - q: "Как правильно?"
+          options: ["[[Könnten Sie bitte langsam sprechen?]]", "[[Könnten Sie bitte sprechen langsam?]]", "[[Könnten bitte Sie langsam sprechen?]]", "[[Sie könnten bitte sprechen langsam?]]"]
+        - q: "Как спросить «У вас есть свободный номер?»"
+          options: ["[[Haben Sie ein Zimmer frei?]]", "[[Haben Sie ein Zimmer besetzt?]]", "[[Sind Sie ein Zimmer frei?]]", "[[Haben Sie frei ein Zimmer?]]", "[[Hat Sie ein Zimmer frei?]]"]
+    dialogue:
+      title: "На ресепшене"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Guten Abend! Haben Sie ein Zimmer frei?", "Добрый вечер! У вас есть свободный номер?"]
+        - [B, "Guten Abend! Ein Einzelzimmer oder ein Doppelzimmer?", "Добрый вечер! Одноместный или двухместный?"]
+        - [A, "Ich hätte gern ein Einzelzimmer.", "Мне, пожалуйста, одноместный номер."]
+        - [B, "Für wie viele Nächte?", "На сколько ночей?"]
+        - [A, "Für zwei Nächte. Ist das Frühstück inklusive?", "На две ночи. Завтрак включён?"]
+        - [B, "Ja. Eine Übernachtung kostet siebzig Euro.", "Да. Одна ночь стоит семьдесят евро."]
+        - [A, "Gut. Könnten Sie mich um sieben Uhr wecken?", "Хорошо. Не могли бы вы разбудить меня в семь часов?"]
+        - [B, "Natürlich. Hier ist Ihr Schlüssel. Zimmer zwölf. Der Aufzug ist links.", "Конечно. Вот ваш ключ. Номер двенадцать. Лифт слева."]
+      questions:
+        - q: "Какой номер хочет мужчина?"
+          options: ["Одноместный", "Двухместный", "Номер с балконом", "Самый дешёвый"]
+        - q: "Сколько стоит одна ночь?"
+          options: ["Семьдесят евро", "Семнадцать евро", "Шестьдесят евро", "Сто евро"]
+        - q: "Во сколько нужно разбудить мужчину?"
+          options: ["В семь часов", "В шесть часов", "В восемь часов", "В двенадцать часов"]
+
+  - id: m12l03
+    title: "На вокзале"
+    intro: "В этом уроке вы научитесь понимать объявления на вокзале и спрашивать о поездах."
+    words:
+      - de: "der Bahnhof"
+        ru: "вокзал"
+        plural: "die Bahnhöfe"
+        ex: "Der Bahnhof ist nicht weit."
+        exRu: "Вокзал недалеко."
+      - de: "der Hauptbahnhof"
+        ru: "главный вокзал"
+        plural: "die Hauptbahnhöfe"
+        ex: "Der Zug fährt zum Hauptbahnhof."
+        exRu: "Поезд едет на главный вокзал."
+      - de: "der Bahnsteig"
+        ru: "платформа"
+        plural: "die Bahnsteige"
+        ex: "Wir warten auf dem Bahnsteig."
+        exRu: "Мы ждём на платформе."
+      - de: "die Verspätung"
+        ru: "опоздание"
+        plural: "die Verspätungen"
+        ex: "Der Zug hat Verspätung."
+        exRu: "Поезд опаздывает."
+      - de: "pünktlich"
+        ru: "вовремя"
+        ex: "Der Bus kommt pünktlich."
+        exRu: "Автобус приходит вовремя."
+      - de: "ankommen"
+        ru: "прибывать"
+        ex: "Der Zug kommt um acht Uhr an."
+        exRu: "Поезд прибывает в восемь часов."
+      - de: "abfahren"
+        ru: "отправляться"
+        ex: "Der Bus fährt gleich ab."
+        exRu: "Автобус сейчас отправляется."
+      - de: "der Schalter"
+        ru: "касса, окошко"
+        plural: "die Schalter"
+        ex: "Der Schalter ist geschlossen."
+        exRu: "Касса закрыта."
+      - de: "die Information"
+        ru: "справочная"
+        plural: "die Informationen"
+        ex: "Fragen Sie bitte an der Information."
+        exRu: "Спросите, пожалуйста, в справочной."
+      - de: "die Durchsage"
+        ru: "объявление"
+        plural: "die Durchsagen"
+        ex: "Hören Sie die Durchsage?"
+        exRu: "Вы слышите объявление?"
+      - de: "der Wagen"
+        ru: "вагон"
+        plural: "die Wagen"
+        ex: "Mein Platz ist in Wagen fünf."
+        exRu: "Моё место в пятом вагоне."
+      - de: "der Anschluss"
+        ru: "пересадка, стыковка"
+        plural: "die Anschlüsse"
+        ex: "Ich habe meinen Anschluss verpasst."
+        exRu: "Я опоздал на пересадку."
+      - de: "der Sitzplatz"
+        ru: "сидячее место"
+        plural: "die Sitzplätze"
+        ex: "Ich möchte einen Sitzplatz reservieren."
+        exRu: "Я хотел бы забронировать место."
+    phrases:
+      - de: "Der Zug hat zehn Minuten Verspätung."
+        ru: "Поезд опаздывает на десять минут."
+      - de: "Wann kommt der Zug in Berlin an?"
+        ru: "Когда поезд прибывает в Берлин?"
+      - de: "Von welchem Gleis fährt der Zug ab?"
+        ru: "С какого пути отправляется поезд?"
+      - de: "Der Zug fällt aus."
+        ru: "Поезд отменён."
+      - de: "Bitte einsteigen!"
+        ru: "Пожалуйста, садитесь в поезд!"
+      - de: "Achtung an Gleis drei!"
+        ru: "Внимание, третий путь!"
+    grammar:
+      title: "Отделяемые глаголы: прибывать и отправляться"
+      explain:
+        - "Глаголы [[ankommen]] и [[abfahren]] отделяемые. Приставка [[an]] или [[ab]] уходит в конец предложения."
+        - "[[Der Zug kommt an.]] — Поезд прибывает. [[Der Zug fährt ab.]] — Поезд отправляется."
+        - "Время обычно стоит в середине: [[Der Zug kommt um zehn Uhr an.]] [[Der Bus fährt um acht Uhr ab.]]"
+        - "Если начать со времени, глагол всё равно на втором месте, а приставка в конце: [[Um zehn Uhr kommt der Zug an.]]"
+        - "В вопросе так же: [[Wann fährt der Zug ab?]] — Когда отправляется поезд? [[Wann kommen wir in Hamburg an?]] — Когда мы прибываем в Гамбург?"
+      exercises:
+        - q: "Как сказать «Поезд отправляется в девять часов»?"
+          options: ["[[Der Zug fährt um neun Uhr ab.]]", "[[Der Zug abfährt um neun Uhr.]]", "[[Der Zug fährt ab um neun Uhr.]]", "[[Der Zug um neun Uhr abfährt.]]", "[[Der Zug ab fährt um neun Uhr.]]"]
+        - q: "Как спросить «Когда прибывает поезд?»"
+          options: ["[[Wann kommt der Zug an?]]", "[[Wann ankommt der Zug?]]", "[[Wann kommt an der Zug?]]", "[[Wann der Zug kommt an?]]", "[[Wann an kommt der Zug?]]"]
+        - q: "Как правильно?"
+          options: ["[[Um acht Uhr kommt der Bus an.]]", "[[Um acht Uhr der Bus kommt an.]]", "[[Um acht Uhr ankommt der Bus.]]", "[[Um acht Uhr kommt an der Bus.]]", "[[Um acht Uhr der Bus ankommt.]]"]
+        - q: "Что значит [[Der Zug hat Verspätung.]]?"
+          options: ["Поезд опаздывает.", "Поезд пришёл вовремя.", "Поезд уже ушёл.", "Поезд отменён.", "Поезд стоит на платформе."]
+        - q: "Какое слово пропущено: [[Der Zug fährt um elf Uhr ...]]"
+          options: ["[[ab]]", "[[an]]", "[[auf]]", "[[aus]]", "[[mit]]"]
+    dialogue:
+      title: "В справочной"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Entschuldigung, wann fährt der Zug nach Hamburg ab?", "Извините, когда отправляется поезд в Гамбург?"]
+        - [B, "Um vierzehn Uhr zehn. Aber er hat heute zwanzig Minuten Verspätung.", "В четырнадцать десять. Но сегодня он опаздывает на двадцать минут."]
+        - [A, "Oh nein! Und von welchem Gleis fährt der Zug ab?", "О нет! А с какого пути отправляется поезд?"]
+        - [B, "Von Gleis sieben.", "С седьмого пути."]
+        - [A, "Wann kommt der Zug in Hamburg an?", "Когда поезд прибывает в Гамбург?"]
+        - [B, "Um siebzehn Uhr. Hören Sie bitte die Durchsage.", "В семнадцать часов. Слушайте, пожалуйста, объявление."]
+        - [A, "Danke schön!", "Большое спасибо!"]
+      questions:
+        - q: "Куда едет женщина?"
+          options: ["В Гамбург", "В Берлин", "В Мюнхен", "В Вену"]
+        - q: "На сколько опаздывает поезд?"
+          options: ["На двадцать минут", "На десять минут", "На час", "Он не опаздывает"]
+        - q: "С какого пути отправляется поезд?"
+          options: ["С седьмого", "С третьего", "С семнадцатого", "С первого"]
+
+  - id: m12l04
+    title: "Проблемы в поездке"
+    intro: "В этом уроке вы научитесь объяснять, что случилось, и просить о помощи."
+    words:
+      - de: "verlieren"
+        ru: "терять"
+        ex: "Ich verliere oft meinen Schlüssel."
+        exRu: "Я часто теряю ключ."
+      - de: "verloren"
+        ru: "потерял"
+        ex: "Ich habe meinen Pass verloren."
+        exRu: "Я потерял паспорт."
+      - de: "gefunden"
+        ru: "нашёл"
+        ex: "Ich habe die Tasche gefunden."
+        exRu: "Я нашёл сумку."
+      - de: "stehlen"
+        ru: "красть"
+        ex: "Stehlen ist verboten."
+        exRu: "Красть запрещено."
+      - de: "die Polizei"
+        ru: "полиция"
+        ex: "Die Polizei kommt sofort."
+        exRu: "Полиция сейчас приедет."
+      - de: "die Hilfe"
+        ru: "помощь"
+        ex: "Danke für Ihre Hilfe!"
+        exRu: "Спасибо за вашу помощь!"
+      - de: "das Problem"
+        ru: "проблема"
+        plural: "die Probleme"
+        ex: "Ich habe ein Problem."
+        exRu: "У меня проблема."
+      - de: "kaputt"
+        ru: "сломанный"
+        ex: "Die Lampe ist kaputt."
+        exRu: "Лампа сломана."
+      - de: "funktionieren"
+        ru: "функционировать"
+        ex: "Der Automat funktioniert nicht."
+        exRu: "Автомат не работает."
+      - de: "das Fundbüro"
+        ru: "бюро находок"
+        plural: "die Fundbüros"
+        ex: "Das Fundbüro ist am Bahnhof."
+        exRu: "Бюро находок на вокзале."
+      - de: "die Tasche"
+        ru: "сумка"
+        plural: "die Taschen"
+        ex: "Meine Tasche ist schwarz."
+        exRu: "Моя сумка чёрная."
+      - de: "das Portemonnaie"
+        ru: "кошелёк"
+        plural: "die Portemonnaies"
+        ex: "Mein Portemonnaie ist weg."
+        exRu: "Мой кошелёк пропал."
+      - de: "der Ausweis"
+        ru: "удостоверение личности"
+        plural: "die Ausweise"
+        ex: "Zeigen Sie bitte Ihren Ausweis."
+        exRu: "Покажите, пожалуйста, ваше удостоверение."
+      - de: "der Unfall"
+        ru: "авария"
+        plural: "die Unfälle"
+        ex: "Auf der Straße war ein Unfall."
+        exRu: "На улице была авария."
+    phrases:
+      - de: "Hilfe!"
+        ru: "Помогите!"
+      - de: "Ich habe meinen Pass verloren."
+        ru: "Я потерял паспорт."
+      - de: "Meine Tasche ist weg."
+        ru: "Моя сумка пропала."
+      - de: "Das funktioniert nicht."
+        ru: "Это не работает."
+      - de: "Rufen Sie bitte die Polizei!"
+        ru: "Вызовите, пожалуйста, полицию!"
+      - de: "Was ist passiert?"
+        ru: "Что случилось?"
+    grammar:
+      title: "Перфект: потерял и нашёл"
+      explain:
+        - "Когда что-то случилось, мы рассказываем об этом в перфекте: [[haben]] на втором месте и причастие в конце."
+        - "Глагол [[verlieren]] — терять. Причастие — [[verloren]], без приставки [[ge]]: [[Ich habe meinen Pass verloren.]] — Я потерял паспорт."
+        - "Глагол [[finden]] — находить. Причастие — [[gefunden]]: [[Ich habe meine Tasche gefunden.]] — Я нашёл сумку."
+        - "Обратите внимание на артикль мужского рода: [[der Pass]], но [[Ich habe meinen Pass verloren.]] Это винительный падеж, как в [[Ich habe einen Koffer.]]"
+        - "Вопрос: [[Haben Sie Ihren Schlüssel gefunden?]] — Вы нашли свой ключ? Ответ: [[Ja, ich habe ihn gefunden.]] или [[Nein, leider nicht.]]"
+      exercises:
+        - q: "Как сказать «Я потерял ключ»?"
+          options: ["[[Ich habe meinen Schlüssel verloren.]]", "[[Ich habe meinen Schlüssel geverloren.]]", "[[Ich bin meinen Schlüssel verloren.]]", "[[Ich habe verloren meinen Schlüssel.]]", "[[Ich habe mein Schlüssel verlieren.]]"]
+        - q: "Какое причастие у глагола [[finden]]?"
+          options: ["[[gefunden]]", "[[gefindet]]", "[[gefanden]]", "[[findet]]", "[[gefinden]]"]
+        - q: "Какое слово пропущено: [[Ich habe ... Portemonnaie verloren.]]"
+          options: ["[[mein]]", "[[meinen]]", "[[meine]]", "[[meiner]]", "[[meinem]]"]
+        - q: "Как спросить «Вы нашли сумку?»"
+          options: ["[[Haben Sie die Tasche gefunden?]]", "[[Sind Sie die Tasche gefunden?]]", "[[Haben Sie gefunden die Tasche?]]", "[[Sie haben die Tasche finden?]]", "[[Haben die Tasche Sie gefunden?]]"]
+        - q: "Что значит [[Der Automat funktioniert nicht.]]?"
+          options: ["Автомат не работает.", "Автомат работает.", "Автомат далеко.", "Автомат новый.", "Автомата нет."]
+    dialogue:
+      title: "В бюро находок"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Guten Tag! Ich habe ein Problem. Ich habe meine Tasche verloren.", "Добрый день! У меня проблема. Я потеряла сумку."]
+        - [B, "Wo haben Sie die Tasche verloren?", "Где вы потеряли сумку?"]
+        - [A, "Im Zug aus München, heute Morgen.", "В поезде из Мюнхена, сегодня утром."]
+        - [B, "Wie ist die Tasche?", "Какая сумка?"]
+        - [A, "Sie ist schwarz und klein. Mein Portemonnaie und mein Ausweis sind in der Tasche.", "Она чёрная и маленькая. В сумке мой кошелёк и моё удостоверение."]
+        - [B, "Moment, bitte. Ist das Ihre Tasche?", "Минутку, пожалуйста. Это ваша сумка?"]
+        - [A, "Ja! Sie haben sie gefunden! Vielen Dank für Ihre Hilfe!", "Да! Вы её нашли! Большое спасибо за помощь!"]
+      questions:
+        - q: "Что потеряла женщина?"
+          options: ["Сумку", "Паспорт", "Чемодан", "Ключ"]
+        - q: "Где она это потеряла?"
+          options: ["В поезде", "В гостинице", "В автобусе", "В аэропорту"]
+        - q: "Какая у неё сумка?"
+          options: ["Чёрная и маленькая", "Большая и коричневая", "Красная и новая", "Белая и старая"]
+
+  - id: m12l05
+    title: "Большое повторение"
+    intro: "В этом уроке вы выучите несколько слов о почте и повторите модальные глаголы. А в конце вас ждёт длинный диалог."
+    words:
+      - de: "die Postkarte"
+        ru: "открытка"
+        plural: "die Postkarten"
+        ex: "Ich schreibe eine Postkarte aus Wien."
+        exRu: "Я пишу открытку из Вены."
+      - de: "der Gruß"
+        ru: "приветствие"
+        plural: "die Grüße"
+        ex: "Einen Gruß an Ihre Familie!"
+        exRu: "Привет вашей семье!"
+      - de: "schicken"
+        ru: "посылать"
+        ex: "Ich schicke meiner Mutter eine Postkarte."
+        exRu: "Я посылаю маме открытку."
+      - de: "die Briefmarke"
+        ru: "марка"
+        plural: "die Briefmarken"
+        ex: "Ich brauche zwei Briefmarken."
+        exRu: "Мне нужны две марки."
+      - de: "der Brief"
+        ru: "письмо"
+        plural: "die Briefe"
+        ex: "Der Brief ist von Anna."
+        exRu: "Письмо от Анны."
+      - de: "das Paket"
+        ru: "посылка"
+        plural: "die Pakete"
+        ex: "Das Paket ist sehr schwer."
+        exRu: "Посылка очень тяжёлая."
+      - de: "das Formular"
+        ru: "бланк"
+        plural: "die Formulare"
+        ex: "Hier ist das Formular."
+        exRu: "Вот бланк."
+      - de: "ausfüllen"
+        ru: "заполнять"
+        ex: "Bitte füllen Sie das Formular aus."
+        exRu: "Пожалуйста, заполните бланк."
+    phrases:
+      - de: "Viele Grüße!"
+        ru: "С приветом!"
+      - de: "Herzliche Grüße!"
+        ru: "Сердечный привет!"
+      - de: "Ich möchte ein Paket schicken."
+        ru: "Я хотел бы отправить посылку."
+      - de: "Was kostet ein Brief nach Russland?"
+        ru: "Сколько стоит письмо в Россию?"
+    grammar:
+      title: "Обзор модальных глаголов"
+      explain:
+        - "Модальные глаголы говорят, как мы относимся к действию: можем, должны, хотим. Второй глагол стоит в конце в начальной форме: [[Ich kann gut schwimmen.]]"
+        - "[[Können]] — мочь, уметь: [[Ich kann Deutsch sprechen.]] [[Müssen]] — быть должным: [[Ich muss arbeiten.]] [[Wollen]] — хотеть: [[Ich will nach Berlin fahren.]]"
+        - "[[Dürfen]] — можно, разрешено: [[Hier darf man nicht rauchen.]] [[Sollen]] — следует, когда кто-то советует или велит: [[Der Arzt sagt, ich soll viel schlafen.]]"
+        - "[[Möchten]] — вежливое «хотел бы»: [[Ich möchte ein Paket schicken.]] Это вежливее, чем [[ich will]]."
+        - "Важно: у [[ich]] и [[er]] нет окончания: [[ich kann]], [[er kann]]; [[ich muss]], [[er muss]]; [[ich will]], [[er will]]."
+      exercises:
+        - q: "Как сказать «Я должен заполнить бланк»?"
+          options: ["[[Ich muss das Formular ausfüllen.]]", "[[Ich muss ausfüllen das Formular.]]", "[[Ich muss das Formular aus.]]", "[[Ich müsse das Formular ausfüllen.]]", "[[Ich muss das Formular füllt aus.]]"]
+        - q: "Какой глагол значит «можно, разрешено»?"
+          options: ["[[dürfen]]", "[[müssen]]", "[[wollen]]", "[[sollen]]", "[[möchten]]"]
+        - q: "Какая форма нужна: [[Er ... gut schwimmen.]]"
+          options: ["[[kann]]", "[[kannt]]", "[[können]]", "[[kannst]]", "[[könnt]]"]
+        - q: "Как вежливо сказать «Я хотел бы отправить письмо»?"
+          options: ["[[Ich möchte einen Brief schicken.]]", "[[Ich möchte schicken einen Brief.]]", "[[Ich möchte einen Brief schicke.]]", "[[Ich möchten einen Brief schicken.]]", "[[Möchte ich einen Brief schicken.]]"]
+        - q: "Что значит [[Hier darf man nicht rauchen.]]?"
+          options: ["Здесь нельзя курить.", "Здесь нужно курить.", "Здесь хотят курить.", "Здесь все курят.", "Здесь можно курить."]
+        - q: "Как сказать «Врач говорит, что мне следует больше гулять»?"
+          options: ["[[Der Arzt sagt, ich soll mehr spazieren gehen.]]", "[[Der Arzt sagt, ich darf mehr spazieren gehen.]]", "[[Der Arzt sagt, ich soll mehr spazieren gehe.]]", "[[Der Arzt sagt, ich sollen mehr spazieren gehen.]]"]
+    dialogue:
+      title: "На почте после отпуска"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Guten Tag! Ich möchte ein Paket nach Russland schicken.", "Добрый день! Я хотела бы отправить посылку в Россию."]
+        - [B, "Gern. Dann müssen Sie dieses Formular ausfüllen.", "Хорошо. Тогда вам нужно заполнить этот бланк."]
+        - [A, "Kann ich das auch auf Englisch schreiben?", "Можно написать это и по-английски?"]
+        - [B, "Ja, das dürfen Sie. Was ist im Paket?", "Да, можно. Что в посылке?"]
+        - [A, "Geschenke für meine Familie. Ich war zwei Wochen in Österreich.", "Подарки для моей семьи. Я две недели была в Австрии."]
+        - [B, "Schön! Wie war das Wetter?", "Здорово! Какая была погода?"]
+        - [A, "Sehr gut. Es war warm und die Sonne hat jeden Tag geschienen.", "Очень хорошая. Было тепло, и каждый день светило солнце."]
+        - [B, "Und was haben Sie gemacht?", "А что вы делали?"]
+        - [A, "Wir sind in die Berge gefahren und haben viel gesehen.", "Мы ездили в горы и многое посмотрели."]
+        - [B, "Toll. So, das Paket kostet fünfundzwanzig Euro.", "Отлично. Итак, посылка стоит двадцать пять евро."]
+        - [A, "Und ich brauche noch drei Briefmarken für Postkarten.", "И мне ещё нужны три марки для открыток."]
+        - [B, "Nach Russland? Das sind zusammen sechs Euro dreißig.", "В Россию? Это вместе шесть евро тридцать."]
+        - [A, "Kann ich mit Karte bezahlen?", "Можно заплатить картой?"]
+        - [B, "Ja, natürlich. Vielen Dank und einen schönen Tag!", "Да, конечно. Большое спасибо и хорошего дня!"]
+      questions:
+        - q: "Куда женщина отправляет посылку?"
+          options: ["В Россию", "В Австрию", "В Германию", "В Швейцарию"]
+        - q: "Что в посылке?"
+          options: ["Подарки для семьи", "Книги", "Одежда для отпуска", "Письма и открытки"]
+        - q: "Сколько стоит посылка?"
+          options: ["Двадцать пять евро", "Шесть евро тридцать", "Пятнадцать евро", "Тридцать пять евро"]

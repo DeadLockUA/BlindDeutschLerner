@@ -1,0 +1,572 @@
+id: m05
+title: "Дом и квартира"
+lessons:
+  - id: m05l01
+    title: "Квартира"
+    intro: "В этом уроке вы узнаете, как называются комнаты, и научитесь рассказывать, что есть в квартире."
+    words:
+      - de: "die Wohnung"
+        ru: "квартира"
+        plural: "die Wohnungen"
+        ex: "Die Wohnung ist schön."
+        exRu: "Квартира красивая."
+      - de: "das Haus"
+        ru: "дом"
+        plural: "die Häuser"
+        ex: "Das Haus hat einen Garten."
+        exRu: "У дома есть сад."
+      - de: "das Zimmer"
+        ru: "комната"
+        plural: "die Zimmer"
+        ex: "Die Wohnung hat drei Zimmer."
+        exRu: "В квартире три комнаты."
+      - de: "die Küche"
+        ru: "кухня"
+        plural: "die Küchen"
+        ex: "Die Küche ist klein."
+        exRu: "Кухня маленькая."
+      - de: "das Bad"
+        ru: "ванная"
+        plural: "die Bäder"
+        ex: "Das Bad ist neben der Küche."
+        exRu: "Ванная рядом с кухней."
+      - de: "die Toilette"
+        ru: "туалет"
+        plural: "die Toiletten"
+        ex: "Wo ist die Toilette, bitte?"
+        exRu: "Где туалет, пожалуйста?"
+      - de: "das Schlafzimmer"
+        ru: "спальня"
+        plural: "die Schlafzimmer"
+        ex: "Das Schlafzimmer ist ruhig."
+        exRu: "В спальне тихо."
+      - de: "das Wohnzimmer"
+        ru: "гостиная"
+        plural: "die Wohnzimmer"
+        ex: "Am Abend sitzen wir im Wohnzimmer."
+        exRu: "Вечером мы сидим в гостиной."
+      - de: "das Kinderzimmer"
+        ru: "детская"
+        plural: "die Kinderzimmer"
+        ex: "Das Kinderzimmer ist für meine Tochter."
+        exRu: "Детская для моей дочери."
+      - de: "der Flur"
+        ru: "прихожая, коридор"
+        plural: "die Flure"
+        ex: "Die Jacke ist im Flur."
+        exRu: "Куртка в прихожей."
+      - de: "der Balkon"
+        ru: "балкон"
+        plural: "die Balkone"
+        ex: "Wir trinken Kaffee auf dem Balkon."
+        exRu: "Мы пьём кофе на балконе."
+      - de: "der Garten"
+        ru: "сад"
+        plural: "die Gärten"
+        ex: "Die Kinder spielen im Garten."
+        exRu: "Дети играют в саду."
+      - de: "der Keller"
+        ru: "подвал"
+        plural: "die Keller"
+        ex: "Das Fahrrad steht im Keller."
+        exRu: "Велосипед стоит в подвале."
+    phrases:
+      - de: "Es gibt einen Balkon."
+        ru: "Есть балкон."
+      - de: "Gibt es einen Garten?"
+        ru: "Есть ли сад?"
+      - de: "Wie viele Zimmer hat die Wohnung?"
+        ru: "Сколько комнат в квартире?"
+      - de: "Kommen Sie herein!"
+        ru: "Входите!"
+      - de: "Hier ist die Küche."
+        ru: "Вот кухня."
+      - de: "Wo ist das Bad?"
+        ru: "Где ванная?"
+    grammar:
+      title: "Оборот «есть, имеется»"
+      explain:
+        - "Чтобы сказать, что где-то что-то есть, немцы говорят [[es gibt]]. Это значит «есть» или «имеется»: [[Es gibt einen Balkon.]] — «Есть балкон»."
+        - "Форма [[es gibt]] не меняется. Один предмет или много — всё равно [[es gibt]]: [[Es gibt drei Zimmer.]] — «Есть три комнаты»."
+        - "После [[es gibt]] слово стоит в винительном падеже. Меняется только мужской род: [[der Balkon]] превращается в [[einen Balkon]]. Женский и средний род не меняются: [[eine Küche]], [[ein Bad]]."
+        - "Если чего-то нет, говорят [[kein]] или [[keine]]: [[Es gibt keinen Garten.]] — «Сада нет». [[Es gibt keine Toilette.]] — «Туалета нет»."
+        - "В вопросе глагол идёт первым: [[Gibt es einen Keller?]] — «Есть ли подвал?» Ответ: [[Ja, es gibt einen Keller.]] или [[Nein, es gibt keinen Keller.]]"
+      exercises:
+        - q: "Как сказать «Есть балкон»?"
+          options: ["[[Es gibt einen Balkon.]]", "[[Es gibt ein Balkon.]]", "[[Es gibt eine Balkon.]]", "[[Es geben einen Balkon.]]", "[[Es ist einen Balkon.]]"]
+        - q: "Как правильно сказать «Есть кухня»?"
+          options: ["[[Es gibt eine Küche.]]", "[[Es gibt einen Küche.]]", "[[Es gibt ein Küche.]]", "[[Es gibt keinen Küche.]]"]
+        - q: "Как спросить «Есть ли сад?»"
+          options: ["[[Gibt es einen Garten?]]", "[[Es gibt einen Garten?]]", "[[Gibt es eine Garten?]]", "[[Gibt einen Garten es?]]", "[[Gibt es ein Garten?]]"]
+        - q: "Как сказать «Подвала нет»?"
+          options: ["[[Es gibt keinen Keller.]]", "[[Es gibt kein Keller.]]", "[[Es gibt nicht Keller.]]", "[[Es gibt keine Keller ist.]]", "[[Es gibt einen Keller.]]"]
+        - q: "Выберите правильное предложение: «Есть ванная»."
+          options: ["[[Es gibt ein Bad.]]", "[[Es gibt einen Bad.]]", "[[Es gibt eine Bad.]]", "[[Es gibt Bad ein.]]"]
+        - q: "Как сказать «Есть три комнаты»?"
+          options: ["[[Es gibt drei Zimmer.]]", "[[Es geben drei Zimmer.]]", "[[Es gibt drei Zimmers.]]", "[[Es sind gibt drei Zimmer.]]"]
+    dialogue:
+      title: "Новая квартира"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Hallo, Peter! Kommen Sie herein!", "Привет, Петер! Входите!"]
+        - [B, "Danke, Anna. Oh, die Wohnung ist schön!", "Спасибо, Анна. О, квартира красивая!"]
+        - [A, "Hier ist die Küche, und dort ist das Wohnzimmer.", "Вот кухня, а там гостиная."]
+        - [B, "Wie viele Zimmer hat die Wohnung?", "Сколько комнат в квартире?"]
+        - [A, "Drei Zimmer: das Wohnzimmer, das Schlafzimmer und das Kinderzimmer.", "Три комнаты: гостиная, спальня и детская."]
+        - [B, "Gibt es einen Balkon?", "Есть ли балкон?"]
+        - [A, "Ja, es gibt einen Balkon. Aber es gibt keinen Garten.", "Да, есть балкон. Но сада нет."]
+        - [B, "Und wo ist die Toilette, bitte?", "А где туалет, пожалуйста?"]
+        - [A, "Im Flur, neben dem Bad.", "В прихожей, рядом с ванной."]
+      questions:
+        - q: "Сколько комнат в квартире Анны?"
+          options: ["Три", "Две", "Четыре"]
+        - q: "Чего нет у Анны?"
+          options: ["Сада", "Балкона", "Кухни", "Детской"]
+        - q: "Где туалет?"
+          options: ["В прихожей", "На кухне", "В спальне", "На балконе"]
+
+  - id: m05l02
+    title: "Мебель"
+    intro: "В этом уроке вы выучите названия мебели и узнаете, как заменять предметы словами «он», «она» и «оно»."
+    words:
+      - de: "der Tisch"
+        ru: "стол"
+        plural: "die Tische"
+        ex: "Der Tisch ist in der Küche."
+        exRu: "Стол на кухне."
+      - de: "der Stuhl"
+        ru: "стул"
+        plural: "die Stühle"
+        ex: "Wir haben vier Stühle."
+        exRu: "У нас четыре стула."
+      - de: "das Bett"
+        ru: "кровать"
+        plural: "die Betten"
+        ex: "Das Bett ist im Schlafzimmer."
+        exRu: "Кровать в спальне."
+      - de: "der Schrank"
+        ru: "шкаф"
+        plural: "die Schränke"
+        ex: "Der Schrank ist sehr groß."
+        exRu: "Шкаф очень большой."
+      - de: "das Sofa"
+        ru: "диван"
+        plural: "die Sofas"
+        ex: "Das Sofa ist im Wohnzimmer."
+        exRu: "Диван в гостиной."
+      - de: "der Sessel"
+        ru: "кресло"
+        plural: "die Sessel"
+        ex: "Mein Vater sitzt im Sessel."
+        exRu: "Мой отец сидит в кресле."
+      - de: "die Lampe"
+        ru: "лампа"
+        plural: "die Lampen"
+        ex: "Die Lampe ist neu."
+        exRu: "Лампа новая."
+      - de: "das Regal"
+        ru: "полка, стеллаж"
+        plural: "die Regale"
+        ex: "Das Regal ist voll."
+        exRu: "Полка полная."
+      - de: "der Teppich"
+        ru: "ковёр"
+        plural: "die Teppiche"
+        ex: "Der Teppich ist schön."
+        exRu: "Ковёр красивый."
+      - de: "das Bild"
+        ru: "картина"
+        plural: "die Bilder"
+        ex: "Das Bild ist von meiner Tochter."
+        exRu: "Картина от моей дочери."
+      - de: "das Fenster"
+        ru: "окно"
+        plural: "die Fenster"
+        ex: "Das Zimmer hat zwei Fenster."
+        exRu: "В комнате два окна."
+      - de: "die Tür"
+        ru: "дверь"
+        plural: "die Türen"
+        ex: "Die Tür ist offen."
+        exRu: "Дверь открыта."
+      - de: "die Möbel"
+        ru: "мебель"
+        ex: "Die Möbel sind alt."
+        exRu: "Мебель старая."
+    phrases:
+      - de: "Das ist mein Zimmer."
+        ru: "Это моя комната."
+      - de: "Nehmen Sie Platz!"
+        ru: "Садитесь!"
+      - de: "Machen Sie bitte das Fenster auf!"
+        ru: "Откройте, пожалуйста, окно!"
+      - de: "Machen Sie bitte die Tür zu!"
+        ru: "Закройте, пожалуйста, дверь!"
+      - de: "Wie gemütlich!"
+        ru: "Как уютно!"
+    grammar:
+      title: "Он, она, оно для предметов"
+      explain:
+        - "В немецком, как и в русском, предмет можно заменить словом «он», «она» или «оно». Но род часто не совпадает с русским."
+        - "Слова с артиклем [[der]] заменяют на [[er]]: [[Der Tisch ist neu. Er ist neu.]] — «Стол новый. Он новый»."
+        - "Слова с артиклем [[die]] заменяют на [[sie]]: [[Die Lampe ist schön. Sie ist schön.]] — «Лампа красивая. Она красивая»."
+        - "Слова с артиклем [[das]] заменяют на [[es]]: [[Das Bett ist groß. Es ist groß.]] Обратите внимание: по-русски кровать — «она», а по-немецки — [[es]]. Поэтому учите слово всегда вместе с артиклем."
+        - "Во множественном числе всегда [[sie]] и глагол [[sind]]: [[Die Stühle sind neu. Sie sind neu.]] — «Стулья новые. Они новые»."
+      exercises:
+        - q: "[[Wo ist der Schrank?]] Как ответить «Он в спальне»?"
+          options: ["[[Er ist im Schlafzimmer.]]", "[[Sie ist im Schlafzimmer.]]", "[[Es ist im Schlafzimmer.]]", "[[Sie sind im Schlafzimmer.]]", "[[Ich bin im Schlafzimmer.]]"]
+        - q: "[[Wie ist die Lampe?]] Как сказать «Она новая»?"
+          options: ["[[Sie ist neu.]]", "[[Er ist neu.]]", "[[Es ist neu.]]", "[[Sie sind neu.]]"]
+        - q: "Каким словом заменить [[das Sofa]]?"
+          options: ["[[es]]", "[[er]]", "[[sie]]", "[[ich]]"]
+        - q: "Каким словом заменить [[das Bett]]?"
+          options: ["[[es]]", "[[sie]]", "[[er]]", "[[ich]]", "[[wir]]"]
+        - q: "[[Die Stühle sind alt.]] Как сказать «Они старые»?"
+          options: ["[[Sie sind alt.]]", "[[Sie ist alt.]]", "[[Er ist alt.]]", "[[Es ist alt.]]", "[[Es sind alt.]]"]
+        - q: "Каким словом заменить [[der Teppich]]?"
+          options: ["[[er]]", "[[es]]", "[[sie]]", "[[wir]]"]
+    dialogue:
+      title: "Мебель для гостиной"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Guten Tag, Frau Weber! Nehmen Sie Platz!", "Добрый день, госпожа Вебер! Садитесь!"]
+        - [B, "Danke. Oh, wie gemütlich! Ist das Sofa neu?", "Спасибо. О, как уютно! Диван новый?"]
+        - [A, "Ja, es ist neu. Der Sessel ist auch neu.", "Да, он новый. Кресло тоже новое."]
+        - [B, "Und der Teppich? Er ist sehr schön.", "А ковёр? Он очень красивый."]
+        - [A, "Der Teppich ist von meiner Mutter. Er ist alt.", "Ковёр от моей мамы. Он старый."]
+        - [B, "Es ist ein bisschen warm hier.", "Здесь немного тепло."]
+        - [A, "Kein Problem. Ich mache das Fenster auf.", "Не проблема. Я открою окно."]
+      questions:
+        - q: "Что новое в гостиной?"
+          options: ["Диван и кресло", "Ковёр и лампа", "Стол и стулья", "Шкаф и полка"]
+        - q: "От кого ковёр?"
+          options: ["От мамы", "От отца", "От сестры", "Из магазина"]
+        - q: "Что делает мужчина в конце?"
+          options: ["Открывает окно", "Закрывает дверь", "Включает лампу", "Покупает ковёр"]
+
+  - id: m05l03
+    title: "Где это?"
+    intro: "В этом уроке вы научитесь говорить, где лежат и стоят вещи: на столе, под кроватью, рядом с диваном."
+    words:
+      - de: "liegen"
+        ru: "лежать"
+        ex: "Das Buch liegt auf dem Tisch."
+        exRu: "Книга лежит на столе."
+      - de: "stehen"
+        ru: "стоять"
+        ex: "Der Stuhl steht neben dem Tisch."
+        exRu: "Стул стоит рядом со столом."
+      - de: "hängen"
+        ru: "висеть"
+        ex: "Das Bild hängt im Flur."
+        exRu: "Картина висит в прихожей."
+      - de: "auf"
+        ru: "на"
+        ex: "Die Lampe steht auf dem Regal."
+        exRu: "Лампа стоит на полке."
+      - de: "unter"
+        ru: "под"
+        ex: "Die Katze liegt unter dem Bett."
+        exRu: "Кошка лежит под кроватью."
+      - de: "neben"
+        ru: "рядом с"
+        ex: "Das Sofa steht neben der Tür."
+        exRu: "Диван стоит рядом с дверью."
+      - de: "zwischen"
+        ru: "между"
+        ex: "Der Tisch steht zwischen dem Sofa und dem Sessel."
+        exRu: "Стол стоит между диваном и креслом."
+      - de: "links"
+        ru: "слева"
+        ex: "Die Küche ist links."
+        exRu: "Кухня слева."
+      - de: "rechts"
+        ru: "справа"
+        ex: "Das Bad ist rechts."
+        exRu: "Ванная справа."
+      - de: "oben"
+        ru: "наверху"
+        ex: "Das Schlafzimmer ist oben."
+        exRu: "Спальня наверху."
+      - de: "unten"
+        ru: "внизу"
+        ex: "Die Küche ist unten."
+        exRu: "Кухня внизу."
+      - de: "hier"
+        ru: "здесь"
+        ex: "Hier ist das Wohnzimmer."
+        exRu: "Здесь гостиная."
+      - de: "dort"
+        ru: "там"
+        ex: "Dort ist der Balkon."
+        exRu: "Там балкон."
+    phrases:
+      - de: "Ich suche meine Brille."
+        ru: "Я ищу свои очки."
+      - de: "Ich weiß es nicht."
+        ru: "Я не знаю."
+      - de: "Da ist es!"
+        ru: "Вот оно!"
+      - de: "Ganz oben."
+        ru: "На самом верху."
+      - de: "Gleich daneben."
+        ru: "Прямо рядом."
+    grammar:
+      title: "Где? Предлоги места"
+      explain:
+        - "На вопрос [[Wo?]] — «Где?» — отвечают с предлогами: [[auf]] — на, [[unter]] — под, [[neben]] — рядом с, [[zwischen]] — между, [[in]] — в."
+        - "После этих предлогов артикль меняется. [[Der]] и [[das]] превращаются в [[dem]]: [[auf dem Tisch]], [[unter dem Bett]]."
+        - "Артикль [[die]] превращается в [[der]]: [[in der Küche]], [[neben der Tür]]. Это звучит странно, но просто запомните: женский род после этих предлогов — [[der]]."
+        - "Часто предлог сливается с артиклем: [[in dem]] становится [[im]]: [[im Schrank]], [[im Wohnzimmer]]."
+        - "Про вещи немцы говорят точнее, чем мы: книга лежит — [[liegt]], стул стоит — [[steht]], картина висит — [[hängt]]. [[Das Buch liegt auf dem Tisch. Das Bild hängt im Flur.]]"
+      exercises:
+        - q: "[[Das Buch liegt auf ... Tisch.]] Какое слово пропущено?"
+          options: ["[[dem]]", "[[der]]", "[[den]]", "[[das]]", "[[die]]"]
+        - q: "Как сказать «на кухне»?"
+          options: ["[[in der Küche]]", "[[in dem Küche]]", "[[in die Küche]]", "[[im Küche]]", "[[auf den Küche]]"]
+        - q: "Как сказать «в шкафу»?"
+          options: ["[[im Schrank]]", "[[in der Schrank]]", "[[in die Schrank]]", "[[im Schranke]]"]
+        - q: "Как сказать «Кошка лежит под кроватью»?"
+          options: ["[[Die Katze liegt unter dem Bett.]]", "[[Die Katze liegt unter der Bett.]]", "[[Die Katze liegt auf dem Bett.]]", "[[Die Katze liegt unter das Bett.]]", "[[Die Katze steht neben dem Bett.]]"]
+        - q: "Картина на стене. Какой глагол нужен? [[Das Bild ... an der Wand.]]"
+          options: ["[[hängt]]", "[[liegt]]", "[[steht]]", "[[sitzt]]"]
+        - q: "Что значит [[neben der Tür]]?"
+          options: ["Рядом с дверью", "Под дверью", "За дверью", "Между дверями", "На двери"]
+    dialogue:
+      title: "Где очки?"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Maria, ich suche meine Brille. Wo ist sie?", "Мария, я ищу свои очки. Где они?"]
+        - [B, "Ich weiß es nicht. Liegt sie auf dem Tisch?", "Я не знаю. Они лежат на столе?"]
+        - [A, "Nein, auf dem Tisch ist sie nicht.", "Нет, на столе их нет."]
+        - [B, "Vielleicht im Schlafzimmer, neben dem Bett?", "Может быть, в спальне, рядом с кроватью?"]
+        - [A, "Nein. Und auch nicht im Bad.", "Нет. И в ванной тоже нет."]
+        - [B, "Moment! Da ist sie! Im Wohnzimmer, auf dem Regal, ganz oben.", "Минутку! Вот они! В гостиной, на полке, на самом верху."]
+        - [A, "Super, danke!", "Супер, спасибо!"]
+      questions:
+        - q: "Что ищет мужчина?"
+          options: ["Очки", "Книгу", "Телефон", "Ключ"]
+        - q: "Где были очки?"
+          options: ["На полке в гостиной", "На столе на кухне", "Рядом с кроватью", "В ванной"]
+        - q: "Как зовут женщину?"
+          options: ["Мария", "Анна", "Софи", "Госпожа Шмидт"]
+
+  - id: m05l04
+    title: "Описание жилья"
+    intro: "В этом уроке вы научитесь описывать квартиру: светлая или тёмная, тихая или шумная, сколько стоит аренда."
+    words:
+      - de: "hell"
+        ru: "светлый"
+        ex: "Das Wohnzimmer ist hell."
+        exRu: "Гостиная светлая."
+      - de: "dunkel"
+        ru: "тёмный"
+        ex: "Der Flur ist dunkel."
+        exRu: "Прихожая тёмная."
+      - de: "neu"
+        ru: "новый"
+        ex: "Das Haus ist neu."
+        exRu: "Дом новый."
+      - de: "modern"
+        ru: "современный"
+        ex: "Die Küche ist modern."
+        exRu: "Кухня современная."
+      - de: "gemütlich"
+        ru: "уютный"
+        ex: "Das Zimmer ist klein, aber gemütlich."
+        exRu: "Комната маленькая, но уютная."
+      - de: "laut"
+        ru: "шумный, громкий"
+        ex: "Die Straße ist laut."
+        exRu: "Улица шумная."
+      - de: "leise"
+        ru: "тихий, тихо"
+        ex: "Bitte sprechen Sie leise."
+        exRu: "Пожалуйста, говорите тихо."
+      - de: "sehr"
+        ru: "очень"
+        ex: "Die Wohnung ist sehr schön."
+        exRu: "Квартира очень красивая."
+      - de: "ziemlich"
+        ru: "довольно"
+        ex: "Das Zimmer ist ziemlich groß."
+        exRu: "Комната довольно большая."
+      - de: "die Miete"
+        ru: "арендная плата"
+        plural: "die Mieten"
+        ex: "Die Miete ist nicht teuer."
+        exRu: "Аренда недорогая."
+      - de: "mieten"
+        ru: "снимать, арендовать"
+        ex: "Wir mieten eine Wohnung."
+        exRu: "Мы снимаем квартиру."
+      - de: "der Quadratmeter"
+        ru: "квадратный метр"
+        plural: "die Quadratmeter"
+        ex: "Die Wohnung hat sechzig Quadratmeter."
+        exRu: "В квартире шестьдесят квадратных метров."
+      - de: "der Vermieter"
+        ru: "арендодатель"
+        plural: "die Vermieter"
+        ex: "Der Vermieter heißt Herr Müller."
+        exRu: "Арендодателя зовут господин Мюллер."
+      - de: "die Nebenkosten"
+        ru: "коммунальные платежи"
+        ex: "Die Nebenkosten sind hundert Euro."
+        exRu: "Коммунальные платежи сто евро."
+    phrases:
+      - de: "Wie hoch ist die Miete?"
+        ru: "Какая арендная плата?"
+      - de: "Wie groß ist die Wohnung?"
+        ru: "Какая площадь квартиры?"
+      - de: "Die Wohnung ist frei."
+        ru: "Квартира свободна."
+      - de: "Das ist mir zu teuer."
+        ru: "Для меня это слишком дорого."
+      - de: "Kann ich die Wohnung sehen?"
+        ru: "Можно посмотреть квартиру?"
+    grammar:
+      title: "Очень, слишком, довольно"
+      explain:
+        - "Прилагательное можно усилить или ослабить маленьким словом перед ним. Как в русском: «очень большой», «довольно большой», «слишком большой»."
+        - "[[sehr]] — «очень»: [[Die Wohnung ist sehr hell.]] — «Квартира очень светлая». Это просто сильнее."
+        - "[[ziemlich]] — «довольно»: [[Das Zimmer ist ziemlich klein.]] — «Комната довольно маленькая»."
+        - "[[zu]] — «слишком». Это всегда значит, что что-то плохо, что это проблема: [[Die Wohnung ist zu teuer.]] — «Квартира слишком дорогая», то есть я её не сниму."
+        - "Сравните: [[Die Wohnung ist sehr groß.]] — «очень большая», это хорошо. [[Die Wohnung ist zu groß.]] — «слишком большая», это мне не подходит."
+      exercises:
+        - q: "Как сказать «Квартира слишком дорогая»?"
+          options: ["[[Die Wohnung ist zu teuer.]]", "[[Die Wohnung ist sehr teuer.]]", "[[Die Wohnung ist ziemlich teuer.]]", "[[Die Wohnung ist nicht teuer.]]", "[[Die Wohnung ist teuer zu.]]"]
+        - q: "Что значит [[ziemlich hell]]?"
+          options: ["Довольно светлый", "Очень светлый", "Слишком светлый", "Не светлый", "Тёмный"]
+        - q: "Как сказать «Кухня очень современная»?"
+          options: ["[[Die Küche ist sehr modern.]]", "[[Die Küche ist zu modern.]]", "[[Die Küche sehr ist modern.]]", "[[Die Küche ist ziemlich modern.]]"]
+        - q: "Человек говорит: [[Das Zimmer ist zu klein.]] Что он имеет в виду?"
+          options: ["Комната ему не подходит", "Комната ему очень нравится", "Комната большая", "Комната довольно уютная"]
+        - q: "Противоположность слова [[hell]]?"
+          options: ["[[dunkel]]", "[[laut]]", "[[neu]]", "[[modern]]", "[[gemütlich]]"]
+        - q: "Противоположность слова [[laut]]?"
+          options: ["[[leise]]", "[[hell]]", "[[sehr]]", "[[dunkel]]"]
+    dialogue:
+      title: "Осмотр квартиры"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Guten Tag, Herr Müller. Ist die Wohnung noch frei?", "Добрый день, господин Мюллер. Квартира ещё свободна?"]
+        - [B, "Ja, sie ist frei. Sie ist hell und ziemlich ruhig.", "Да, свободна. Она светлая и довольно тихая."]
+        - [A, "Wie groß ist die Wohnung?", "Какая площадь квартиры?"]
+        - [B, "Siebzig Quadratmeter, drei Zimmer und eine moderne Küche.", "Семьдесят квадратных метров, три комнаты и современная кухня."]
+        - [A, "Und wie hoch ist die Miete?", "А какая арендная плата?"]
+        - [B, "Achthundert Euro, plus hundertfünfzig Euro Nebenkosten.", "Восемьсот евро плюс сто пятьдесят евро коммунальные платежи."]
+        - [A, "Hm, das ist mir ein bisschen zu teuer.", "Хм, для меня это немного дороговато."]
+        - [B, "Aber die Wohnung ist sehr schön. Kommen Sie, sehen Sie mal!", "Но квартира очень красивая. Пойдёмте, посмотрите!"]
+      questions:
+        - q: "Какая площадь квартиры?"
+          options: ["Семьдесят квадратных метров", "Семнадцать квадратных метров", "Восемьдесят квадратных метров", "Сто пятьдесят квадратных метров"]
+        - q: "Сколько стоит аренда без коммунальных платежей?"
+          options: ["Восемьсот евро", "Сто пятьдесят евро", "Семьсот евро", "Девятьсот пятьдесят евро"]
+        - q: "Что думает женщина о цене?"
+          options: ["Немного дорого", "Очень дёшево", "Нормально", "Она не говорит"]
+
+  - id: m05l05
+    title: "Домашние дела"
+    intro: "В этом уроке вы научитесь говорить об уборке и домашних делах и познакомитесь с глаголами, которые разделяются на части."
+    words:
+      - de: "putzen"
+        ru: "убирать, чистить"
+        ex: "Am Samstag putze ich die Wohnung."
+        exRu: "В субботу я убираю квартиру."
+      - de: "waschen"
+        ru: "стирать, мыть"
+        ex: "Ich wasche heute die Wäsche."
+        exRu: "Сегодня я стираю бельё."
+      - de: "aufräumen"
+        ru: "наводить порядок"
+        ex: "Die Kinder räumen das Zimmer auf."
+        exRu: "Дети наводят порядок в комнате."
+      - de: "spülen"
+        ru: "мыть посуду"
+        ex: "Nach dem Essen spüle ich."
+        exRu: "После еды я мою посуду."
+      - de: "das Geschirr"
+        ru: "посуда"
+        ex: "Das Geschirr ist sauber."
+        exRu: "Посуда чистая."
+      - de: "der Müll"
+        ru: "мусор"
+        ex: "Der Müll ist in der Küche."
+        exRu: "Мусор на кухне."
+      - de: "die Waschmaschine"
+        ru: "стиральная машина"
+        plural: "die Waschmaschinen"
+        ex: "Die Waschmaschine ist im Bad."
+        exRu: "Стиральная машина в ванной."
+      - de: "der Kühlschrank"
+        ru: "холодильник"
+        plural: "die Kühlschränke"
+        ex: "Die Milch ist im Kühlschrank."
+        exRu: "Молоко в холодильнике."
+      - de: "der Herd"
+        ru: "плита"
+        plural: "die Herde"
+        ex: "Die Suppe steht auf dem Herd."
+        exRu: "Суп стоит на плите."
+      - de: "helfen"
+        ru: "помогать"
+        ex: "Mein Sohn hilft mir."
+        exRu: "Мой сын мне помогает."
+      - de: "sauber"
+        ru: "чистый"
+        ex: "Die Küche ist jetzt sauber."
+        exRu: "Кухня теперь чистая."
+      - de: "schmutzig"
+        ru: "грязный"
+        ex: "Der Teppich ist schmutzig."
+        exRu: "Ковёр грязный."
+    phrases:
+      - de: "den Müll rausbringen"
+        ru: "выносить мусор"
+      - de: "die Wäsche waschen"
+        ru: "стирать бельё"
+      - de: "Können Sie mir helfen?"
+        ru: "Вы можете мне помочь?"
+      - de: "Kein Problem!"
+        ru: "Без проблем!"
+      - de: "Das mache ich."
+        ru: "Это сделаю я."
+    grammar:
+      title: "Глаголы с отделяемой приставкой"
+      explain:
+        - "В немецком есть глаголы, которые в предложении разделяются на две части. Например, [[aufräumen]] — «наводить порядок». Приставка здесь [[auf]]."
+        - "Основная часть глагола стоит на втором месте, а приставка уходит в самый конец предложения: [[Ich räume auf.]] — «Я навожу порядок»."
+        - "Если есть другие слова, приставка всё равно в конце: [[Ich räume das Zimmer auf.]] [[Peter räumt heute die Küche auf.]]"
+        - "Так же работает [[rausbringen]] — «выносить»: [[Ich bringe den Müll raus.]] — «Я выношу мусор». И [[aufmachen]]: [[Ich mache das Fenster auf.]]"
+        - "Совет: услышали в начале глагол, например [[räume]], ждите конца предложения. Там может быть приставка, и она важна для смысла."
+      exercises:
+        - q: "Как сказать «Я навожу порядок в комнате»?"
+          options: ["[[Ich räume das Zimmer auf.]]", "[[Ich aufräume das Zimmer.]]", "[[Ich räume auf das Zimmer.]]", "[[Ich auf räume das Zimmer.]]", "[[Ich das Zimmer aufräume.]]"]
+        - q: "Как сказать «Я выношу мусор»?"
+          options: ["[[Ich bringe den Müll raus.]]", "[[Ich rausbringe den Müll.]]", "[[Ich bringe raus den Müll.]]", "[[Ich den Müll rausbringe.]]"]
+        - q: "[[Thomas ... die Küche auf.]] Какое слово пропущено?"
+          options: ["[[räumt]]", "[[aufräumt]]", "[[räumen]]", "[[räume]]", "[[aufräumen]]"]
+        - q: "Где стоит приставка [[auf]] в предложении [[Ich mache das Fenster auf]]?"
+          options: ["В конце предложения", "В начале предложения", "Перед глаголом", "После местоимения"]
+        - q: "Что значит [[Wir räumen heute auf.]]?"
+          options: ["Сегодня мы наводим порядок", "Сегодня мы моем посуду", "Сегодня мы выносим мусор", "Сегодня мы стираем", "Сегодня мы готовим"]
+    dialogue:
+      title: "Уборка в субботу"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Lukas, heute ist Samstag. Wir putzen die Wohnung.", "Лукас, сегодня суббота. Мы убираем квартиру."]
+        - [B, "Okay. Was mache ich?", "Ладно. Что делаю я?"]
+        - [A, "Räumen Sie bitte das Wohnzimmer auf.", "Пожалуйста, наведите порядок в гостиной."]
+        - [B, "Kein Problem. Und der Müll? Das mache ich auch.", "Без проблем. А мусор? Это я тоже сделаю."]
+        - [A, "Danke! Ich spüle das Geschirr und wasche die Wäsche.", "Спасибо! Я помою посуду и постираю бельё."]
+        - [B, "Der Kühlschrank ist auch schmutzig.", "Холодильник тоже грязный."]
+        - [A, "Oh ja. Können Sie mir später helfen?", "О да. Вы можете мне потом помочь?"]
+        - [B, "Natürlich!", "Конечно!"]
+      questions:
+        - q: "Что должен сделать Лукас?"
+          options: ["Навести порядок в гостиной и вынести мусор", "Помыть посуду", "Постирать бельё", "Почистить плиту"]
+        - q: "Что ещё грязное?"
+          options: ["Холодильник", "Ковёр", "Окно", "Плита"]
+        - q: "Какой сегодня день?"
+          options: ["Суббота", "Воскресенье", "Понедельник"]
