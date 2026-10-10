@@ -11,7 +11,13 @@ export interface Player {
   unlock(): void;
 }
 
-const GAP_MS = 140;
+// Clips carry their own leading and trailing silence.
+const GAP_MS = 0;
+/**
+ * Clips start with 350 ms of silence so that the audio output has time to wake up. Within
+ * a sequence the output is already running, so later clips skip most of that silence.
+ */
+const SKIP_LEAD_S = 0.28;
 /** A clip that has not ended after this long is considered stuck and skipped. */
 const WATCHDOG_MS = 20000;
 
@@ -67,7 +73,7 @@ export class AudioPlayer implements Player {
     const rate = (opts.rate ?? 1) * this.rate;
     for (let i = 0; i < clips.length; i++) {
       if (my !== this.token) return false;
-      await this.playOne(clips[i], rate);
+      await this.playOne(clips[i], rate, i > 0);
       if (my !== this.token) return false;
       if (i < clips.length - 1) await sleep(GAP_MS);
     }
@@ -76,7 +82,7 @@ export class AudioPlayer implements Player {
     return true;
   }
 
-  private playOne(id: string, rate: number): Promise<void> {
+  private playOne(id: string, rate: number, skipLead = false): Promise<void> {
     const el = this.el;
     return new Promise((resolve) => {
       let done = false;
@@ -104,7 +110,8 @@ export class AudioPlayer implements Player {
       this.cancelCurrent = finish;
       // Loading a new source resets playbackRate to defaultPlaybackRate, so set both.
       el.defaultPlaybackRate = rate;
-      el.src = clipUrl(id);
+      // A media fragment starts playback after the leading silence.
+      el.src = clipUrl(id) + (skipLead ? `#t=${SKIP_LEAD_S}` : '');
       el.playbackRate = rate;
       el.play().then(
         () => {

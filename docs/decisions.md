@@ -317,3 +317,12 @@ Fixed:
   tap on «Меню» says «Меню. Удерживайте, чтобы открыть паузу» like any other zone; the
   question is repeated via pause → «Продолжить» (and automatically after 15 s). While
   the app talks without waiting for an answer, zones are dimmed and a touch skips.
+- Owner feedback: sounds cut at the start/end; tiny words («да», «ja») unintelligible.
+  Causes: only 80 ms of leading silence (Android audio output wakes up late and drops
+  the beginning), loudnorm distorting very short clips, and the voice models rendering
+  some one-syllable words in ~0.15 s. Audio pipeline now: 350 ms lead / 300 ms tail
+  silence, plain RMS/peak normalization, Opus 32 kbit/s 48 kHz, minimum speech length
+  0.5 s, and every clip of ≤ 2 words is checked with Whisper; if not recognised, the
+  generator tries slower speech, a stretched vowel («Да-а») and finally another voice
+  (Denis for Russian, Thorsten for German female) and keeps the best. Fixes are logged.
+  No extra gap between clips in the player (silence is inside the files).
