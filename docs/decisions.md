@@ -30,10 +30,16 @@ decision in the "Implementation log" section at the end, and moves on.
 - Multi-agent / subagents: use them **only** when they give a speed gain without extra
   cost, a cost saving (e.g. a cheaper model for bulk mechanical work such as content
   generation or audio checks), or a quality gain (a stronger model for hard tasks).
-- **OpenRouter key:** at the start, check whether `OPENROUTER_API_KEY` is present in the
-  environment (never print its value). If present, test the LLM assistant against real
-  free models. If absent, test against a stub and note in the final report that the
-  real-model path is unverified.
+- **OpenRouter key:** the owner configured it as a **Network secret** of the cloud
+  environment: the egress proxy injects `Authorization: Bearer <key>` into requests to
+  `openrouter.ai/api/v1/…`. So there is **no env var** and the key value is never visible.
+  At the start, probe it with an authenticated-only endpoint without sending any key,
+  e.g. `curl -sS https://openrouter.ai/api/v1/key` (200 = secret works, 401 = missing).
+  (Also check `OPENROUTER_API_KEY` in env as a fallback; never print values.) If it
+  works, test the LLM assistant against real free models from the container (e.g. a
+  small Node/Python smoke-test script sending requests without its own key; the app
+  itself must still send the user's key from the phone). If not, test against a stub and
+  note in the final report that the real-model path is unverified.
 - **Final report** (in Russian, to the owner): what was built, the GitHub Pages link,
   how to set it up, and a **manual test checklist** for things that cannot be verified
   in a cloud container (real audio, touch/hold behaviour on a phone, speech recognition,
