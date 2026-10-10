@@ -1,5 +1,5 @@
 {
-  "ru": { "model": "ru/ru_RU/denis/medium/ru_RU-denis-medium", "length_scale": 1.05 },
+  "ru": { "id": "ru-dmitri", "model": "ru/ru_RU/dmitri/medium/ru_RU-dmitri-medium", "length_scale": 1.05 },
   "de-m": { "model": "de/de_DE/thorsten/high/de_DE-thorsten-high", "length_scale": 1.0 },
   "de-f": { "model": "de/de_DE/eva_k/x_low/de_DE-eva_k-x_low", "length_scale": 1.0 }
 }
