@@ -162,7 +162,7 @@ export class App {
     if (this.pausing) return;
     this.pausing = true;
     try {
-      const items = [this.optKey('p_resume'), this.optKey('m_command'), this.optKey('p_main')];
+      const items = [this.opt(this.P('p_resume'), [this.P('p_resume_say')]), this.optKey('m_command'), this.optKey('p_main')];
       const options: (Option | null)[] = [...items];
       while (options.length < this.slots) options.push(null);
       const i = await this.ask({ prompt: [this.P('pause_menu'), this.P('menu_hint')], options, noPause: true, noIdle: true });

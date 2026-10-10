@@ -87,7 +87,7 @@ export class Ui {
       menuTap: () => this.onMenuTap(),
       skip: () => this.skipSpeech(),
       menuHold: () => {
-        if (this.spec?.noPause) this.onMenuTap();
+        if (this.spec?.noPause) this.replayPrompt();
         else this.done({ type: 'pause' });
       },
       menuLongHold: () => this.done({ type: 'settings' }),
@@ -166,7 +166,14 @@ export class Ui {
     else void this.speak(o.say);
   }
 
+  /** Tapping the menu zone says what it is, like any other zone. */
   private onMenuTap(): void {
+    if (!this.resolve || !this.spec) return;
+    this.player.stop();
+    void this.speak([this.hooks.prompt(this.spec.noPause ? 'menu_tap_paused' : 'menu_tap')]);
+  }
+
+  private replayPrompt(): void {
     if (!this.resolve || !this.spec) return;
     this.player.stop();
     void this.speak(this.spec.prompt, this.spec.rate);
@@ -241,7 +248,7 @@ export class Ui {
       this.skipSpeech();
       return;
     }
-    if (this.spec.noPause) this.onMenuTap();
+    if (this.spec.noPause) this.replayPrompt();
     else this.done({ type: 'pause' });
   }
 

@@ -96,6 +96,12 @@ body {
   --size: clamp(30px, 9vw, 64px);
 }
 
+/* The app is talking without waiting for an answer: zones are dimmed, a touch skips. */
+.grid.busy .zone {
+  filter: brightness(0.35) saturate(0.6);
+  transition: filter 0.2s;
+}
+
 /* Hold progress: a white layer rises from the bottom while the zone is held. */
 .zone .fill {
   position: absolute;

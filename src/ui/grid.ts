@@ -39,8 +39,15 @@ export class Grid {
   private slots = 3;
   private focus = -1;
   private lastPointer = -Infinity;
-  /** False while the app talks without waiting for an answer. */
-  accepting = false;
+  private _accepting = false;
+  /** False while the app talks without waiting for an answer (zones are dimmed). */
+  get accepting(): boolean {
+    return this._accepting;
+  }
+  set accepting(v: boolean) {
+    this._accepting = v;
+    this.root.classList.toggle('busy', !v);
+  }
   /** Pause menu: holding the menu zone opens settings instead of the pause menu. */
   menuOpensSettings = false;
 
