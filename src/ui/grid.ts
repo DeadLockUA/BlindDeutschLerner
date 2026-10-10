@@ -74,6 +74,8 @@ export class Grid {
       label.textContent = v.text;
       const len = v.text.length;
       label.classList.add(len <= 6 ? 'xl' : len <= 14 ? 'l' : len <= 28 ? 'm' : 's');
+      const longest = Math.max(1, ...v.text.split(/\s+/).map((w) => w.length));
+      label.style.setProperty('--cap', `${(56 / longest).toFixed(2)}vw`);
       const fill = document.createElement('span');
       fill.className = 'fill';
       el.append(fill, label);
