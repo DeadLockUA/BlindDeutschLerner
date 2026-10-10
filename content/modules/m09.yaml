@@ -1,0 +1,603 @@
+id: m09
+title: "Здоровье и тело"
+lessons:
+  - id: m09l01
+    title: "Тело"
+    intro: "В этом уроке вы выучите названия частей тела и научитесь говорить «мой» и «моя» о себе."
+    words:
+      - de: "der Körper"
+        ru: "тело"
+        plural: "die Körper"
+        ex: "Der Körper braucht Wasser."
+        exRu: "Телу нужна вода."
+      - de: "der Kopf"
+        ru: "голова"
+        plural: "die Köpfe"
+        ex: "Mein Kopf ist heiß."
+        exRu: "Моя голова горячая."
+      - de: "das Auge"
+        ru: "глаз"
+        plural: "die Augen"
+        ex: "Sie hat blaue Augen."
+        exRu: "У неё голубые глаза."
+      - de: "das Ohr"
+        ru: "ухо"
+        plural: "die Ohren"
+        ex: "Das Baby hat kleine Ohren."
+        exRu: "У малыша маленькие уши."
+      - de: "die Nase"
+        ru: "нос"
+        plural: "die Nasen"
+        ex: "Meine Nase ist rot."
+        exRu: "Мой нос красный."
+      - de: "der Mund"
+        ru: "рот"
+        plural: "die Münder"
+        ex: "Der Mund ist klein."
+        exRu: "Рот маленький."
+      - de: "der Zahn"
+        ru: "зуб"
+        plural: "die Zähne"
+        ex: "Das Kind hat schon zwei Zähne."
+        exRu: "У ребёнка уже два зуба."
+      - de: "der Hals"
+        ru: "шея, горло"
+        plural: "die Hälse"
+        ex: "Er hat einen langen Hals."
+        exRu: "У него длинная шея."
+      - de: "der Arm"
+        ru: "рука"
+        plural: "die Arme"
+        ex: "Er hat starke Arme."
+        exRu: "У него сильные руки."
+      - de: "die Hand"
+        ru: "кисть руки"
+        plural: "die Hände"
+        ex: "Meine Hände sind kalt."
+        exRu: "У меня холодные руки."
+      - de: "der Bauch"
+        ru: "живот"
+        plural: "die Bäuche"
+        ex: "Das Baby hat einen runden Bauch."
+        exRu: "У малыша круглый животик."
+      - de: "der Rücken"
+        ru: "спина"
+        plural: "die Rücken"
+        ex: "Ich liege auf dem Rücken."
+        exRu: "Я лежу на спине."
+      - de: "das Bein"
+        ru: "нога"
+        plural: "die Beine"
+        ex: "Der Tisch hat vier Beine."
+        exRu: "У стола четыре ножки."
+      - de: "der Fuß"
+        ru: "ступня"
+        plural: "die Füße"
+        ex: "Meine Füße sind müde."
+        exRu: "Мои ноги устали."
+    phrases:
+      - de: "von Kopf bis Fuß"
+        ru: "с головы до ног"
+        ex: "Ich bin von Kopf bis Fuß nass."
+        exRu: "Я мокрый с головы до ног."
+      - de: "Ich putze mir die Zähne."
+        ru: "Я чищу зубы."
+      - de: "Ich wasche mir die Hände."
+        ru: "Я мою руки."
+      - de: "Ich sehe nicht gut."
+        ru: "Я плохо вижу."
+      - de: "Ich höre nicht gut."
+        ru: "Я плохо слышу."
+      - de: "Machen Sie die Augen zu."
+        ru: "Закройте глаза."
+    grammar:
+      title: "Мой и моя, одна и много частей тела"
+      explain:
+        - "Слово «мой» по-немецки зависит от рода. Для мужского и среднего рода говорим [[mein]]: [[mein Kopf]], [[mein Auge]]. Для женского рода говорим [[meine]]: [[meine Nase]], [[meine Hand]]."
+        - "Во множественном числе всегда [[meine]]: [[meine Augen]], [[meine Hände]], [[meine Füße]]. Так же работает вежливое [[Ihr]] и [[Ihre]]: [[Ihr Kopf]], [[Ihre Hand]], [[Ihre Augen]]."
+        - "Множественное число нужно учить вместе со словом. Часто добавляется окончание: [[das Auge]], [[die Augen]]; [[das Ohr]], [[die Ohren]]; [[das Bein]], [[die Beine]]."
+        - "Иногда гласная получает умлаут: [[der Zahn]], [[die Zähne]]; [[die Hand]], [[die Hände]]; [[der Fuß]], [[die Füße]]; [[der Kopf]], [[die Köpfe]]."
+        - "Некоторые слова не меняются совсем: [[der Rücken]], [[die Rücken]]; [[der Körper]], [[die Körper]]."
+        - "Обратите внимание: в немецком два слова для руки и для ноги. [[der Arm]] — вся рука, [[die Hand]] — кисть. [[das Bein]] — нога, [[der Fuß]] — ступня."
+      exercises:
+        - q: "Как сказать «моя рука», имея в виду кисть?"
+          options: ["[[meine Hand]]", "[[mein Hand]]", "[[meinen Hand]]", "[[meines Hand]]"]
+        - q: "Как сказать «мой глаз»?"
+          options: ["[[mein Auge]]", "[[meine Auge]]", "[[meinen Auge]]", "[[meines Auge]]"]
+        - q: "Как звучит множественное число от [[der Zahn]]?"
+          options: ["[[die Zähne]]", "[[die Zahne]]", "[[die Zahnen]]", "[[die Zähner]]", "[[die Zahns]]"]
+        - q: "Как звучит множественное число от [[der Fuß]]?"
+          options: ["[[die Füße]]", "[[die Fuße]]", "[[die Füßen]]", "[[die Fußer]]", "[[die Fußs]]"]
+        - q: "Как правильно сказать «мои уши»?"
+          options: ["[[meine Ohren]]", "[[mein Ohren]]", "[[meine Ohre]]", "[[mein Ohr]]", "[[meines Ohren]]"]
+        - q: "Какое слово означает ступню?"
+          options: ["[[der Fuß]]", "[[das Bein]]", "[[der Arm]]", "[[die Hand]]", "[[der Bauch]]"]
+    dialogue:
+      title: "Фотография внука"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Herr Müller, das ist mein Enkel Lukas.", "Господин Мюллер, это мой внук Лукас."]
+        - [B, "Oh, wie schön! Wie alt ist er?", "О, как мило! Сколько ему лет?"]
+        - [A, "Er ist ein Jahr alt.", "Ему один год."]
+        - [B, "Er hat große blaue Augen.", "У него большие голубые глаза."]
+        - [A, "Ja, die Augen hat er von meiner Tochter.", "Да, глаза у него от моей дочери."]
+        - [B, "Und die Nase?", "А нос?"]
+        - [A, "Die Nase hat er von seinem Vater.", "Нос у него от отца."]
+        - [B, "Hat er schon Zähne?", "У него уже есть зубы?"]
+        - [A, "Ja, er hat schon vier Zähne!", "Да, у него уже четыре зуба!"]
+      questions:
+        - q: "Сколько лет Лукасу?"
+          options: ["Один год", "Два года", "Четыре года"]
+        - q: "От кого у Лукаса глаза?"
+          options: ["От мамы", "От папы", "От бабушки"]
+        - q: "Сколько у Лукаса зубов?"
+          options: ["Четыре", "Два", "Ни одного"]
+
+  - id: m09l02
+    title: "Как вы себя чувствуете?"
+    intro: "В этом уроке вы научитесь говорить, что вы заболели и что у вас болит."
+    words:
+      - de: "krank"
+        ru: "больной"
+        ex: "Ich bin heute krank."
+        exRu: "Я сегодня болен."
+      - de: "gesund"
+        ru: "здоровый"
+        ex: "Mein Sohn ist wieder gesund."
+        exRu: "Мой сын снова здоров."
+      - de: "müde"
+        ru: "усталый"
+        ex: "Am Abend bin ich sehr müde."
+        exRu: "Вечером я очень устаю."
+      - de: "schlecht"
+        ru: "плохо"
+        ex: "Mir geht es schlecht."
+        exRu: "Мне плохо."
+      - de: "der Schmerz"
+        ru: "боль"
+        plural: "die Schmerzen"
+        ex: "Ich habe starke Schmerzen."
+        exRu: "У меня сильные боли."
+      - de: "wehtun"
+        ru: "болеть"
+        ex: "Mein Fuß tut weh."
+        exRu: "У меня болит нога."
+      - de: "das Fieber"
+        ru: "температура, жар"
+        ex: "Das Kind hat Fieber."
+        exRu: "У ребёнка температура."
+      - de: "die Erkältung"
+        ru: "простуда"
+        plural: "die Erkältungen"
+        ex: "Ich habe eine Erkältung."
+        exRu: "У меня простуда."
+      - de: "der Husten"
+        ru: "кашель"
+        ex: "Mein Mann hat Husten."
+        exRu: "У моего мужа кашель."
+      - de: "der Schnupfen"
+        ru: "насморк"
+        ex: "Im Winter habe ich oft Schnupfen."
+        exRu: "Зимой у меня часто насморк."
+      - de: "die Grippe"
+        ru: "грипп"
+        ex: "Frau Weber hat Grippe."
+        exRu: "У госпожи Вебер грипп."
+      - de: "die Kopfschmerzen"
+        ru: "головная боль"
+        ex: "Ich habe Kopfschmerzen."
+        exRu: "У меня болит голова."
+      - de: "die Bauchschmerzen"
+        ru: "боль в животе"
+        ex: "Das Kind hat Bauchschmerzen."
+        exRu: "У ребёнка болит живот."
+    phrases:
+      - de: "Wie fühlen Sie sich?"
+        ru: "Как вы себя чувствуете?"
+      - de: "Mir geht es nicht gut."
+        ru: "Мне нехорошо."
+      - de: "Was fehlt Ihnen?"
+        ru: "Что с вами?"
+      - de: "Mir tut der Kopf weh."
+        ru: "У меня болит голова."
+      - de: "Ich bin erkältet."
+        ru: "Я простужен."
+      - de: "Mir ist schlecht."
+        ru: "Меня тошнит."
+      - de: "Gute Besserung!"
+        ru: "Выздоравливайте!"
+    grammar:
+      title: "Что у вас болит"
+      explain:
+        - "Есть два простых способа сказать, что что-то болит. Первый — с глаголом [[wehtun]], «болеть». Дословно: «мне болит голова» — [[Mir tut der Kopf weh.]]"
+        - "Слово [[mir]] значит «мне». Глагол [[tut]] стоит на втором месте, а маленькое [[weh]] уходит в самый конец: [[Mir tut der Bauch weh.]] [[Mir tut der Rücken weh.]]"
+        - "Если болит несколько частей тела, глагол меняется на [[tun]]: [[Mir tun die Füße weh.]] [[Mir tun die Augen weh.]]"
+        - "Второй способ — с глаголом [[haben]] и словом на [[-schmerzen]]: [[Ich habe Kopfschmerzen.]] [[Ich habe Bauchschmerzen.]] [[Ich habe Halsschmerzen.]] [[Ich habe Zahnschmerzen.]] [[Ich habe Rückenschmerzen.]]"
+        - "Вежливый вопрос: [[Tut Ihnen der Kopf weh?]] — «У вас болит голова?» Слово [[Ihnen]] значит «вам». Ответ: [[Ja, mir tut der Kopf weh.]]"
+      exercises:
+        - q: "Как сказать «У меня болит спина»?"
+          options: ["[[Mir tut der Rücken weh.]]", "[[Ich tut der Rücken weh.]]", "[[Mir tun der Rücken weh.]]", "[[Mir tut weh der Rücken.]]", "[[Mich tut der Rücken weh.]]"]
+        - q: "Как сказать «У меня болят ноги»?"
+          options: ["[[Mir tun die Füße weh.]]", "[[Mir tut die Füße weh.]]", "[[Ich tun die Füße weh.]]", "[[Mir tun die Fuß weh.]]", "[[Mir weh tun die Füße.]]"]
+        - q: "Как сказать «У меня болит зуб»?"
+          options: ["[[Ich habe Zahnschmerzen.]]", "[[Ich bin Zahnschmerzen.]]", "[[Mir habe Zahnschmerzen.]]", "[[Ich habe Zahn weh.]]"]
+        - q: "Как вежливо спросить «У вас болит горло?»"
+          options: ["[[Tut Ihnen der Hals weh?]]", "[[Tut mir der Hals weh?]]", "[[Tun Ihnen der Hals weh?]]", "[[Tut Sie der Hals weh?]]", "[[Tut Ihnen die Hals weh?]]"]
+        - q: "Что значит [[Ich habe Bauchschmerzen]]?"
+          options: ["У меня болит живот", "У меня болит голова", "У меня болит спина", "У меня температура", "Я голоден"]
+        - q: "Что сказать больному человеку?"
+          options: ["[[Gute Besserung!]]", "[[Guten Appetit!]]", "[[Gute Nacht!]]", "[[Herzlichen Glückwunsch!]]"]
+    dialogue:
+      title: "Звонок на работу"
+      speakers: {A: m, B: f}
+      lines:
+        - [B, "Firma Weber, Schmidt, guten Morgen!", "Фирма Вебер, Шмидт, доброе утро!"]
+        - [A, "Guten Morgen, Frau Schmidt. Hier ist Thomas Bauer.", "Доброе утро, госпожа Шмидт. Это Томас Бауэр."]
+        - [B, "Hallo, Herr Bauer! Was ist los?", "Здравствуйте, господин Бауэр! Что случилось?"]
+        - [A, "Mir geht es nicht gut. Ich bin krank.", "Мне нехорошо. Я болен."]
+        - [B, "Oh! Was fehlt Ihnen?", "Ой! Что с вами?"]
+        - [A, "Ich habe Fieber und Kopfschmerzen. Und Husten.", "У меня температура и болит голова. И кашель."]
+        - [B, "Das klingt nach Grippe. Bleiben Sie zu Hause!", "Похоже на грипп. Оставайтесь дома!"]
+        - [A, "Ja, danke. Ich gehe heute zum Arzt.", "Да, спасибо. Сегодня я пойду к врачу."]
+        - [B, "Gute Besserung, Herr Bauer!", "Выздоравливайте, господин Бауэр!"]
+      questions:
+        - q: "Почему звонит Томас?"
+          options: ["Он заболел", "Он опаздывает", "Он в отпуске"]
+        - q: "Чего нет у Томаса?"
+          options: ["Насморка", "Температуры", "Кашля"]
+        - q: "Что Томас сделает сегодня?"
+          options: ["Пойдёт к врачу", "Пойдёт на работу", "Поедет в аптеку"]
+
+  - id: m09l03
+    title: "У врача"
+    intro: "В этом уроке вы узнаете, что говорят в кабинете врача, и выучите глагол «следует», [[sollen]]."
+    words:
+      - de: "der Arzt"
+        ru: "врач"
+        plural: "die Ärzte"
+        ex: "Der Arzt ist sehr nett."
+        exRu: "Врач очень приятный."
+      - de: "die Ärztin"
+        ru: "врач-женщина"
+        plural: "die Ärztinnen"
+        ex: "Meine Ärztin heißt Doktor Wolf."
+        exRu: "Моего врача зовут доктор Вольф."
+      - de: "der Zahnarzt"
+        ru: "зубной врач"
+        plural: "die Zahnärzte"
+        ex: "Morgen gehe ich zum Zahnarzt."
+        exRu: "Завтра я иду к зубному врачу."
+      - de: "die Praxis"
+        ru: "врачебный кабинет"
+        plural: "die Praxen"
+        ex: "Die Praxis ist im ersten Stock."
+        exRu: "Кабинет врача на втором этаже."
+      - de: "die Sprechstunde"
+        ru: "приёмные часы"
+        plural: "die Sprechstunden"
+        ex: "Die Sprechstunde ist von acht bis zwölf."
+        exRu: "Приём с восьми до двенадцати."
+      - de: "der Patient"
+        ru: "пациент"
+        plural: "die Patienten"
+        ex: "Heute sind viele Patienten hier."
+        exRu: "Сегодня здесь много пациентов."
+      - de: "die Patientin"
+        ru: "пациентка"
+        plural: "die Patientinnen"
+        ex: "Die Patientin wartet schon lange."
+        exRu: "Пациентка уже долго ждёт."
+      - de: "die Versicherungskarte"
+        ru: "страховая карта"
+        plural: "die Versicherungskarten"
+        ex: "Haben Sie Ihre Versicherungskarte?"
+        exRu: "У вас есть страховая карта?"
+      - de: "das Rezept"
+        ru: "рецепт"
+        plural: "die Rezepte"
+        ex: "Das Rezept ist für Tabletten."
+        exRu: "Это рецепт на таблетки."
+      - de: "untersuchen"
+        ru: "осматривать"
+        ex: "Die Ärztin untersucht das Kind."
+        exRu: "Врач осматривает ребёнка."
+      - de: "warten"
+        ru: "ждать"
+        ex: "Bitte warten Sie hier."
+        exRu: "Пожалуйста, подождите здесь."
+      - de: "das Wartezimmer"
+        ru: "приёмная"
+        plural: "die Wartezimmer"
+        ex: "Das Wartezimmer ist voll."
+        exRu: "В приёмной много людей."
+      - de: "der Notfall"
+        ru: "экстренный случай"
+        plural: "die Notfälle"
+        ex: "Das ist ein Notfall!"
+        exRu: "Это экстренный случай!"
+    phrases:
+      - de: "Machen Sie bitte den Mund auf."
+        ru: "Откройте, пожалуйста, рот."
+      - de: "Atmen Sie tief ein."
+        ru: "Глубоко вдохните."
+      - de: "Seit wann haben Sie die Schmerzen?"
+        ru: "С какого времени у вас боли?"
+      - de: "Bitte warten Sie im Wartezimmer."
+        ru: "Подождите, пожалуйста, в приёмной."
+      - de: "Ich schreibe Ihnen ein Rezept."
+        ru: "Я выпишу вам рецепт."
+      - de: "Sie sollen im Bett bleiben."
+        ru: "Вам нужно лежать в постели."
+    grammar:
+      title: "Модальный глагол [[sollen]]"
+      explain:
+        - "Глагол [[sollen]] значит «следует», «нужно», когда это советует или требует другой человек. Например, врач: [[Sie sollen viel trinken.]] — «Вам следует много пить»."
+        - "Формы: [[ich soll]], [[du sollst]], [[er soll]], [[sie soll]], [[wir sollen]], [[ihr sollt]], [[sie sollen]], вежливо [[Sie sollen]]. Заметьте: у [[ich]] и у [[er]] форма одинаковая — [[soll]], без окончания."
+        - "Как и у других модальных глаголов, второй глагол стоит в самом конце предложения в неопределённой форме: [[Ich soll Tabletten nehmen.]] [[Er soll zu Hause bleiben.]]"
+        - "Часто так пересказывают слова врача: [[Der Arzt sagt, ich soll nicht arbeiten.]] — «Врач говорит, что мне нельзя работать»."
+        - "В вопросе [[sollen]] ставят на первое место: [[Soll ich morgen wiederkommen?]] — «Мне прийти завтра снова?»"
+      exercises:
+        - q: "Как правильно?"
+          options: ["[[Ich soll viel schlafen.]]", "[[Ich solle viel schlafen.]]", "[[Ich sollst viel schlafen.]]", "[[Ich soll schlafen viel.]]", "[[Ich sollen viel schlafen.]]"]
+        - q: "Выберите правильную форму: [[Herr Müller ... im Bett bleiben.]]"
+          options: ["[[soll]]", "[[sollt]]", "[[sollst]]", "[[sollen]]", "[[solle]]"]
+        - q: "Выберите правильную форму: [[Herr Müller, Sie ... dreimal täglich Tabletten nehmen.]]"
+          options: ["[[sollen]]", "[[soll]]", "[[sollst]]", "[[sollt]]"]
+        - q: "Как спросить «Мне прийти завтра?»"
+          options: ["[[Soll ich morgen kommen?]]", "[[Ich morgen soll kommen?]]", "[[Soll ich kommen morgen?]]", "[[Sollst ich morgen kommen?]]", "[[Soll morgen ich kommen?]]"]
+        - q: "Что значит [[Sie sollen nicht rauchen]]?"
+          options: ["Вам не следует курить", "Вы не курите", "Вы хотите курить", "Вы можете курить"]
+    dialogue:
+      title: "В кабинете врача"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Guten Tag, Herr Weber. Was fehlt Ihnen?", "Добрый день, господин Вебер. Что вас беспокоит?"]
+        - [B, "Mir tut der Hals weh, und ich habe Husten.", "У меня болит горло, и у меня кашель."]
+        - [A, "Seit wann haben Sie die Schmerzen?", "С какого времени у вас боли?"]
+        - [B, "Seit drei Tagen.", "Уже три дня."]
+        - [A, "Ich untersuche Sie jetzt. Machen Sie bitte den Mund auf.", "Сейчас я вас осмотрю. Откройте, пожалуйста, рот."]
+        - [B, "Ist es schlimm?", "Это серьёзно?"]
+        - [A, "Nein, das ist eine Erkältung. Ich schreibe Ihnen ein Rezept.", "Нет, это простуда. Я выпишу вам рецепт."]
+        - [A, "Sie sollen viel Tee trinken und zwei Tage zu Hause bleiben.", "Вам нужно пить много чая и два дня побыть дома."]
+        - [B, "Vielen Dank, Frau Doktor.", "Большое спасибо, госпожа доктор."]
+      questions:
+        - q: "Что болит у господина Вебера?"
+          options: ["Горло", "Живот", "Спина"]
+        - q: "Сколько дней он болеет?"
+          options: ["Три дня", "Два дня", "Неделю"]
+        - q: "Что советует врач?"
+          options: ["Пить чай и остаться дома", "Пойти в больницу", "Заниматься спортом"]
+
+  - id: m09l04
+    title: "В аптеке"
+    intro: "В этом уроке вы научитесь покупать лекарства в аптеке и понимать, как их принимать."
+    words:
+      - de: "das Medikament"
+        ru: "лекарство"
+        plural: "die Medikamente"
+        ex: "Das Medikament ist sehr gut."
+        exRu: "Это лекарство очень хорошее."
+      - de: "die Tablette"
+        ru: "таблетка"
+        plural: "die Tabletten"
+        ex: "Nehmen Sie eine Tablette am Abend."
+        exRu: "Принимайте одну таблетку вечером."
+      - de: "die Salbe"
+        ru: "мазь"
+        plural: "die Salben"
+        ex: "Die Salbe ist für den Rücken."
+        exRu: "Эта мазь для спины."
+      - de: "der Tropfen"
+        ru: "капля"
+        plural: "die Tropfen"
+        ex: "Nehmen Sie zehn Tropfen."
+        exRu: "Примите десять капель."
+      - de: "der Hustensaft"
+        ru: "сироп от кашля"
+        plural: "die Hustensäfte"
+        ex: "Der Hustensaft schmeckt süß."
+        exRu: "Сироп от кашля сладкий на вкус."
+      - de: "das Pflaster"
+        ru: "пластырь"
+        plural: "die Pflaster"
+        ex: "Ich brauche ein Pflaster."
+        exRu: "Мне нужен пластырь."
+      - de: "das Thermometer"
+        ru: "градусник"
+        plural: "die Thermometer"
+        ex: "Wo ist das Thermometer?"
+        exRu: "Где градусник?"
+      - de: "das Mittel"
+        ru: "средство"
+        plural: "die Mittel"
+        ex: "Das ist ein Mittel gegen Schnupfen."
+        exRu: "Это средство от насморка."
+      - de: "gegen"
+        ru: "против, от"
+        ex: "Ich brauche etwas gegen Kopfschmerzen."
+        exRu: "Мне нужно что-нибудь от головной боли."
+      - de: "die Allergie"
+        ru: "аллергия"
+        plural: "die Allergien"
+        ex: "Haben Sie eine Allergie?"
+        exRu: "У вас есть аллергия?"
+      - de: "der Apotheker"
+        ru: "аптекарь"
+        plural: "die Apotheker"
+        ex: "Der Apotheker hilft gern."
+        exRu: "Аптекарь охотно помогает."
+      - de: "die Apothekerin"
+        ru: "аптекарша"
+        plural: "die Apothekerinnen"
+        ex: "Die Apothekerin ist sehr freundlich."
+        exRu: "Аптекарша очень приветливая."
+    phrases:
+      - de: "dreimal täglich"
+        ru: "три раза в день"
+        ex: "Nehmen Sie die Tabletten dreimal täglich."
+        exRu: "Принимайте таблетки три раза в день."
+      - de: "vor dem Essen"
+        ru: "перед едой"
+        ex: "Nehmen Sie die Tropfen vor dem Essen."
+        exRu: "Принимайте капли перед едой."
+      - de: "nach dem Essen"
+        ru: "после еды"
+        ex: "Die Tablette nehmen Sie nach dem Essen."
+        exRu: "Таблетку принимайте после еды."
+      - de: "Haben Sie etwas gegen Husten?"
+        ru: "У вас есть что-нибудь от кашля?"
+      - de: "Brauche ich dafür ein Rezept?"
+        ru: "Мне нужен для этого рецепт?"
+      - de: "Wie oft soll ich das nehmen?"
+        ru: "Как часто мне это принимать?"
+    grammar:
+      title: "Повелительное наклонение: [[Nehmen Sie]]"
+      explain:
+        - "Когда врач или аптекарь вежливо даёт указание, глагол ставится на первое место, а за ним идёт [[Sie]]: [[Nehmen Sie die Tabletten!]] — «Принимайте таблетки!»"
+        - "Форма глагола такая же, как в обычном предложении с [[Sie]], только порядок слов другой. [[Sie trinken viel Wasser]] — «Вы пьёте много воды». [[Trinken Sie viel Wasser!]] — «Пейте много воды!»"
+        - "Чтобы звучало мягче, добавляют [[bitte]]: [[Nehmen Sie bitte zwei Tabletten.]] или [[Bitte nehmen Sie zwei Tabletten.]]"
+        - "Запрет строится с [[nicht]] или [[kein]]: [[Trinken Sie keinen Alkohol!]] [[Essen Sie nicht so viel!]]"
+        - "У глаголов с отделяемой приставкой приставка уходит в конец: [[Kommen Sie morgen wieder.]] [[Rufen Sie mich an.]]"
+        - "Особая форма у глагола [[sein]]: [[Seien Sie vorsichtig!]] — «Будьте осторожны!»"
+      exercises:
+        - q: "Как вежливо сказать «Принимайте таблетку вечером»?"
+          options: ["[[Nehmen Sie die Tablette am Abend.]]", "[[Sie nehmen die Tablette am Abend?]]", "[[Nimm Sie die Tablette am Abend.]]", "[[Nehmen die Tablette Sie am Abend.]]", "[[Nehmt Sie die Tablette am Abend.]]"]
+        - q: "Как сказать «Пейте много чая»?"
+          options: ["[[Trinken Sie viel Tee!]]", "[[Sie trinken viel Tee.]]", "[[Trinkt Sie viel Tee!]]", "[[Trinken viel Tee Sie!]]"]
+        - q: "Как сказать «Приходите завтра снова»?"
+          options: ["[[Kommen Sie morgen wieder.]]", "[[Wiederkommen Sie morgen.]]", "[[Kommen wieder Sie morgen.]]", "[[Sie kommen morgen wieder?]]", "[[Kommt Sie morgen wieder.]]"]
+        - q: "Как сказать «Будьте осторожны!»?"
+          options: ["[[Seien Sie vorsichtig!]]", "[[Sind Sie vorsichtig!]]", "[[Sein Sie vorsichtig!]]", "[[Ist Sie vorsichtig!]]"]
+        - q: "Что значит [[Nehmen Sie die Tropfen vor dem Essen]]?"
+          options: ["Принимайте капли перед едой", "Принимайте капли после еды", "Принимайте капли во время еды", "Не принимайте капли", "Принимайте капли три раза в день"]
+    dialogue:
+      title: "Средство от кашля"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Guten Tag! Was kann ich für Sie tun?", "Добрый день! Чем могу помочь?"]
+        - [B, "Guten Tag! Haben Sie etwas gegen Husten?", "Добрый день! У вас есть что-нибудь от кашля?"]
+        - [A, "Ja, hier ist ein Hustensaft. Haben Sie auch Fieber?", "Да, вот сироп от кашля. А температура у вас тоже есть?"]
+        - [B, "Nein, kein Fieber. Brauche ich dafür ein Rezept?", "Нет, температуры нет. Мне нужен для этого рецепт?"]
+        - [A, "Nein, das brauchen Sie nicht.", "Нет, он не нужен."]
+        - [B, "Wie oft soll ich das nehmen?", "Как часто мне это принимать?"]
+        - [A, "Dreimal täglich nach dem Essen. Trinken Sie auch viel Tee.", "Три раза в день после еды. И пейте много чая."]
+        - [B, "Danke. Was kostet das?", "Спасибо. Сколько это стоит?"]
+        - [A, "Sieben Euro fünfzig, bitte.", "Семь евро пятьдесят, пожалуйста."]
+      questions:
+        - q: "Что покупает мужчина?"
+          options: ["Сироп от кашля", "Таблетки от головы", "Мазь для спины"]
+        - q: "Когда нужно принимать лекарство?"
+          options: ["Три раза в день после еды", "Два раза в день перед едой", "Один раз вечером"]
+        - q: "Сколько стоит лекарство?"
+          options: ["Семь евро пятьдесят", "Пять евро семьдесят", "Семнадцать евро"]
+
+  - id: m09l05
+    title: "Здоровый образ жизни"
+    intro: "В этом уроке вы поговорите о спорте и здоровье и выучите глагол «можно», [[dürfen]]."
+    words:
+      - de: "die Gesundheit"
+        ru: "здоровье"
+        ex: "Die Gesundheit ist wichtig."
+        exRu: "Здоровье — это важно."
+      - de: "der Sport"
+        ru: "спорт"
+        ex: "Sport ist gut für den Körper."
+        exRu: "Спорт полезен для тела."
+      - de: "die Bewegung"
+        ru: "движение"
+        ex: "Sie brauchen mehr Bewegung."
+        exRu: "Вам нужно больше двигаться."
+      - de: "laufen"
+        ru: "бегать"
+        ex: "Ich laufe jeden Morgen im Park."
+        exRu: "Я бегаю каждое утро в парке."
+      - de: "schwimmen"
+        ru: "плавать"
+        ex: "Am Samstag schwimme ich."
+        exRu: "В субботу я плаваю."
+      - de: "trainieren"
+        ru: "тренироваться"
+        ex: "Peter trainiert dreimal pro Woche."
+        exRu: "Петер тренируется три раза в неделю."
+      - de: "das Fitnessstudio"
+        ru: "фитнес-клуб"
+        plural: "die Fitnessstudios"
+        ex: "Das Fitnessstudio ist neben der Post."
+        exRu: "Фитнес-клуб рядом с почтой."
+      - de: "fit"
+        ru: "в форме, бодрый"
+        ex: "Meine Großmutter ist noch sehr fit."
+        exRu: "Моя бабушка ещё в отличной форме."
+      - de: "rauchen"
+        ru: "курить"
+        ex: "Mein Vater raucht nicht mehr."
+        exRu: "Мой отец больше не курит."
+      - de: "die Zigarette"
+        ru: "сигарета"
+        plural: "die Zigaretten"
+        ex: "Er raucht zehn Zigaretten am Tag."
+        exRu: "Он выкуривает десять сигарет в день."
+      - de: "der Alkohol"
+        ru: "алкоголь"
+        ex: "Ich trinke keinen Alkohol."
+        exRu: "Я не пью алкоголь."
+      - de: "sich ausruhen"
+        ru: "отдыхать"
+        ex: "Am Sonntag ruhe ich mich aus."
+        exRu: "В воскресенье я отдыхаю."
+    phrases:
+      - de: "spazieren gehen"
+        ru: "гулять"
+        ex: "Am Abend gehe ich spazieren."
+        exRu: "Вечером я гуляю."
+      - de: "Sport treiben"
+        ru: "заниматься спортом"
+        ex: "Treiben Sie Sport?"
+        exRu: "Вы занимаетесь спортом?"
+      - de: "Ich rauche nicht."
+        ru: "Я не курю."
+      - de: "Das ist gut für die Gesundheit."
+        ru: "Это полезно для здоровья."
+      - de: "Hier darf man nicht rauchen."
+        ru: "Здесь нельзя курить."
+      - de: "Bleiben Sie gesund!"
+        ru: "Будьте здоровы!"
+    grammar:
+      title: "Модальный глагол [[dürfen]]"
+      explain:
+        - "Глагол [[dürfen]] значит «можно», «разрешено». [[Darf ich hier sitzen?]] — «Можно мне здесь сесть?» Так вежливо просят разрешения."
+        - "Формы: [[ich darf]], [[du darfst]], [[er darf]], [[sie darf]], [[wir dürfen]], [[ihr dürft]], [[sie dürfen]], вежливо [[Sie dürfen]]. В единственном числе умлаута нет: [[darf]]. Во множественном он есть: [[dürfen]]."
+        - "Второй глагол, как всегда у модальных глаголов, стоит в конце: [[Sie dürfen wieder Sport treiben.]] — «Вам снова можно заниматься спортом»."
+        - "С отрицанием [[nicht]] это значит «нельзя»: [[Sie dürfen nicht rauchen.]] — «Вам нельзя курить». С существительным говорят [[kein]]: [[Sie dürfen keinen Alkohol trinken.]]"
+        - "Общий запрет звучит со словом [[man]]: [[Hier darf man nicht rauchen.]] — «Здесь нельзя курить». [[Hier darf man parken.]] — «Здесь можно парковаться»."
+      exercises:
+        - q: "Как вежливо спросить «Можно мне открыть окно?»"
+          options: ["[[Darf ich das Fenster öffnen?]]", "[[Dürfe ich das Fenster öffnen?]]", "[[Darfst ich das Fenster öffnen?]]", "[[Darf ich öffnen das Fenster?]]", "[[Darf öffnen ich das Fenster?]]"]
+        - q: "Выберите правильную форму: [[Wir ... hier nicht parken.]]"
+          options: ["[[dürfen]]", "[[darf]]", "[[darfst]]", "[[dürft]]", "[[darfen]]"]
+        - q: "Выберите правильную форму: [[Mein Vater ... keinen Kaffee trinken.]]"
+          options: ["[[darf]]", "[[dürfen]]", "[[darfst]]", "[[dürft]]"]
+        - q: "Как сказать «Вам нельзя курить»?"
+          options: ["[[Sie dürfen nicht rauchen.]]", "[[Sie dürfen rauchen nicht.]]", "[[Sie darf nicht rauchen.]]", "[[Sie nicht dürfen rauchen.]]", "[[Dürfen Sie nicht rauchen.]]"]
+        - q: "Что значит [[Hier darf man schwimmen]]?"
+          options: ["Здесь можно плавать", "Здесь нельзя плавать", "Здесь нужно плавать", "Здесь хотят плавать"]
+    dialogue:
+      title: "Совет врача"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Herr Müller, Sie sind wieder gesund.", "Господин Мюллер, вы снова здоровы."]
+        - [B, "Prima! Darf ich wieder Sport treiben?", "Отлично! Мне снова можно заниматься спортом?"]
+        - [A, "Ja, aber nicht zu viel. Gehen Sie zuerst spazieren oder schwimmen.", "Да, но не слишком много. Сначала гуляйте или плавайте."]
+        - [B, "Und darf ich Wein trinken?", "А вино мне можно пить?"]
+        - [A, "Ein bisschen am Wochenende. Rauchen Sie noch?", "Немножко по выходным. Вы ещё курите?"]
+        - [B, "Ja, fünf Zigaretten am Tag.", "Да, пять сигарет в день."]
+        - [A, "Das ist nicht gut für die Gesundheit. Sie dürfen nicht mehr rauchen!", "Это вредно для здоровья. Вам больше нельзя курить!"]
+        - [B, "Gut, ich versuche es.", "Хорошо, я попробую."]
+        - [A, "Prima! Bleiben Sie gesund!", "Отлично! Будьте здоровы!"]
+      questions:
+        - q: "Каким спортом врач советует заниматься сначала?"
+          options: ["Гулять или плавать", "Бегать", "Ходить в фитнес-клуб"]
+        - q: "Сколько сигарет в день курит господин Мюллер?"
+          options: ["Пять", "Десять", "Ни одной"]
+        - q: "Что врач говорит о курении?"
+          options: ["Курить больше нельзя", "Можно курить по выходным", "Можно курить немного"]

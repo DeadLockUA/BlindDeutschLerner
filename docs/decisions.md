@@ -228,3 +228,53 @@ Every session starts with ~5 min of **spaced-repetition review**, then the new l
 ## Implementation log
 
 Decisions taken during implementation (date, decision, reason) go here.
+
+## 9. Final clarifications (confirmed before start)
+
+- Speech rate and the gender of the Russian prompt voice are set by the helper in
+  settings; not exposed in the learner's menus.
+- Module 1 (5 lessons) is downloaded immediately at install, so the app works offline
+  from day one.
+- Intermediate versions are deployed to GitHub Pages during the work.
+- Target: Android with Chrome no older than ~3–4 years.
+- No time limit: do whatever is needed for a complete, high-quality A1 course, without
+  wasteful spending.
+
+### 2026-10-10
+
+- **Stack:** Vite + TypeScript (no UI framework), vite-plugin-pwa (injectManifest) with
+  a custom service worker; vitest for unit tests, Playwright + axe-core for e2e and
+  accessibility tests. Course sources are YAML (`content/`), compiled by
+  `scripts/build-content.mjs` into `public/course/*.json` (generated, not committed).
+- **Voices (Piper):** German male `thorsten-high` (dataset CC0), German female
+  `eva_k-x_low` (M-AILABS dataset, LibriVox public-domain audio, modified BSD-style
+  licence), Russian `denis-medium` (CC0). Chosen by automatic intelligibility tests
+  (Whisper round-trip). The other German female voices (kerstin, ramona, MLS speakers)
+  were much less intelligible. Details in `docs/voices.md`.
+- **Deviation — Russian voice gender setting dropped:** there is no Russian Piper
+  female voice with a clear permissive licence (irina: licence unknown, ruslan:
+  CC BY-NC-SA). All Russian prompts use one male voice (Denis). Russian phrases are
+  written gender-neutral where the speaker refers to himself.
+- **Audio:** each utterance is a clip `public/audio/<sha1>.ogg` (Opus 24 kbit/s mono).
+  Mixed Russian/German text (`[[German]]` markup) becomes a sequence of clips. Audio is
+  committed to the repo so CI needs no TTS. Whole course ≈ 10 000 clips.
+- **Naming:** the LLM is called «Ассистент» in the app so it is not confused with the
+  human «помощник» who sets the phone up.
+- **Start gate:** browsers block sound until the first touch unless the PWA is
+  installed. The app tries to start with sound immediately; if blocked, the whole
+  screen is one "Коснитесь экрана, чтобы начать" button.
+- **Menus in basic mode:** 3 option zones; when a menu has more items, the third zone
+  becomes «Ещё» (pages through the rest).
+- **Lesson word step:** zones «Дальше», «Повторить» (repeats slower), «Я знаю это слово»
+  (quick check; correct → word jumps to box 3 and is skipped in drills). Pro mode adds
+  «Медленно».
+- **Pronunciation:** the learner holds «Ответить» and speaks after the beep (same
+  gesture as conversation practice), so he controls the timing.
+- **Menu zone gestures:** tap = repeat, hold 2 s and release = pause menu, keep holding
+  to 5 s = settings. Keyboard/clicker: arrows move + speak, Enter selects, Esc = pause.
+- **Free LLM models:** preferred list (nemotron-3-super, nemotron-3-ultra, gemma-4) plus
+  automatic discovery of current `:free` models from the public OpenRouter model list;
+  the last working model is remembered.
+- **Course size:** 13 modules (12 × 5 lessons + exam module with 5 lessons), 764 words,
+  356 phrases; drafted in parallel by subagents from `docs/course-plan.md`, then
+  reviewed by separate reviewer agents.

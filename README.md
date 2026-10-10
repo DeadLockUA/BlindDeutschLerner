@@ -1,36 +1,43 @@
-# BlindDeutschLerner
+# Немецкий на слух (BlindDeutschLerner)
 
-An accessible app for learning German, designed for blind and visually impaired users.
+An audio-first German course (level A1) for blind and visually impaired Russian
+speakers. It is a Progressive Web App: open it in Chrome on Android, install it to the
+home screen, and it works offline.
 
-## Goals
+**Open the app:** https://deadlockua.github.io/BlindDeutschLerner/
+**Instructions for the sighted helper (Russian):** https://deadlockua.github.io/BlindDeutschLerner/help.html
 
-- **Audio-first**: every lesson, exercise and menu can be used without looking at the screen.
-- **Screen-reader friendly**: full support for TalkBack, VoiceOver, NVDA and JAWS, with a logical focus order and meaningful labels.
-- **High contrast and scalable text** for users with partial vision.
-- **Simple, predictable navigation** with keyboard shortcuts and gestures.
-- **Offline-capable** lessons where possible.
+## How it works
 
-## Planned features
+- The app speaks everything itself (no screen reader needed): Russian prompts, German
+  words in a male and a female voice, dialogues and grammar explanations.
+- The screen is split into 4 big coloured zones (6 in "professional" mode). A short tap
+  speaks a zone, holding it for 2 seconds selects it (rising tone, vibration ticks, the
+  zone fills with colour). The bottom-right zone is always the menu.
+- Correct answer: the whole screen flashes green; wrong: red.
+- 65 lessons in 13 modules following Goethe-Zertifikat A1 (764 words, 356 phrases,
+  grammar, dialogues, listening exam training), spaced-repetition review, pronunciation
+  practice and voice commands (Chrome speech recognition, online), progress kept only on
+  the phone with backup to Google Drive through the share sheet.
+- Optional LLM assistant and German conversation practice through free OpenRouter
+  models, with the user's own key.
 
-- Vocabulary trainer with spoken German words and translations
-- Pronunciation practice with speech recognition feedback
-- Listening comprehension exercises
-- Grammar lessons delivered as audio
-- Spaced repetition for review
-- Progress tracking with spoken summaries
+## Development
 
-## Status
+```sh
+npm ci
+npm run dev            # compiles content, starts Vite
+npm test               # unit tests
+npm run build && npx playwright test   # e2e + accessibility tests
+```
 
-Early stage. The project has just been started and nothing is implemented yet.
-
-## Tech stack
-
-To be decided.
-
-## Contributing
-
-Ideas and feedback are welcome. Accessibility feedback from blind and low-vision users is especially valuable.
+- Course sources: `content/modules/*.yaml`, `content/prompts.yaml` — see
+  [docs/content-guide.md](docs/content-guide.md) and [docs/course-plan.md](docs/course-plan.md).
+- Audio is pre-generated with Piper and committed; see [docs/voices.md](docs/voices.md).
+- Product decisions: [docs/decisions.md](docs/decisions.md).
+- CI (GitHub Actions) validates content, type-checks, runs unit, e2e and accessibility
+  tests and deploys `main` to GitHub Pages.
 
 ## License
 
-To be decided.
+Code: MIT (see [LICENSE](LICENSE)). Voice licences: [docs/voices.md](docs/voices.md).

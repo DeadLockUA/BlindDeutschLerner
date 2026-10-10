@@ -1,0 +1,329 @@
+id: m13
+title: "Тренировка экзамена"
+exam: true
+lessons:
+  - id: m13l01
+    title: "Короткие диалоги 1"
+    intro: "Это первая часть экзамена по аудированию. Вы услышите короткие диалоги. После каждого ответьте на вопрос."
+    words: []
+    phrases: []
+    dialogues:
+      - title: "Задание 1"
+        speakers: {A: f, B: m}
+        lines:
+          - [A, "Entschuldigung, wie viel kostet das Brot?", "Извините, сколько стоит хлеб?"]
+          - [B, "Das Brot kostet drei Euro zwanzig.", "Хлеб стоит три евро двадцать."]
+          - [A, "Und die Brötchen?", "А булочки?"]
+          - [B, "Ein Brötchen kostet vierzig Cent.", "Одна булочка стоит сорок центов."]
+          - [A, "Gut, dann nehme ich nur das Brot.", "Хорошо, тогда я возьму только хлеб."]
+        questions:
+          - q: "Сколько стоит хлеб?"
+            options: ["Три евро двадцать", "Два евро тридцать", "Три евро сорок"]
+          - q: "Что покупает женщина?"
+            options: ["Только хлеб", "Хлеб и булочки", "Только булочки"]
+      - title: "Задание 2"
+        speakers: {A: m, B: f}
+        lines:
+          - [A, "Frau Weber, wann haben Sie morgen Zeit?", "Госпожа Вебер, когда у вас завтра есть время?"]
+          - [B, "Am Vormittag habe ich leider keine Zeit.", "До обеда у меня, к сожалению, нет времени."]
+          - [A, "Geht es um vierzehn Uhr?", "Вам подходит в четырнадцать часов?"]
+          - [B, "Ja, um vierzehn Uhr geht es gut.", "Да, в четырнадцать часов мне удобно."]
+        questions:
+          - q: "Когда встреча?"
+            options: ["Завтра в четырнадцать часов", "Завтра утром", "Сегодня в четырнадцать часов"]
+      - title: "Задание 3"
+        speakers: {A: f, B: m}
+        lines:
+          - [A, "Entschuldigung, wo ist hier die Post?", "Извините, где здесь почта?"]
+          - [B, "Gehen Sie geradeaus und dann links.", "Идите прямо, а потом налево."]
+          - [A, "Ist das weit?", "Это далеко?"]
+          - [B, "Nein, nur fünf Minuten zu Fuß.", "Нет, всего пять минут пешком."]
+        questions:
+          - q: "Как пройти на почту?"
+            options: ["Прямо, потом налево", "Прямо, потом направо", "Сразу направо"]
+          - q: "Сколько минут идти?"
+            options: ["Пять", "Пятнадцать", "Десять"]
+      - title: "Задание 4"
+        speakers: {A: m, B: f}
+        lines:
+          - [A, "Was möchten Sie trinken?", "Что вы хотите выпить?"]
+          - [B, "Einen Kaffee mit Milch, bitte.", "Кофе с молоком, пожалуйста."]
+          - [A, "Mit Zucker?", "С сахаром?"]
+          - [B, "Nein, ohne Zucker, danke.", "Нет, без сахара, спасибо."]
+        questions:
+          - q: "Что заказывает женщина?"
+            options: ["Кофе с молоком без сахара", "Кофе с молоком и сахаром", "Чай с молоком"]
+      - title: "Задание 5"
+        speakers: {A: f, B: m}
+        lines:
+          - [A, "Peter, wann fährt dein Zug nach Berlin?", "Петер, когда отправляется твой поезд в Берлин?"]
+          - [B, "Um acht Uhr fünfzehn.", "В восемь пятнадцать."]
+          - [A, "Am Morgen? Das ist aber früh!", "Утром? Как рано!"]
+          - [B, "Ja, ich muss um elf Uhr im Büro sein.", "Да, в одиннадцать часов мне нужно быть в офисе."]
+        questions:
+          - q: "Когда отправляется поезд?"
+            options: ["В восемь пятнадцать", "В одиннадцать часов", "В восемь пятьдесят"]
+
+  - id: m13l02
+    title: "Объявления"
+    intro: "Это вторая часть экзамена. Вы услышите объявления на вокзале, в аэропорту и в магазине. После каждого объявления ответьте на вопрос."
+    words: []
+    phrases: []
+    dialogues:
+      - title: "Задание 1"
+        speakers: {A: f}
+        lines:
+          - [A, "Achtung am Gleis drei!", "Внимание, путь три!"]
+          - [A, "Der Zug nach München fährt heute nicht von Gleis drei.", "Поезд в Мюнхен сегодня отправляется не с третьего пути."]
+          - [A, "Er fährt von Gleis sieben.", "Он отправляется с седьмого пути."]
+        questions:
+          - q: "С какого пути отправляется поезд в Мюнхен?"
+            options: ["С седьмого", "С третьего", "С одиннадцатого"]
+      - title: "Задание 2"
+        speakers: {A: m}
+        lines:
+          - [A, "Liebe Kundinnen und Kunden!", "Дорогие покупательницы и покупатели!"]
+          - [A, "Heute kostet ein Kilo Äpfel nur einen Euro neunzig.", "Сегодня килограмм яблок стоит всего один евро девяносто."]
+          - [A, "Sie finden die Äpfel am Eingang.", "Яблоки вы найдёте у входа."]
+        questions:
+          - q: "Сколько сегодня стоит килограмм яблок?"
+            options: ["Один евро девяносто", "Два евро девяносто", "Один евро девятнадцать"]
+          - q: "Где лежат яблоки?"
+            options: ["У входа", "У кассы", "Рядом с хлебом"]
+      - title: "Задание 3"
+        speakers: {A: f}
+        lines:
+          - [A, "Information für die Fluggäste nach Wien.", "Информация для пассажиров рейса в Вену."]
+          - [A, "Ihr Flug hat dreißig Minuten Verspätung.", "Ваш рейс задерживается на тридцать минут."]
+          - [A, "Der Abflug ist jetzt um zehn Uhr fünfundvierzig.", "Вылет теперь в десять сорок пять."]
+        questions:
+          - q: "Во сколько теперь вылет в Вену?"
+            options: ["В десять сорок пять", "В десять пятнадцать", "В одиннадцать тридцать"]
+      - title: "Задание 4"
+        speakers: {A: m}
+        lines:
+          - [A, "Liebe Kunden, unser Supermarkt schließt in fünfzehn Minuten.", "Дорогие покупатели, наш супермаркет закрывается через пятнадцать минут."]
+          - [A, "Bitte gehen Sie jetzt zur Kasse.", "Пожалуйста, пройдите сейчас к кассе."]
+          - [A, "Morgen sind wir ab sieben Uhr für Sie da.", "Завтра мы работаем для вас с семи часов."]
+        questions:
+          - q: "Когда закрывается супермаркет?"
+            options: ["Через пятнадцать минут", "Через пятьдесят минут", "В семь часов"]
+      - title: "Задание 5"
+        speakers: {A: f}
+        lines:
+          - [A, "Nächster Halt: Hauptbahnhof.", "Следующая остановка: главный вокзал."]
+          - [A, "Hier können Sie in die Linie vier umsteigen.", "Здесь можно пересесть на линию четыре."]
+          - [A, "Bitte rechts aussteigen.", "Выход справа."]
+        questions:
+          - q: "На какую линию можно пересесть?"
+            options: ["На четвёртую", "На вторую", "На четырнадцатую"]
+
+  - id: m13l03
+    title: "Сообщения на автоответчике"
+    intro: "Это третья часть экзамена. Вы услышите сообщения на автоответчике. После каждого сообщения ответьте на вопрос."
+    words: []
+    phrases: []
+    dialogues:
+      - title: "Задание 1"
+        speakers: {A: f}
+        lines:
+          - [A, "Hallo, Thomas, hier ist Anna.", "Привет, Томас, это Анна."]
+          - [A, "Wir treffen uns heute nicht um sechs Uhr, sondern um sieben.", "Мы встречаемся сегодня не в шесть часов, а в семь."]
+          - [A, "Ich warte vor dem Kino. Bis dann!", "Я жду у кинотеатра. До встречи!"]
+        questions:
+          - q: "Во сколько встреча?"
+            options: ["В семь часов", "В шесть часов", "В восемь часов"]
+          - q: "Где ждёт Анна?"
+            options: ["У кинотеатра", "У вокзала", "Дома"]
+      - title: "Задание 2"
+        speakers: {A: m}
+        lines:
+          - [A, "Guten Tag, Frau Schmidt. Hier ist die Praxis Doktor Braun.", "Добрый день, госпожа Шмидт. Это кабинет доктора Брауна."]
+          - [A, "Ihr Termin am Montag geht leider nicht.", "Ваш приём в понедельник, к сожалению, не получится."]
+          - [A, "Können Sie am Mittwoch um neun Uhr kommen?", "Можете ли вы прийти в среду в девять часов?"]
+          - [A, "Bitte rufen Sie uns an. Danke!", "Пожалуйста, перезвоните нам. Спасибо!"]
+        questions:
+          - q: "Когда госпожа Шмидт может прийти к врачу?"
+            options: ["В среду в девять часов", "В понедельник в девять часов", "В среду в десять часов"]
+      - title: "Задание 3"
+        speakers: {A: f}
+        lines:
+          - [A, "Hallo, Peter, hier ist Maria.", "Привет, Петер, это Мария."]
+          - [A, "Ich bin im Supermarkt. Brauchen wir noch Milch?", "Я в супермаркете. Нам ещё нужно молоко?"]
+          - [A, "Und vielleicht Eier? Bitte ruf mich schnell an.", "И, может быть, яйца? Пожалуйста, перезвони мне быстрее."]
+        questions:
+          - q: "Где сейчас Мария?"
+            options: ["В супермаркете", "Дома", "На работе"]
+      - title: "Задание 4"
+        speakers: {A: m}
+        lines:
+          - [A, "Guten Tag, hier ist Herr Müller von der Firma Weber.", "Добрый день, это господин Мюллер из фирмы Вебер."]
+          - [A, "Meine Telefonnummer ist null, drei, null, vier, fünf, sechs, acht, zwei.", "Мой номер телефона: ноль, три, ноль, четыре, пять, шесть, восемь, два."]
+          - [A, "Ich bin bis siebzehn Uhr im Büro.", "Я в офисе до семнадцати часов."]
+        questions:
+          - q: "До какого часа господин Мюллер в офисе?"
+            options: ["До семнадцати часов", "До семи часов", "До шестнадцати часов"]
+          - q: "Какой номер телефона?"
+            options: ["Ноль, три, ноль, четыре, пять, шесть, восемь, два", "Ноль, три, ноль, пять, четыре, шесть, восемь, два", "Ноль, три, ноль, четыре, пять, шесть, два, восемь"]
+      - title: "Задание 5"
+        speakers: {A: f}
+        lines:
+          - [A, "Hallo, Lukas, hier ist Sophie.", "Привет, Лукас, это Софи."]
+          - [A, "Am Samstag habe ich Geburtstag und mache eine Party.", "В субботу у меня день рождения, и я устраиваю вечеринку."]
+          - [A, "Die Party beginnt um acht Uhr bei mir zu Hause.", "Вечеринка начинается в восемь часов у меня дома."]
+          - [A, "Kommst du?", "Ты придёшь?"]
+        questions:
+          - q: "Когда вечеринка?"
+            options: ["В субботу в восемь часов", "В воскресенье в восемь часов", "В субботу в шесть часов"]
+
+  - id: m13l04
+    title: "Короткие диалоги 2"
+    intro: "Снова первая часть экзамена. Вы услышите короткие диалоги. Слушайте внимательно числа, время и места."
+    words: []
+    phrases: []
+    dialogues:
+      - title: "Задание 1"
+        speakers: {A: m, B: f}
+        lines:
+          - [A, "Guten Tag, ich möchte eine Fahrkarte nach Hamburg.", "Добрый день, я хотел бы билет до Гамбурга."]
+          - [B, "Einfach oder hin und zurück?", "В одну сторону или туда и обратно?"]
+          - [A, "Hin und zurück, bitte.", "Туда и обратно, пожалуйста."]
+          - [B, "Das macht neunundfünfzig Euro.", "С вас пятьдесят девять евро."]
+        questions:
+          - q: "Сколько стоит билет?"
+            options: ["Пятьдесят девять евро", "Девяносто пять евро", "Сорок девять евро"]
+          - q: "Какой билет покупает мужчина?"
+            options: ["Туда и обратно", "В одну сторону", "Два билета в одну сторону"]
+      - title: "Задание 2"
+        speakers: {A: f, B: m}
+        lines:
+          - [A, "Herr Müller, wo ist das Büro von Frau Schmidt?", "Господин Мюллер, где кабинет госпожи Шмидт?"]
+          - [B, "Im dritten Stock, Zimmer dreihundertzwölf.", "На четвёртом этаже, комната триста двенадцать."]
+          - [A, "Gibt es hier einen Aufzug?", "Здесь есть лифт?"]
+          - [B, "Ja, dort rechts.", "Да, вон там справа."]
+        questions:
+          - q: "В какой комнате кабинет госпожи Шмидт?"
+            options: ["Триста двенадцать", "Двести тринадцать", "Триста двадцать"]
+      - title: "Задание 3"
+        speakers: {A: m, B: f}
+        lines:
+          - [A, "Wie ist das Wetter morgen?", "Какая погода будет завтра?"]
+          - [B, "Morgen regnet es den ganzen Tag.", "Завтра весь день будет дождь."]
+          - [A, "Schade! Dann fahren wir nicht an den See.", "Жаль! Тогда мы не поедем на озеро."]
+          - [B, "Wir können ins Museum gehen.", "Мы можем пойти в музей."]
+        questions:
+          - q: "Какая погода будет завтра?"
+            options: ["Дождь", "Солнце", "Снег"]
+          - q: "Что они могут сделать завтра?"
+            options: ["Пойти в музей", "Поехать на озеро", "Пойти в кино"]
+      - title: "Задание 4"
+        speakers: {A: f, B: m}
+        lines:
+          - [A, "Entschuldigung, wann öffnet die Bank?", "Извините, когда открывается банк?"]
+          - [B, "Um halb neun.", "В половине девятого."]
+          - [A, "Und am Samstag?", "А в субботу?"]
+          - [B, "Am Samstag ist die Bank geschlossen.", "В субботу банк закрыт."]
+        questions:
+          - q: "Когда открывается банк?"
+            options: ["В половине девятого", "В девять тридцать", "В восемь часов"]
+      - title: "Задание 5"
+        speakers: {A: m, B: f}
+        lines:
+          - [A, "Sophie, was machst du am Wochenende?", "Софи, что ты делаешь на выходных?"]
+          - [B, "Am Samstag besuche ich meine Eltern.", "В субботу я навещаю родителей."]
+          - [A, "Und am Sonntag?", "А в воскресенье?"]
+          - [B, "Am Sonntag spiele ich Tennis mit Anna.", "В воскресенье я играю в теннис с Анной."]
+        questions:
+          - q: "Что Софи делает в воскресенье?"
+            options: ["Играет в теннис", "Навещает родителей", "Работает"]
+
+  - id: m13l05
+    title: "Пробный экзамен"
+    intro: "Это пробный экзамен. Здесь есть все три части: короткие диалоги, объявления и сообщения на автоответчике. Слушайте внимательно и отвечайте на вопросы."
+    words: []
+    phrases: []
+    dialogues:
+      - title: "Задание 1"
+        speakers: {A: f, B: m}
+        lines:
+          - [A, "Guten Tag, ich hätte gern zwei Kilo Tomaten.", "Добрый день, мне, пожалуйста, два килограмма помидоров."]
+          - [B, "Gern. Sonst noch etwas?", "С удовольствием. Что-нибудь ещё?"]
+          - [A, "Ja, eine Gurke, bitte.", "Да, один огурец, пожалуйста."]
+          - [B, "Das macht vier Euro achtzig.", "С вас четыре евро восемьдесят."]
+        questions:
+          - q: "Сколько платит женщина?"
+            options: ["Четыре евро восемьдесят", "Восемь евро сорок", "Четыре евро восемнадцать"]
+      - title: "Задание 2"
+        speakers: {A: m, B: f}
+        lines:
+          - [A, "Wann beginnt der Deutschkurs?", "Когда начинается курс немецкого?"]
+          - [B, "Der Kurs beginnt am ersten Oktober.", "Курс начинается первого октября."]
+          - [A, "Und an welchen Tagen ist der Kurs?", "А по каким дням курс?"]
+          - [B, "Am Dienstag und am Donnerstag.", "Во вторник и в четверг."]
+        questions:
+          - q: "По каким дням проходит курс?"
+            options: ["Во вторник и в четверг", "В понедельник и в среду", "В среду и в пятницу"]
+      - title: "Задание 3"
+        speakers: {A: f, B: m}
+        lines:
+          - [A, "Thomas, wo ist mein Handy?", "Томас, где мой мобильный?"]
+          - [B, "Es liegt auf dem Tisch in der Küche.", "Он лежит на столе на кухне."]
+          - [A, "Nein, da ist es nicht.", "Нет, там его нет."]
+          - [B, "Dann schau im Wohnzimmer neben dem Sofa.", "Тогда посмотри в гостиной рядом с диваном."]
+        questions:
+          - q: "Где женщина должна искать телефон сейчас?"
+            options: ["В гостиной рядом с диваном", "На кухне на столе", "В спальне на кровати"]
+      - title: "Задание 4"
+        speakers: {A: m}
+        lines:
+          - [A, "Achtung, eine Durchsage für die Fahrgäste nach Köln.", "Внимание, объявление для пассажиров до Кёльна."]
+          - [A, "Der Zug um sechzehn Uhr zehn fällt heute aus.", "Поезд в шестнадцать десять сегодня отменён."]
+          - [A, "Bitte nehmen Sie den Zug um sechzehn Uhr vierzig.", "Пожалуйста, садитесь на поезд в шестнадцать сорок."]
+        questions:
+          - q: "На какой поезд нужно сесть пассажирам до Кёльна?"
+            options: ["В шестнадцать сорок", "В шестнадцать десять", "В семнадцать десять"]
+      - title: "Задание 5"
+        speakers: {A: f}
+        lines:
+          - [A, "Liebe Kunden, heute im Angebot: Kaffee.", "Дорогие покупатели, сегодня в спецпредложении кофе."]
+          - [A, "Fünfhundert Gramm kosten nur vier Euro neunundneunzig.", "Пятьсот граммов стоят всего четыре евро девяносто девять."]
+          - [A, "Sie finden den Kaffee im ersten Stock.", "Кофе вы найдёте на втором этаже."]
+        questions:
+          - q: "Что сегодня в спецпредложении?"
+            options: ["Кофе", "Чай", "Молоко"]
+          - q: "Сколько он стоит?"
+            options: ["Четыре евро девяносто девять", "Пять евро девяносто девять", "Четыре евро девятнадцать"]
+      - title: "Задание 6"
+        speakers: {A: m}
+        lines:
+          - [A, "Hallo, Maria, hier ist Lukas.", "Привет, Мария, это Лукас."]
+          - [A, "Ich bin krank und kann heute nicht zur Arbeit kommen.", "Я заболел и не могу сегодня прийти на работу."]
+          - [A, "Kannst du bitte Herrn Weber Bescheid sagen?", "Можешь, пожалуйста, сообщить господину Веберу?"]
+          - [A, "Morgen bin ich wieder da. Danke!", "Завтра я снова буду. Спасибо!"]
+        questions:
+          - q: "Почему Лукас не придёт на работу?"
+            options: ["Он болен", "Он в отпуске", "У него нет поезда"]
+          - q: "Когда он снова придёт?"
+            options: ["Завтра", "В понедельник", "Через неделю"]
+      - title: "Задание 7"
+        speakers: {A: f}
+        lines:
+          - [A, "Guten Tag, Herr Schneider. Hier ist das Reisebüro Sonne.", "Добрый день, господин Шнайдер. Это туристическое агентство «Зонне»."]
+          - [A, "Ihre Tickets für die Reise nach Spanien sind da.", "Ваши билеты для поездки в Испанию готовы."]
+          - [A, "Sie können sie bis Freitag abholen.", "Вы можете забрать их до пятницы."]
+          - [A, "Wir sind von neun bis achtzehn Uhr geöffnet.", "Мы открыты с девяти до восемнадцати часов."]
+        questions:
+          - q: "До какого дня нужно забрать билеты?"
+            options: ["До пятницы", "До четверга", "До субботы"]
+      - title: "Задание 8"
+        speakers: {A: m, B: f}
+        lines:
+          - [A, "Entschuldigung, wie komme ich zum Bahnhof?", "Извините, как мне добраться до вокзала?"]
+          - [B, "Nehmen Sie den Bus Nummer zwölf.", "Садитесь на автобус номер двенадцать."]
+          - [A, "Wo ist die Haltestelle?", "Где остановка?"]
+          - [B, "Gleich dort, vor der Apotheke.", "Прямо там, перед аптекой."]
+        questions:
+          - q: "Какой автобус идёт на вокзал?"
+            options: ["Номер двенадцать", "Номер двадцать", "Номер два"]
+          - q: "Где остановка?"
+            options: ["Перед аптекой", "Перед банком", "За супермаркетом"]

@@ -1,0 +1,551 @@
+id: m06
+title: "Время и распорядок дня"
+lessons:
+  - id: m06l01
+    title: "Который час?"
+    intro: "В этом уроке вы научитесь спрашивать и называть время: официально и в разговоре."
+    words:
+      - de: "die Uhr"
+        ru: "часы"
+        plural: "die Uhren"
+        ex: "Es ist acht Uhr."
+        exRu: "Сейчас восемь часов."
+      - de: "die Stunde"
+        ru: "час"
+        plural: "die Stunden"
+        ex: "Der Kurs dauert eine Stunde."
+        exRu: "Курс длится один час."
+      - de: "die Minute"
+        ru: "минута"
+        plural: "die Minuten"
+        ex: "Warten Sie bitte fünf Minuten."
+        exRu: "Подождите, пожалуйста, пять минут."
+      - de: "die Sekunde"
+        ru: "секунда"
+        plural: "die Sekunden"
+        ex: "Eine Minute hat sechzig Sekunden."
+        exRu: "В минуте шестьдесят секунд."
+      - de: "halb"
+        ru: "половина"
+        ex: "Es ist halb drei."
+        exRu: "Сейчас половина третьего."
+      - de: "das Viertel"
+        ru: "четверть"
+        plural: "die Viertel"
+        ex: "Es ist Viertel nach vier."
+        exRu: "Сейчас четверть пятого."
+      - de: "vor"
+        ru: "без, до"
+        ex: "Es ist zehn vor acht."
+        exRu: "Сейчас без десяти восемь."
+      - de: "nach"
+        ru: "после"
+        ex: "Es ist fünf nach neun."
+        exRu: "Сейчас пять минут десятого."
+      - de: "jetzt"
+        ru: "сейчас"
+        ex: "Ich habe jetzt keine Zeit."
+        exRu: "У меня сейчас нет времени."
+      - de: "gleich"
+        ru: "сейчас, скоро"
+        ex: "Ich komme gleich."
+        exRu: "Я сейчас приду."
+      - de: "früh"
+        ru: "рано"
+        ex: "Es ist noch früh."
+        exRu: "Ещё рано."
+      - de: "spät"
+        ru: "поздно"
+        ex: "Es ist schon spät."
+        exRu: "Уже поздно."
+    phrases:
+      - de: "Wie spät ist es?"
+        ru: "Который час?"
+      - de: "Wie viel Uhr ist es?"
+        ru: "Сколько времени?"
+      - de: "Es ist drei Uhr."
+        ru: "Сейчас три часа."
+      - de: "Um wie viel Uhr?"
+        ru: "Во сколько?"
+      - de: "Ich komme zu spät."
+        ru: "Я опаздываю."
+      - de: "Wir haben noch Zeit."
+        ru: "У нас ещё есть время."
+    grammar:
+      title: "Как назвать время"
+      explain:
+        - "Спросить время можно так: [[Wie spät ist es?]] или [[Wie viel Uhr ist es?]] Отвечают со слов [[Es ist]]: [[Es ist acht Uhr.]] — «Сейчас восемь часов»."
+        - "Официально, например на вокзале или по радио, называют часы, потом слово [[Uhr]], потом минуты: [[Es ist vierzehn Uhr dreißig.]] — «Четырнадцать тридцать»."
+        - "В разговоре используют [[nach]] и [[vor]]. [[Zehn nach drei]] — «десять минут четвёртого». [[Zehn vor drei]] — «без десяти три». Четверть — [[Viertel]]: [[Viertel nach vier]], [[Viertel vor fünf]]."
+        - "Слово [[halb]] работает как в русском: [[halb drei]] — «половина третьего», то есть два тридцать. Не путайте: [[halb drei]] — это не три тридцать!"
+        - "Вопрос «Во сколько?» — [[Um wie viel Uhr?]] Ответ с предлогом [[um]]: [[Um sieben Uhr.]] [[Um halb neun.]]"
+      exercises:
+        - q: "Сейчас два тридцать. Как сказать в разговоре?"
+          options: ["[[Es ist halb drei.]]", "[[Es ist halb zwei.]]", "[[Es ist Viertel nach zwei.]]", "[[Es ist drei Uhr.]]", "[[Es ist halb vier.]]"]
+        - q: "Сейчас четверть пятого. Как сказать?"
+          options: ["[[Es ist Viertel nach vier.]]", "[[Es ist Viertel vor vier.]]", "[[Es ist Viertel nach fünf.]]", "[[Es ist halb fünf.]]", "[[Es ist Viertel vor fünf.]]"]
+        - q: "Что значит [[zehn vor acht]]?"
+          options: ["Без десяти восемь", "Десять минут девятого", "Десять минут восьмого", "Половина восьмого", "Без десяти семь"]
+        - q: "Как спросить «Который час?»"
+          options: ["[[Wie spät ist es?]]", "[[Wie alt ist es?]]", "[[Wo ist die Uhr?]]", "[[Um wie viel Uhr?]]"]
+        - q: "Диктор говорит: [[Es ist neunzehn Uhr fünfzehn.]] Сколько времени?"
+          options: ["Девятнадцать пятнадцать", "Девять пятнадцать", "Девятнадцать пятьдесят", "Пятнадцать девятнадцать"]
+        - q: "Как ответить на вопрос «Во сколько?»: «в семь часов»?"
+          options: ["[[Um sieben Uhr.]]", "[[Am sieben Uhr.]]", "[[In sieben Uhr.]]", "[[Es sieben Uhr.]]", "[[Um sieben Stunde.]]"]
+    dialogue:
+      title: "На остановке"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Entschuldigung, wie spät ist es?", "Извините, который час?"]
+        - [B, "Es ist Viertel nach acht.", "Сейчас четверть девятого."]
+        - [A, "Oh nein! Mein Kurs beginnt um halb neun. Ich komme zu spät!", "О нет! Мой курс начинается в половине девятого. Я опаздываю!"]
+        - [B, "Keine Panik. Wir haben noch Zeit. Der Bus kommt gleich.", "Без паники. У нас ещё есть время. Автобус сейчас придёт."]
+        - [A, "Wie lange fährt der Bus?", "Сколько времени ехать на автобусе?"]
+        - [B, "Nur zehn Minuten.", "Всего десять минут."]
+        - [A, "Gut, danke schön!", "Хорошо, большое спасибо!"]
+      questions:
+        - q: "Который час?"
+          options: ["Четверть девятого", "Половина девятого", "Без четверти девять", "Восемь часов"]
+        - q: "Во сколько начинается курс?"
+          options: ["В половине девятого", "В восемь часов", "В девять часов", "В четверть девятого"]
+        - q: "Сколько времени ехать на автобусе?"
+          options: ["Десять минут", "Пятнадцать минут", "Полчаса", "Час"]
+
+  - id: m06l02
+    title: "Дни недели"
+    intro: "В этом уроке вы выучите дни недели и слова «сегодня», «завтра» и «вчера»."
+    words:
+      - de: "der Montag"
+        ru: "понедельник"
+        plural: "die Montage"
+        ex: "Am Montag arbeite ich."
+        exRu: "В понедельник я работаю."
+      - de: "der Dienstag"
+        ru: "вторник"
+        plural: "die Dienstage"
+        ex: "Heute ist Dienstag."
+        exRu: "Сегодня вторник."
+      - de: "der Mittwoch"
+        ru: "среда"
+        plural: "die Mittwoche"
+        ex: "Am Mittwoch habe ich einen Kurs."
+        exRu: "В среду у меня курс."
+      - de: "der Donnerstag"
+        ru: "четверг"
+        plural: "die Donnerstage"
+        ex: "Am Donnerstag besuche ich meine Mutter."
+        exRu: "В четверг я навещаю маму."
+      - de: "der Freitag"
+        ru: "пятница"
+        plural: "die Freitage"
+        ex: "Am Freitag gehe ich ins Kino."
+        exRu: "В пятницу я иду в кино."
+      - de: "der Samstag"
+        ru: "суббота"
+        plural: "die Samstage"
+        ex: "Am Samstag putze ich die Wohnung."
+        exRu: "В субботу я убираю квартиру."
+      - de: "der Sonntag"
+        ru: "воскресенье"
+        plural: "die Sonntage"
+        ex: "Am Sonntag bin ich zu Hause."
+        exRu: "В воскресенье я дома."
+      - de: "die Woche"
+        ru: "неделя"
+        plural: "die Wochen"
+        ex: "Eine Woche hat sieben Tage."
+        exRu: "В неделе семь дней."
+      - de: "das Wochenende"
+        ru: "выходные"
+        plural: "die Wochenenden"
+        ex: "Am Wochenende treffe ich Freunde."
+        exRu: "На выходных я встречаюсь с друзьями."
+      - de: "heute"
+        ru: "сегодня"
+        ex: "Heute ist Freitag."
+        exRu: "Сегодня пятница."
+      - de: "morgen"
+        ru: "завтра"
+        ex: "Morgen ist Samstag."
+        exRu: "Завтра суббота."
+      - de: "gestern"
+        ru: "вчера"
+        ex: "Gestern war Donnerstag."
+        exRu: "Вчера был четверг."
+    phrases:
+      - de: "Welcher Tag ist heute?"
+        ru: "Какой сегодня день?"
+      - de: "Heute ist Montag."
+        ru: "Сегодня понедельник."
+      - de: "jeden Tag"
+        ru: "каждый день"
+      - de: "Schönes Wochenende!"
+        ru: "Хороших выходных!"
+      - de: "Danke, gleichfalls!"
+        ru: "Спасибо, и вам того же!"
+      - de: "Bis Montag!"
+        ru: "До понедельника!"
+    grammar:
+      title: "В понедельник: предлог [[am]]"
+      explain:
+        - "Все дни недели мужского рода: [[der Montag]], [[der Freitag]], [[der Sonntag]]. Это легко запомнить."
+        - "Чтобы сказать «в понедельник», говорят [[am Montag]]. «В пятницу» — [[am Freitag]]. «На выходных» — тоже [[am Wochenende]]."
+        - "Если день стоит в начале предложения, глагол идёт сразу за ним, на втором месте: [[Am Montag arbeite ich.]] — «В понедельник я работаю». Не говорите [[am Montag ich arbeite]]."
+        - "«Сегодня», «завтра», «вчера» — [[heute]], [[morgen]], [[gestern]]. Предлог не нужен: [[Heute ist Montag. Morgen ist Dienstag.]]"
+        - "Внимание: [[morgen]] без артикля — «завтра», а [[der Morgen]] с артиклем — «утро». [[morgen früh]] — «завтра утром»."
+      exercises:
+        - q: "Как сказать «в понедельник»?"
+          options: ["[[am Montag]]", "[[im Montag]]", "[[um Montag]]", "[[in Montag]]", "[[an der Montag]]"]
+        - q: "Как сказать «В субботу я дома»?"
+          options: ["[[Am Samstag bin ich zu Hause.]]", "[[Am Samstag ich bin zu Hause.]]", "[[Im Samstag bin ich zu Hause.]]", "[[Am Samstag zu Hause ich bin.]]", "[[Um Samstag bin ich zu Hause.]]"]
+        - q: "Какой день идёт после [[Dienstag]]?"
+          options: ["[[Mittwoch]]", "[[Montag]]", "[[Donnerstag]]", "[[Freitag]]", "[[Sonntag]]"]
+        - q: "Что значит [[gestern]]?"
+          options: ["Вчера", "Завтра", "Сегодня", "Послезавтра"]
+        - q: "Сегодня пятница. Какой день [[morgen]]?"
+          options: ["[[Samstag]]", "[[Donnerstag]]", "[[Sonntag]]", "[[Montag]]"]
+        - q: "Как сказать «на выходных»?"
+          options: ["[[am Wochenende]]", "[[im Wochenende]]", "[[um Wochenende]]", "[[an Wochenende]]"]
+    dialogue:
+      title: "Скоро выходные"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Herr Müller, welcher Tag ist heute?", "Господин Мюллер, какой сегодня день?"]
+        - [B, "Heute ist Donnerstag.", "Сегодня четверг."]
+        - [A, "Gut! Morgen ist Freitag, und dann ist Wochenende.", "Хорошо! Завтра пятница, а потом выходные."]
+        - [B, "Was machen Sie am Wochenende, Frau Schmidt?", "Что вы делаете на выходных, госпожа Шмидт?"]
+        - [A, "Am Samstag besuche ich meine Eltern. Am Sonntag bin ich zu Hause.", "В субботу я навещаю родителей. В воскресенье я дома."]
+        - [B, "Ich arbeite leider am Samstag.", "Я, к сожалению, работаю в субботу."]
+        - [A, "Oh, schade! Also dann, schönes Wochenende!", "О, жаль! Ну тогда хороших выходных!"]
+        - [B, "Danke, gleichfalls! Bis Montag!", "Спасибо, и вам того же! До понедельника!"]
+      questions:
+        - q: "Какой сегодня день?"
+          options: ["Четверг", "Пятница", "Вторник", "Суббота"]
+        - q: "Что делает госпожа Шмидт в субботу?"
+          options: ["Навещает родителей", "Работает", "Сидит дома", "Убирает квартиру"]
+        - q: "Кто работает в субботу?"
+          options: ["Господин Мюллер", "Госпожа Шмидт", "Родители госпожи Шмидт"]
+
+  - id: m06l03
+    title: "Месяцы и даты"
+    intro: "В этом уроке вы выучите названия месяцев и научитесь называть дату: первое мая, третье марта."
+    words:
+      - de: "der Januar"
+        ru: "январь"
+        ex: "Im Januar ist es kalt."
+        exRu: "В январе холодно."
+      - de: "der Februar"
+        ru: "февраль"
+        ex: "Der Februar ist kurz."
+        exRu: "Февраль короткий."
+      - de: "der März"
+        ru: "март"
+        ex: "Im März habe ich Geburtstag."
+        exRu: "В марте у меня день рождения."
+      - de: "der April"
+        ru: "апрель"
+        ex: "Der April hat dreißig Tage."
+        exRu: "В апреле тридцать дней."
+      - de: "der Mai"
+        ru: "май"
+        ex: "Im Mai ist das Wetter schön."
+        exRu: "В мае хорошая погода."
+      - de: "der Juni"
+        ru: "июнь"
+        ex: "Im Juni feiern wir die Hochzeit."
+        exRu: "В июне мы празднуем свадьбу."
+      - de: "der Juli"
+        ru: "июль"
+        ex: "Im Juli ist es warm."
+        exRu: "В июле тепло."
+      - de: "der August"
+        ru: "август"
+        ex: "Im August habe ich Urlaub."
+        exRu: "В августе у меня отпуск."
+      - de: "der September"
+        ru: "сентябрь"
+        ex: "Im September beginnt die Schule."
+        exRu: "В сентябре начинается школа."
+      - de: "der Oktober"
+        ru: "октябрь"
+        ex: "Heute ist der zehnte Oktober."
+        exRu: "Сегодня десятое октября."
+      - de: "der November"
+        ru: "ноябрь"
+        ex: "Im November ist es oft grau."
+        exRu: "В ноябре часто пасмурно."
+      - de: "der Dezember"
+        ru: "декабрь"
+        ex: "Im Dezember feiern wir Weihnachten."
+        exRu: "В декабре мы празднуем Рождество."
+      - de: "der Monat"
+        ru: "месяц"
+        plural: "die Monate"
+        ex: "Ein Jahr hat zwölf Monate."
+        exRu: "В году двенадцать месяцев."
+      - de: "das Datum"
+        ru: "дата"
+        plural: "die Daten"
+        ex: "Das Datum ist wichtig."
+        exRu: "Дата важна."
+    phrases:
+      - de: "Welches Datum ist heute?"
+        ru: "Какая сегодня дата?"
+      - de: "Der Wievielte ist heute?"
+        ru: "Какое сегодня число?"
+      - de: "Heute ist der dritte März."
+        ru: "Сегодня третье марта."
+      - de: "Ich habe am zehnten Juni Geburtstag."
+        ru: "У меня день рождения десятого июня."
+      - de: "Mein Geburtstag ist im Mai."
+        ru: "Мой день рождения в мае."
+    grammar:
+      title: "Даты и порядковые числа"
+      explain:
+        - "Все месяцы мужского рода: [[der Januar]], [[der Mai]]. «В мае» — [[im Mai]], «в декабре» — [[im Dezember]]. Сравните: день недели — [[am Montag]], а месяц — [[im Mai]]."
+        - "Для даты нужны порядковые числа: «первый», «второй». До девятнадцати к числу добавляют окончание, как в слове [[zehnte]]: [[der zweite]], [[der vierte]], [[der zehnte]]. Запомните исключения: [[der erste]], [[der dritte]], [[der siebte]], [[der achte]]."
+        - "С двадцати окончание длиннее, со звуком «с»: [[der zwanzigste]], [[der einundzwanzigste]], [[der dreißigste]]."
+        - "Какое сегодня число? Отвечают с артиклем [[der]]: [[Heute ist der erste Mai.]] — «Сегодня первое мая»."
+        - "А когда? «Первого мая» — [[am ersten Mai]]. После [[am]] окончание меняется. Сравните: [[der dritte]], но [[am dritten Oktober]]. [[Der zwanzigste]], но [[am zwanzigsten Juli]]."
+      exercises:
+        - q: "Как сказать «в мае»?"
+          options: ["[[im Mai]]", "[[am Mai]]", "[[um Mai]]", "[[in der Mai]]", "[[an Mai]]"]
+        - q: "Как сказать «первого мая»?"
+          options: ["[[am ersten Mai]]", "[[am eins Mai]]", "[[am erste Mai]]", "[[im ersten Mai]]", "[[am einten Mai]]"]
+        - q: "Как сказать «Сегодня третье марта»?"
+          options: ["[[Heute ist der dritte März.]]", "[[Heute ist der dreite März.]]", "[[Heute ist am dritten März.]]", "[[Heute ist drei März.]]", "[[Heute ist der dreißigste März.]]"]
+        - q: "Как будет «двадцатое»?"
+          options: ["[[der zwanzigste]]", "[[der zwanzigte]]", "[[der zweite]]", "[[der zwölfte]]", "[[der zwanzig]]"]
+        - q: "Какой месяц идёт после [[Juni]]?"
+          options: ["[[Juli]]", "[[Mai]]", "[[August]]", "[[Januar]]", "[[April]]"]
+        - q: "Что значит [[am siebten April]]?"
+          options: ["Седьмого апреля", "Семнадцатого апреля", "Седьмого августа", "Семнадцатого августа"]
+    dialogue:
+      title: "Когда день рождения?"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Herr Weber, der Wievielte ist heute?", "Господин Вебер, какое сегодня число?"]
+        - [B, "Heute ist der zwölfte Oktober.", "Сегодня двенадцатое октября."]
+        - [A, "Oh! Am fünfzehnten Oktober hat meine Mutter Geburtstag.", "Ой! Пятнадцатого октября у моей мамы день рождения."]
+        - [B, "Dann brauchen Sie bald ein Geschenk.", "Тогда вам скоро понадобится подарок."]
+        - [A, "Ja, genau. Und wann haben Sie Geburtstag?", "Да, точно. А когда у вас день рождения?"]
+        - [B, "Im März, am einundzwanzigsten März.", "В марте, двадцать первого марта."]
+        - [A, "Und ich habe im Juli Geburtstag, am ersten Juli.", "А у меня день рождения в июле, первого июля."]
+      questions:
+        - q: "Какое сегодня число?"
+          options: ["Двенадцатое октября", "Пятнадцатое октября", "Двадцатое октября", "Двенадцатое ноября"]
+        - q: "Когда день рождения у господина Вебера?"
+          options: ["Двадцать первого марта", "Первого июля", "Пятнадцатого октября", "Двадцатого марта"]
+        - q: "У кого день рождения пятнадцатого октября?"
+          options: ["У мамы женщины", "У господина Вебера", "У самой женщины", "У отца господина Вебера"]
+
+  - id: m06l04
+    title: "Мой день"
+    intro: "В этом уроке вы научитесь рассказывать о своём обычном дне: когда вы встаёте, работаете и ложитесь спать."
+    words:
+      - de: "aufstehen"
+        ru: "вставать"
+        ex: "Ich stehe um sieben Uhr auf."
+        exRu: "Я встаю в семь часов."
+      - de: "duschen"
+        ru: "принимать душ"
+        ex: "Am Morgen dusche ich."
+        exRu: "Утром я принимаю душ."
+      - de: "anziehen"
+        ru: "надевать"
+        ex: "Ich ziehe die Jacke an."
+        exRu: "Я надеваю куртку."
+      - de: "frühstücken"
+        ru: "завтракать"
+        ex: "Wir frühstücken um acht Uhr."
+        exRu: "Мы завтракаем в восемь часов."
+      - de: "anfangen"
+        ru: "начинать"
+        ex: "Die Arbeit fängt um neun Uhr an."
+        exRu: "Работа начинается в девять часов."
+      - de: "arbeiten"
+        ru: "работать"
+        ex: "Ich arbeite von Montag bis Freitag."
+        exRu: "Я работаю с понедельника по пятницу."
+      - de: "die Mittagspause"
+        ru: "обеденный перерыв"
+        plural: "die Mittagspausen"
+        ex: "Um zwölf Uhr habe ich Mittagspause."
+        exRu: "В двенадцать часов у меня обеденный перерыв."
+      - de: "der Feierabend"
+        ru: "конец рабочего дня"
+        plural: "die Feierabende"
+        ex: "Um fünf Uhr habe ich Feierabend."
+        exRu: "В пять часов у меня заканчивается работа."
+      - de: "fernsehen"
+        ru: "смотреть телевизор"
+        ex: "Am Abend sehe ich fern."
+        exRu: "Вечером я смотрю телевизор."
+      - de: "schlafen"
+        ru: "спать"
+        ex: "Das Baby schläft."
+        exRu: "Малыш спит."
+      - de: "normalerweise"
+        ru: "обычно"
+        ex: "Normalerweise trinke ich Tee."
+        exRu: "Обычно я пью чай."
+      - de: "dann"
+        ru: "потом, затем"
+        ex: "Ich dusche, dann frühstücke ich."
+        exRu: "Я принимаю душ, потом завтракаю."
+    phrases:
+      - de: "Um sieben Uhr stehe ich auf."
+        ru: "В семь часов я встаю."
+      - de: "zur Arbeit gehen"
+        ru: "идти на работу"
+      - de: "nach Hause gehen"
+        ru: "идти домой"
+      - de: "ins Bett gehen"
+        ru: "ложиться спать"
+      - de: "Endlich Feierabend!"
+        ru: "Наконец-то конец работы!"
+    grammar:
+      title: "Порядок слов: время в начале"
+      explain:
+        - "Многие глаголы распорядка дня разделяются: [[aufstehen]], [[anfangen]], [[fernsehen]], [[anziehen]]. Основная часть стоит на втором месте, приставка — в конце: [[Ich stehe auf.]] [[Ich sehe fern.]]"
+        - "Немцы часто начинают предложение со времени: [[Um sieben Uhr]]. Но глагол всё равно должен стоять на втором месте. Поэтому [[ich]] переходит за глагол: [[Um sieben Uhr stehe ich auf.]]"
+        - "Сравните: [[Ich stehe um sieben Uhr auf.]] и [[Um sieben Uhr stehe ich auf.]] Оба предложения правильные и значат одно и то же."
+        - "Так же с другими словами времени: [[Dann frühstücke ich.]] [[Am Abend sehe ich fern.]] [[Normalerweise fängt die Arbeit um acht Uhr an.]]"
+        - "Некоторые глаголы немного меняются: [[schlafen]] — [[er schläft]], [[anfangen]] — [[die Arbeit fängt an]], [[fernsehen]] — [[er sieht fern]]."
+      exercises:
+        - q: "Как сказать «В семь часов я встаю»?"
+          options: ["[[Um sieben Uhr stehe ich auf.]]", "[[Um sieben Uhr ich stehe auf.]]", "[[Um sieben Uhr aufstehe ich.]]", "[[Um sieben Uhr stehe auf ich.]]", "[[Ich um sieben Uhr stehe auf.]]"]
+        - q: "Как сказать «Вечером я смотрю телевизор»?"
+          options: ["[[Am Abend sehe ich fern.]]", "[[Am Abend ich sehe fern.]]", "[[Am Abend fernsehe ich.]]", "[[Am Abend sehe fern ich.]]"]
+        - q: "[[Die Arbeit ... um neun Uhr an.]] Какое слово пропущено?"
+          options: ["[[fängt]]", "[[anfängt]]", "[[fangen]]", "[[anfangen]]", "[[fange]]"]
+        - q: "Как сказать «Потом я завтракаю»?"
+          options: ["[[Dann frühstücke ich.]]", "[[Dann ich frühstücke.]]", "[[Ich dann frühstücke.]]", "[[Dann frühstücken ich.]]"]
+        - q: "Что значит [[Ich gehe um elf Uhr ins Bett.]]?"
+          options: ["Я ложусь спать в одиннадцать", "Я встаю в одиннадцать", "Я иду домой в одиннадцать", "Я обедаю в одиннадцать", "Я иду на работу в одиннадцать"]
+    dialogue:
+      title: "Обычный день"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Herr Müller, wann stehen Sie normalerweise auf?", "Господин Мюллер, когда вы обычно встаёте?"]
+        - [B, "Um halb sieben. Dann dusche ich und frühstücke.", "В половине седьмого. Потом я принимаю душ и завтракаю."]
+        - [A, "Und wann fängt Ihre Arbeit an?", "А когда начинается ваша работа?"]
+        - [B, "Um acht Uhr. Um zwölf Uhr habe ich Mittagspause.", "В восемь часов. В двенадцать у меня обеденный перерыв."]
+        - [A, "Wann haben Sie Feierabend?", "Когда у вас заканчивается работа?"]
+        - [B, "Um fünf Uhr. Dann gehe ich nach Hause.", "В пять часов. Потом я иду домой."]
+        - [A, "Und was machen Sie am Abend?", "А что вы делаете вечером?"]
+        - [B, "Ich koche, sehe fern und gehe um elf Uhr ins Bett.", "Я готовлю, смотрю телевизор и в одиннадцать ложусь спать."]
+      questions:
+        - q: "Во сколько встаёт господин Мюллер?"
+          options: ["В половине седьмого", "В половине восьмого", "В шесть часов", "В семь часов"]
+        - q: "Когда у господина Мюллера обеденный перерыв?"
+          options: ["В двенадцать часов", "В час", "В одиннадцать часов", "В пять часов"]
+        - q: "Что господин Мюллер делает вечером?"
+          options: ["Готовит и смотрит телевизор", "Встречается с друзьями", "Ходит в спортзал", "Работает"]
+
+  - id: m06l05
+    title: "Встречи и приглашения"
+    intro: "В этом уроке вы научитесь договариваться о встрече, приглашать и вежливо отказываться."
+    words:
+      - de: "der Termin"
+        ru: "запись, встреча"
+        plural: "die Termine"
+        ex: "Ich habe morgen einen Termin."
+        exRu: "У меня завтра встреча."
+      - de: "die Zeit"
+        ru: "время"
+        ex: "Haben Sie heute Zeit?"
+        exRu: "У вас сегодня есть время?"
+      - de: "die Einladung"
+        ru: "приглашение"
+        plural: "die Einladungen"
+        ex: "Danke für die Einladung!"
+        exRu: "Спасибо за приглашение!"
+      - de: "einladen"
+        ru: "приглашать"
+        ex: "Ich lade Sie zum Essen ein."
+        exRu: "Я приглашаю вас на ужин."
+      - de: "können"
+        ru: "мочь"
+        ex: "Ich kann morgen kommen."
+        exRu: "Я могу прийти завтра."
+      - de: "leider"
+        ru: "к сожалению"
+        ex: "Ich habe leider keine Zeit."
+        exRu: "К сожалению, у меня нет времени."
+      - de: "gern"
+        ru: "охотно, с удовольствием"
+        ex: "Ich komme gern."
+        exRu: "Я с удовольствием приду."
+      - de: "vielleicht"
+        ru: "может быть"
+        ex: "Vielleicht am Freitag?"
+        exRu: "Может быть, в пятницу?"
+      - de: "natürlich"
+        ru: "конечно"
+        ex: "Natürlich komme ich!"
+        exRu: "Конечно, я приду!"
+      - de: "schade"
+        ru: "жаль"
+        ex: "Oh, das ist schade."
+        exRu: "О, это жаль."
+      - de: "um"
+        ru: "в, о времени"
+        ex: "Wir treffen uns um acht Uhr."
+        exRu: "Мы встречаемся в восемь часов."
+      - de: "bis"
+        ru: "до"
+        ex: "Ich arbeite bis sechs Uhr."
+        exRu: "Я работаю до шести часов."
+    phrases:
+      - de: "Haben Sie Zeit?"
+        ru: "У вас есть время?"
+      - de: "Ich habe keine Zeit."
+        ru: "У меня нет времени."
+      - de: "Das geht leider nicht."
+        ru: "К сожалению, не получится."
+      - de: "Gute Idee!"
+        ru: "Хорошая идея!"
+      - de: "Kommen Sie mit?"
+        ru: "Пойдёте с нами?"
+      - de: "von neun bis fünf Uhr"
+        ru: "с девяти до пяти часов"
+      - de: "Bis morgen!"
+        ru: "До завтра!"
+    grammar:
+      title: "Модальный глагол [[können]]"
+      explain:
+        - "Глагол [[können]] значит «мочь» или «уметь». [[Ich kann]] — «я могу», [[Sie können]] — «вы можете»."
+        - "Формы: [[ich kann]], [[er kann]], [[sie kann]], [[wir können]], [[Sie können]], [[sie können]]. Обратите внимание: у [[ich]] и [[er]] одинаковая форма [[kann]], без окончания."
+        - "Второй глагол стоит в самом конце предложения, в начальной форме: [[Ich kann morgen kommen.]] — «Я могу прийти завтра». [[Wir können um acht Uhr essen.]]"
+        - "Вопрос: [[Können Sie am Freitag kommen?]] Ответ: [[Ja, gern.]] или [[Leider kann ich nicht.]] — «К сожалению, я не могу»."
+        - "С друзьями на «ты» говорят [[du kannst]]: [[Kannst du kommen?]] Но мы пока используем вежливое [[Sie]]."
+      exercises:
+        - q: "[[Ich ... heute nicht kommen.]] Какое слово пропущено?"
+          options: ["[[kann]]", "[[kannst]]", "[[können]]", "[[kanne]]", "[[könne]]"]
+        - q: "Как спросить «Вы можете прийти в пятницу?»"
+          options: ["[[Können Sie am Freitag kommen?]]", "[[Können Sie kommen am Freitag?]]", "[[Kann Sie am Freitag kommen?]]", "[[Sie können am Freitag kommen?]]", "[[Können Sie am Freitag kommt?]]"]
+        - q: "[[Wir ... um acht Uhr essen.]] Какое слово пропущено?"
+          options: ["[[können]]", "[[kann]]", "[[kannst]]", "[[könnt]]"]
+        - q: "Как вежливо отказаться?"
+          options: ["[[Das geht leider nicht.]]", "[[Gute Idee!]]", "[[Ja, gern.]]", "[[Natürlich komme ich!]]"]
+        - q: "Как сказать «Я могу прийти в семь часов»?"
+          options: ["[[Ich kann um sieben Uhr kommen.]]", "[[Ich kann kommen um sieben Uhr.]]", "[[Ich kann um sieben Uhr komme.]]", "[[Ich können um sieben Uhr kommen.]]", "[[Ich kann am sieben Uhr kommen.]]"]
+    dialogue:
+      title: "Приглашение на день рождения"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Guten Tag, Herr Weber! Ich habe am Samstag Geburtstag. Ich lade Sie ein!", "Добрый день, господин Вебер! У меня в субботу день рождения. Я вас приглашаю!"]
+        - [B, "Danke für die Einladung, Frau Schmidt! Um wie viel Uhr?", "Спасибо за приглашение, госпожа Шмидт! Во сколько?"]
+        - [A, "Um sieben Uhr. Haben Sie Zeit?", "В семь часов. У вас есть время?"]
+        - [B, "Oh, schade. Am Samstag arbeite ich bis acht Uhr.", "Ой, жаль. В субботу я работаю до восьми часов."]
+        - [A, "Vielleicht können Sie später kommen?", "Может быть, вы можете прийти позже?"]
+        - [B, "Ja, gute Idee! Ich kann um neun Uhr kommen.", "Да, хорошая идея! Я могу прийти в девять часов."]
+        - [A, "Super! Bis Samstag!", "Супер! До субботы!"]
+      questions:
+        - q: "Почему господин Вебер не может прийти в семь?"
+          options: ["Он работает до восьми", "У него нет подарка", "Он у врача", "Он в отпуске"]
+        - q: "Во сколько придёт господин Вебер?"
+          options: ["В девять часов", "В семь часов", "В восемь часов", "В десять часов"]
+        - q: "Какой праздник у госпожи Шмидт?"
+          options: ["День рождения", "Свадьба", "Новый год"]

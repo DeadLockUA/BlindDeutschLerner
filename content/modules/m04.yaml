@@ -1,0 +1,586 @@
+id: m04
+title: "Еда и напитки"
+lessons:
+  - id: m04l01
+    title: "Завтрак"
+    intro: "В этом уроке вы узнаете, как называется еда на завтрак, и научитесь говорить «нет» с помощью слова [[kein]]."
+    words:
+      - de: "das Frühstück"
+        ru: "завтрак"
+        ex: "Das Frühstück ist fertig."
+        exRu: "Завтрак готов."
+      - de: "das Brot"
+        ru: "хлеб"
+        plural: "die Brote"
+        ex: "Das Brot ist frisch."
+        exRu: "Хлеб свежий."
+      - de: "das Brötchen"
+        ru: "булочка"
+        plural: "die Brötchen"
+        ex: "Ich esse zwei Brötchen."
+        exRu: "Я ем две булочки."
+      - de: "die Butter"
+        ru: "масло"
+        ex: "Ich esse Brot mit Butter."
+        exRu: "Я ем хлеб с маслом."
+      - de: "der Käse"
+        ru: "сыр"
+        ex: "Der Käse kommt aus der Schweiz."
+        exRu: "Сыр из Швейцарии."
+      - de: "die Wurst"
+        ru: "колбаса"
+        plural: "die Würste"
+        ex: "Die Wurst ist sehr gut."
+        exRu: "Колбаса очень хорошая."
+      - de: "das Ei"
+        ru: "яйцо"
+        plural: "die Eier"
+        ex: "Ich esse ein Ei zum Frühstück."
+        exRu: "Я ем яйцо на завтрак."
+      - de: "die Marmelade"
+        ru: "варенье"
+        plural: "die Marmeladen"
+        ex: "Die Marmelade ist süß."
+        exRu: "Варенье сладкое."
+      - de: "der Honig"
+        ru: "мёд"
+        ex: "Der Honig kommt aus Österreich."
+        exRu: "Мёд из Австрии."
+      - de: "der Kaffee"
+        ru: "кофе"
+        ex: "Der Kaffee ist heiß."
+        exRu: "Кофе горячий."
+      - de: "der Tee"
+        ru: "чай"
+        ex: "Ich trinke Tee mit Honig."
+        exRu: "Я пью чай с мёдом."
+      - de: "die Milch"
+        ru: "молоко"
+        ex: "Die Kinder trinken Milch."
+        exRu: "Дети пьют молоко."
+      - de: "der Zucker"
+        ru: "сахар"
+        ex: "Der Zucker ist hier."
+        exRu: "Сахар здесь."
+      - de: "der Hunger"
+        ru: "голод"
+        ex: "Ich habe großen Hunger."
+        exRu: "Я очень голоден."
+    phrases:
+      - de: "Was essen Sie zum Frühstück?"
+        ru: "Что вы едите на завтрак?"
+      - de: "Trinken Sie Kaffee oder Tee?"
+        ru: "Вы пьёте кофе или чай?"
+      - de: "Ich trinke Kaffee mit Milch."
+        ru: "Я пью кофе с молоком."
+      - de: "Ohne Zucker, bitte."
+        ru: "Без сахара, пожалуйста."
+      - de: "Ich habe keinen Hunger."
+        ru: "Я не голоден."
+      - de: "Noch ein Brötchen?"
+        ru: "Ещё булочку?"
+    grammar:
+      title: "Отрицание [[kein]]"
+      explain:
+        - "Чтобы сказать «нет» о предмете, в немецком используют слово [[kein]]. Оно стоит на месте артикля [[ein]]."
+        - "[[Das ist ein Ei.]] — «Это яйцо». [[Das ist kein Ei.]] — «Это не яйцо». С мужским и средним родом говорят [[kein]]: [[kein Käse]], [[kein Brot]]."
+        - "С женским родом и во множественном числе — [[keine]]: [[keine Butter]], [[keine Milch]], [[keine Brötchen]]."
+        - "После глаголов [[haben]], [[essen]], [[trinken]] у мужского рода появляется окончание: [[Ich habe keinen Zucker.]] Запомните это как готовую фразу: [[Ich habe keinen Hunger.]]"
+        - "Слово [[nicht]] отрицает действие или признак: [[Der Tee ist nicht heiß.]] А [[kein]] отрицает предмет: [[Ich trinke keinen Tee.]]"
+      exercises:
+        - q: "Как сказать «Это не хлеб»?"
+          options: ["[[Das ist kein Brot.]]", "[[Das ist keine Brot.]]", "[[Das ist keiner Brot.]]", "[[Das ist keinen Brot.]]", "[[Das kein ist Brot.]]"]
+        - q: "Как сказать «Я не пью молоко»?"
+          options: ["[[Ich trinke keine Milch.]]", "[[Ich trinke kein Milch.]]", "[[Ich trinke keinen Milch.]]", "[[Ich trinke nicht keine Milch.]]"]
+        - q: "Как сказать «У меня нет сахара»?"
+          options: ["[[Ich habe keinen Zucker.]]", "[[Ich habe keine Zucker.]]", "[[Ich habe nicht Zucker.]]", "[[Ich habe kein Zuckers.]]"]
+        - q: "Как сказать «Это не яйца»?"
+          options: ["[[Das sind keine Eier.]]", "[[Das sind kein Eier.]]", "[[Das sind keinen Eier.]]", "[[Das ist kein Eier.]]"]
+        - q: "Как сказать «Кофе не горячий»?"
+          options: ["[[Der Kaffee ist nicht heiß.]]", "[[Der Kaffee ist kein heiß.]]", "[[Der Kaffee ist keine heiß.]]", "[[Der Kaffee ist keinen heiß.]]"]
+    dialogue:
+      title: "Завтрак в гостях"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Guten Morgen, Thomas! Das Frühstück ist fertig.", "Доброе утро, Томас! Завтрак готов."]
+        - [B, "Guten Morgen! Oh, Brötchen, Käse und Eier. Toll!", "Доброе утро! О, булочки, сыр и яйца. Здорово!"]
+        - [A, "Trinken Sie Kaffee oder Tee?", "Вы пьёте кофе или чай?"]
+        - [B, "Kaffee, bitte. Mit Milch, ohne Zucker.", "Кофе, пожалуйста. С молоком, без сахара."]
+        - [A, "Möchten Sie auch Wurst?", "Хотите ещё колбасы?"]
+        - [B, "Nein, danke. Ich esse keine Wurst. Aber haben Sie Marmelade?", "Нет, спасибо. Я не ем колбасу. А варенье у вас есть?"]
+        - [A, "Leider keine Marmelade. Aber hier ist Honig.", "К сожалению, варенья нет. Но вот мёд."]
+        - [B, "Super, Honig ist auch gut!", "Супер, мёд тоже хорошо!"]
+      questions:
+        - q: "Что пьёт Томас?"
+          options: ["Кофе с молоком", "Чай с мёдом", "Кофе с сахаром", "Молоко"]
+        - q: "Что Томас не ест?"
+          options: ["Колбасу", "Сыр", "Яйца", "Булочки"]
+        - q: "Что есть у женщины вместо варенья?"
+          options: ["Мёд", "Масло", "Сыр", "Сахар"]
+
+  - id: m04l02
+    title: "Фрукты и овощи"
+    intro: "В этом уроке вы узнаете названия фруктов и овощей и научитесь образовывать множественное число."
+    words:
+      - de: "das Obst"
+        ru: "фрукты"
+        ex: "Das Obst ist frisch."
+        exRu: "Фрукты свежие."
+      - de: "das Gemüse"
+        ru: "овощи"
+        ex: "Ich esse viel Gemüse."
+        exRu: "Я ем много овощей."
+      - de: "der Apfel"
+        ru: "яблоко"
+        plural: "die Äpfel"
+        ex: "Der Apfel ist süß."
+        exRu: "Яблоко сладкое."
+      - de: "die Birne"
+        ru: "груша"
+        plural: "die Birnen"
+        ex: "Die Birne ist sehr groß."
+        exRu: "Груша очень большая."
+      - de: "die Banane"
+        ru: "банан"
+        plural: "die Bananen"
+        ex: "Das Kind isst eine Banane."
+        exRu: "Ребёнок ест банан."
+      - de: "die Orange"
+        ru: "апельсин"
+        plural: "die Orangen"
+        ex: "Die Orangen kommen aus Spanien."
+        exRu: "Апельсины из Испании."
+      - de: "die Erdbeere"
+        ru: "клубника"
+        plural: "die Erdbeeren"
+        ex: "Die Erdbeeren sind lecker."
+        exRu: "Клубника вкусная."
+      - de: "die Kartoffel"
+        ru: "картофель"
+        plural: "die Kartoffeln"
+        ex: "Die Kartoffeln sind billig."
+        exRu: "Картошка дешёвая."
+      - de: "die Tomate"
+        ru: "помидор"
+        plural: "die Tomaten"
+        ex: "Die Tomate ist klein."
+        exRu: "Помидор маленький."
+      - de: "die Gurke"
+        ru: "огурец"
+        plural: "die Gurken"
+        ex: "Die Gurke kostet achtzig Cent."
+        exRu: "Огурец стоит восемьдесят центов."
+      - de: "die Karotte"
+        ru: "морковь"
+        plural: "die Karotten"
+        ex: "Kinder essen gern Karotten."
+        exRu: "Дети любят морковку."
+      - de: "die Zwiebel"
+        ru: "лук"
+        plural: "die Zwiebeln"
+        ex: "Die Zwiebel ist groß."
+        exRu: "Луковица большая."
+      - de: "der Salat"
+        ru: "салат"
+        plural: "die Salate"
+        ex: "Der Salat ist frisch."
+        exRu: "Салат свежий."
+      - de: "frisch"
+        ru: "свежий"
+        ex: "Die Brötchen sind frisch."
+        exRu: "Булочки свежие."
+    phrases:
+      - de: "Ich esse gern Obst."
+        ru: "Я люблю фрукты."
+      - de: "Haben Sie Erdbeeren?"
+        ru: "У вас есть клубника?"
+      - de: "Wie viel kosten die Bananen?"
+        ru: "Сколько стоят бананы?"
+      - de: "Die Tomaten sind sehr gut."
+        ru: "Помидоры очень хорошие."
+      - de: "Ich nehme drei Orangen."
+        ru: "Я возьму три апельсина."
+    grammar:
+      title: "Множественное число"
+      explain:
+        - "Во множественном числе артикль всегда [[die]]. А вот окончание слова бывает разным, поэтому множественное число лучше учить вместе со словом."
+        - "Многие слова женского рода на «э» получают в конце звук «н»: [[die Banane, die Bananen]], [[die Tomate, die Tomaten]], [[die Gurke, die Gurken]]."
+        - "Слова на «эль» тоже часто получают «н»: [[die Kartoffel, die Kartoffeln]], [[die Zwiebel, die Zwiebeln]]."
+        - "Иногда добавляется звук «э»: [[der Salat, die Salate]], [[das Brot, die Brote]]. А иногда меняется гласная, появляется умлаут: [[der Apfel, die Äpfel]]."
+        - "Некоторые слова не меняются: [[das Brötchen, die Brötchen]]. А [[das Obst]] и [[das Gemüse]] вообще не имеют множественного числа, как русское «молоко»."
+      exercises:
+        - q: "Как будет «помидоры»?"
+          options: ["[[die Tomaten]]", "[[die Tomates]]", "[[die Tomate]]", "[[der Tomaten]]", "[[die Tomatee]]"]
+        - q: "Как будет «яблоки»?"
+          options: ["[[die Äpfel]]", "[[die Apfels]]", "[[die Apfeln]]", "[[der Äpfel]]", "[[die Äpfeln]]"]
+        - q: "Как будет множественное число от [[die Kartoffel]]?"
+          options: ["[[die Kartoffeln]]", "[[die Kartoffels]]", "[[die Kartoffele]]", "[[die Kärtoffel]]"]
+        - q: "Как будет «салаты»?"
+          options: ["[[die Salate]]", "[[die Salaten]]", "[[die Säläte]]", "[[der Salate]]", "[[die Salats]]"]
+        - q: "Какое из этих слов не имеет множественного числа?"
+          options: ["[[das Obst]]", "[[die Birne]]", "[[die Gurke]]", "[[der Apfel]]", "[[die Erdbeere]]"]
+    dialogue:
+      title: "На рынке"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Guten Tag! Was möchten Sie?", "Добрый день! Что желаете?"]
+        - [B, "Guten Tag! Haben Sie Erdbeeren?", "Добрый день! У вас есть клубника?"]
+        - [A, "Ja, die Erdbeeren sind heute sehr frisch.", "Да, клубника сегодня очень свежая."]
+        - [B, "Gut. Und wie viel kosten die Bananen?", "Хорошо. А сколько стоят бананы?"]
+        - [A, "Ein Euro neunzig.", "Один евро девяносто."]
+        - [B, "Das ist billig. Ich nehme Bananen und drei Orangen.", "Это дёшево. Я возьму бананы и три апельсина."]
+        - [A, "Brauchen Sie auch Gemüse? Die Tomaten sind sehr gut.", "Вам нужны ещё овощи? Помидоры очень хорошие."]
+        - [B, "Nein, danke. Ich habe noch Tomaten.", "Нет, спасибо. У меня ещё есть помидоры."]
+      questions:
+        - q: "Что сегодня очень свежее?"
+          options: ["Клубника", "Бананы", "Апельсины", "Огурцы"]
+        - q: "Сколько стоят бананы?"
+          options: ["Один евро девяносто", "Два евро девяносто", "Девяносто центов", "Один евро девятнадцать"]
+        - q: "Почему женщина не берёт помидоры?"
+          options: ["У неё ещё есть помидоры", "Они дорогие", "Они несвежие", "Она не любит помидоры"]
+
+  - id: m04l03
+    title: "Обед и ужин"
+    intro: "В этом уроке вы научитесь говорить об обеде и ужине, узнаете глагол [[essen]] и как сказать «я люблю» о еде."
+    words:
+      - de: "das Essen"
+        ru: "еда"
+        ex: "Das Essen ist fertig."
+        exRu: "Еда готова."
+      - de: "das Mittagessen"
+        ru: "обед"
+        ex: "Das Mittagessen ist um zwölf."
+        exRu: "Обед в двенадцать."
+      - de: "das Abendessen"
+        ru: "ужин"
+        ex: "Zum Abendessen gibt es Suppe."
+        exRu: "На ужин суп."
+      - de: "das Fleisch"
+        ru: "мясо"
+        ex: "Das Fleisch ist teuer."
+        exRu: "Мясо дорогое."
+      - de: "der Fisch"
+        ru: "рыба"
+        plural: "die Fische"
+        ex: "Der Fisch ist frisch."
+        exRu: "Рыба свежая."
+      - de: "das Hähnchen"
+        ru: "курица"
+        plural: "die Hähnchen"
+        ex: "Wir essen Hähnchen mit Reis."
+        exRu: "Мы едим курицу с рисом."
+      - de: "der Reis"
+        ru: "рис"
+        ex: "Der Reis ist noch heiß."
+        exRu: "Рис ещё горячий."
+      - de: "die Nudeln"
+        ru: "макароны"
+        ex: "Die Kinder essen gern Nudeln."
+        exRu: "Дети любят макароны."
+      - de: "die Suppe"
+        ru: "суп"
+        plural: "die Suppen"
+        ex: "Die Suppe ist sehr heiß."
+        exRu: "Суп очень горячий."
+      - de: "kochen"
+        ru: "готовить"
+        ex: "Mein Vater kocht heute."
+        exRu: "Мой папа сегодня готовит."
+      - de: "essen"
+        ru: "есть"
+        ex: "Wir essen um sieben."
+        exRu: "Мы едим в семь."
+      - de: "schmecken"
+        ru: "быть вкусным"
+        ex: "Die Suppe schmeckt gut."
+        exRu: "Суп вкусный."
+      - de: "lecker"
+        ru: "вкусный"
+        ex: "Der Fisch ist lecker."
+        exRu: "Рыба вкусная."
+    phrases:
+      - de: "Ich habe Hunger."
+        ru: "Я голоден."
+      - de: "Guten Appetit!"
+        ru: "Приятного аппетита!"
+      - de: "Das schmeckt sehr gut!"
+        ru: "Это очень вкусно!"
+      - de: "Ich mag Fisch."
+        ru: "Я люблю рыбу."
+      - de: "Ich esse kein Fleisch."
+        ru: "Я не ем мясо."
+      - de: "Was kochen wir heute?"
+        ru: "Что мы сегодня готовим?"
+    grammar:
+      title: "Глагол [[essen]] и [[ich mag]]"
+      explain:
+        - "Глагол [[essen]] — «есть». У него меняется гласная в некоторых формах: звук «э» становится «и»."
+        - "[[Ich esse]] — я ем. [[Du isst]] — ты ешь. [[Er isst]], [[sie isst]] — он ест, она ест."
+        - "Во множественном числе и в вежливой форме гласная не меняется: [[wir essen]], [[Sie essen]], [[sie essen]] — они едят."
+        - "Чтобы сказать «я люблю» о еде, говорят [[ich mag]]: [[Ich mag Fisch.]] Он или она — тоже [[mag]]: [[Er mag Nudeln.]] Вежливо — [[Sie mögen]]: [[Mögen Sie Fisch?]]"
+        - "Можно сказать и иначе: [[Ich esse gern Fisch.]] — «Я охотно ем рыбу», то есть люблю её."
+      exercises:
+        - q: "Как сказать «Он ест суп»?"
+          options: ["[[Er isst Suppe.]]", "[[Er esst Suppe.]]", "[[Er essen Suppe.]]", "[[Er esse Suppe.]]", "[[Er ist Suppe.]]"]
+        - q: "Как сказать «Мы едим рыбу»?"
+          options: ["[[Wir essen Fisch.]]", "[[Wir isst Fisch.]]", "[[Wir esst Fisch.]]", "[[Wir issen Fisch.]]"]
+        - q: "Как вежливо спросить «Вы едите мясо?»"
+          options: ["[[Essen Sie Fleisch?]]", "[[Isst Sie Fleisch?]]", "[[Esse Sie Fleisch?]]", "[[Sie isst Fleisch?]]"]
+        - q: "Как сказать «Я люблю макароны»?"
+          options: ["[[Ich mag Nudeln.]]", "[[Ich mögen Nudeln.]]", "[[Ich mage Nudeln.]]", "[[Ich magst Nudeln.]]", "[[Mag ich Nudeln.]]"]
+        - q: "Как вежливо спросить «Вы любите курицу?»"
+          options: ["[[Mögen Sie Hähnchen?]]", "[[Mag Sie Hähnchen?]]", "[[Magst Sie Hähnchen?]]", "[[Mögen Hähnchen Sie?]]"]
+    dialogue:
+      title: "Что на ужин?"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Peter, ich habe Hunger. Was kochen wir heute?", "Петер, я голодна. Что мы сегодня готовим?"]
+        - [B, "Vielleicht Fisch mit Reis?", "Может быть, рыбу с рисом?"]
+        - [A, "Hm, ich esse nicht so gern Fisch. Und Sophie isst keinen Fisch.", "Хм, я не очень люблю рыбу. А Софи не ест рыбу."]
+        - [B, "Dann Nudeln mit Tomaten. Sophie isst gern Nudeln.", "Тогда макароны с помидорами. Софи любит макароны."]
+        - [A, "Gute Idee! Und eine Suppe?", "Хорошая идея! А суп?"]
+        - [B, "Ja, eine Kartoffelsuppe. Ich koche, du machst den Salat.", "Да, картофельный суп. Я готовлю, а ты делаешь салат."]
+        - [A, "Guten Appetit! Hm, das schmeckt sehr gut!", "Приятного аппетита! М-м, это очень вкусно!"]
+      questions:
+        - q: "Что они готовят на ужин?"
+          options: ["Макароны с помидорами и суп", "Рыбу с рисом", "Курицу с рисом", "Только салат"]
+        - q: "Кто не ест рыбу?"
+          options: ["Софи", "Петер", "Мама Петера", "Все едят рыбу"]
+        - q: "Какой суп они готовят?"
+          options: ["Картофельный", "Рыбный", "Томатный", "Куриный"]
+
+  - id: m04l04
+    title: "В магазине"
+    intro: "В этом уроке вы научитесь делать покупки в супермаркете, называть количество и узнаете винительный падеж."
+    words:
+      - de: "der Supermarkt"
+        ru: "супермаркет"
+        plural: "die Supermärkte"
+        ex: "Der Supermarkt ist groß."
+        exRu: "Супермаркет большой."
+      - de: "kaufen"
+        ru: "покупать"
+        ex: "Ich kaufe Brot und Milch."
+        exRu: "Я покупаю хлеб и молоко."
+      - de: "brauchen"
+        ru: "нуждаться"
+        ex: "Wir brauchen Butter."
+        exRu: "Нам нужно масло."
+      - de: "das Kilo"
+        ru: "килограмм"
+        ex: "Ein Kilo Äpfel kostet zwei Euro."
+        exRu: "Килограмм яблок стоит два евро."
+      - de: "das Pfund"
+        ru: "полкило"
+        ex: "Ein Pfund Tomaten, bitte."
+        exRu: "Полкило помидоров, пожалуйста."
+      - de: "das Gramm"
+        ru: "грамм"
+        ex: "Ich nehme zweihundert Gramm Käse."
+        exRu: "Я возьму двести граммов сыра."
+      - de: "der Liter"
+        ru: "литр"
+        ex: "Ein Liter Milch kostet einen Euro."
+        exRu: "Литр молока стоит один евро."
+      - de: "die Flasche"
+        ru: "бутылка"
+        plural: "die Flaschen"
+        ex: "Die Flasche ist leer."
+        exRu: "Бутылка пустая."
+      - de: "die Packung"
+        ru: "упаковка"
+        plural: "die Packungen"
+        ex: "Ich brauche eine Packung Reis."
+        exRu: "Мне нужна упаковка риса."
+      - de: "die Dose"
+        ru: "банка"
+        plural: "die Dosen"
+        ex: "Eine Dose Tomaten, bitte."
+        exRu: "Банку помидоров, пожалуйста."
+      - de: "das Glas"
+        ru: "стеклянная банка, стакан"
+        plural: "die Gläser"
+        ex: "Ich kaufe ein Glas Honig."
+        exRu: "Я покупаю банку мёда."
+      - de: "das Stück"
+        ru: "кусок, штука"
+        plural: "die Stücke"
+        ex: "Ein Stück Käse, bitte."
+        exRu: "Кусок сыра, пожалуйста."
+      - de: "die Tüte"
+        ru: "пакет"
+        plural: "die Tüten"
+        ex: "Die Tüte kostet zehn Cent."
+        exRu: "Пакет стоит десять центов."
+    phrases:
+      - de: "Was brauchen wir?"
+        ru: "Что нам нужно?"
+      - de: "Ich brauche einen Liter Milch."
+        ru: "Мне нужен литр молока."
+      - de: "Ein Kilo Kartoffeln, bitte."
+        ru: "Килограмм картошки, пожалуйста."
+      - de: "Sonst noch etwas?"
+        ru: "Что-нибудь ещё?"
+      - de: "Nein, danke, das ist alles."
+        ru: "Нет, спасибо, это всё."
+      - de: "Brauchen Sie eine Tüte?"
+        ru: "Вам нужен пакет?"
+    grammar:
+      title: "Винительный падеж: [[den]] и [[einen]]"
+      explain:
+        - "Когда мы что-то покупаем, берём или хотим, предмет стоит в винительном падеже. По-немецки он называется [[Akkusativ]]. Он отвечает на вопрос «что?» или «кого?»: покупаю что?"
+        - "Хорошая новость: меняется только мужской род. [[Der]] становится [[den]], а [[ein]] становится [[einen]]."
+        - "[[Der Käse ist gut.]] — но [[Ich kaufe den Käse.]] [[Das ist ein Apfel.]] — но [[Ich esse einen Apfel.]]"
+        - "Женский и средний род не меняются: [[Ich kaufe eine Flasche.]] [[Ich kaufe das Brot.]] Множественное число тоже: [[Ich kaufe die Äpfel.]]"
+        - "Отрицание ведёт себя так же: [[kein]] становится [[keinen]]: [[Ich brauche keinen Zucker.]]"
+      exercises:
+        - q: "Как сказать «Я покупаю сыр», если речь об определённом сыре?"
+          options: ["[[Ich kaufe den Käse.]]", "[[Ich kaufe der Käse.]]", "[[Ich kaufe die Käse.]]", "[[Ich kaufe dem Käse.]]", "[[Ich kaufe das Käse.]]"]
+        - q: "Как сказать «Мне нужен литр молока»?"
+          options: ["[[Ich brauche einen Liter Milch.]]", "[[Ich brauche ein Liter Milch.]]", "[[Ich brauche eine Liter Milch.]]", "[[Ich brauche einem Liter Milch.]]"]
+        - q: "Как сказать «Я покупаю бутылку»?"
+          options: ["[[Ich kaufe eine Flasche.]]", "[[Ich kaufe einen Flasche.]]", "[[Ich kaufe ein Flasche.]]", "[[Ich kaufe einer Flasche.]]"]
+        - q: "Как сказать «Мне нужен пакет»?"
+          options: ["[[Ich brauche eine Tüte.]]", "[[Ich brauche einen Tüte.]]", "[[Ich brauche ein Tüte.]]", "[[Ich brauche den Tüte.]]"]
+        - q: "Как сказать «Я ем яблоко»?"
+          options: ["[[Ich esse einen Apfel.]]", "[[Ich esse ein Apfel.]]", "[[Ich esse eine Apfel.]]", "[[Ich esse der Apfel.]]", "[[Ich esse einem Apfel.]]"]
+        - q: "У какого слова меняется артикль в винительном падеже?"
+          options: ["[[der Supermarkt]]", "[[die Packung]]", "[[das Glas]]", "[[die Dose]]"]
+    dialogue:
+      title: "В супермаркете"
+      speakers: {A: m, B: f, C: f}
+      lines:
+        - [A, "Was brauchen wir noch?", "Что нам ещё нужно?"]
+        - [B, "Wir brauchen einen Liter Milch, Butter und ein Kilo Kartoffeln.", "Нам нужен литр молока, масло и килограмм картошки."]
+        - [A, "Und Käse?", "А сыр?"]
+        - [B, "Ja, zweihundert Gramm Käse. Und eine Flasche Wasser.", "Да, двести граммов сыра. И бутылку воды."]
+        - [A, "So, das ist alles. Zur Kasse!", "Так, это всё. На кассу!"]
+        - [C, "Guten Tag! Brauchen Sie eine Tüte?", "Добрый день! Вам нужен пакет?"]
+        - [A, "Ja, bitte. Eine Tüte.", "Да, пожалуйста. Один пакет."]
+        - [C, "Das macht zwölf Euro dreißig.", "С вас двенадцать евро тридцать."]
+      questions:
+        - q: "Сколько сыра они покупают?"
+          options: ["Двести граммов", "Килограмм", "Полкило", "Сто граммов"]
+        - q: "Сколько стоит покупка?"
+          options: ["Двенадцать евро тридцать", "Двадцать евро тринадцать", "Двенадцать евро тринадцать", "Два евро тридцать"]
+        - q: "Что покупатель берёт на кассе?"
+          options: ["Пакет", "Бутылку воды", "Хлеб", "Ничего"]
+
+  - id: m04l05
+    title: "В кафе"
+    intro: "В этом уроке вы научитесь заказывать еду и напитки в кафе и ресторане и узнаете слово [[möchten]]."
+    words:
+      - de: "das Café"
+        ru: "кафе"
+        plural: "die Cafés"
+        ex: "Das Café ist klein und schön."
+        exRu: "Кафе маленькое и красивое."
+      - de: "das Restaurant"
+        ru: "ресторан"
+        plural: "die Restaurants"
+        ex: "Das Restaurant ist teuer."
+        exRu: "Ресторан дорогой."
+      - de: "die Speisekarte"
+        ru: "меню"
+        plural: "die Speisekarten"
+        ex: "Die Speisekarte ist auf Deutsch und Englisch."
+        exRu: "Меню на немецком и английском."
+      - de: "der Kellner"
+        ru: "официант"
+        plural: "die Kellner"
+        ex: "Der Kellner ist sehr freundlich."
+        exRu: "Официант очень дружелюбный."
+      - de: "bestellen"
+        ru: "заказывать"
+        ex: "Wir bestellen zwei Kaffee."
+        exRu: "Мы заказываем два кофе."
+      - de: "trinken"
+        ru: "пить"
+        ex: "Was trinken Sie?"
+        exRu: "Что вы пьёте?"
+      - de: "der Durst"
+        ru: "жажда"
+        ex: "Die Kinder haben Durst."
+        exRu: "Дети хотят пить."
+      - de: "das Wasser"
+        ru: "вода"
+        ex: "Das Wasser ist kalt."
+        exRu: "Вода холодная."
+      - de: "der Saft"
+        ru: "сок"
+        plural: "die Säfte"
+        ex: "Der Saft ist süß."
+        exRu: "Сок сладкий."
+      - de: "das Bier"
+        ru: "пиво"
+        ex: "Ein Bier, bitte."
+        exRu: "Одно пиво, пожалуйста."
+      - de: "der Wein"
+        ru: "вино"
+        plural: "die Weine"
+        ex: "Der Wein kommt aus Italien."
+        exRu: "Вино из Италии."
+      - de: "der Kuchen"
+        ru: "пирог"
+        plural: "die Kuchen"
+        ex: "Der Kuchen ist sehr lecker."
+        exRu: "Пирог очень вкусный."
+      - de: "die Rechnung"
+        ru: "счёт"
+        plural: "die Rechnungen"
+        ex: "Die Rechnung ist hier."
+        exRu: "Вот счёт."
+    phrases:
+      - de: "Ist hier noch frei?"
+        ru: "Здесь свободно?"
+      - de: "Die Speisekarte, bitte."
+        ru: "Меню, пожалуйста."
+      - de: "Was möchten Sie trinken?"
+        ru: "Что вы будете пить?"
+      - de: "Ich möchte ein Wasser."
+        ru: "Я хотел бы воды."
+      - de: "Ich habe Durst."
+        ru: "Я хочу пить."
+      - de: "Die Rechnung, bitte."
+        ru: "Счёт, пожалуйста."
+      - de: "Ich möchte bestellen."
+        ru: "Я хотел бы заказать."
+    grammar:
+      title: "Вежливое [[möchten]]"
+      explain:
+        - "В кафе и магазине вежливо говорят не «я хочу», а «я хотел бы». По-немецки это [[ich möchte]]."
+        - "Формы простые: [[ich möchte]], [[er möchte]], [[sie möchte]] — одинаково. [[Wir möchten]], [[Sie möchten]] — тоже одинаково."
+        - "После [[möchte]] можно просто назвать предмет: [[Ich möchte einen Kaffee.]] [[Ich möchte ein Stück Kuchen.]] Не забывайте [[einen]] с мужским родом."
+        - "Если есть второй глагол, он уходит в самый конец: [[Ich möchte bestellen.]] [[Wir möchten bezahlen.]] [[Was möchten Sie trinken?]]"
+        - "Официант спрашивает: [[Was möchten Sie?]] Вы отвечаете: [[Ich möchte einen Tee, bitte.]] Это вежливо и всегда уместно."
+      exercises:
+        - q: "Как вежливо сказать «Я хотел бы кофе»?"
+          options: ["[[Ich möchte einen Kaffee.]]", "[[Ich möchten einen Kaffee.]]", "[[Ich möchte ein Kaffee.]]", "[[Ich möchtest einen Kaffee.]]", "[[Möchte ich einen Kaffee.]]"]
+        - q: "Как сказать «Мы хотели бы заказать»?"
+          options: ["[[Wir möchten bestellen.]]", "[[Wir möchte bestellen.]]", "[[Wir möchten bestellen wir.]]", "[[Wir bestellen möchten.]]"]
+        - q: "Как официант спрашивает «Что вы будете пить?»"
+          options: ["[[Was möchten Sie trinken?]]", "[[Was möchten trinken Sie?]]", "[[Was möchte Sie trinken?]]", "[[Was Sie möchten trinken?]]"]
+        - q: "Как сказать «Она хотела бы сок»?"
+          options: ["[[Sie möchte einen Saft.]]", "[[Sie möchten einen Saft.]]", "[[Sie möchte ein Saft.]]", "[[Sie möchtet einen Saft.]]"]
+        - q: "Как сказать «Я хотел бы кусок пирога»?"
+          options: ["[[Ich möchte ein Stück Kuchen.]]", "[[Ich möchte einen Stück Kuchen.]]", "[[Ich möchte eine Stück Kuchen.]]", "[[Ich möchten ein Stück Kuchen.]]"]
+    dialogue:
+      title: "В кафе"
+      speakers: {A: m, B: f}
+      lines:
+        - [B, "Entschuldigung, ist hier noch frei?", "Извините, здесь свободно?"]
+        - [A, "Ja, bitte. Hier ist die Speisekarte. Was möchten Sie trinken?", "Да, пожалуйста. Вот меню. Что вы будете пить?"]
+        - [B, "Ich habe Durst. Ich möchte ein Wasser und einen Kaffee.", "Я хочу пить. Я бы хотела воду и кофе."]
+        - [A, "Gern. Möchten Sie auch etwas essen?", "С удовольствием. Хотите что-нибудь поесть?"]
+        - [B, "Ja, ein Stück Kuchen, bitte. Der Apfelkuchen ist lecker.", "Да, кусок пирога, пожалуйста. Яблочный пирог вкусный."]
+        - [A, "Sehr gern.", "С большим удовольствием."]
+        - [B, "Die Rechnung, bitte.", "Счёт, пожалуйста."]
+        - [A, "Das macht sieben Euro achtzig.", "С вас семь евро восемьдесят."]
+        - [B, "Acht Euro. Stimmt so.", "Восемь евро. Сдачи не надо."]
+      questions:
+        - q: "Что пьёт женщина?"
+          options: ["Воду и кофе", "Чай и сок", "Только кофе", "Вино"]
+        - q: "Какой пирог она заказывает?"
+          options: ["Яблочный", "Клубничный", "Сырный", "Она не заказывает пирог"]
+        - q: "Сколько денег она даёт официанту?"
+          options: ["Восемь евро", "Семь евро восемьдесят", "Десять евро", "Семь евро"]

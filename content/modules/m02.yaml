@@ -1,0 +1,563 @@
+id: m02
+title: "Числа и цены"
+lessons:
+  - id: m02l01
+    title: "Числа от нуля до двенадцати"
+    intro: "В этом уроке вы выучите числа от нуля до двенадцати и научитесь называть номер."
+    words:
+      - de: "null"
+        ru: "ноль"
+        ex: "Null ist eine Zahl."
+        exRu: "Ноль — это число."
+      - de: "eins"
+        ru: "один"
+        ex: "Ich habe Nummer eins."
+        exRu: "У меня номер один."
+      - de: "zwei"
+        ru: "два"
+        ex: "Zwei Kaffee, bitte."
+        exRu: "Два кофе, пожалуйста."
+      - de: "drei"
+        ru: "три"
+        ex: "Ich zähle bis drei."
+        exRu: "Я считаю до трёх."
+      - de: "vier"
+        ru: "четыре"
+        ex: "Das sind vier Wörter."
+        exRu: "Это четыре слова."
+      - de: "fünf"
+        ru: "пять"
+        ex: "Das Wort hat fünf Buchstaben."
+        exRu: "В слове пять букв."
+      - de: "sechs"
+        ru: "шесть"
+        ex: "Anna kommt um sechs."
+        exRu: "Анна придёт в шесть."
+      - de: "sieben"
+        ru: "семь"
+        ex: "Ich habe Nummer sieben."
+        exRu: "У меня номер семь."
+      - de: "acht"
+        ru: "восемь"
+        ex: "Peter wohnt in Zimmer acht."
+        exRu: "Петер живёт в комнате восемь."
+      - de: "neun"
+        ru: "девять"
+        ex: "Drei und sechs macht neun."
+        exRu: "Три плюс шесть будет девять."
+      - de: "zehn"
+        ru: "десять"
+        ex: "Zehn Studenten sind hier."
+        exRu: "Здесь десять студентов."
+      - de: "elf"
+        ru: "одиннадцать"
+        ex: "Thomas ist elf."
+        exRu: "Томасу одиннадцать."
+      - de: "zwölf"
+        ru: "двенадцать"
+        ex: "Wir kommen um zwölf."
+        exRu: "Мы придём в двенадцать."
+      - de: "die Nummer"
+        ru: "номер"
+        plural: "die Nummern"
+        ex: "Welche Nummer ist das?"
+        exRu: "Какой это номер?"
+    phrases:
+      - de: "Wie viele?"
+        ru: "Сколько?"
+      - de: "Das sind drei."
+        ru: "Это три."
+      - de: "Welche Nummer haben Sie?"
+        ru: "Какой у вас номер?"
+      - de: "Nummer sieben, bitte."
+        ru: "Номер семь, пожалуйста."
+      - de: "Eins plus zwei macht drei."
+        ru: "Один плюс два будет три."
+    grammar:
+      title: "Первые числа"
+      explain:
+        - "Числа от нуля до двенадцати нужно просто запомнить: [[null, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn, elf, zwölf]]."
+        - "Будьте внимательны с похожими звуками. [[Zwei]] — два, а [[drei]] — три. [[Elf]] — это не эльф, а одиннадцать. [[Zwölf]] — двенадцать."
+        - "Когда считают, говорят [[eins]]: [[eins, zwei, drei]]. Перед словом говорят [[ein]] или [[eine]], например [[ein Kaffee]]."
+        - "По телефону вместо [[zwei]] часто говорят [[zwo]], чтобы не перепутать с [[drei]]."
+        - "Считать просто: [[Zwei plus drei macht fünf.]] [[Zehn minus vier macht sechs.]] Вместо [[macht]] можно сказать [[ist]]."
+      exercises:
+        - q: "Сколько будет [[vier plus fünf]]?"
+          options: ["[[neun]]", "[[acht]]", "[[zehn]]", "[[sieben]]", "[[elf]]"]
+        - q: "Сколько будет [[zwölf minus zwei]]?"
+          options: ["[[zehn]]", "[[elf]]", "[[acht]]", "[[neun]]", "[[zwei]]"]
+        - q: "Как по-немецки «шесть»?"
+          options: ["[[sechs]]", "[[sieben]]", "[[acht]]", "[[zehn]]", "[[zwei]]"]
+        - q: "Что значит [[elf]]?"
+          options: ["Одиннадцать", "Двенадцать", "Десять", "Семь", "Восемь"]
+        - q: "Сколько будет [[drei plus drei]]?"
+          options: ["[[sechs]]", "[[drei]]", "[[neun]]", "[[fünf]]", "[[zwölf]]"]
+        - q: "Какое слово по телефону часто говорят вместо «два»?"
+          options: ["[[zwo]]", "[[drei]]", "[[zehn]]", "[[zwölf]]"]
+    dialogue:
+      title: "Очередь в учреждении"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Guten Morgen! Welche Nummer haben Sie?", "Доброе утро! Какой у вас номер?"]
+        - [B, "Guten Morgen! Ich habe Nummer neun.", "Доброе утро! У меня номер девять."]
+        - [A, "Neun? Jetzt ist Nummer sieben dran.", "Девять? Сейчас очередь номера семь."]
+        - [B, "Wie viele Leute sind noch vor mir?", "Сколько ещё людей передо мной?"]
+        - [A, "Zwei. Nummer sieben und Nummer acht.", "Двое. Номер семь и номер восемь."]
+        - [B, "Und wo ist das? Zimmer elf?", "А где это? Комната одиннадцать?"]
+        - [A, "Nein, Zimmer zwölf.", "Нет, комната двенадцать."]
+        - [B, "Danke schön!", "Большое спасибо!"]
+      questions:
+        - q: "Какой номер у мужчины?"
+          options: ["Девять", "Семь", "Восемь", "Двенадцать"]
+        - q: "Сколько людей перед ним?"
+          options: ["Двое", "Трое", "Один", "Семь"]
+        - q: "В какую комнату ему нужно?"
+          options: ["Двенадцать", "Одиннадцать", "Девять", "Два"]
+  - id: m02l02
+    title: "Числа до ста"
+    intro: "В этом уроке вы выучите числа до ста и узнаете, как строятся составные числа."
+    words:
+      - de: "dreizehn"
+        ru: "тринадцать"
+        ex: "Das Kind ist dreizehn."
+        exRu: "Ребёнку тринадцать."
+      - de: "vierzehn"
+        ru: "четырнадцать"
+        ex: "Ich wohne in Zimmer vierzehn."
+        exRu: "Я живу в комнате четырнадцать."
+      - de: "fünfzehn"
+        ru: "пятнадцать"
+        ex: "Wir sind fünfzehn Studenten."
+        exRu: "Нас пятнадцать студентов."
+      - de: "sechzehn"
+        ru: "шестнадцать"
+        ex: "Sophie ist sechzehn."
+        exRu: "Софи шестнадцать."
+      - de: "siebzehn"
+        ru: "семнадцать"
+        ex: "Lukas hat Nummer siebzehn."
+        exRu: "У Лукаса номер семнадцать."
+      - de: "zwanzig"
+        ru: "двадцать"
+        ex: "Das Wort hat zwanzig Buchstaben."
+        exRu: "В слове двадцать букв."
+      - de: "einundzwanzig"
+        ru: "двадцать один"
+        ex: "Ich wohne in Zimmer einundzwanzig."
+        exRu: "Я живу в комнате двадцать один."
+      - de: "dreißig"
+        ru: "тридцать"
+        ex: "Frau Weber ist dreißig."
+        exRu: "Госпоже Вебер тридцать."
+      - de: "vierzig"
+        ru: "сорок"
+        ex: "Herr Müller ist vierzig."
+        exRu: "Господину Мюллеру сорок."
+      - de: "fünfzig"
+        ru: "пятьдесят"
+        ex: "Das sind fünfzig Wörter."
+        exRu: "Это пятьдесят слов."
+      - de: "sechzig"
+        ru: "шестьдесят"
+        ex: "Mein Vater ist sechzig."
+        exRu: "Моему отцу шестьдесят."
+      - de: "siebzig"
+        ru: "семьдесят"
+        ex: "Da kommt der Bus siebzig."
+        exRu: "Идёт семидесятый автобус."
+      - de: "achtzig"
+        ru: "восемьдесят"
+        ex: "Achtzig Leute sind hier."
+        exRu: "Здесь восемьдесят человек."
+      - de: "neunzig"
+        ru: "девяносто"
+        ex: "Frau Schmidt ist neunzig."
+        exRu: "Госпоже Шмидт девяносто."
+    phrases:
+      - de: "ungefähr dreißig"
+        ru: "примерно тридцать"
+      - de: "mehr als zwanzig"
+        ru: "больше двадцати"
+      - de: "weniger als fünfzig"
+        ru: "меньше пятидесяти"
+      - de: "fast vierzig"
+        ru: "почти сорок"
+      - de: "Wie viele Leute sind hier?"
+        ru: "Сколько здесь людей?"
+    grammar:
+      title: "Как строятся числа"
+      explain:
+        - "Числа от тринадцати до девятнадцати строятся так: единица плюс [[zehn]]. [[Drei]] и [[zehn]] дают [[dreizehn]]. Так же [[vierzehn]], [[fünfzehn]], [[achtzehn]], [[neunzehn]]."
+        - "Десятки заканчиваются на [[zig]]: [[zwanzig]], [[vierzig]], [[fünfzig]]. Исключение — тридцать: [[dreißig]]."
+        - "Будьте внимательны: в числах шестнадцать и шестьдесят пропадает буква [[s]]: [[sechzehn]], [[sechzig]]. В числах семнадцать и семьдесят пропадает «ен»: [[siebzehn]], [[siebzig]]."
+        - "Главное правило составных чисел: сначала единицы, потом десятки, а между ними [[und]]. Двадцать пять по-немецки звучит как «пять и двадцать»: [[fünfundzwanzig]]."
+        - "Ещё примеры: [[dreiundvierzig]] — сорок три, [[achtundsechzig]] — шестьдесят восемь. Обратите внимание: [[einundzwanzig]], а не [[einsundzwanzig]]."
+      exercises:
+        - q: "Как по-немецки «двадцать пять»?"
+          options: ["[[fünfundzwanzig]]", "[[zwanzigundfünf]]", "[[zweiundfünfzig]]", "[[fünfzehn]]", "[[fünfzig]]"]
+        - q: "Какое число [[dreiundvierzig]]?"
+          options: ["Сорок три", "Тридцать четыре", "Тринадцать", "Сорок", "Тридцать три"]
+        - q: "Как по-немецки «шестнадцать»?"
+          options: ["[[sechzehn]]", "[[sechszehn]]", "[[sechzig]]", "[[siebzehn]]", "[[sechsundzehn]]"]
+        - q: "Как по-немецки «тридцать»?"
+          options: ["[[dreißig]]", "[[dreizig]]", "[[dreizehn]]", "[[dreiundzwanzig]]"]
+        - q: "Какое число [[achtundsechzig]]?"
+          options: ["Шестьдесят восемь", "Восемьдесят шесть", "Восемнадцать", "Шестьдесят", "Восемьдесят"]
+        - q: "Как по-немецки «двадцать один»?"
+          options: ["[[einundzwanzig]]", "[[einsundzwanzig]]", "[[zwanzigundeins]]", "[[zwölf]]"]
+    dialogue:
+      title: "На остановке"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Entschuldigung, welcher Bus fährt zum Bahnhof?", "Извините, какой автобус идёт до вокзала?"]
+        - [B, "Der Bus dreiundsechzig.", "Автобус шестьдесят три."]
+        - [A, "Dreiundsechzig oder dreiundsiebzig?", "Шестьдесят три или семьдесят три?"]
+        - [B, "Dreiundsechzig. Der Bus dreiundsiebzig fährt in die Stadt.", "Шестьдесят три. Автобус семьдесят три идёт в город."]
+        - [A, "Und wann kommt der Bus?", "А когда придёт автобус?"]
+        - [B, "In fünfzehn Minuten.", "Через пятнадцать минут."]
+        - [A, "Vielen Dank!", "Большое спасибо!"]
+      questions:
+        - q: "Какой автобус идёт до вокзала?"
+          options: ["Шестьдесят три", "Семьдесят три", "Тридцать шесть", "Тридцать семь"]
+        - q: "Когда придёт автобус?"
+          options: ["Через пятнадцать минут", "Через пятьдесят минут", "Через пять минут", "Через тринадцать минут"]
+  - id: m02l03
+    title: "Возраст и телефон"
+    intro: "В этом уроке вы научитесь говорить о возрасте, называть номер телефона и адрес."
+    words:
+      - de: "alt"
+        ru: "старый"
+        ex: "Wie alt ist Peter?"
+        exRu: "Сколько лет Петеру?"
+      - de: "das Jahr"
+        ru: "год"
+        plural: "die Jahre"
+        ex: "Ich bin zwanzig Jahre alt."
+        exRu: "Мне двадцать лет."
+      - de: "das Alter"
+        ru: "возраст"
+        ex: "Das Alter ist nicht wichtig."
+        exRu: "Возраст не важен."
+      - de: "die Telefonnummer"
+        ru: "номер телефона"
+        plural: "die Telefonnummern"
+        ex: "Wie ist die Telefonnummer?"
+        exRu: "Какой номер телефона?"
+      - de: "das Handy"
+        ru: "мобильный телефон"
+        plural: "die Handys"
+        ex: "Das Handy ist neu."
+        exRu: "Мобильный телефон новый."
+      - de: "die Handynummer"
+        ru: "номер мобильного"
+        plural: "die Handynummern"
+        ex: "Meine Handynummer ist neu."
+        exRu: "У меня новый номер мобильного."
+      - de: "die Vorwahl"
+        ru: "телефонный код"
+        plural: "die Vorwahlen"
+        ex: "Die Vorwahl von Berlin ist null, drei, null."
+        exRu: "Код Берлина ноль, три, ноль."
+      - de: "anrufen"
+        ru: "звонить"
+        ex: "Bitte rufen Sie morgen an."
+        exRu: "Пожалуйста, позвоните завтра."
+      - de: "die Adresse"
+        ru: "адрес"
+        plural: "die Adressen"
+        ex: "Wie ist Ihre Adresse?"
+        exRu: "Какой у вас адрес?"
+      - de: "die Hausnummer"
+        ru: "номер дома"
+        plural: "die Hausnummern"
+        ex: "Die Hausnummer ist zwölf."
+        exRu: "Номер дома двенадцать."
+      - de: "die Postleitzahl"
+        ru: "почтовый индекс"
+        plural: "die Postleitzahlen"
+        ex: "Wie ist die Postleitzahl?"
+        exRu: "Какой почтовый индекс?"
+      - de: "die E-Mail"
+        ru: "электронное письмо"
+        plural: "die E-Mails"
+        ex: "Die E-Mail ist von Anna."
+        exRu: "Это письмо от Анны."
+    phrases:
+      - de: "Wie alt sind Sie?"
+        ru: "Сколько вам лет?"
+      - de: "Ich bin dreißig Jahre alt."
+        ru: "Мне тридцать лет."
+      - de: "Wie ist Ihre Telefonnummer?"
+        ru: "Какой у вас номер телефона?"
+      - de: "Wie ist Ihre Adresse?"
+        ru: "Какой у вас адрес?"
+      - de: "Wie ist Ihre E-Mail-Adresse?"
+        ru: "Какой у вас электронный адрес?"
+      - de: "Moment, bitte."
+        ru: "Минутку, пожалуйста."
+      - de: "Können Sie das wiederholen?"
+        ru: "Можете это повторить?"
+    grammar:
+      title: "Возраст, телефон и адрес"
+      explain:
+        - "О возрасте по-немецки спрашивают «Насколько вы старый?»: [[Wie alt sind Sie?]] Отвечают с глаголом [[sein]]: [[Ich bin dreißig Jahre alt.]]"
+        - "В русском «мне тридцать», а в немецком «я тридцать»: [[Ich bin dreißig.]] Слова [[Jahre alt]] можно не говорить."
+        - "Номер телефона, адрес и индекс спрашивают через [[Wie ist]]: [[Wie ist Ihre Telefonnummer?]] [[Wie ist Ihre Adresse?]] Обратите внимание: по-русски «какой», а по-немецки [[wie]], то есть «как»."
+        - "Номер телефона называют по одной цифре или парами: [[null, eins, sieben, sechs]] или [[siebzehn, sechsundzwanzig]]. Вместо [[zwei]] часто говорят [[zwo]]."
+        - "В адресе сначала улица, потом номер дома: [[Goethestraße zwölf]]. В электронном адресе значок «собака» называют [[at]], а точку — [[Punkt]]."
+      exercises:
+        - q: "Как спросить «Сколько вам лет?»"
+          options: ["[[Wie alt sind Sie?]]", "[[Wie viel sind Sie?]]", "[[Wie alt haben Sie?]]", "[[Wer alt sind Sie?]]", "[[Wie Jahre sind Sie?]]"]
+        - q: "Как сказать «Мне сорок лет»?"
+          options: ["[[Ich bin vierzig Jahre alt.]]", "[[Ich habe vierzig Jahre.]]", "[[Mir ist vierzig Jahre alt.]]", "[[Ich bin vierzehn Jahre alt.]]", "[[Ich ist vierzig Jahre alt.]]"]
+        - q: "Как спросить «Какой у вас номер телефона?»"
+          options: ["[[Wie ist Ihre Telefonnummer?]]", "[[Wie sind Ihre Telefonnummer?]]", "[[Wo ist Ihre Telefonnummer?]]", "[[Wer ist Ihre Telefonnummer?]]"]
+        - q: "Что значит [[die Postleitzahl]]?"
+          options: ["Почтовый индекс", "Номер дома", "Телефонный код", "Номер телефона", "Адрес"]
+        - q: "Какое слово часто говорят вместо «два» в номере телефона?"
+          options: ["[[zwo]]", "[[zwölf]]", "[[zehn]]", "[[drei]]"]
+    dialogue:
+      title: "Запись на курс"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Wie ist Ihr Name, bitte?", "Ваше имя, пожалуйста?"]
+        - [B, "Peter Weber.", "Петер Вебер."]
+        - [A, "Und wie alt sind Sie, Herr Weber?", "А сколько вам лет, господин Вебер?"]
+        - [B, "Ich bin vierunddreißig Jahre alt.", "Мне тридцать четыре года."]
+        - [A, "Wie ist Ihre Adresse?", "Какой у вас адрес?"]
+        - [B, "Goethestraße achtzehn, in Berlin.", "Улица Гёте, восемнадцать, в Берлине."]
+        - [A, "Und Ihre Handynummer?", "А ваш номер мобильного?"]
+        - [B, "Null, eins, sieben, sechs, zwo, neun, fünf, acht.", "Ноль, один, семь, шесть, два, девять, пять, восемь."]
+        - [A, "Moment, bitte. Können Sie das wiederholen?", "Минутку, пожалуйста. Можете это повторить?"]
+        - [B, "Ja. Null, eins, sieben, sechs, zwo, neun, fünf, acht.", "Да. Ноль, один, семь, шесть, два, девять, пять, восемь."]
+      questions:
+        - q: "Сколько лет господину Веберу?"
+          options: ["Тридцать четыре", "Сорок три", "Тридцать", "Двадцать четыре"]
+        - q: "Какой номер дома?"
+          options: ["Восемнадцать", "Восемьдесят", "Восемь", "Тринадцать"]
+        - q: "Что попросила повторить женщина?"
+          options: ["Номер мобильного", "Адрес", "Имя", "Возраст"]
+  - id: m02l04
+    title: "Деньги и цены"
+    intro: "В этом уроке вы научитесь спрашивать цену, понимать ответ и платить."
+    words:
+      - de: "der Euro"
+        ru: "евро"
+        plural: "die Euro"
+        ex: "Ein Euro ist nicht viel."
+        exRu: "Один евро — это немного."
+      - de: "der Cent"
+        ru: "цент"
+        plural: "die Cent"
+        ex: "Das kostet fünfzig Cent."
+        exRu: "Это стоит пятьдесят центов."
+      - de: "kosten"
+        ru: "стоить"
+        ex: "Der Kaffee kostet zwei Euro."
+        exRu: "Кофе стоит два евро."
+      - de: "billig"
+        ru: "дешёвый"
+        ex: "Das Handy ist billig."
+        exRu: "Этот телефон дешёвый."
+      - de: "teuer"
+        ru: "дорогой"
+        ex: "Berlin ist teuer."
+        exRu: "Берлин дорогой."
+      - de: "das Geld"
+        ru: "деньги"
+        ex: "Das Geld ist hier."
+        exRu: "Деньги здесь."
+      - de: "bezahlen"
+        ru: "платить"
+        ex: "Ich bezahle den Kaffee."
+        exRu: "Я плачу за кофе."
+      - de: "zusammen"
+        ru: "вместе"
+        ex: "Wir bezahlen zusammen."
+        exRu: "Мы платим вместе."
+      - de: "getrennt"
+        ru: "раздельно"
+        ex: "Bitte getrennt."
+        exRu: "Раздельно, пожалуйста."
+      - de: "die Kasse"
+        ru: "касса"
+        plural: "die Kassen"
+        ex: "Die Kasse ist dort."
+        exRu: "Касса там."
+      - de: "die Münze"
+        ru: "монета"
+        plural: "die Münzen"
+        ex: "Das ist eine Münze."
+        exRu: "Это монета."
+      - de: "der Geldschein"
+        ru: "купюра"
+        plural: "die Geldscheine"
+        ex: "Ich habe nur einen Geldschein."
+        exRu: "У меня только одна купюра."
+    phrases:
+      - de: "Wie viel kostet das?"
+        ru: "Сколько это стоит?"
+      - de: "Das kostet zwei Euro fünfzig."
+        ru: "Это стоит два евро пятьдесят."
+      - de: "Das ist zu teuer."
+        ru: "Это слишком дорого."
+      - de: "Zusammen oder getrennt?"
+        ru: "Вместе или раздельно?"
+      - de: "Ich möchte bezahlen."
+        ru: "Я хотел бы заплатить."
+      - de: "Das macht zehn Euro."
+        ru: "С вас десять евро."
+      - de: "Stimmt so."
+        ru: "Сдачи не надо."
+    grammar:
+      title: "Как называть цены"
+      explain:
+        - "Цену называют так: сначала евро, потом центы. Слово [[Cent]] в конце обычно пропускают: [[zwei Euro fünfzig]] — два евро пятьдесят центов."
+        - "Слово [[Euro]] не меняется: [[ein Euro]], [[zwei Euro]], [[zwanzig Euro]]. Так же [[Cent]]: [[fünfzig Cent]]."
+        - "Если в цене нет евро, говорят только центы: [[neunzig Cent]]. Если нет центов, говорят только евро: [[zehn Euro]]."
+        - "О цене спрашивают [[Wie viel kostet das?]] Если предметов много, глагол меняется: [[Wie viel kosten die Brötchen?]]"
+        - "Ответ: [[Das kostet drei Euro.]] На кассе часто говорят: [[Das macht zehn Euro.]] — то есть «с вас десять евро»."
+      exercises:
+        - q: "Как сказать «три евро двадцать»?"
+          options: ["[[drei Euro zwanzig]]", "[[zwanzig Euro drei]]", "[[drei Euros zwanzig]]", "[[drei Cent zwanzig]]", "[[dreizehn Euro zwanzig]]"]
+        - q: "Сколько стоит, если вы слышите [[sieben Euro fünfzig]]?"
+          options: ["Семь евро пятьдесят", "Семьдесят евро пятьдесят", "Пять евро семьдесят", "Семнадцать евро пятьдесят", "Семь евро пятнадцать"]
+        - q: "Как спросить цену?"
+          options: ["[[Wie viel kostet das?]]", "[[Wie alt ist das?]]", "[[Wie viele kostet das?]]", "[[Wo kostet das?]]", "[[Wer kostet das?]]"]
+        - q: "Как правильно?"
+          options: ["[[Das kostet zwanzig Euro.]]", "[[Das kostet zwanzig Euros.]]", "[[Das kosten zwanzig Euro.]]", "[[Das ist kostet zwanzig Euro.]]"]
+        - q: "Что значит [[Das ist zu teuer]]?"
+          options: ["Это слишком дорого", "Это очень дёшево", "Это бесплатно", "Это недорого"]
+        - q: "Официант спрашивает [[Zusammen oder getrennt?]] Что он хочет знать?"
+          options: ["Платите вместе или раздельно", "Сколько вам лет", "Где касса", "Какой у вас номер"]
+    dialogue:
+      title: "В пекарне"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Guten Tag! Bitte schön?", "Добрый день! Что желаете?"]
+        - [B, "Guten Tag! Wie viel kostet der Kuchen?", "Добрый день! Сколько стоит пирог?"]
+        - [A, "Ein Stück kostet drei Euro zwanzig.", "Один кусок стоит три евро двадцать."]
+        - [B, "Und ein Kaffee?", "А один кофе?"]
+        - [A, "Zwei Euro fünfzig.", "Два евро пятьдесят."]
+        - [B, "Gut, ein Stück Kuchen und ein Kaffee, bitte.", "Хорошо, кусок пирога и кофе, пожалуйста."]
+        - [A, "Das macht fünf Euro siebzig.", "С вас пять евро семьдесят."]
+        - [B, "Hier sind sechs Euro. Stimmt so.", "Вот шесть евро. Сдачи не надо."]
+        - [A, "Vielen Dank!", "Большое спасибо!"]
+      questions:
+        - q: "Сколько стоит кусок пирога?"
+          options: ["Три евро двадцать", "Два евро пятьдесят", "Пять евро семьдесят", "Три евро двенадцать"]
+        - q: "Сколько всего нужно заплатить?"
+          options: ["Пять евро семьдесят", "Шесть евро", "Семь евро пятьдесят", "Пять евро семнадцать"]
+        - q: "Что значит, когда мужчина говорит [[Stimmt so]]?"
+          options: ["Сдачи не надо", "Это слишком дорого", "Он платит картой", "Он хочет ещё кофе"]
+  - id: m02l05
+    title: "Большие числа и количество"
+    intro: "В этом уроке вы выучите большие числа, слова о количестве и глагол [[haben]]."
+    words:
+      - de: "hundert"
+        ru: "сто"
+        ex: "Das kostet hundert Euro."
+        exRu: "Это стоит сто евро."
+      - de: "tausend"
+        ru: "тысяча"
+        ex: "Das Handy kostet tausend Euro."
+        exRu: "Телефон стоит тысячу евро."
+      - de: "die Million"
+        ru: "миллион"
+        plural: "die Millionen"
+        ex: "Wien hat zwei Millionen Einwohner."
+        exRu: "В Вене два миллиона жителей."
+      - de: "die Zahl"
+        ru: "число"
+        plural: "die Zahlen"
+        ex: "Sieben ist meine Zahl."
+        exRu: "Семь — моё число."
+      - de: "zählen"
+        ru: "считать"
+        ex: "Wir zählen bis hundert."
+        exRu: "Мы считаем до ста."
+      - de: "haben"
+        ru: "иметь"
+        ex: "Ich habe zwanzig Euro."
+        exRu: "У меня двадцать евро."
+      - de: "viel"
+        ru: "много"
+        ex: "Peter hat viel Geld."
+        exRu: "У Петера много денег."
+      - de: "wenig"
+        ru: "мало"
+        ex: "Ich habe wenig Geld."
+        exRu: "У меня мало денег."
+      - de: "alle"
+        ru: "все"
+        ex: "Alle sind hier."
+        exRu: "Все здесь."
+      - de: "genug"
+        ru: "достаточно"
+        ex: "Wir haben genug Geld."
+        exRu: "У нас достаточно денег."
+      - de: "mehr"
+        ru: "больше"
+        ex: "Berlin hat mehr Einwohner als Wien."
+        exRu: "В Берлине больше жителей, чем в Вене."
+      - de: "die Hälfte"
+        ru: "половина"
+        plural: "die Hälften"
+        ex: "Die Hälfte von zehn ist fünf."
+        exRu: "Половина от десяти — пять."
+      - de: "der Einwohner"
+        ru: "житель"
+        plural: "die Einwohner"
+        ex: "Die Stadt hat tausend Einwohner."
+        exRu: "В городе тысяча жителей."
+    phrases:
+      - de: "Das ist zu viel."
+        ru: "Это слишком много."
+      - de: "Haben Sie genug Geld?"
+        ru: "У вас достаточно денег?"
+      - de: "Vielen Dank!"
+        ru: "Большое спасибо!"
+      - de: "Wie viele Einwohner hat Berlin?"
+        ru: "Сколько жителей в Берлине?"
+      - de: "Das ist nicht genug."
+        ru: "Этого недостаточно."
+    grammar:
+      title: "Глагол «иметь» и большие числа"
+      explain:
+        - "По-русски мы говорим «у меня есть», а по-немецки «я имею»: [[Ich habe zwanzig Euro.]] Это глагол [[haben]]."
+        - "Формы глагола: [[ich habe]], [[er hat]], [[sie hat]], [[wir haben]], [[Sie haben]]. Про нескольких людей: [[sie haben]] — они имеют."
+        - "С другом говорят [[du hast]], а группе друзей — [[ihr habt]]. Запомните особые формы без буквы [[b]]: [[du hast]] и [[er hat]]."
+        - "Большие числа строятся просто: [[hundert]], [[zweihundert]], [[tausend]], [[dreitausend]]. Число сто двадцать: [[hundertzwanzig]]. Двести пятьдесят: [[zweihundertfünfzig]]."
+        - "Слово [[Million]] — существительное, поэтому пишется с большой буквы и имеет множественное число: [[eine Million]], [[zwei Millionen]]."
+      exercises:
+        - q: "Как сказать «У меня есть время»?"
+          options: ["[[Ich habe Zeit.]]", "[[Ich hat Zeit.]]", "[[Ich haben Zeit.]]", "[[Ich bin Zeit.]]", "[[Ich hast Zeit.]]"]
+        - q: "Как правильно?"
+          options: ["[[Er hat viel Geld.]]", "[[Er habt viel Geld.]]", "[[Er haben viel Geld.]]", "[[Er habe viel Geld.]]", "[[Er hast viel Geld.]]"]
+        - q: "Как спросить «У вас достаточно денег?»"
+          options: ["[[Haben Sie genug Geld?]]", "[[Haben genug Geld Sie?]]", "[[Hat Sie genug Geld?]]", "[[Sind Sie genug Geld?]]"]
+        - q: "Какое число [[zweihundertfünfzig]]?"
+          options: ["Двести пятьдесят", "Двести пятнадцать", "Пятьсот двадцать", "Двадцать пять тысяч", "Две тысячи пятьсот"]
+        - q: "Как по-немецки «три тысячи»?"
+          options: ["[[dreitausend]]", "[[dreihundert]]", "[[drei Millionen]]", "[[dreizehn]]", "[[dreißig]]"]
+        - q: "Как правильно?"
+          options: ["[[Wir haben wenig Zeit.]]", "[[Wir hat wenig Zeit.]]", "[[Wir habe wenig Zeit.]]", "[[Wir hast wenig Zeit.]]", "[[Wir habt wenig Zeit.]]"]
+    dialogue:
+      title: "Большие города"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Anna, wie viele Einwohner hat Berlin?", "Анна, сколько жителей в Берлине?"]
+        - [B, "Ungefähr drei Komma sieben Millionen.", "Примерно три целых семь десятых миллиона."]
+        - [A, "Das ist viel! Und Wien?", "Это много! А в Вене?"]
+        - [B, "Wien hat ungefähr zwei Millionen Einwohner.", "В Вене примерно два миллиона жителей."]
+        - [A, "Und Hamburg?", "А в Гамбурге?"]
+        - [B, "Fast zwei Millionen. Aber Berlin hat die meisten Einwohner.", "Почти два миллиона. Но в Берлине больше всего жителей."]
+        - [A, "Und Ihre Stadt, Anna?", "А ваш город, Анна?"]
+        - [B, "Meine Stadt hat nur zehntausend Einwohner. Das ist wenig!", "В моём городе всего десять тысяч жителей. Это мало!"]
+      questions:
+        - q: "Сколько жителей в Вене?"
+          options: ["Примерно два миллиона", "Три целых семь десятых миллиона", "Десять тысяч", "Почти миллион"]
+        - q: "В каком городе больше всего жителей?"
+          options: ["В Берлине", "В Вене", "В Гамбурге", "В городе Анны"]
+        - q: "Сколько жителей в городе Анны?"
+          options: ["Десять тысяч", "Сто тысяч", "Тысяча", "Два миллиона"]

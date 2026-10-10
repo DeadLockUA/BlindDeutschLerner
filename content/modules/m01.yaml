@@ -1,0 +1,557 @@
+id: m01
+title: "Знакомство"
+lessons:
+  - id: m01l01
+    title: "Здравствуйте и до свидания"
+    intro: "В этом уроке вы научитесь здороваться, прощаться и благодарить."
+    words:
+      - de: "hallo"
+        ru: "привет"
+        ex: "Hallo, Anna!"
+        exRu: "Привет, Анна!"
+      - de: "danke"
+        ru: "спасибо"
+        ex: "Danke, gut."
+        exRu: "Спасибо, хорошо."
+      - de: "bitte"
+        ru: "пожалуйста"
+        ex: "Ein Wasser, bitte."
+        exRu: "Воду, пожалуйста."
+      - de: "ja"
+        ru: "да"
+        ex: "Ja, gern."
+        exRu: "Да, с удовольствием."
+      - de: "nein"
+        ru: "нет"
+        ex: "Nein, danke."
+        exRu: "Нет, спасибо."
+      - de: "gut"
+        ru: "хорошо"
+        ex: "Mir geht es gut."
+        exRu: "У меня всё хорошо."
+      - de: "der Herr"
+        ru: "господин"
+        plural: "die Herren"
+        ex: "Guten Tag, Herr Müller!"
+        exRu: "Добрый день, господин Мюллер!"
+      - de: "die Frau"
+        ru: "женщина, госпожа"
+        plural: "die Frauen"
+        ex: "Guten Morgen, Frau Schmidt!"
+        exRu: "Доброе утро, госпожа Шмидт!"
+      - de: "der Morgen"
+        ru: "утро"
+        plural: "die Morgen"
+        ex: "Der Morgen ist schön."
+        exRu: "Утро прекрасное."
+      - de: "der Tag"
+        ru: "день"
+        plural: "die Tage"
+        ex: "Heute ist ein guter Tag."
+        exRu: "Сегодня хороший день."
+      - de: "der Abend"
+        ru: "вечер"
+        plural: "die Abende"
+        ex: "Am Abend bin ich zu Hause."
+        exRu: "Вечером я дома."
+      - de: "die Nacht"
+        ru: "ночь"
+        plural: "die Nächte"
+        ex: "Die Nacht ist kalt."
+        exRu: "Ночь холодная."
+    phrases:
+      - de: "Guten Morgen!"
+        ru: "Доброе утро!"
+      - de: "Guten Tag!"
+        ru: "Добрый день!"
+      - de: "Guten Abend!"
+        ru: "Добрый вечер!"
+      - de: "Gute Nacht!"
+        ru: "Спокойной ночи!"
+      - de: "Auf Wiedersehen!"
+        ru: "До свидания!"
+      - de: "Tschüss!"
+        ru: "Пока!"
+      - de: "Wie geht es Ihnen?"
+        ru: "Как у вас дела?"
+      - de: "Danke schön!"
+        ru: "Большое спасибо!"
+    grammar:
+      title: "Вежливое обращение"
+      explain:
+        - "В немецком языке к незнакомым людям обращаются на «Вы». Это слово [[Sie]]."
+        - "К мужчине обращаются [[Herr]] и фамилия: [[Herr Müller]]. К женщине — [[Frau]] и фамилия: [[Frau Schmidt]]."
+        - "Вежливый вопрос «Как у вас дела?» звучит так: [[Wie geht es Ihnen?]] Ответ: [[Danke, gut. Und Ihnen?]] — «Спасибо, хорошо. А у вас?»"
+        - "С друзьями говорят на «ты»: [[Wie geht es dir?]] Но в магазине, у врача и в учреждениях всегда говорят [[Sie]]."
+      exercises:
+        - q: "Как вежливо спросить «Как у вас дела?»"
+          options: ["[[Wie geht es Ihnen?]]", "[[Wie geht es dir?]]", "[[Wie heißt du?]]"]
+        - q: "Как поздороваться с господином Мюллером днём?"
+          options: ["[[Guten Tag, Herr Müller!]]", "[[Gute Nacht, Herr Müller!]]", "[[Tschüss, Herr Müller!]]"]
+        - q: "Как вежливо попрощаться?"
+          options: ["[[Auf Wiedersehen!]]", "[[Guten Morgen!]]", "[[Hallo!]]", "[[Danke!]]"]
+        - q: "Что ответить на вопрос [[Wie geht es Ihnen?]]"
+          options: ["[[Danke, gut. Und Ihnen?]]", "[[Gute Nacht!]]", "[[Nein, bitte.]]"]
+    dialogue:
+      title: "Утро в офисе"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Guten Morgen, Frau Schmidt!", "Доброе утро, госпожа Шмидт!"]
+        - [B, "Guten Morgen, Herr Müller! Wie geht es Ihnen?", "Доброе утро, господин Мюллер! Как у вас дела?"]
+        - [A, "Danke, gut. Und Ihnen?", "Спасибо, хорошо. А у вас?"]
+        - [B, "Auch gut, danke.", "Тоже хорошо, спасибо."]
+        - [A, "Auf Wiedersehen, Frau Schmidt!", "До свидания, госпожа Шмидт!"]
+        - [B, "Auf Wiedersehen!", "До свидания!"]
+      questions:
+        - q: "Какое сейчас время суток?"
+          options: ["Утро", "Вечер", "Ночь"]
+        - q: "Как дела у господина Мюллера?"
+          options: ["Хорошо", "Плохо", "Он не ответил"]
+        - q: "Как зовут женщину?"
+          options: ["Госпожа Шмидт", "Госпожа Мюллер", "Госпожа Вебер"]
+  - id: m01l02
+    title: "Как вас зовут?"
+    intro: "В этом уроке вы научитесь называть своё имя и спрашивать, как зовут собеседника."
+    words:
+      - de: "heißen"
+        ru: "называться, зваться"
+        ex: "Ich heiße Anna."
+        exRu: "Меня зовут Анна."
+      - de: "der Name"
+        ru: "имя, название"
+        plural: "die Namen"
+        ex: "Der Name ist schön."
+        exRu: "Имя красивое."
+      - de: "der Vorname"
+        ru: "личное имя"
+        plural: "die Vornamen"
+        ex: "Mein Vorname ist Peter."
+        exRu: "Моё имя Петер."
+      - de: "der Familienname"
+        ru: "фамилия"
+        plural: "die Familiennamen"
+        ex: "Mein Familienname ist Müller."
+        exRu: "Моя фамилия Мюллер."
+      - de: "ich"
+        ru: "я"
+        ex: "Ich heiße Maria."
+        exRu: "Меня зовут Мария."
+      - de: "Sie"
+        ru: "Вы, вежливо"
+        ex: "Wie heißen Sie?"
+        exRu: "Как вас зовут?"
+      - de: "er"
+        ru: "он"
+        ex: "Er heißt Thomas."
+        exRu: "Его зовут Томас."
+      - de: "du"
+        ru: "ты"
+        ex: "Wie heißt du?"
+        exRu: "Как тебя зовут?"
+      - de: "wer"
+        ru: "кто"
+        ex: "Wer ist das?"
+        exRu: "Кто это?"
+      - de: "wie"
+        ru: "как"
+        ex: "Wie heißt er?"
+        exRu: "Как его зовут?"
+      - de: "und"
+        ru: "и, а"
+        ex: "Ich heiße Anna. Und Sie?"
+        exRu: "Меня зовут Анна. А вас?"
+      - de: "auch"
+        ru: "тоже"
+        ex: "Ich heiße auch Peter."
+        exRu: "Меня тоже зовут Петер."
+    phrases:
+      - de: "Wie heißen Sie?"
+        ru: "Как вас зовут?"
+      - de: "Ich heiße Anna Schmidt."
+        ru: "Меня зовут Анна Шмидт."
+      - de: "Mein Name ist Peter Müller."
+        ru: "Моё имя Петер Мюллер."
+      - de: "Wie ist Ihr Vorname?"
+        ru: "Как ваше имя?"
+      - de: "Wer ist das?"
+        ru: "Кто это?"
+      - de: "Das ist Frau Weber."
+        ru: "Это госпожа Вебер."
+      - de: "Freut mich!"
+        ru: "Очень приятно!"
+      - de: "Wie bitte?"
+        ru: "Простите, что вы сказали?"
+    grammar:
+      title: "Местоимения и глагол «называться»"
+      explain:
+        - "Главные местоимения этого урока: [[ich]] — я, [[Sie]] — Вы, [[er]] — он, [[sie]] — она."
+        - "Вежливое [[Sie]] и [[sie]] в значении «она» звучат одинаково. Разницу слышно по глаголу: [[Sie heißen]] — вас зовут, [[sie heißt]] — её зовут."
+        - "Глагол [[heißen]] значит «называться». По-русски мы говорим «меня зовут», а по-немецки буквально «я называюсь»: [[Ich heiße Anna.]]"
+        - "Окончание глагола меняется: [[ich heiße]], [[Sie heißen]], [[er heißt]], [[sie heißt]]. С другом на «ты» говорят [[du heißt]]."
+        - "Вопрос «Как вас зовут?» звучит [[Wie heißen Sie?]] Можно спросить и так: [[Wie ist Ihr Name?]]"
+      exercises:
+        - q: "Как сказать «Меня зовут Петер»?"
+          options: ["[[Ich heiße Peter.]]", "[[Ich heißen Peter.]]", "[[Ich heißt Peter.]]", "[[Er heiße Peter.]]"]
+        - q: "Как вежливо спросить «Как вас зовут?»"
+          options: ["[[Wie heißen Sie?]]", "[[Wie heißt Sie?]]", "[[Wer heißen Sie?]]", "[[Wie heiße Sie?]]"]
+        - q: "Как сказать «Его зовут Томас»?"
+          options: ["[[Er heißt Thomas.]]", "[[Er heiße Thomas.]]", "[[Er heißen Thomas.]]", "[[Sie heißt Thomas.]]"]
+        - q: "Как сказать «Её зовут Мария»?"
+          options: ["[[Sie heißt Maria.]]", "[[Sie heißen Maria.]]", "[[Er heißt Maria.]]", "[[Ich heißt Maria.]]"]
+        - q: "Что значит слово [[Familienname]]?"
+          options: ["Фамилия", "Личное имя", "Семья", "Адрес"]
+        - q: "Как спросить «Кто это?»"
+          options: ["[[Wer ist das?]]", "[[Wie ist das?]]", "[[Wer heißen das?]]", "[[Wie heißt du?]]"]
+    dialogue:
+      title: "Первое знакомство"
+      speakers: {A: f, B: m}
+      lines:
+        - [A, "Guten Tag! Ich heiße Anna Schmidt. Wie heißen Sie?", "Добрый день! Меня зовут Анна Шмидт. Как вас зовут?"]
+        - [B, "Guten Tag! Mein Name ist Thomas Weber.", "Добрый день! Меня зовут Томас Вебер."]
+        - [A, "Wie bitte?", "Простите, что вы сказали?"]
+        - [B, "Thomas Weber. Mein Vorname ist Thomas.", "Томас Вебер. Моё имя Томас."]
+        - [A, "Freut mich, Herr Weber!", "Очень приятно, господин Вебер!"]
+        - [B, "Freut mich auch. Und wer ist das?", "Мне тоже очень приятно. А кто это?"]
+        - [A, "Das ist Herr Müller. Er heißt Peter.", "Это господин Мюллер. Его зовут Петер."]
+      questions:
+        - q: "Как фамилия Томаса?"
+          options: ["Вебер", "Шмидт", "Мюллер", "Лукас"]
+        - q: "Как зовут господина Мюллера?"
+          options: ["Петер", "Томас", "Лукас", "Анна"]
+        - q: "Что сказала Анна, когда не расслышала?"
+          options: ["[[Wie bitte?]]", "[[Freut mich!]]", "[[Wer ist das?]]"]
+  - id: m01l03
+    title: "Откуда вы?"
+    intro: "В этом уроке вы научитесь говорить, откуда вы родом и где живёте."
+    words:
+      - de: "kommen"
+        ru: "приходить, быть родом"
+        ex: "Ich komme aus Russland."
+        exRu: "Я из России."
+      - de: "aus"
+        ru: "из"
+        ex: "Peter kommt aus Berlin."
+        exRu: "Петер из Берлина."
+      - de: "wohnen"
+        ru: "жить, проживать"
+        ex: "Ich wohne in Hamburg."
+        exRu: "Я живу в Гамбурге."
+      - de: "in"
+        ru: "в"
+        ex: "Anna wohnt in Wien."
+        exRu: "Анна живёт в Вене."
+      - de: "woher"
+        ru: "откуда"
+        ex: "Woher kommt Frau Weber?"
+        exRu: "Откуда госпожа Вебер?"
+      - de: "wo"
+        ru: "где"
+        ex: "Wo wohnt Thomas?"
+        exRu: "Где живёт Томас?"
+      - de: "die Stadt"
+        ru: "город"
+        plural: "die Städte"
+        ex: "Berlin ist eine Stadt."
+        exRu: "Берлин — это город."
+      - de: "das Land"
+        ru: "страна"
+        plural: "die Länder"
+        ex: "Deutschland ist ein Land."
+        exRu: "Германия — это страна."
+      - de: "Deutschland"
+        ru: "Германия"
+        ex: "Ich wohne in Deutschland."
+        exRu: "Я живу в Германии."
+      - de: "Russland"
+        ru: "Россия"
+        ex: "Maria kommt aus Russland."
+        exRu: "Мария из России."
+      - de: "die Ukraine"
+        ru: "Украина"
+        ex: "Sophie kommt aus der Ukraine."
+        exRu: "Софи с Украины."
+      - de: "Österreich"
+        ru: "Австрия"
+        ex: "Wien ist in Österreich."
+        exRu: "Вена находится в Австрии."
+      - de: "die Schweiz"
+        ru: "Швейцария"
+        ex: "Lukas wohnt in der Schweiz."
+        exRu: "Лукас живёт в Швейцарии."
+    phrases:
+      - de: "Woher kommen Sie?"
+        ru: "Откуда вы?"
+      - de: "Ich komme aus Russland."
+        ru: "Я из России."
+      - de: "Ich komme aus der Ukraine."
+        ru: "Я с Украины."
+      - de: "Wo wohnen Sie?"
+        ru: "Где вы живёте?"
+      - de: "Ich wohne in Berlin."
+        ru: "Я живу в Берлине."
+      - de: "Wo ist das?"
+        ru: "Где это?"
+    grammar:
+      title: "Вопросы с вопросительным словом"
+      explain:
+        - "Вопросительные слова: [[wer]] — кто, [[wie]] — как, [[wo]] — где, [[woher]] — откуда."
+        - "В таком вопросе порядок слов строгий. Сначала вопросительное слово, потом глагол, потом тот, о ком спрашиваем: [[Woher kommen Sie?]] [[Wo wohnen Sie?]]"
+        - "Глагол всегда стоит на втором месте. Сказать [[Woher Sie kommen?]] нельзя. Правильно только [[Woher kommen Sie?]]"
+        - "Будьте внимательны: [[wo]] — это «где», а не «кто». «Кто» по-немецки [[wer]]."
+        - "Большинство стран употребляется без артикля: [[aus Deutschland]], [[in Österreich]]. Но некоторые страны с артиклем [[die]]: [[die Schweiz]], [[die Ukraine]]. После [[aus]] и [[in]] говорят [[der]]: [[aus der Schweiz]], [[in der Ukraine]]."
+      exercises:
+        - q: "Как спросить «Откуда вы?»"
+          options: ["[[Woher kommen Sie?]]", "[[Woher Sie kommen?]]", "[[Wo kommen Sie?]]", "[[Wer kommen Sie?]]", "[[Kommen woher Sie?]]"]
+        - q: "Как спросить «Где вы живёте?»"
+          options: ["[[Wo wohnen Sie?]]", "[[Wo Sie wohnen?]]", "[[Woher wohnen Sie?]]", "[[Wer wohnt Sie?]]"]
+        - q: "Как сказать «Я из Швейцарии»?"
+          options: ["[[Ich komme aus der Schweiz.]]", "[[Ich komme aus Schweiz.]]", "[[Ich komme in der Schweiz.]]", "[[Ich komme aus die Schweiz.]]"]
+        - q: "Какое слово значит «где»?"
+          options: ["[[wo]]", "[[wer]]", "[[wie]]", "[[woher]]"]
+        - q: "Как сказать «Анна живёт в Австрии»?"
+          options: ["[[Anna wohnt in Österreich.]]", "[[Anna wohnt aus Österreich.]]", "[[Anna kommt in Österreich.]]", "[[Anna wohnt in der Österreich.]]"]
+        - q: "Как правильно спросить «Кто это?»"
+          options: ["[[Wer ist das?]]", "[[Wo ist das?]]", "[[Woher ist das?]]", "[[Wie ist das?]]"]
+    dialogue:
+      title: "На курсах немецкого"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Hallo! Ich heiße Lukas. Und Sie?", "Привет! Меня зовут Лукас. А вас?"]
+        - [B, "Ich heiße Maria. Freut mich!", "Меня зовут Мария. Очень приятно!"]
+        - [A, "Woher kommen Sie, Maria?", "Откуда вы, Мария?"]
+        - [B, "Ich komme aus Russland. Und Sie?", "Я из России. А вы?"]
+        - [A, "Ich komme aus Österreich, aus Wien.", "Я из Австрии, из Вены."]
+        - [B, "Und wo wohnen Sie jetzt?", "А где вы сейчас живёте?"]
+        - [A, "Jetzt wohne ich in Berlin. Und Sie?", "Сейчас я живу в Берлине. А вы?"]
+        - [B, "Ich wohne auch in Berlin.", "Я тоже живу в Берлине."]
+      questions:
+        - q: "Откуда Мария?"
+          options: ["Из России", "Из Австрии", "Из Германии", "С Украины"]
+        - q: "Из какого города Лукас?"
+          options: ["Из Вены", "Из Берлина", "Из Гамбурга", "Из Цюриха"]
+        - q: "Где сейчас живут Лукас и Мария?"
+          options: ["В Берлине", "В Вене", "В Москве", "В Швейцарии"]
+  - id: m01l04
+    title: "Языки и алфавит"
+    intro: "В этом уроке вы научитесь говорить о языках, называть немецкие буквы и диктовать своё имя."
+    words:
+      - de: "sprechen"
+        ru: "говорить"
+        ex: "Ich spreche Russisch."
+        exRu: "Я говорю по-русски."
+      - de: "verstehen"
+        ru: "понимать"
+        ex: "Ich verstehe gut."
+        exRu: "Я хорошо понимаю."
+      - de: "buchstabieren"
+        ru: "диктовать по буквам"
+        ex: "Bitte buchstabieren Sie."
+        exRu: "Продиктуйте, пожалуйста, по буквам."
+      - de: "wiederholen"
+        ru: "повторять"
+        ex: "Bitte wiederholen Sie."
+        exRu: "Пожалуйста, повторите."
+      - de: "Deutsch"
+        ru: "немецкий язык"
+        ex: "Sprechen Sie Deutsch?"
+        exRu: "Вы говорите по-немецки?"
+      - de: "Russisch"
+        ru: "русский язык"
+        ex: "Maria spricht Russisch."
+        exRu: "Мария говорит по-русски."
+      - de: "Englisch"
+        ru: "английский язык"
+        ex: "Thomas spricht gut Englisch."
+        exRu: "Томас хорошо говорит по-английски."
+      - de: "die Sprache"
+        ru: "язык, речь"
+        plural: "die Sprachen"
+        ex: "Deutsch ist eine schöne Sprache."
+        exRu: "Немецкий — красивый язык."
+      - de: "das Alphabet"
+        ru: "алфавит"
+        plural: "die Alphabete"
+        ex: "Das Alphabet ist nicht schwer."
+        exRu: "Алфавит несложный."
+      - de: "der Buchstabe"
+        ru: "буква"
+        plural: "die Buchstaben"
+        ex: "Wie heißt der Buchstabe?"
+        exRu: "Как называется эта буква?"
+      - de: "das Wort"
+        ru: "слово"
+        plural: "die Wörter"
+        ex: "Das Wort ist neu."
+        exRu: "Это слово новое."
+      - de: "langsam"
+        ru: "медленно"
+        ex: "Sprechen Sie bitte langsam."
+        exRu: "Говорите, пожалуйста, медленно."
+    phrases:
+      - de: "Sprechen Sie Deutsch?"
+        ru: "Вы говорите по-немецки?"
+      - de: "Ich spreche ein bisschen Deutsch."
+        ru: "Я немного говорю по-немецки."
+      - de: "Ich verstehe das nicht."
+        ru: "Я этого не понимаю."
+      - de: "Noch einmal, bitte."
+        ru: "Ещё раз, пожалуйста."
+      - de: "Wie schreibt man das?"
+        ru: "Как это пишется?"
+      - de: "Können Sie das buchstabieren?"
+        ru: "Можете продиктовать это по буквам?"
+      - de: "Was bedeutet das?"
+        ru: "Что это значит?"
+    grammar:
+      title: "Немецкий алфавит"
+      explain:
+        - "В немецком алфавите двадцать шесть букв. Многие звучат почти как в русском: [[A]], [[Be]], [[De]], [[E]], [[Ef]], [[Ka]], [[El]], [[Em]], [[En]], [[O]], [[Pe]], [[Te]], [[U]]."
+        - "Некоторые буквы звучат непривычно. Буква [[Ha]] звучит как «ха», а [[Jot]] — как «йот». Буква [[Vau]] звучит как «фау», а [[We]] — как «ве». Буква [[Zett]] — это «цет»."
+        - "Ещё три особые буквы с точками сверху: [[Ä]], [[Ö]], [[Ü]]. Их называют [[A Umlaut]], [[O Umlaut]], [[U Umlaut]]. Буква [[Eszett]] обозначает звук «с», например в слове [[heißen]]."
+        - "Чтобы продиктовать имя, называют буквы по очереди. Имя [[Anna]] звучит так: [[A, En, En, A]]. Фамилия [[Weber]]: [[We, E, Be, E, Er]]."
+        - "Если вы не поняли имя, попросите: [[Können Sie das buchstabieren?]] Или скажите: [[Noch einmal, bitte.]]"
+      exercises:
+        - q: "Какое имя продиктовали: [[Pe, E, Te, E, Er]]?"
+          options: ["[[Peter]]", "[[Petra]]", "[[Dieter]]", "[[Paul]]"]
+        - q: "Какое имя продиктовали: [[Em, A, Er, I, A]]?"
+          options: ["[[Maria]]", "[[Marie]]", "[[Anna]]", "[[Mira]]"]
+        - q: "С какой буквы начинается слово [[Wort]]?"
+          options: ["[[We]]", "[[Vau]]", "[[Ef]]", "[[U]]"]
+        - q: "С какой буквы начинается имя [[Julia]]?"
+          options: ["[[Jot]]", "[[Ge]]", "[[I]]", "[[Ha]]"]
+        - q: "Как вежливо попросить продиктовать по буквам?"
+          options: ["[[Können Sie das buchstabieren?]]", "[[Wie heißen Sie?]]", "[[Woher kommen Sie?]]", "[[Sprechen Sie Deutsch?]]"]
+        - q: "Как сказать «Я немного говорю по-немецки»?"
+          options: ["[[Ich spreche ein bisschen Deutsch.]]", "[[Ich spreche gut Deutsch.]]", "[[Ich verstehe Deutsch nicht.]]", "[[Ich spreche ein bisschen Englisch.]]"]
+    dialogue:
+      title: "Продиктуйте, пожалуйста"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Guten Tag! Wie ist Ihr Name, bitte?", "Добрый день! Как ваше имя, пожалуйста?"]
+        - [B, "Sophie Schmidt.", "Софи Шмидт."]
+        - [A, "Können Sie das buchstabieren?", "Можете продиктовать по буквам?"]
+        - [B, "Ja. Es, Ce, Ha, Em, I, De, Te.", "Да. Эс, цэ, ха, эм, и, дэ, тэ."]
+        - [A, "Danke. Sprechen Sie Englisch?", "Спасибо. Вы говорите по-английски?"]
+        - [B, "Nein, aber ich spreche Russisch und ein bisschen Deutsch.", "Нет, но я говорю по-русски и немного по-немецки."]
+        - [A, "Gut. Und Ihr Vorname? Sophie mit Ef oder mit Pe, Ha?", "Хорошо. А ваше имя? Софи через «эф» или через «пэ, ха»?"]
+        - [B, "Mit Pe, Ha.", "Через «пэ, ха»."]
+      questions:
+        - q: "Как фамилия женщины?"
+          options: ["Шмидт", "Мюллер", "Вебер", "Шульц"]
+        - q: "Какие языки знает Софи?"
+          options: ["Русский и немного немецкий", "Английский и немецкий", "Только английский", "Русский и английский"]
+        - q: "Как пишется имя Софи?"
+          options: ["Через «пэ, ха»", "Через «эф»", "Через «вэ»"]
+  - id: m01l05
+    title: "Глагол «быть»"
+    intro: "В этом уроке вы выучите главный глагол [[sein]] и научитесь рассказывать о себе."
+    words:
+      - de: "sein"
+        ru: "быть"
+        ex: "Ich bin Anna."
+        exRu: "Я Анна."
+      - de: "verheiratet"
+        ru: "женат, замужем"
+        ex: "Herr Weber ist verheiratet."
+        exRu: "Господин Вебер женат."
+      - de: "ledig"
+        ru: "холост, не замужем"
+        ex: "Maria ist ledig."
+        exRu: "Мария не замужем."
+      - de: "der Mann"
+        ru: "мужчина, муж"
+        plural: "die Männer"
+        ex: "Das ist mein Mann."
+        exRu: "Это мой муж."
+      - de: "der Student"
+        ru: "студент"
+        plural: "die Studenten"
+        ex: "Lukas ist Student."
+        exRu: "Лукас студент."
+      - de: "die Studentin"
+        ru: "студентка"
+        plural: "die Studentinnen"
+        ex: "Sophie ist Studentin."
+        exRu: "Софи студентка."
+      - de: "der Lehrer"
+        ru: "учитель"
+        plural: "die Lehrer"
+        ex: "Herr Müller ist Lehrer."
+        exRu: "Господин Мюллер учитель."
+      - de: "die Lehrerin"
+        ru: "учительница"
+        plural: "die Lehrerinnen"
+        ex: "Frau Schmidt ist Lehrerin."
+        exRu: "Госпожа Шмидт учительница."
+      - de: "wir"
+        ru: "мы"
+        ex: "Wir sind aus Russland."
+        exRu: "Мы из России."
+      - de: "aber"
+        ru: "но"
+        ex: "Ich bin Student, aber Peter ist Lehrer."
+        exRu: "Я студент, но Петер учитель."
+      - de: "oder"
+        ru: "или"
+        ex: "Sind Sie Lehrer oder Student?"
+        exRu: "Вы учитель или студент?"
+      - de: "richtig"
+        ru: "правильно"
+        ex: "Ja, das ist richtig."
+        exRu: "Да, это правильно."
+      - de: "falsch"
+        ru: "неправильно"
+        ex: "Nein, das ist falsch."
+        exRu: "Нет, это неправильно."
+    phrases:
+      - de: "Sind Sie verheiratet?"
+        ru: "Вы женаты?"
+      - de: "Ich bin ledig."
+        ru: "Я холост."
+      - de: "Ich bin Studentin."
+        ru: "Я студентка."
+      - de: "Ja, das bin ich."
+        ru: "Да, это я."
+      - de: "Das ist richtig."
+        ru: "Это правильно."
+      - de: "Wir sind aus Deutschland."
+        ru: "Мы из Германии."
+    grammar:
+      title: "Глагол «быть» и вопрос без вопросительного слова"
+      explain:
+        - "В русском языке мы часто пропускаем глагол «быть»: «Я студент». В немецком его пропускать нельзя: [[Ich bin Student.]]"
+        - "Глагол [[sein]] меняется по лицам: [[ich bin]], [[er ist]], [[sie ist]], [[wir sind]], [[Sie sind]]. Про нескольких людей говорят [[sie sind]] — они."
+        - "С другом говорят [[du bist]] — ты есть, а группе друзей — [[ihr seid]], вы есть. Пока достаточно просто узнавать эти формы."
+        - "Профессию называют без артикля: [[Ich bin Lehrer.]] [[Sie ist Studentin.]] Женская форма часто заканчивается на [[in]]: [[Lehrer]], [[Lehrerin]]."
+        - "Вопрос без вопросительного слова начинается с глагола: [[Sind Sie Lehrer?]] [[Ist er verheiratet?]] Ответ: [[Ja]] или [[Nein]]."
+      exercises:
+        - q: "Как сказать «Я студент»?"
+          options: ["[[Ich bin Student.]]", "[[Ich ist Student.]]", "[[Ich sind Student.]]", "[[Ich Student.]]", "[[Ich bin ein Student ist.]]"]
+        - q: "Как правильно?"
+          options: ["[[Wir sind verheiratet.]]", "[[Wir ist verheiratet.]]", "[[Wir bin verheiratet.]]", "[[Wir seid verheiratet.]]", "[[Wir bist verheiratet.]]"]
+        - q: "Как спросить «Вы учительница?»"
+          options: ["[[Sind Sie Lehrerin?]]", "[[Bin Sie Lehrerin?]]", "[[Ist Sie Lehrerin?]]", "[[Sind Lehrerin Sie?]]"]
+        - q: "Как сказать «Он женат»?"
+          options: ["[[Er ist verheiratet.]]", "[[Er sind verheiratet.]]", "[[Er bin verheiratet.]]", "[[Er ist ledig.]]"]
+        - q: "Как будет «студентка»?"
+          options: ["[[die Studentin]]", "[[der Student]]", "[[die Student]]", "[[die Lehrerin]]"]
+        - q: "Какая форма значит «ты есть»?"
+          options: ["[[du bist]]", "[[du ist]]", "[[du sind]]", "[[du seid]]"]
+    dialogue:
+      title: "После урока"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Entschuldigung, sind Sie Frau Weber?", "Извините, вы госпожа Вебер?"]
+        - [B, "Ja, das bin ich. Und Sie sind Herr Müller?", "Да, это я. А вы господин Мюллер?"]
+        - [A, "Richtig. Ich bin Lehrer hier. Sind Sie Lehrerin?", "Правильно. Я здесь учитель. Вы учительница?"]
+        - [B, "Nein, ich bin Studentin.", "Нет, я студентка."]
+        - [A, "Sind Sie aus Deutschland?", "Вы из Германии?"]
+        - [B, "Nein, wir sind aus Österreich. Das ist mein Mann, Thomas.", "Нет, мы из Австрии. Это мой муж, Томас."]
+        - [A, "Ah, Sie sind verheiratet! Freut mich, Herr Weber.", "А, вы замужем! Очень приятно, господин Вебер."]
+      questions:
+        - q: "Кто по профессии господин Мюллер?"
+          options: ["Учитель", "Студент", "Врач", "Продавец"]
+        - q: "Кто госпожа Вебер?"
+          options: ["Студентка", "Учительница", "Продавщица", "Врач"]
+        - q: "Откуда госпожа Вебер и её муж?"
+          options: ["Из Австрии", "Из Германии", "Из Швейцарии", "Из России"]
