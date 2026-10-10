@@ -228,3 +228,14 @@ Every session starts with ~5 min of **spaced-repetition review**, then the new l
 ## Implementation log
 
 Decisions taken during implementation (date, decision, reason) go here.
+
+## 9. Final clarifications (confirmed before start)
+
+- Speech rate and the gender of the Russian prompt voice are set by the helper in
+  settings; not exposed in the learner's menus.
+- Module 1 (5 lessons) is downloaded immediately at install, so the app works offline
+  from day one.
+- Intermediate versions are deployed to GitHub Pages during the work.
+- Target: Android with Chrome no older than ~3–4 years.
+- No time limit: do whatever is needed for a complete, high-quality A1 course, without
+  wasteful spending.
