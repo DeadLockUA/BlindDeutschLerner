@@ -28,13 +28,23 @@ export interface LessonState {
   at?: number;
 }
 
+export interface LessonPlace {
+  lessonId: string;
+  step: number;
+  ok?: number;
+  n?: number;
+  version?: string;
+}
+
 export interface Progress {
   v: 1;
   created: number;
   words: Record<string, WordState>;
   lessons: Record<string, LessonState>;
   /** Lesson in progress and the step to resume from. */
-  current?: { lessonId: string; step: number; ok?: number; n?: number };
+  current?: LessonPlace;
+  /** Places in other unfinished lessons (when the learner switched lessons). */
+  paused?: Record<string, LessonPlace>;
   /** Days (YYYY-MM-DD) with any study. */
   days: string[];
   /** Results of recent answers (1 = correct), newest last, max 60. */

@@ -2,7 +2,7 @@ import './styles.css';
 import { App } from './app';
 import { AudioPlayer, FakePlayer, type Player } from './audio/player';
 import { sfx } from './audio/sfx';
-import { pushFakeListen } from './engine/speech';
+import { pushFakeListen, stopSystemSpeech } from './engine/speech';
 import { loadSettings, saveSettings } from './engine/store';
 
 const params = new URLSearchParams(location.search);
@@ -19,13 +19,23 @@ function takeKeyFromUrl(): boolean {
   return true;
 }
 
-async function keepAwake(): Promise<void> {
+type WakeLock = { release(): Promise<void>; released: boolean };
+let wakeLock: WakeLock | null = null;
+
+/** Keeps the screen on while the app is used (released on auto-pause). */
+export async function keepAwake(): Promise<void> {
+  if (wakeLock && !wakeLock.released) return;
   try {
-    const nav = navigator as Navigator & { wakeLock?: { request(t: 'screen'): Promise<unknown> } };
-    await nav.wakeLock?.request('screen');
+    const nav = navigator as Navigator & { wakeLock?: { request(t: 'screen'): Promise<WakeLock> } };
+    wakeLock = (await nav.wakeLock?.request('screen')) ?? null;
   } catch {
     /* not supported or denied */
   }
+}
+
+export function releaseWakeLock(): void {
+  void wakeLock?.release().catch(() => undefined);
+  wakeLock = null;
 }
 
 async function main(): Promise<void> {
@@ -53,6 +63,7 @@ async function main(): Promise<void> {
     test,
     idleRepeatMs: Number(params.get('idle') ?? 15000),
     autoPauseMs: Number(params.get('autopause') ?? 120000),
+    holdMs: params.has('hold') ? Number(params.get('hold')) : undefined,
   });
   if (test) (window as unknown as Record<string, unknown>).__app = app;
 
@@ -81,8 +92,8 @@ async function main(): Promise<void> {
   gate.className = 'gate';
   gate.type = 'button';
   gate.textContent = 'Коснитесь экрана, чтобы начать';
-  gate.addEventListener('pointerdown', start, { once: true });
-  gate.addEventListener('click', start, { once: true });
+  // 'click' (not pointerdown): only the end of a touch counts as a user gesture for audio.
+  gate.addEventListener('click', start);
   root.appendChild(gate);
 
   if (!test) {
@@ -101,9 +112,22 @@ async function main(): Promise<void> {
     if (document.visibilityState === 'visible') void keepAwake();
     else {
       app.save();
-      player.stop();
+      stopSystemSpeech();
     }
+    app.ui.visibilityChanged();
   });
+
+  // Android back button / edge swipe: don't close the app, open the pause menu instead
+  // (or close the settings screen, which handles it itself).
+  history.pushState({ app: true }, '');
+  window.addEventListener('popstate', () => {
+    history.pushState({ app: true }, '');
+    if (document.querySelector('.overlay.open')) return;
+    app.ui.back();
+  });
+
+  app.onAutoPause = releaseWakeLock;
+  root.addEventListener('pointerdown', () => void keepAwake());
 }
 
 void main();

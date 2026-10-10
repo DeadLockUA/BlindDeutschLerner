@@ -285,3 +285,31 @@ Decisions taken during implementation (date, decision, reason) go here.
   **Dmitri** (`ru_RU-dmitri-medium`, CC0). Voices now have an optional `id` in
   `scripts/voices.json` that is part of the clip hash, so switching one voice
   regenerates only that voice's clips.
+
+### Test cycle after the owner's first phone test
+
+New harness `tests/real/` drives the app with the real audio player in mobile touch
+emulation and traces every clip (`npm run test:real` against `vite preview --port 4175`).
+Fixed:
+- Audio player race: interrupting speech (tap during a question) could leave the next
+  clip without listeners, freezing the app after an answer. Clips now own their
+  listeners; `stop()` finishes the current clip synchronously; a pause not caused by
+  the app (call, audio focus, headphones) ends the clip; 20 s watchdog.
+- The click that browsers send after every tap was taken as a keyboard selection.
+- Long speech (tutorial, explanations, feedback) ignored touches: now any touch skips
+  the speech; zones do not give "selected" feedback while no answer is expected.
+- Menu zone: holding 2 s now opens the pause menu immediately (it opened on release,
+  and holding on reached the settings). Settings: from the pause menu hold «Меню» 5 s.
+- Releasing a hold early (0.9–2 s) selects and says nothing, with a short "cancel" sound.
+- Android back button/gesture opens the pause menu (closes settings) instead of
+  closing the app. Screen off: speech stops and is repeated when the screen is back.
+- Start gate reacts to click (end of touch), which browsers accept for audio.
+- Service worker no longer tries to cache 206 range responses (silent clips).
+- Offline after a course update: lessons start if their audio is still cached; downloads
+  have per-file timeouts, spoken "still loading" reminders and tolerate a few failures.
+- Lesson resume is tied to the course version; switching lessons keeps the old place.
+- Assistant: 30 s overall limit with "Минутку" every 8 s; Android speechSynthesis
+  cancel/voices fixes. Restore/reset from settings restarts the running flow.
+- Wrong options come from the current lesson and already studied words first.
+- Spoken page numbers in paged menus; spoken message on unexpected errors; wake lock is
+  released on auto-pause.

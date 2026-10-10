@@ -58,6 +58,10 @@ export const sfx = {
   listen(): void {
     tone(740, 0.15, 'sine', 0.3);
   },
+  /** A hold was released too early or the finger slid off: nothing selected. */
+  cancel(): void {
+    tone(330, 0.12, 'sine', 0.18, 0, 220);
+  },
   tick(): void {
     vibrate(12);
   },

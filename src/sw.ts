@@ -23,14 +23,20 @@ self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET' || url.origin !== self.location.origin || !/\/audio\/[0-9a-f]+\.ogg$/.test(url.pathname)) return;
   event.respondWith(
     (async () => {
-      const cache = await caches.open(AUDIO_CACHE);
       // Match by path only (the page may request with a different relative form).
       const key = new URL(url.pathname.replace(/^.*\/audio\//, 'audio/'), self.registration.scope).href;
-      const hit = (await cache.match(key)) ?? (await cache.match(event.request));
-      if (hit) return hit;
-      const res = await fetch(event.request);
-      if (res.ok) await cache.put(key, res.clone());
-      return res;
+      try {
+        const cache = await caches.open(AUDIO_CACHE);
+        const hit = await cache.match(key);
+        if (hit) return hit;
+        // Media elements send "Range" requests and get 206 responses, which cannot be
+        // cached. Fetch the whole file instead and cache only complete responses.
+        const res = await fetch(key);
+        if (res.status === 200) await cache.put(key, res.clone());
+        return res;
+      } catch {
+        return fetch(event.request);
+      }
     })(),
   );
 });

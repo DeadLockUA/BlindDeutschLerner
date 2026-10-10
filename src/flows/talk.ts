@@ -26,8 +26,10 @@ export async function runTalk(app: App): Promise<void> {
   let last: TalkTurn | null = null;
   const turn = async (): Promise<boolean> => {
     void app.say(app.P('assistant_wait'));
+    const waiting = window.setInterval(() => !app.player.busy && void app.player.play([app.P('assistant_wait')]), 8000);
     try {
       const t = await talkTurn(app.settings.apiKey, app.settings.model, [history[0], ...history.slice(1).slice(-12)]);
+      clearInterval(waiting);
       app.player.stop();
       history.push({ role: 'assistant', content: JSON.stringify(t) });
       last = t;
@@ -35,6 +37,7 @@ export async function runTalk(app: App): Promise<void> {
       await speakSystem([{ lang: 'de', text: t.de }], app.settings.rate);
       return true;
     } catch (e) {
+      clearInterval(waiting);
       app.player.stop();
       stopSystemSpeech();
       const kind = e instanceof LlmError ? e.kind : 'unavailable';

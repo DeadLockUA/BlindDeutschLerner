@@ -18,6 +18,8 @@ export interface AppOptions {
   test: boolean;
   idleRepeatMs: number;
   autoPauseMs: number;
+  /** Overrides the hold duration (tests). */
+  holdMs?: number;
 }
 
 export class App {
@@ -50,7 +52,7 @@ export class App {
 
   applySettings(): void {
     this.ui.slots = this.settings.pro ? 5 : 3;
-    this.ui.grid.holdMs = this.test ? Math.min(this.settings.holdMs, 300) : this.settings.holdMs;
+    this.ui.grid.holdMs = this.opts.holdMs ?? (this.test ? Math.min(this.settings.holdMs, 300) : this.settings.holdMs);
     (this.player as { rate?: number }).rate = this.settings.rate;
   }
 
@@ -140,7 +142,8 @@ export class App {
         while (opts2.length < slots - 1) opts2.push(null);
         opts2.push({ text: this.P('m_more').t, say: [this.P('m_more_hint')], color: '#9aa0a6' });
       }
-      const i = await this.ask({ prompt: page === 0 ? prompt : [this.P('m_more_hint')], options: opts2 });
+      const pageInfo = pages > 1 ? [this.P('page'), ...this.num(page + 1), this.P('of'), ...this.num(pages)] : [];
+      const i = await this.ask({ prompt: page === 0 ? [...prompt, ...pageInfo] : [this.P('m_more_hint'), ...pageInfo], options: opts2 });
       if (pages > 1 && i === slots - 1) {
         page = (page + 1) % pages;
         continue;
@@ -170,17 +173,30 @@ export class App {
     }
   }
 
+  /** Called when the app pauses itself after long inactivity (releases the wake lock). */
+  onAutoPause: () => void = () => undefined;
+
   async autoPause(): Promise<void> {
     this.save();
+    this.onAutoPause();
     const options: (Option | null)[] = [this.optKey('p_resume')];
     while (options.length < this.slots) options.push(null);
     await this.ask({ prompt: [this.P('auto_pause')], options, noPause: true, noIdle: true });
   }
 
+  /** Set by the settings screen when progress was restored from a backup or reset. */
+  progressReplaced = false;
+
   async openSettings(): Promise<void> {
     this.player.stop();
-    await this.say(this.P('settings_open'));
+    void this.say(this.P('settings_open'));
     await openSettings(this);
+    this.player.stop();
+    if (this.progressReplaced) {
+      // Running flows hold the old progress object: start over from the main menu.
+      this.progressReplaced = false;
+      throw new Navigate({ name: 'start' });
+    }
   }
 
   // ---- Routing --------------------------------------------------------------------
@@ -195,7 +211,8 @@ export class App {
         else {
           console.error(e);
           route = { name: 'main' };
-          await new Promise((r) => setTimeout(r, 300));
+          this.player.stop();
+          await this.say(this.P('error_generic')).catch(() => undefined);
         }
       }
     }

@@ -76,6 +76,7 @@ export async function runCommand(app: App, opts: { fromPause: boolean }): Promis
     return;
   }
   void app.say(app.P('assistant_wait'));
+  const waiting = window.setInterval(() => !app.player.busy && void app.player.play([app.P('assistant_wait')]), 8000);
   try {
     const p = app.progress;
     const words = await app.course.words(weakWords(p, 10));
@@ -86,6 +87,7 @@ export async function runCommand(app: App, opts: { fromPause: boolean }): Promis
       weakWords: words.map((w) => `${w.de.t} (${w.ru.t})`),
       dueWords: dueCount(p, app.today),
     });
+    clearInterval(waiting);
     app.player.stop();
     if (reply.say) await speakSystem(splitMarked(reply.say), app.settings.rate);
     if (reply.command) {
@@ -93,6 +95,7 @@ export async function runCommand(app: App, opts: { fromPause: boolean }): Promis
       throw new Navigate(routeFor(reply.command));
     }
   } catch (e) {
+    clearInterval(waiting);
     if (e instanceof Navigate) throw e;
     stopSystemSpeech();
     app.player.stop();

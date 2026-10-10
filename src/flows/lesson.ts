@@ -6,7 +6,7 @@ import { accuracy } from '../engine/store';
 import { canListen } from '../engine/speech';
 import type { Dialogue, Grammar, Lesson, Utt, Word } from '../types';
 import { Navigate, type Option } from '../ui/ui';
-import { contentChoice, deVoice, drill, newSession, pick, shuffle, speakItem, type DrillKind, type Session } from './exercises';
+import { contentChoice, deVoice, drill, newSession, pick, shuffle, speakItem, type DrillKind, type Pool, type Session } from './exercises';
 
 type Step = (s: Session) => Promise<void>;
 
@@ -41,7 +41,7 @@ async function listenStep(app: App, prompt: Utt[], opts: { translation?: Utt[]; 
 }
 
 /** Introduces one word. Returns true if the learner proved he already knows it. */
-async function introduceWord(app: App, s: Session, w: Word, pool: Word[]): Promise<boolean> {
+async function introduceWord(app: App, s: Session, w: Word, pool: Pool): Promise<boolean> {
   const prompt: Utt[] = [...deVoice(app, w, true), w.ru];
   if (w.plural) prompt.push(app.P('plural_is'), w.plural);
   if (w.ex && w.exRu) prompt.push(app.P('example'), w.ex, w.exRu);
@@ -61,7 +61,7 @@ async function introduceWord(app: App, s: Session, w: Word, pool: Word[]): Promi
 }
 
 /** Drills a group of words: recognition, reverse, yes/no; repeats mistakes once. */
-async function drillGroup(app: App, s: Session, words: Word[], pool: Word[]): Promise<void> {
+async function drillGroup(app: App, s: Session, words: Word[], pool: Pool): Promise<void> {
   if (!words.length) return;
   const wrong = new Set<Word>();
   const plan: [Word, DrillKind][] = [
@@ -75,7 +75,7 @@ async function drillGroup(app: App, s: Session, words: Word[], pool: Word[]): Pr
   for (const w of shuffle([...wrong])) await drill(app, s, w, pick(['recog', 'reverse'] as DrillKind[]), pool);
 }
 
-function wordSteps(app: App, items: Word[], pool: Word[], headerKey: string): Step[] {
+function wordSteps(app: App, items: Word[], pool: Pool, headerKey: string): Step[] {
   const steps: Step[] = [];
   const size = 4;
   for (let g = 0; g < items.length; g += size) {
@@ -146,7 +146,10 @@ function speakSteps(app: App, l: Lesson): Step[] {
 }
 
 export function buildSteps(app: App, l: Lesson, exam: boolean): Step[] {
-  const pool = [...l.words, ...l.phrases, ...app.course.loadedWords()];
+  // Wrong options come from this lesson first, then from words already studied.
+  const lessonItems = [...l.words, ...l.phrases];
+  const studied = app.course.loadedWords().filter((w) => app.progress.words[w.id]);
+  const pool: Pool = [lessonItems, studied, app.course.loadedWords()];
   const steps: Step[] = [
     async () => {
       await listenStep(app, [app.P('lesson_start'), l.title, ...(l.intro ? [l.intro] : [])]);
@@ -164,13 +167,25 @@ export function buildSteps(app: App, l: Lesson, exam: boolean): Step[] {
 export async function ensureDownloaded(app: App, moduleId: string): Promise<boolean> {
   if (app.course.isDownloaded(moduleId)) return true;
   if (!navigator.onLine) {
+    // Offline after a course update: the audio is usually still in the cache.
+    if (await app.course.isCached(moduleId)) return true;
     await app.say(app.P('load_failed'));
     return false;
   }
   void app.say(app.P('loading'));
-  const ok = await app.course.download(moduleId);
-  app.player.stop();
-  if (!ok) {
+  // Remind every 10 seconds that the download is still running.
+  const reminder = window.setInterval(() => {
+    if (!app.player.busy) void app.player.play([app.P('loading_more')]);
+  }, 10000);
+  let missing = 1;
+  try {
+    missing = await app.course.downloadShare(moduleId);
+  } finally {
+    clearInterval(reminder);
+    app.player.stop();
+  }
+  // A few failed clips are fine online: they are fetched when played.
+  if (missing > 0.05) {
     await app.say(app.P('load_failed'));
     return false;
   }
@@ -189,14 +204,25 @@ export async function runLesson(app: App, id: string): Promise<'done' | 'aborted
   app.currentLesson = id;
   const steps = buildSteps(app, l, !!mod.exam);
   const p = app.progress;
-  if (!p.current || p.current.lessonId !== id) p.current = { lessonId: id, step: 0 };
+  const version = app.course.index.version;
+  // Switching lessons keeps the unfinished one's place so it can be resumed later.
+  if (p.current && p.current.lessonId !== id) {
+    p.paused = { ...(p.paused ?? {}), [p.current.lessonId]: p.current };
+    p.current = p.paused[id];
+  }
+  if (p.paused?.[id]) {
+    p.current = p.current ?? p.paused[id];
+    delete p.paused[id];
+  }
+  // Restart the lesson if it was started with different content (step numbers changed).
+  if (!p.current || p.current.lessonId !== id || p.current.version !== version || p.current.step > steps.length) p.current = { lessonId: id, step: 0, version };
   const s: Session = newSession();
   const saved = p.current as { lessonId: string; step: number; ok?: number; n?: number };
   s.ok = saved.ok ?? 0;
   s.n = saved.n ?? 0;
   for (let k = saved.step; k < steps.length; k++) {
     await steps[k](s);
-    p.current = { lessonId: id, step: k + 1, ...{ ok: s.ok, n: s.n } } as typeof p.current;
+    p.current = { lessonId: id, step: k + 1, ok: s.ok, n: s.n, version };
     app.save();
   }
   // Summary
@@ -237,7 +263,7 @@ export async function runReview(app: App, opts: { standalone: boolean }): Promis
     ids = shuffle(Object.entries(p.words).filter(([, st]) => st.b >= LEARNED_BOX).map(([id]) => id)).slice(0, 8);
   }
   if (!ids.length) {
-    if (opts.standalone) await app.say(app.P('prog_none'));
+    if (opts.standalone) await app.say(app.P(p.answers ? 'review_nothing' : 'prog_none'));
     return;
   }
   // Load the modules that contain these words (from their lesson history).
@@ -248,7 +274,8 @@ export async function runReview(app: App, opts: { standalone: boolean }): Promis
   }
   await app.say(app.P('review_intro'));
   const s = newSession();
-  const pool = app.course.loadedWords();
+  const studied = app.course.loadedWords().filter((w) => app.progress.words[w.id]);
+  const pool: Pool = [studied, app.course.loadedWords()];
   for (const w of words) await drill(app, s, w, pick(['recog', 'reverse', 'yesno'] as DrillKind[]), pool);
   await app.say(app.P('review_done'));
 }
