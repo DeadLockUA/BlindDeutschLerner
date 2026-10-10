@@ -278,3 +278,10 @@ Decisions taken during implementation (date, decision, reason) go here.
 - **Course size:** 13 modules (12 × 5 lessons + exam module with 5 lessons), 764 words,
   356 phrases; drafted in parallel by subagents from `docs/course-plan.md`, then
   reviewed by separate reviewer agents.
+
+### 2026-10-10 (follow-up)
+
+- At the owner's request the Russian narrator voice was changed from Denis to
+  **Dmitri** (`ru_RU-dmitri-medium`, CC0). Voices now have an optional `id` in
+  `scripts/voices.json` that is part of the clip hash, so switching one voice
+  regenerates only that voice's clips.

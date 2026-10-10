@@ -24,6 +24,11 @@ const err = (where, msg) => errors.push(`${where}: ${msg}`);
 /** voice -> text -> id */
 const manifest = new Map();
 
+// Each voice may set an "id" in scripts/voices.json; changing it (e.g. when switching the
+// model) gives all clips of that voice new ids, so they get regenerated.
+const VOICES = JSON.parse(readFileSync(join(ROOT, 'scripts', 'voices.json'), 'utf8'));
+const voiceHashId = (voice) => VOICES[voice]?.id ?? voice;
+
 export function clipId(voice, text) {
   return createHash('sha1').update(`${voice}|${text}`).digest('hex').slice(0, 12);
 }
@@ -38,7 +43,7 @@ function ttsText(text) {
 
 function clip(voice, text) {
   const tts = ttsText(text);
-  const id = clipId(voice, tts);
+  const id = clipId(voiceHashId(voice), tts);
   manifest.set(id, { id, voice, text: tts });
   return id;
 }
