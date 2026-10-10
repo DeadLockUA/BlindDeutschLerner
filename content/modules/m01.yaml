@@ -1,0 +1,111 @@
+id: m01
+title: "Знакомство"
+lessons:
+  - id: m01l01
+    title: "Здравствуйте и до свидания"
+    intro: "В этом уроке вы научитесь здороваться, прощаться и благодарить."
+    words:
+      - de: "hallo"
+        ru: "привет"
+        ex: "Hallo, Anna!"
+        exRu: "Привет, Анна!"
+      - de: "danke"
+        ru: "спасибо"
+        ex: "Danke, gut."
+        exRu: "Спасибо, хорошо."
+      - de: "bitte"
+        ru: "пожалуйста"
+        ex: "Ein Wasser, bitte."
+        exRu: "Воду, пожалуйста."
+      - de: "ja"
+        ru: "да"
+        ex: "Ja, gern."
+        exRu: "Да, с удовольствием."
+      - de: "nein"
+        ru: "нет"
+        ex: "Nein, danke."
+        exRu: "Нет, спасибо."
+      - de: "gut"
+        ru: "хорошо"
+        ex: "Mir geht es gut."
+        exRu: "У меня всё хорошо."
+      - de: "der Herr"
+        ru: "господин"
+        plural: "die Herren"
+        ex: "Guten Tag, Herr Müller!"
+        exRu: "Добрый день, господин Мюллер!"
+      - de: "die Frau"
+        ru: "женщина, госпожа"
+        plural: "die Frauen"
+        ex: "Guten Morgen, Frau Schmidt!"
+        exRu: "Доброе утро, госпожа Шмидт!"
+      - de: "der Morgen"
+        ru: "утро"
+        plural: "die Morgen"
+        ex: "Der Morgen ist schön."
+        exRu: "Утро прекрасное."
+      - de: "der Tag"
+        ru: "день"
+        plural: "die Tage"
+        ex: "Heute ist ein guter Tag."
+        exRu: "Сегодня хороший день."
+      - de: "der Abend"
+        ru: "вечер"
+        plural: "die Abende"
+        ex: "Am Abend bin ich zu Hause."
+        exRu: "Вечером я дома."
+      - de: "die Nacht"
+        ru: "ночь"
+        plural: "die Nächte"
+        ex: "Die Nacht ist kalt."
+        exRu: "Ночь холодная."
+    phrases:
+      - de: "Guten Morgen!"
+        ru: "Доброе утро!"
+      - de: "Guten Tag!"
+        ru: "Добрый день!"
+      - de: "Guten Abend!"
+        ru: "Добрый вечер!"
+      - de: "Gute Nacht!"
+        ru: "Спокойной ночи!"
+      - de: "Auf Wiedersehen!"
+        ru: "До свидания!"
+      - de: "Tschüss!"
+        ru: "Пока!"
+      - de: "Wie geht es Ihnen?"
+        ru: "Как у вас дела?"
+      - de: "Danke schön!"
+        ru: "Большое спасибо!"
+    grammar:
+      title: "Вежливое обращение"
+      explain:
+        - "В немецком языке к незнакомым людям обращаются на «Вы». Это слово [[Sie]]."
+        - "К мужчине обращаются [[Herr]] и фамилия: [[Herr Müller]]. К женщине — [[Frau]] и фамилия: [[Frau Schmidt]]."
+        - "Вежливый вопрос «Как у вас дела?» звучит так: [[Wie geht es Ihnen?]] Ответ: [[Danke, gut. Und Ihnen?]] — «Спасибо, хорошо. А у вас?»"
+        - "С друзьями говорят на «ты»: [[Wie geht es dir?]] Но в магазине, у врача и в учреждениях всегда говорят [[Sie]]."
+      exercises:
+        - q: "Как вежливо спросить «Как у вас дела?»"
+          options: ["[[Wie geht es Ihnen?]]", "[[Wie geht es dir?]]", "[[Wie heißt du?]]"]
+        - q: "Как поздороваться с господином Мюллером днём?"
+          options: ["[[Guten Tag, Herr Müller!]]", "[[Gute Nacht, Herr Müller!]]", "[[Tschüss, Herr Müller!]]"]
+        - q: "Как вежливо попрощаться?"
+          options: ["[[Auf Wiedersehen!]]", "[[Guten Morgen!]]", "[[Hallo!]]", "[[Danke!]]"]
+        - q: "Что ответить на вопрос [[Wie geht es Ihnen?]]"
+          options: ["[[Danke, gut. Und Ihnen?]]", "[[Gute Nacht!]]", "[[Nein, bitte.]]"]
+    dialogue:
+      title: "Утро в офисе"
+      speakers: {A: m, B: f}
+      lines:
+        - [A, "Guten Morgen, Frau Schmidt!", "Доброе утро, госпожа Шмидт!"]
+        - [B, "Guten Morgen, Herr Müller! Wie geht es Ihnen?", "Доброе утро, господин Мюллер! Как у вас дела?"]
+        - [A, "Danke, gut. Und Ihnen?", "Спасибо, хорошо. А у вас?"]
+        - [B, "Auch gut, danke.", "Тоже хорошо, спасибо."]
+        - [A, "Auf Wiedersehen, Frau Schmidt!", "До свидания, госпожа Шмидт!"]
+        - [B, "Auf Wiedersehen!", "До свидания!"]
+      questions:
+        - q: "Какое сейчас время суток?"
+          options: ["Утро", "Вечер", "Ночь"]
+        - q: "Как дела у господина Мюллера?"
+          options: ["Хорошо", "Плохо", "Он не ответил"]
+        - q: "Как зовут женщину?"
+          options: ["Госпожа Шмидт", "Госпожа Мюллер", "Госпожа Вебер"]
