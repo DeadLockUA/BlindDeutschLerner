@@ -11,6 +11,8 @@ test('helper instructions page has no accessibility violations', async ({ page }
 test('settings screen has no accessibility violations', async ({ page }) => {
   await openApp(page, { progress: doneTutorial });
   await waitSpoken(page, 'Главное меню');
+  await hold(page, 3);
+  await waitSpoken(page, 'Пауза');
   await hold(page, 3, 5300);
   await expect(page.getByRole('dialog')).toBeVisible();
   const r = await new AxeBuilder({ page }).include('.overlay').analyze();

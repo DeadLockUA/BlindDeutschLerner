@@ -73,6 +73,8 @@ test('pro mode shows six zones', async ({ page }) => {
 test('long hold on menu opens helper settings', async ({ page }) => {
   await openApp(page, { progress: doneTutorial });
   await waitSpoken(page, 'Главное меню');
+  await hold(page, 3);
+  await waitSpoken(page, 'Пауза');
   await hold(page, 3, 5300);
   await expect(page.getByRole('dialog', { name: 'Настройки для помощника' })).toBeVisible();
   await page.getByRole('button', { name: 'Профессионал: 6 частей экрана' }).click();
@@ -87,4 +89,31 @@ test('key link saves the assistant key and hides it', async ({ page }) => {
   expect(page.url()).not.toContain('sk-or');
   const s = await page.evaluate(() => JSON.parse(localStorage.getItem('bdl.settings') ?? '{}'));
   expect(s.apiKey).toBe('sk-or-v1-test123');
+});
+
+test('a touch during a long explanation skips it', async ({ page }) => {
+  // Slow fake speech: the tutorial explanation would take many seconds.
+  await openApp(page, { query: 'idle=600000&autopause=600000&clipms=1500' });
+  await waitSpoken(page, 'Сейчас я расскажу');
+  await tap(page, 0);
+  await waitSpoken(page, 'Давайте попробуем', 4000);
+});
+
+test('releasing a hold early selects nothing', async ({ page }) => {
+  await openApp(page, { progress: doneTutorial, query: 'idle=600000&autopause=600000&hold=2000' });
+  await waitSpoken(page, 'Главное меню');
+  await clearSpoken(page);
+  await hold(page, 0, 1300); // longer than a tap, shorter than the 2 s hold
+  await page.waitForTimeout(1200);
+  const s = await spoken(page);
+  expect(s).not.toContain('Продолжить обучение');
+  expect(s.some((x) => x.includes('Следующий урок'))).toBeFalsy();
+});
+
+test('Android back button opens the pause menu instead of closing the app', async ({ page }) => {
+  await openApp(page, { progress: doneTutorial });
+  await waitSpoken(page, 'Главное меню');
+  await page.goBack();
+  await waitSpoken(page, 'Пауза');
+  expect(page.url()).toContain('localhost');
 });

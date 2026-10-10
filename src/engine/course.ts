@@ -81,7 +81,17 @@ export class Course {
   // ---- Audio downloads ----------------------------------------------------------
 
   isDownloaded(moduleId: string): boolean {
-    return downloaded().includes(`${moduleId}@${this.index.version}`) || downloaded().includes(`${moduleId}@*`);
+    return downloaded().includes(`${moduleId}@${this.index.version}`);
+  }
+
+  /** True if every clip of the module is already in the offline cache. */
+  async isCached(moduleId: string): Promise<boolean> {
+    const clips = this.index.modules.find((m) => m.id === moduleId)?.clips ?? [];
+    if (!('caches' in window)) return false;
+    const cache = await caches.open(AUDIO_CACHE);
+    for (const c of clips) if (!(await cache.match(clipUrl(c)))) return false;
+    markDownloaded(`${moduleId}@${this.index.version}`);
+    return true;
   }
 
   /**
@@ -90,9 +100,17 @@ export class Course {
    */
   async download(moduleId: string | 'core', onProgress?: (done: number, total: number) => void): Promise<boolean> {
     const clips = moduleId === 'core' ? this.index.coreClips : (this.index.modules.find((m) => m.id === moduleId)?.clips ?? []);
-    const ok = await cacheClips(clips, onProgress);
-    if (ok) markDownloaded(`${moduleId}@${this.index.version}`);
-    return ok;
+    const failed = await cacheClips(clips, onProgress);
+    if (failed === 0) markDownloaded(`${moduleId}@${this.index.version}`);
+    return failed === 0;
+  }
+
+  /** Downloads a module; returns the share of clips that could not be fetched (0..1). */
+  async downloadShare(moduleId: string, onProgress?: (done: number, total: number) => void): Promise<number> {
+    const clips = this.index.modules.find((m) => m.id === moduleId)?.clips ?? [];
+    const failed = await cacheClips(clips, onProgress);
+    if (failed === 0) markDownloaded(`${moduleId}@${this.index.version}`);
+    return clips.length ? failed / clips.length : 0;
   }
 }
 
@@ -114,8 +132,9 @@ function markDownloaded(tag: string): void {
   }
 }
 
-export async function cacheClips(clips: string[], onProgress?: (done: number, total: number) => void): Promise<boolean> {
-  if (!('caches' in window)) return navigator.onLine;
+/** Caches the clips; returns the number of clips that failed. */
+export async function cacheClips(clips: string[], onProgress?: (done: number, total: number) => void): Promise<number> {
+  if (!('caches' in window)) return navigator.onLine ? 0 : clips.length;
   const cache = await caches.open(AUDIO_CACHE);
   const urls = clips.map(clipUrl);
   let done = 0;
@@ -128,9 +147,15 @@ export async function cacheClips(clips: string[], onProgress?: (done: number, to
       try {
         const hit = await cache.match(url);
         if (!hit) {
-          const res = await fetch(url);
-          if (res.ok) await cache.put(url, res);
-          else failed++;
+          const ctrl = new AbortController();
+          const t = setTimeout(() => ctrl.abort(), 20000);
+          try {
+            const res = await fetch(url, { signal: ctrl.signal });
+            if (res.status === 200) await cache.put(url, res);
+            else failed++;
+          } finally {
+            clearTimeout(t);
+          }
         }
       } catch {
         failed++;
@@ -140,5 +165,5 @@ export async function cacheClips(clips: string[], onProgress?: (done: number, to
     }
   };
   await Promise.all(Array.from({ length: 6 }, worker));
-  return failed === 0;
+  return failed;
 }

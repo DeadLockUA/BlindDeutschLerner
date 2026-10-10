@@ -4,6 +4,7 @@
 
 import type { Player } from '../audio/player';
 import { sfx } from '../audio/sfx';
+import { stopSystemSpeech } from '../engine/speech';
 import type { Utt } from '../types';
 import { Grid, ZONE_COLORS } from './grid';
 
@@ -84,6 +85,7 @@ export class Ui {
       tap: (i) => this.onTap(i),
       select: (i) => this.done({ type: 'select', index: i }),
       menuTap: () => this.onMenuTap(),
+      skip: () => this.skipSpeech(),
       menuHold: () => {
         if (this.spec?.noPause) this.onMenuTap();
         else this.done({ type: 'pause' });
@@ -122,6 +124,8 @@ export class Ui {
       this.slots,
     );
     this.grid.resetFocus();
+    this.grid.accepting = true;
+    this.grid.menuOpensSettings = !!spec.noPause;
     return new Promise<Outcome>((resolve) => {
       this.resolve = resolve;
       this.lastTouch = Date.now();
@@ -135,6 +139,8 @@ export class Ui {
     if (!this.resolve) return;
     const r = this.resolve;
     this.resolve = null;
+    this.grid.accepting = false;
+    this.grid.cancel();
     clearInterval(this.idleTimer);
     this.player.stop();
     r(o);
@@ -143,6 +149,13 @@ export class Ui {
   private async speak(utts: Utt[], rate?: number): Promise<void> {
     const finished = await this.player.play(utts, { rate });
     if (finished) this.lastSpeechEnd = Date.now();
+  }
+
+  /** A touch while the app is talking without waiting for an answer skips the speech. */
+  private skipSpeech(): void {
+    if (this.resolve) return;
+    if (this.player.busy) this.player.stop();
+    stopSystemSpeech();
   }
 
   private onTap(i: number): void {
@@ -170,7 +183,7 @@ export class Ui {
     clearInterval(this.idleTimer);
     if (this.spec?.noIdle) return;
     this.idleTimer = window.setInterval(() => {
-      if (!this.resolve || !this.spec) return;
+      if (!this.resolve || !this.spec || document.hidden) return;
       const now = Date.now();
       if (now - this.lastTouch >= this.timing.autoPauseMs) {
         this.done({ type: 'autopause' });
@@ -183,10 +196,53 @@ export class Ui {
     }, 500);
   }
 
-  /** Speaks without waiting for input (taps are ignored meanwhile). */
+  /** Speaks without waiting for input (a touch skips it). */
   async say(utts: Utt[], rate?: number): Promise<void> {
-    await this.player.play(utts, { rate });
+    for (;;) {
+      await this.whenVisible();
+      const gen = this.hideGen;
+      const finished = await this.player.play(utts, { rate });
+      // Interrupted because the screen was turned off: say it again when back.
+      if (finished || gen === this.hideGen) break;
+    }
     this.lastSpeechEnd = Date.now();
+  }
+
+  // ---- Screen off / app in background ----------------------------------------------
+
+  private hideGen = 0;
+  private visibleWaiters: (() => void)[] = [];
+
+  private whenVisible(): Promise<void> {
+    if (!document.hidden) return Promise.resolve();
+    return new Promise((r) => this.visibleWaiters.push(r));
+  }
+
+  /** Called when the page becomes hidden or visible again. */
+  visibilityChanged(): void {
+    if (document.hidden) {
+      this.hideGen++;
+      this.player.stop();
+      this.grid.cancel();
+      return;
+    }
+    this.lastTouch = Date.now();
+    this.lastSpeechEnd = Date.now();
+    const w = this.visibleWaiters;
+    this.visibleWaiters = [];
+    w.forEach((r) => r());
+    // Waiting for an answer: repeat the question.
+    if (this.resolve && this.spec) void this.speak(this.spec.prompt, this.spec.rate);
+  }
+
+  /** Android back button / gesture: opens the pause menu instead of closing the app. */
+  back(): void {
+    if (!this.resolve || !this.spec) {
+      this.skipSpeech();
+      return;
+    }
+    if (this.spec.noPause) this.onMenuTap();
+    else this.done({ type: 'pause' });
   }
 
   /** Full-screen colour flash for answer feedback. */

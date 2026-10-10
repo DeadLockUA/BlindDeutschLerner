@@ -1,0 +1,15 @@
+import { launch } from './harness.mjs';
+const h = await launch({ progress: { v: 1, created: Date.now(), words: {}, lessons: {}, days: [], recent: [], tutorialDone: false, answers: 0 } });
+await h.page.waitForTimeout(1500);
+console.log('gate:', await h.page.locator('.gate').count());
+await h.waitQuiet(2500, 90000);
+console.log('--- after tutorial explain; zones:', await h.zones());
+let m = h.now();
+await h.tap(1);
+await h.page.waitForTimeout(1500);
+await h.hold(0);
+await h.waitQuiet(2500, 90000);
+console.log(h.print(0));
+console.log('zones now:', await h.zones());
+console.log('ERRORS:', h.errors);
+await h.browser.close();

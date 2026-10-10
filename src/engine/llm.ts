@@ -62,9 +62,13 @@ export async function chat(apiKey: string, messages: ChatMessage[], opts: { mode
   if (!navigator.onLine) throw new LlmError('offline', 'offline');
   const models = await candidates(opts.model ?? '');
   let lastErr = '';
+  // Never keep the learner waiting in silence for long: give up after ~30 s in total.
+  const deadline = Date.now() + (opts.timeoutMs ?? 30000);
   for (const model of models) {
+    const left = deadline - Date.now();
+    if (left < 3000) break;
     const ctrl = new AbortController();
-    const timer = setTimeout(() => ctrl.abort(), opts.timeoutMs ?? 25000);
+    const timer = setTimeout(() => ctrl.abort(), Math.min(left, 20000));
     try {
       const res = await fetch(`${API}/chat/completions`, {
         method: 'POST',

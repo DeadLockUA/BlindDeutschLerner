@@ -55,9 +55,12 @@ export function openSettings(app: App): Promise<void> {
   return new Promise((resolve) => {
     const overlay = el('div', { class: 'overlay open', role: 'dialog', 'aria-modal': 'true', 'aria-labelledby': 'settings-title' });
     const close = () => {
+      window.removeEventListener('popstate', close);
       overlay.remove();
       resolve();
     };
+    // Android back button closes the settings.
+    window.addEventListener('popstate', close);
     const s = app.settings;
 
     // Mode
@@ -124,6 +127,7 @@ export function openSettings(app: App): Promise<void> {
         const b = parseBackup(await f.text());
         if (!confirm(`Загрузить копию от ${new Date(b.savedAt).toLocaleString('ru-RU')}? Текущий прогресс будет заменён.`)) return;
         app.progress = b.progress;
+        app.progressReplaced = true;
         Object.assign(app.settings, b.settings);
         app.save();
         app.saveSettings();
@@ -184,6 +188,7 @@ export function openSettings(app: App): Promise<void> {
       if (!confirm('Удалить весь прогресс ученика? Это нельзя отменить. Сначала лучше сохранить копию.')) return;
       if (!confirm('Точно удалить?')) return;
       app.progress = emptyProgress();
+      app.progressReplaced = true;
       saveProgress(app.progress);
       renderStats();
     };

@@ -95,14 +95,19 @@ export function contentChoice(app: App, s: Session, q: Choice, extraPrompt: Utt[
   return choice(app, s, [...extraPrompt, q.q], first, rest);
 }
 
-/** Picks distractor words for `w` from a pool (same kind preferred, distinct meaning). */
-export function distractors(w: Word, pool: Word[], n: number): Word[] {
+/** Distractor candidates in order of preference (e.g. current lesson, known words, rest). */
+export type Pool = Word[] | Word[][];
+
+/** Picks distractor words for `w` (same kind and earlier tiers preferred, distinct meaning). */
+export function distractors(w: Word, pool: Pool, n: number): Word[] {
+  const tiers: Word[][] = Array.isArray(pool[0]) ? (pool as Word[][]) : [pool as Word[]];
   const ok = (x: Word) => x.id !== w.id && x.ru.t.toLowerCase() !== w.ru.t.toLowerCase() && x.de.t.toLowerCase() !== w.de.t.toLowerCase();
-  const same = shuffle(pool.filter((x) => ok(x) && x.kind === w.kind));
-  const other = shuffle(pool.filter((x) => ok(x) && x.kind !== w.kind));
+  const ordered: Word[] = [];
+  for (const tier of tiers) ordered.push(...shuffle(tier.filter((x) => ok(x) && x.kind === w.kind)));
+  for (const tier of tiers) ordered.push(...shuffle(tier.filter((x) => ok(x) && x.kind !== w.kind)));
   const out: Word[] = [];
   const seenRu = new Set<string>();
-  for (const x of [...same, ...other]) {
+  for (const x of ordered) {
     if (out.length >= n) break;
     const key = x.ru.t.toLowerCase();
     if (seenRu.has(key)) continue;
@@ -115,7 +120,7 @@ export function distractors(w: Word, pool: Word[], n: number): Word[] {
 export type DrillKind = 'recog' | 'reverse' | 'yesno';
 
 /** One word exercise; updates spaced repetition. */
-export async function drill(app: App, s: Session, w: Word, kind: DrillKind, pool: Word[], opts: { known?: boolean } = {}): Promise<boolean> {
+export async function drill(app: App, s: Session, w: Word, kind: DrillKind, pool: Pool, opts: { known?: boolean } = {}): Promise<boolean> {
   const firstTime = !app.progress.words[w.id];
   const others = distractors(w, pool, 4);
   let ok: boolean;

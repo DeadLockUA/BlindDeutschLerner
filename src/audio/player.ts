@@ -7,11 +7,13 @@ export interface Player {
   play(utts: Utt[], opts?: { rate?: number }): Promise<boolean>;
   stop(): void;
   readonly busy: boolean;
-  /** Called once from a user gesture to unlock audio on mobile browsers. */
+  /** Called from a user gesture to unlock audio on mobile browsers. */
   unlock(): void;
 }
 
 const GAP_MS = 140;
+/** A clip that has not ended after this long is considered stuck and skipped. */
+const WATCHDOG_MS = 20000;
 
 export function clipUrl(id: string): string {
   return `audio/${id}.ogg`;
@@ -21,6 +23,9 @@ export class AudioPlayer implements Player {
   private el = new Audio();
   private token = 0;
   private _busy = false;
+  /** Finishes the clip that is currently playing (set while a clip plays). */
+  private cancelCurrent: (() => void) | null = null;
+  private unlocked = false;
   rate = 1;
 
   constructor() {
@@ -34,61 +39,80 @@ export class AudioPlayer implements Player {
   }
 
   unlock(): void {
-    // Playing a silent, empty source inside a gesture unlocks the element on Android.
-    if (this.el.src) return;
+    if (this.unlocked || this._busy) return;
+    // Playing a silent source inside a gesture unlocks the element on mobile browsers.
     this.el.src = 'data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEARKwAAIhYAQACABAAZGF0YQAAAAA=';
-    this.el.play().catch(() => undefined);
+    this.el
+      .play()
+      .then(() => {
+        this.unlocked = true;
+      })
+      .catch(() => undefined);
   }
 
   stop(): void {
     this.token++;
-    this.el.pause();
     this._busy = false;
+    const c = this.cancelCurrent;
+    this.cancelCurrent = null;
+    c?.();
+    this.el.pause();
   }
 
   async play(utts: Utt[], opts: { rate?: number } = {}): Promise<boolean> {
-    const my = ++this.token;
+    this.stop();
+    const my = this.token;
     this._busy = true;
     const clips = utts.flatMap((u) => u.c);
     const rate = (opts.rate ?? 1) * this.rate;
-    try {
-      for (let i = 0; i < clips.length; i++) {
-        if (my !== this.token) return false;
-        await this.playOne(clips[i], rate, my);
-        if (my !== this.token) return false;
-        await sleep(GAP_MS);
-      }
-      return my === this.token;
-    } finally {
-      if (my === this.token) this._busy = false;
+    for (let i = 0; i < clips.length; i++) {
+      if (my !== this.token) return false;
+      await this.playOne(clips[i], rate);
+      if (my !== this.token) return false;
+      if (i < clips.length - 1) await sleep(GAP_MS);
     }
+    if (my !== this.token) return false;
+    this._busy = false;
+    return true;
   }
 
-  private playOne(id: string, rate: number, my: number): Promise<void> {
+  private playOne(id: string, rate: number): Promise<void> {
+    const el = this.el;
     return new Promise((resolve) => {
-      const el = this.el;
       let done = false;
       const finish = () => {
         if (done) return;
         done = true;
-        el.onended = el.onerror = el.onpause = null;
-        clearInterval(watch);
+        el.removeEventListener('ended', finish);
+        el.removeEventListener('error', finish);
+        el.removeEventListener('pause', onPause);
+        clearTimeout(watchdog);
+        if (this.cancelCurrent === finish) this.cancelCurrent = null;
         resolve();
       };
-      // Resolve when interrupted by stop() (token change pauses the element).
-      const watch = setInterval(() => {
-        if (my !== this.token) finish();
-      }, 50);
-      el.onended = finish;
-      el.onerror = finish;
-      el.onpause = () => {
-        if (my !== this.token) finish();
+      // Any pause we did not ask for (audio focus loss, headphones unplugged, a call)
+      // ends the clip instead of hanging forever. Ignore the pause fired when the source
+      // is swapped before playback started.
+      let started = false;
+      const onPause = () => {
+        if (started && !el.ended) finish();
       };
+      const watchdog = setTimeout(finish, WATCHDOG_MS);
+      el.addEventListener('ended', finish);
+      el.addEventListener('error', finish);
+      el.addEventListener('pause', onPause);
+      this.cancelCurrent = finish;
       // Loading a new source resets playbackRate to defaultPlaybackRate, so set both.
       el.defaultPlaybackRate = rate;
       el.src = clipUrl(id);
       el.playbackRate = rate;
-      el.play().catch(() => finish());
+      el.play().then(
+        () => {
+          started = true;
+          this.unlocked = true;
+        },
+        () => finish(),
+      );
     });
   }
 }

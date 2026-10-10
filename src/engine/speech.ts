@@ -155,23 +155,47 @@ export function canSpeakSystem(): boolean {
   return 'speechSynthesis' in window;
 }
 
+let voicesReady: Promise<void> | null = null;
+
+/** Android Chrome loads the voice list asynchronously. */
+function waitForVoices(): Promise<void> {
+  if (!voicesReady) {
+    voicesReady = new Promise((resolve) => {
+      if (speechSynthesis.getVoices().length) return resolve();
+      const t = setTimeout(resolve, 1500);
+      speechSynthesis.addEventListener('voiceschanged', () => {
+        clearTimeout(t);
+        resolve();
+      });
+    });
+  }
+  return voicesReady;
+}
+
 function pickVoice(lang: string): SpeechSynthesisVoice | undefined {
   const voices = speechSynthesis.getVoices();
-  return voices.find((v) => v.lang.replace('_', '-').toLowerCase().startsWith(lang.toLowerCase().slice(0, 2)) && v.localService) ?? voices.find((v) => v.lang.toLowerCase().startsWith(lang.slice(0, 2)));
+  const prefix = lang.toLowerCase().slice(0, 2);
+  const match = (v: SpeechSynthesisVoice) => v.lang.replace('_', '-').toLowerCase().startsWith(prefix);
+  return voices.find((v) => match(v) && v.localService) ?? voices.find(match);
 }
 
 let ttsToken = 0;
 
 export function stopSystemSpeech(): void {
   ttsToken++;
-  if (canSpeakSystem()) speechSynthesis.cancel();
+  if (canSpeakSystem() && (speechSynthesis.speaking || speechSynthesis.pending)) speechSynthesis.cancel();
 }
 
 /** Speaks segments like [{lang:'ru', text}, {lang:'de', text}] in order. */
 export async function speakSystem(segments: { lang: 'ru' | 'de'; text: string }[], rate = 1): Promise<boolean> {
   if (!canSpeakSystem()) return false;
   const my = ++ttsToken;
-  speechSynthesis.cancel();
+  await waitForVoices();
+  if (speechSynthesis.speaking || speechSynthesis.pending) {
+    speechSynthesis.cancel();
+    // Android drops an utterance spoken right after cancel().
+    await new Promise((r) => setTimeout(r, 150));
+  }
   for (const s of segments) {
     if (my !== ttsToken) return false;
     await new Promise<void>((resolve) => {
@@ -180,7 +204,7 @@ export async function speakSystem(segments: { lang: 'ru' | 'de'; text: string }[
       const v = pickVoice(u.lang);
       if (v) u.voice = v;
       u.rate = rate * (s.lang === 'de' ? 0.9 : 1);
-      const t = setTimeout(resolve, 2000 + s.text.length * 150);
+      const t = setTimeout(resolve, 3000 + s.text.length * 150);
       u.onend = u.onerror = () => {
         clearTimeout(t);
         resolve();

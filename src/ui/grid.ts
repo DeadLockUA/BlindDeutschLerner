@@ -19,6 +19,8 @@ export interface GridHandlers {
   menuLongHold(): void;
   /** Any touch at all (used for idle tracking and audio unlock). */
   touch(): void;
+  /** A touch while no answer is expected (skips the current speech). */
+  skip(): void;
 }
 
 /** Zone colours; green and red are reserved for answer feedback. */
@@ -26,7 +28,7 @@ export const ZONE_COLORS = ['#ffd400', '#2f7bff', '#b45cff', '#ff8c1a', '#22d3ee
 export const MENU_COLOR = '#f2f2f2';
 export const SETTINGS_HOLD_MS = 5000;
 /** Releases shorter than this are taps even if a hold had started. */
-const TAP_MAX_MS = 600;
+const TAP_MAX_MS = 900;
 
 export class Grid {
   readonly root: HTMLElement;
@@ -36,6 +38,11 @@ export class Grid {
   holdMs = 2000;
   private slots = 3;
   private focus = -1;
+  private lastPointer = -Infinity;
+  /** False while the app talks without waiting for an answer. */
+  accepting = false;
+  /** Pause menu: holding the menu zone opens settings instead of the pause menu. */
+  menuOpensSettings = false;
 
   constructor(
     parent: HTMLElement,
@@ -84,8 +91,10 @@ export class Grid {
       el.addEventListener('pointerup', (e) => this.up(e));
       el.addEventListener('pointercancel', (e) => this.up(e, true));
       el.addEventListener('pointermove', (e) => this.move(e));
-      // Screen-reader / keyboard activation (click without pointer events).
+      // Keyboard / screen-reader activation: a click that did not come from a recent
+      // touch or mouse press. (Browsers also fire a click after every tap; ignore those.)
       el.addEventListener('click', (e) => {
+        if (performance.now() - this.lastPointer < 1500) return;
         if ((e as MouseEvent).detail === 0) this.keyActivate(i);
       });
       this.root.appendChild(el);
@@ -99,7 +108,13 @@ export class Grid {
 
   private down(e: PointerEvent, i: number): void {
     e.preventDefault();
+    this.lastPointer = performance.now();
     this.h.touch();
+    if (!this.accepting) {
+      // The app is talking and not waiting for an answer: a touch skips the speech.
+      this.h.skip();
+      return;
+    }
     if (this.active) return; // ignore extra fingers
     const el = this.zones[i];
     try {
@@ -111,40 +126,37 @@ export class Grid {
     const a = { pointerId: e.pointerId, index: i, start: performance.now(), selected: false, timers: [] as number[] };
     this.active = a;
     if (empty) return;
+    // In the pause menu the menu zone opens the helper settings after a long hold.
+    const settingsHold = this.isMenu(i) && this.menuOpensSettings;
+    const holdMs = settingsHold ? SETTINGS_HOLD_MS : this.holdMs;
     el.classList.add('holding');
-    el.style.setProperty('--hold', `${this.holdMs}ms`);
+    el.style.setProperty('--hold', `${holdMs}ms`);
     // Start the visual/audio hold feedback only after a short delay so quick taps stay quiet.
     a.timers.push(
       window.setTimeout(() => {
         if (this.active !== a) return;
         el.classList.add('filling');
-        this.tone.start(this.holdMs - 150);
+        this.tone.start(holdMs - 150);
       }, 150),
     );
-    const ticks = Math.max(1, Math.floor(this.holdMs / 400));
+    const ticks = Math.max(1, Math.floor(holdMs / 400));
     for (let k = 1; k < ticks; k++) a.timers.push(window.setTimeout(() => this.active === a && sfx.tick(), k * 400));
     a.timers.push(
       window.setTimeout(() => {
         if (this.active !== a) return;
         a.selected = true;
         this.tone.stop();
-        sfx.select();
         el.classList.add('selected');
-        if (this.isMenu(i)) {
-          // Keep holding for settings; menu opens on release.
-          a.timers.push(
-            window.setTimeout(() => {
-              if (this.active !== a) return;
-              vibrate([80, 60, 80, 60, 200]);
-              this.finish();
-              this.h.menuLongHold();
-            }, SETTINGS_HOLD_MS - this.holdMs),
-          );
+        this.finish();
+        if (settingsHold) {
+          vibrate([80, 60, 80, 60, 200]);
+          this.h.menuLongHold();
         } else {
-          this.finish();
-          this.h.select(i);
+          sfx.select();
+          if (this.isMenu(i)) this.h.menuHold();
+          else this.h.select(i);
         }
-      }, this.holdMs),
+      }, holdMs),
     );
   }
 
@@ -152,27 +164,31 @@ export class Grid {
     const a = this.active;
     if (!a || a.pointerId !== e.pointerId || a.selected) return;
     const r = this.zones[a.index].getBoundingClientRect();
-    const m = 12;
+    const m = 24;
     if (e.clientX < r.left - m || e.clientX > r.right + m || e.clientY < r.top - m || e.clientY > r.bottom + m) {
-      // Finger slid off the zone: cancel silently.
+      // Finger slid off the zone: cancel the hold.
+      const wasHolding = performance.now() - a.start > TAP_MAX_MS;
       this.finish();
+      if (wasHolding) sfx.cancel();
     }
   }
 
   private up(e: PointerEvent, cancelled = false): void {
+    this.lastPointer = performance.now();
     const a = this.active;
     if (!a || a.pointerId !== e.pointerId) return;
     const dur = performance.now() - a.start;
     const i = a.index;
     const wasSelected = a.selected;
     this.finish();
-    if (cancelled) return;
-    if (this.isMenu(i)) {
-      if (wasSelected) this.h.menuHold();
-      else if (dur < this.holdMs) this.h.menuTap();
-      return;
+    if (cancelled || wasSelected) return;
+    if (dur < TAP_MAX_MS) {
+      if (this.isMenu(i)) this.h.menuTap();
+      else this.h.tap(i);
+    } else if (!this.zones[i]?.classList.contains('empty')) {
+      // Released too early: nothing is selected (a short "cancelled" sound says so).
+      sfx.cancel();
     }
-    if (!wasSelected && (dur < TAP_MAX_MS || dur < this.holdMs)) this.h.tap(i);
   }
 
   private finish(): void {

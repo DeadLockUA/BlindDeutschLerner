@@ -1,0 +1,15 @@
+import { launch } from './harness.mjs';
+const done = { v: 1, created: Date.now(), words: {}, lessons: {}, days: [], recent: [], tutorialDone: true, answers: 0 };
+const h = await launch({ progress: done });
+const step = async (label, fn) => { await fn(); await h.waitQuiet(1800, 40000); console.log(`--- ${label} | zones: ${(await h.zones()).join(' | ')}`); };
+await step('start', async () => {});
+await step('hold Продолжить', () => h.hold(0));
+await step('hold Дальше (intro)', () => h.hold(0));
+for (let k = 0; k < 4; k++) await step('word: hold Дальше', () => h.hold(0));
+await step('answer zone 0', () => h.hold(0));
+await step('answer zone 1', () => h.hold(1));
+await step('tap zone 2 then hold menu', async () => { await h.tap(2); await h.page.waitForTimeout(700); await h.hold(3, 2400); });
+await step('hold resume', () => h.hold(0));
+console.log(h.print(0));
+console.log('ERRORS:', h.errors);
+await h.browser.close();
