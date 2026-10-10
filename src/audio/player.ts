@@ -84,6 +84,8 @@ export class AudioPlayer implements Player {
       el.onpause = () => {
         if (my !== this.token) finish();
       };
+      // Loading a new source resets playbackRate to defaultPlaybackRate, so set both.
+      el.defaultPlaybackRate = rate;
       el.src = clipUrl(id);
       el.playbackRate = rate;
       el.play().catch(() => finish());
