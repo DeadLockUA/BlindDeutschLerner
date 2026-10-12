@@ -8,6 +8,7 @@ All audio in `public/audio/` is synthesized from the course texts in this reposi
 | `de-m` | [Qwen3-TTS-12Hz-1.7B-Base](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base), voice cloned from `scripts/voices/de-m.wav` | German words, grammar examples, male dialogue roles | Apache-2.0 |
 | `de-f` | same model, voice from `scripts/voices/de-f.wav` | German words (second voice), example sentences, female dialogue roles | Apache-2.0 |
 | `ru` | [ESpeech-TTS-1 RL-V2](https://huggingface.co/ESpeech/ESpeech-TTS-1_RL-V2) (F5-TTS), voice from `scripts/voices/ru-m.wav` | All Russian prompts, translations, explanations | Apache-2.0 |
+| `ru-q` | Qwen3-TTS-12Hz-1.7B-Base, voice from `scripts/voices/ru-m.wav` | Russian yes/no questions without a question word («Это правильный перевод?»), chosen by `build-content.mjs` | Apache-2.0 |
 
 Supporting tools, all used only while generating:
 
@@ -41,7 +42,9 @@ fine-tune for Russian stress and ESpeech by ear; Whisper round-trips were used a
 sanity check. Qwen3-TTS was clearly better than Piper and Chatterbox (which repeated
 words). For Russian the owner chose ESpeech: with RUAccent stress marks it stresses words
 better. Stress marks fed to plain Qwen3-TTS distorted the pronunciation. For German,
-1.7B handles punctuation better than 0.6B.
+1.7B handles punctuation better than 0.6B. ESpeech read yes/no questions like statements
+(they are questions only by intonation); of four tried fixes the owner preferred Qwen 1.7B
+in the same voice, so those clips use the `ru-q` voice.
 
 ## Quality checks
 

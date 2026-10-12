@@ -42,8 +42,24 @@ function ttsText(text) {
   return t;
 }
 
+const QUESTION_WORDS = new Set(
+  ('что чем чего чему как какой какая какое какие каким какого какую каком где куда откуда когда ' +
+    'почему зачем кто кого кому сколько чей чья чьё чьи который которая которое которые ли').split(' '),
+);
+
+/**
+ * A Russian yes/no question: a sentence ending in "?" without a question word
+ * («Это правильный перевод?»). Only intonation makes it a question, which ESpeech
+ * renders flat, so these clips use the "ru-q" voice.
+ */
+function isYesNoQuestion(text) {
+  const sentences = text.match(/[^.!?…]*\?/g) ?? [];
+  return sentences.some((s) => !s.toLowerCase().split(/[^а-яё]+/).some((w) => QUESTION_WORDS.has(w)));
+}
+
 function clip(voice, text) {
   const tts = ttsText(text);
+  if (voice === 'ru' && VOICES['ru-q'] && isYesNoQuestion(tts)) voice = 'ru-q';
   const id = clipId(voiceHashId(voice), tts);
   manifest.set(id, { id, voice, text: tts });
   return id;

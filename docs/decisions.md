@@ -342,3 +342,8 @@ Fixed:
 - The Russian narrator stays male (one voice), as before.
 - `build-content.mjs` and `prune-audio.mjs` now resolve paths with `fileURLToPath`
   (they failed on Windows).
+- Owner feedback: Russian yes/no questions («Это правильный перевод?») sounded like
+  statements. `build-content.mjs` routes Russian sentences ending in «?» without a
+  question word to the `ru-q` voice (Qwen3-TTS 1.7B, same reference voice); 191 clips.
+- «Да» zones are green and «Нет» zones red (the answer-feedback colours), at the
+  owner's request.
