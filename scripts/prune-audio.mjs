@@ -2,8 +2,9 @@
 // Deletes audio clips in public/audio that are no longer referenced by the manifest.
 import { readdirSync, readFileSync, unlinkSync } from 'node:fs';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const ROOT = new URL('..', import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const manifest = JSON.parse(readFileSync(join(ROOT, 'public/course/audio-manifest.json'), 'utf8'));
 const keep = new Set(manifest.map((e) => `${e.id}.ogg`));
 let n = 0;

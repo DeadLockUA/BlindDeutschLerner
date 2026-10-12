@@ -1,20 +1,28 @@
 {
   "ru": {
-    "id": "ru-dmitri-v2",
-    "model": "ru/ru_RU/dmitri/medium/ru_RU-dmitri-medium",
-    "length_scale": 1.05,
-    "fallback": "ru/ru_RU/denis/medium/ru_RU-denis-medium"
+    "id": "ru-espeech-v1",
+    "engine": "espeech",
+    "model": "ESpeech/ESpeech-TTS-1_RL-V2",
+    "checkpoint": "espeech_tts_rlv2.pt",
+    "ref": "voices/ru-m.wav",
+    "ref_text": "Здравствуйте! Сегодня мы вместе выучим новые слова и фразы."
   },
   "de-m": {
-    "id": "de-m-v2",
-    "model": "de/de_DE/thorsten/high/de_DE-thorsten-high",
-    "length_scale": 1.0
+    "id": "de-m-qwen17-v1",
+    "engine": "qwen",
+    "model": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+    "language": "German",
+    "ref": "voices/de-m.wav",
+    "ref_text": "Hallo und herzlich willkommen. Heute lernen wir gemeinsam neue Wörter.",
+    "dtype": "bfloat16"
   },
   "de-f": {
-    "id": "de-f-v2",
-    "model": "de/de_DE/eva_k/x_low/de_DE-eva_k-x_low",
-    "length_scale": 1.0,
-    "fallback": "de/de_DE/thorsten/high/de_DE-thorsten-high",
-    "verify_all": true
+    "id": "de-f-qwen17-v1",
+    "engine": "qwen",
+    "model": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+    "language": "German",
+    "ref": "voices/de-f.wav",
+    "ref_text": "Hallo und herzlich willkommen. Heute lernen wir gemeinsam neue Wörter.",
+    "dtype": "bfloat16"
   }
 }

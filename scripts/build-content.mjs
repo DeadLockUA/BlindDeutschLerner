@@ -9,9 +9,10 @@
 import { createHash } from 'node:crypto';
 import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { parse } from 'yaml';
 
-const ROOT = new URL('..', import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL('..', import.meta.url));
 const CONTENT = join(ROOT, 'content');
 const OUT = join(ROOT, 'public', 'course');
 const AUDIO = join(ROOT, 'public', 'audio');

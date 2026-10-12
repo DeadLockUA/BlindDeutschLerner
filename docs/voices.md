@@ -1,46 +1,95 @@
 # Voices and audio licences
 
-All audio in `public/audio/` is synthesized with [Piper](https://github.com/rhasspy/piper)
-(MIT licence) from the course texts in this repository.
+All audio in `public/audio/` is synthesized from the course texts in this repository by
+`scripts/gen_audio.py`, using the voices configured in `scripts/voices.json`.
 
-| Key | Piper voice | Used for | Training data licence |
+| Key | Engine and model | Used for | Licence |
 |---|---|---|---|
-| `de-m` | `de_DE-thorsten-high` | German words, grammar examples, male dialogue roles | [Thorsten-Voice](https://github.com/thorstenMueller/Thorsten-Voice) dataset — CC0 |
-| `de-f` | `de_DE-eva_k-x_low` | German words (second voice), example sentences, female dialogue roles | [M-AILABS Speech Dataset](https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/) — LibriVox public-domain recordings, M-AILABS licence (modified BSD 3-Clause) |
-| `ru` | `ru_RU-dmitri-medium` | All Russian prompts, translations, explanations | [OHF-Voice voice-datasets](https://github.com/OHF-Voice/voice-datasets) — CC0 |
+| `de-m` | [Qwen3-TTS-12Hz-1.7B-Base](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-Base), voice cloned from `scripts/voices/de-m.wav` | German words, grammar examples, male dialogue roles | Apache-2.0 |
+| `de-f` | same model, voice from `scripts/voices/de-f.wav` | German words (second voice), example sentences, female dialogue roles | Apache-2.0 |
+| `ru` | [ESpeech-TTS-1 RL-V2](https://huggingface.co/ESpeech/ESpeech-TTS-1_RL-V2) (F5-TTS), voice from `scripts/voices/ru-m.wav` | All Russian prompts, translations, explanations | Apache-2.0 |
 
-Voice models are downloaded from [rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices).
+Supporting tools, all used only while generating:
+
+- [F5-TTS](https://github.com/SWivid/F5-TTS) code (MIT) and the
+  [Vocos](https://huggingface.co/charactr/vocos-mel-24khz) vocoder (MIT) run ESpeech.
+- [RUAccent](https://huggingface.co/ruaccent/accentuator) (MIT) marks Russian word stress
+  for ESpeech (`прив+ет`). Words it gets wrong can be fixed in `scripts/ru_stress.json`:
+  `{"держите": "держ+ите"}` (key: the word without marks, lower case).
+- [faster-whisper](https://github.com/SYSTRAN/faster-whisper) with Whisper `small` (MIT)
+  checks every clip.
+
+## Reference voices
+
+The three reference clips in `scripts/voices/` are not recordings of real people. They
+were generated with
+[Qwen3-TTS-12Hz-1.7B-VoiceDesign](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-VoiceDesign)
+(Apache-2.0) from these descriptions; their texts are the `ref_text` values in
+`scripts/voices.json`:
+
+- `de-f`: «Eine freundliche, klare Frauenstimme, etwa 35 Jahre alt, akzentfreies
+  Hochdeutsch, ruhiges Tempo, deutliche Aussprache wie eine Sprachlehrerin.»
+- `de-m`: «Eine warme, klare Männerstimme, etwa 40 Jahre alt, akzentfreies Hochdeutsch,
+  ruhiges Tempo, deutliche Aussprache wie ein Sprachlehrer.»
+- `ru-m`: «Спокойный, доброжелательный мужской голос, около 40 лет, чистое русское
+  произношение без акцента, неторопливый темп, как у диктора аудиокниги.»
 
 ## Why these voices
 
-Candidates were compared automatically: each voice synthesized the same German words
-and sentences, which were transcribed back with Whisper. Thorsten (high) and Eva K had
-the best sentence intelligibility; Kerstin, Ramona and the multi-speaker MLS model were
-clearly worse. Russian female voices were excluded for licence reasons (Irina: licence
-unknown; Ruslan: CC BY-NC-SA).
+The owner compared Piper (previous voices), Chatterbox, Qwen3-TTS 0.6B/1.7B, a Qwen3-TTS
+fine-tune for Russian stress and ESpeech by ear; Whisper round-trips were used as a
+sanity check. Qwen3-TTS was clearly better than Piper and Chatterbox (which repeated
+words). For Russian the owner chose ESpeech: with RUAccent stress marks it stresses words
+better. Stress marks fed to plain Qwen3-TTS distorted the pronunciation. For German,
+1.7B handles punctuation better than 0.6B.
 
-## Short words
+## Quality checks
 
-Piper voices sometimes swallow very short words. `gen_audio.py --verify` (needs
-`faster-whisper`) transcribes every clip of one or two words; if it is not recognised,
-it tries slower speech, a stretched last vowel («Да-а», «ja-a») and the fallback voice
-from `scripts/voices.json`, keeping the best candidate. Every clip also gets 350 ms of
-silence before and 300 ms after the speech, because Android drops the first fraction of
-a second when audio output starts.
+Neural TTS samples randomly, so every clip is transcribed with Whisper (`--verify`). A
+clip that is not recognised (or is far too short or too long for its text) is generated
+again with another seed, up to four times; the last try stretches the vowel of tiny
+words («Да-а», «ja-a»). Remaining failures are logged as `unverified` and should be
+listened to. Whisper writes numbers as digits («7,50 €»), so the check spells them out
+with `num2words` before comparing; isolated letters («Ä», «Ef») and syllables are often
+not recognised at all, even when they sound right.
+
+ESpeech (F5-TTS) gives a text time in proportion to its length; single words got ~0.3 s
+and came out mumbled (a third of them failed the check). Texts whose estimate is under
+0.8 s now get 0.8 s (`MIN_WORD_S`), which fixed nearly all of them. Every clip also gets 350 ms of silence before and 300 ms after the speech,
+because Android drops the first fraction of a second when audio output starts.
 
 ## Changing a voice
 
-Edit the model in `scripts/voices.json` and change (or add) that voice's `"id"`. The id is
-part of every clip's hash, so all clips of that voice get new file names and are
-regenerated by `gen_audio.py`; other voices stay untouched. Then run `prune-audio.mjs`.
+Edit the voice in `scripts/voices.json` and change its `"id"`. The id is part of every
+clip's hash, so all clips of that voice get new file names and are regenerated by
+`gen_audio.py`; other voices stay untouched. Then run `prune-audio.mjs`. Voices with no
+`"engine"` are rendered with Piper, as before.
 
 ## Regenerating audio
 
+Needs Python 3.13, ffmpeg and a GPU (on the CPU it works, but the whole course takes a
+day or more). All engines live in one environment:
+
 ```sh
-python -m venv .venv && .venv/bin/pip install piper-tts
-node scripts/build-content.mjs          # writes public/course/audio-manifest.json
-.venv/bin/python scripts/gen_audio.py --verify   # generates missing clips (downloads voices)
-node scripts/prune-audio.mjs            # removes clips no longer referenced
+python -m venv .venv
+# PyTorch first. NVIDIA: the CUDA build from pytorch.org.
+# AMD Radeon RX 6000 (gfx103X) on Windows: AMD's ROCm preview build:
+.venv/Scripts/pip install --index-url https://rocm.nightlies.amd.com/v2-staging/gfx103X-dgpu/ \
+    --extra-index-url https://pypi.org/simple "torch==2.9.1+rocm7.13.0a20260421" "torchaudio==2.9.0+rocm7.13.0a20260421"
+.venv/Scripts/pip install qwen-tts f5-tts ruaccent faster-whisper num2words soundfile "transformers==4.57.3" "accelerate==1.12.0"
+
+node scripts/build-content.mjs                    # writes public/course/audio-manifest.json
+.venv/Scripts/python scripts/gen_audio.py --verify  # generates missing clips (downloads models)
+node scripts/prune-audio.mjs                      # removes clips no longer referenced
 ```
 
-Optional QA (needs `faster-whisper`): `python scripts/check_audio.py --voice ru`.
+`--per-voice N` renders only the first N missing clips of each voice (trial runs).
+
+Notes for the AMD ROCm build on Windows (all handled in `gen_audio.py`):
+
+- `MIOPEN_FIND_MODE=FAST` is set; without it MIOpen tunes kernels for every new input
+  length and generation is ~10× slower.
+- A process crashes when it loads a second model, so each model runs in its own process.
+- Whisper and PyTorch bring different OpenMP runtimes that cannot share a process, so
+  the Whisper checks run in separate worker processes.
+- German uses Qwen in `bfloat16` (`"dtype"` in `voices.json`) to keep host memory low.
