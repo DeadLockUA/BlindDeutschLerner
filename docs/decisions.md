@@ -326,3 +326,19 @@ Fixed:
   generator tries slower speech, a stretched vowel («Да-а») and finally another voice
   (Denis for Russian, Thorsten for German female) and keeps the best. Fixes are logged.
   No extra gap between clips in the player (silence is inside the files).
+
+### 2026-10-12 — new voices
+
+- Owner feedback: the Piper voices sounded poor in both languages, the German female
+  voice (`eva_k-x_low`) "broken". Free, local neural models were compared by ear (see
+  `docs/voices.md`). **German: Qwen3-TTS 1.7B** (Apache-2.0), **Russian: ESpeech-TTS-1**
+  (Apache-2.0) with RUAccent stress marks; Russian stress was the deciding factor.
+  Fixes for single words go into `scripts/ru_stress.json`.
+- Voices are cloned from synthetic reference clips (`scripts/voices/`) designed with
+  Qwen3-TTS VoiceDesign from text descriptions, so every clip of a voice sounds the same.
+- Generation runs on the owner's AMD RX 6900 XT through AMD's ROCm preview PyTorch build
+  for Windows; workarounds for that build are in `gen_audio.py` and `docs/voices.md`.
+  Every clip is checked with Whisper and regenerated with another seed if not recognised.
+- The Russian narrator stays male (one voice), as before.
+- `build-content.mjs` and `prune-audio.mjs` now resolve paths with `fileURLToPath`
+  (they failed on Windows).

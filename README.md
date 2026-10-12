@@ -33,7 +33,7 @@ npm run build && npx playwright test   # e2e + accessibility tests
 
 - Course sources: `content/modules/*.yaml`, `content/prompts.yaml` — see
   [docs/content-guide.md](docs/content-guide.md) and [docs/course-plan.md](docs/course-plan.md).
-- Audio is pre-generated with Piper and committed; see [docs/voices.md](docs/voices.md).
+- Audio is pre-generated (Qwen3-TTS for German, ESpeech for Russian) and committed; see [docs/voices.md](docs/voices.md).
 - Product decisions: [docs/decisions.md](docs/decisions.md).
 - CI (GitHub Actions) validates content, type-checks, runs unit, e2e and accessibility
   tests and deploys `main` to GitHub Pages.
