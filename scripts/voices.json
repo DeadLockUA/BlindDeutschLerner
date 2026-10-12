@@ -24,5 +24,14 @@
     "ref": "voices/de-f.wav",
     "ref_text": "Hallo und herzlich willkommen. Heute lernen wir gemeinsam neue Wörter.",
     "dtype": "bfloat16"
+  },
+  "ru-q": {
+    "id": "ru-q-qwen17-v1",
+    "engine": "qwen",
+    "model": "Qwen/Qwen3-TTS-12Hz-1.7B-Base",
+    "dtype": "bfloat16",
+    "language": "Russian",
+    "ref": "voices/ru-m.wav",
+    "ref_text": "Здравствуйте! Сегодня мы вместе выучим новые слова и фразы."
   }
 }

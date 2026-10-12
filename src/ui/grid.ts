@@ -23,8 +23,10 @@ export interface GridHandlers {
   skip(): void;
 }
 
-/** Zone colours; green and red are reserved for answer feedback. */
+/** Zone colours; green and red are reserved for answer feedback and «Да»/«Нет». */
 export const ZONE_COLORS = ['#ffd400', '#2f7bff', '#b45cff', '#ff8c1a', '#22d3ee'];
+export const YES_COLOR = '#00c853';
+export const NO_COLOR = '#ff1744';
 export const MENU_COLOR = '#f2f2f2';
 export const SETTINGS_HOLD_MS = 5000;
 /** Releases shorter than this are taps even if a hold had started. */

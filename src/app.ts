@@ -8,6 +8,7 @@ import { runCommand } from './flows/command';
 import { runContinue, runLesson, runReview } from './flows/lesson';
 import { runTalk } from './flows/talk';
 import { runTutorial } from './flows/tutorial';
+import { NO_COLOR, YES_COLOR } from './ui/grid';
 import { openSettings } from './ui/settings';
 import { Navigate, Ui, type AskSpec, type Option, type Route } from './ui/ui';
 import type { Utt } from './types';
@@ -115,6 +116,11 @@ export class App {
 
   optKey(key: string, color?: string): Option {
     return this.opt(this.P(key), undefined, color);
+  }
+
+  /** «Да» (green) and «Нет» (red) for yes/no questions. */
+  yesNo(): [Option, Option] {
+    return [this.opt(this.P('yes'), [this.P('yes_say')], YES_COLOR), this.opt(this.P('no'), [this.P('no_say')], NO_COLOR)];
   }
 
   ask(spec: AskSpec): Promise<number> {
